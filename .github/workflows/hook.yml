@@ -1,0 +1,33 @@
+on: [push, pull_request]
+
+jobs:
+  build:
+    name: Hook
+    runs-on: ubuntu-latest
+    steps:
+    - name: Hook
+      uses: jasongitmail/fast-webhook@v1
+      with:
+        url: ${{ secrets.WEBHOOK_URL }}
+        json: '{"path":"/var/www/zhaoweiguo.com/knowledge.zhaoweiguo.com", "branch": "main", "actions": ["pull"]}'
+
+
+    - name: Send dingding notify
+      uses: zcong1993/actions-ding@master
+      with:
+        dingToken: ${{ secrets.DING_TOKEN }}
+        secret: ${{ secrets.DING_SECRET }} # if secret set, action will call API with sign
+        body: |
+          {
+            "msgtype": "link",
+            "link": {
+                "title": "GitHubAction",
+                "text": "[GitHubAction]knowledge is done!",
+                "picUrl": "",
+                "messageUrl": "https://knowledge.zhaoweiguo.com"
+            }
+          }
+
+
+
+
