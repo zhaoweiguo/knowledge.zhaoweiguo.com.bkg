@@ -6,7 +6,6 @@
 .. toctree::
    :maxdepth: 2
 
-   frameworks/framework_normal
    frameworks/framework_renren
    frameworks/framework_facebook
    frameworks/framework_wordpress
