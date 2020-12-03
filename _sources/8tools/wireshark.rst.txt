@@ -9,3 +9,4 @@
    wiresharks/Wireshark
    wiresharks/Charles
    wiresharks/Fiddler
+   wiresharks/Other

@@ -7,21 +7,33 @@
 * 参考1: https://www.servicemesher.com/istio-handbook
 
 
-好的工具
+开发专用
 ========
 
-katacoda-边看边操作学习网站
----------------------------
+katacoda-边看边操作学习网站::
 
-* 技术相关的课程学习/创建工具: https://katacoda.com/
-* 参考: https://developer.aliyun.com/article/752183
+    * 技术相关的课程学习/创建工具: https://katacoda.com/
+    * 参考: https://developer.aliyun.com/article/752183
 
-图片压缩
-----------------
+代码浏览器ide, 实时代码协作，GitHub集成::
 
-* Tinypng: https://tinypng.com/ ::
+    * https://repl.it/
+
+工具
+====
+
+* Tinypng(图片压缩): https://tinypng.com/ ::
   
     Tinypng 采用的是有损压缩算法，选择性减少图片中的一些肉眼几乎分别不出来的颜色点，起到压缩图片的作用
+
+* 自动在汉字与英文间加空格: https://github.com/vinta/pangu.js
+
+* Record and share your terminal sessions, the right way: 
+    * 官网: https://asciinema.org/
+    * github: https://github.com/asciinema/asciinema
+    * 安装: ``brew install asciinema``
+    * 使用: ``$ asciinema rec``
+
 
 
 网络
@@ -49,26 +61,14 @@ IT相关网站
 平台
 ============
 
-在线教育平台
-------------
+在线教育平台::
 
-* Coursera
-* Udemy
+    * Coursera
+    * Udemy
 
-在线编码平台
-------------
+* HackerEarth(在线编码平台): https://www.hackerearth.com/
 
-* HackerEarth: https://www.hackerearth.com/
 
-开源捐赠
---------
-
-* https://opencollective.com/
-
-开源项目
-========
-
-* https://gitstar-ranking.com/
 
 Chrome插件
 ==========
@@ -76,10 +76,6 @@ Chrome插件
 * https://www.extfans.com/
 
 
-工具
-====
-
-* 自动在汉字与英文间加空格: https://github.com/vinta/pangu.js
 
 大势分析
 ========
@@ -90,11 +86,6 @@ Chrome插件
 * https://httparchive.org/
 
 
-github
-======
-
-* github上有贡献的所有人都有记录: https://github.com/all-contributors/all-contributors
-* https://allcontributors.org/
 
 
 好网站

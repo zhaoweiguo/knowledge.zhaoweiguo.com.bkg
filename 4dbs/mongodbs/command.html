@@ -154,6 +154,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tools/samba.html">samba——文件共享服务命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tools/puttygen.html">puttygen——由openssh密钥生成putty ssh密钥</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tools/htpasswd.html">htpasswd命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tools/fzf.html">fzf命令</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../../1systems/commands/linux_network.html">1.1.3. 网络命令使用</a><ul>
@@ -500,6 +501,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../2cores/theorys/laws/Benford'slaw.html">Benford’s law</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../2cores/theorys/laws/Zipf'slaw.html">Zipf’s law</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../2cores/theorys/laws/ruleofthree.html">三次法则</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../2cores/theorys/laws/Clarke's3laws.html">Clarke’s three laws</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../../2cores/theorys/cognitive.html">2.1.3. 认知升级</a><ul>
@@ -663,6 +665,8 @@ var _hmt = _hmt || [];
 <li class="toctree-l3"><a class="reference internal" href="../../2cores/architectures/message_bus.html">2.8.9. 消息总线</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../2cores/architectures/design_mode.html">2.8.10. 23种设计模式 </a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../2cores/architectures/design_modes/singleton.html">单例模式 </a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../2cores/architectures/design_modes/observer-design.html">观察者模式</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../2cores/architectures/design_modes/decorator.html">装饰器模式</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../../2cores/architectures/sla.html">2.8.11. SLA</a></li>
@@ -672,15 +676,21 @@ var _hmt = _hmt || [];
 <li class="toctree-l2"><a class="reference internal" href="../../2cores/encrypt.html">2.9. 加密相关</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="../../2cores/encrypts/encrypt_openssl.html">2.9.1. Openssl命令相关</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../2cores/encrypts/openssls/openssl_normal.html">openssl基本</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../2cores/encrypts/openssls/openssl_cmd.html">openssl子命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../2cores/encrypts/openssls/openssl_aes.html">aes加解密</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../2cores/encrypts/openssls/openssl_question.html">加密常见问题</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../2cores/encrypts/openssls/openssl_rsa.html">openssl rsa命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../2cores/encrypts/openssls/openssl_ciphers.html">openssl ciphers命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../2cores/encrypts/openssls/openssl_pkcs12.html">openssl pkcs12命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../2cores/encrypts/openssls/openssl_rand.html">openssl rand命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../2cores/encrypts/openssls/openssl_ecparam.html">openssl ecparam命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../2cores/encrypts/openssls/openssl_enc.html">openssl enc命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../2cores/encrypts/openssls/openssl_sha.html">openssl sha命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../2cores/encrypts/openssls/openssl_s_client.html">openssl s_client命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../2cores/encrypts/openssls/openssl_dgst.html">openssl dgst命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../2cores/encrypts/openssls/openssl_x509.html">openssl x509命令</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../../2cores/encrypts/encrypt_base64.html">2.9.2. baseXX命令使用</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../2cores/encrypts/encrypt_gpg.html">2.9.3. pgp/gpg相关</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../2cores/encrypts/encrypt_sha256.html">2.9.4. sha256加密</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../2cores/encrypts/cert.html">2.9.5. 证书相关</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../2cores/encrypts/cert.html">2.9.3. 证书相关</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../2cores/encrypts/certs/normal.html">基本</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../2cores/encrypts/certs/cert_ca.html">ca证书相关</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../2cores/encrypts/certs/letsencrypt.html">Let’s Encrypt</a></li>
@@ -688,7 +698,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../2cores/encrypts/certs/question.html">常见问题</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../2cores/encrypts/practice.html">2.9.6. 实战</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../2cores/encrypts/practice.html">2.9.4. 实战</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../2cores/encrypts/practices/encrypt_mac_p12.html">mac的p12导出私钥</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../2cores/encrypts/practices/encrypt_makecert.html">微软makecert导出私钥</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../2cores/encrypts/practices/encrypt_ca.html">生成ca证书并签名子证书</a></li>
@@ -699,10 +709,33 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../2cores/encrypts/practices/cert_gen.html">自动创建证书请求</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../2cores/encrypts/encrypt_mbedtls.html">2.9.7. mbedtls-主流的SSL</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../2cores/encrypts/kerberos.html">2.9.8. Kerberos</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../2cores/encrypts/question.html">2.9.9. 常见问题</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../2cores/encrypts/encrypt_tmp.html">2.9.10. encrypt临时</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../2cores/encrypts/encrypt_mbedtls.html">2.9.5. mbedtls-主流的SSL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../2cores/encrypts/kerberos.html">2.9.6. Kerberos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../2cores/encrypts/question.html">2.9.7. 常见问题</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../2cores/encrypts/encrypt_tmp.html">2.9.8. encrypt临时</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../2cores/encrypts/public-key.html">2.9.9. 非对称加密</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../2cores/encrypts/public-keys/RSA.html">rsa加解密</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../2cores/encrypts/public-keys/GPG.html">pgp/gpg相关</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../2cores/encrypts/public-keys/DH.html">DH</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../2cores/encrypts/public-keys/EC.html">EC</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../2cores/encrypts/symmetric-key.html">2.9.10. 对称加密</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../2cores/encrypts/symmetric-keys/AES.html">AES加解密</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../2cores/encrypts/symmetric-keys/DES.html">DES</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../2cores/encrypts/symmetric-keys/RC4.html">RC4</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../2cores/encrypts/digest-algorithm.html">2.9.11. 摘要算法</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../2cores/encrypts/digest-algorithms/sha256.html">sha256加密</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../2cores/encrypts/digest-algorithms/md5.html">md5摘要算法</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../2cores/encrypts/signature-algorithm.html">2.9.12. 签名算法</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../2cores/encrypts/signature-algorithms/DSA.html">DSA</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../2cores/encrypts/signature-algorithms/ECDSA.html">ECDSA</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../2cores/chart.html">2.10. 图表</a><ul>
@@ -1163,7 +1196,7 @@ var _hmt = _hmt || [];
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../5language.html">5. 语言相关文档</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../5languages/erlang.html">5.1. Erlang文档</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/erlang_lib.html">5.1.1. 内置核心项目</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/erlang_lib.html">内置核心项目</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/libs/module_kernel.html">1. kernel </a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/libs/module_stdlib.html">2. stdlib </a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/libs/module_compiler.html">3. compiler</a></li>
@@ -1183,7 +1216,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/libs/users_guide.html">17. users_guide </a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/erlang_opensource.html">5.1.2. 开源项目</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/erlang_opensource.html">5.1.1. 开源项目</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/opensources/normal.html">其他开源项目列表</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/opensource_nets/esockd.html">esockd </a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/opensource_nets/gen_coap.html">gen_coap </a></li>
@@ -1208,7 +1241,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/opensources/mongo-erlang.html">mongo-erlang </a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/erlang.html">5.1.3. Erlang使用文档</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/erlang.html">5.1.2. Erlang使用文档</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/erlangs/erlang_question.html">Erlang常见问题</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/erlangs/erlang_skill.html">Erlang技巧</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/erlangs/erlang_code_skill.html">Erlang code skill</a></li>
@@ -1221,7 +1254,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/erlangs/erlang_remote_shell.html">Erlang接入远程shell控制台</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/mnesia.html">5.1.4. Mnesia文档</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/mnesia.html">5.1.3. Mnesia文档</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/mnesias/mnesia_usage.html">Mnesia基本用法</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/mnesias/mnesia_cluster.html">从头建立mnesia集群</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/mnesias/mnesia_cluster.html#mnesia1">在现在mnesia集群中增加1个结点</a></li>
@@ -1231,7 +1264,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/mnesias/mnesia_practice.html">Mnesia实用操作</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/rebar.html">5.1.5. Rebar文档</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/rebar.html">5.1.4. Rebar文档</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/rebars/rebar3_overal.html">rebar3整体说明</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/rebars/rebar3_command.html">rebar3 command</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/rebars/rebar3_config.html">rebar3配置</a></li>
@@ -1244,20 +1277,20 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/rebars/erlang.mk.html">erlang.mk</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/lager.html">5.1.6. Lager相关</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/lager.html">5.1.5. Lager相关</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/lagers/normal.html">基本</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/lagers/config.html">配置文件</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/lagers/tracing.html">日志跟踪</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/lagers/source.html">源码分析</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/project.html">5.1.7. 其他Erlang项目</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/project.html">5.1.6. 其他Erlang项目</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/projects/erlydtl.html">Erlydtl文档</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/projects/riak.html">Riak文档</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/projects/webmachine.html">Webmachine 使用简介</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/kerl.html">5.1.8. kerl使用 </a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/kerl.html">5.1.7. kerl使用 </a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../5languages/golang.html">5.2. Golang语言相关</a><ul>
@@ -1487,7 +1520,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/nodes/nodes/node_install.html">node简介</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/nodes/opensource.html">5.5.2. 开源项目</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/nodes/opensource.html">开源项目</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/nodes/opensources/vue.html">1. vue相关资料</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/nodes/opensources/chart.html">2. chart图表相关</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/nodes/opensources/grunt.html">3. grunt</a></li>
@@ -1499,34 +1532,34 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/nodes/opensources/other.html">9. 其他</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/nodes/tool.html">5.5.3. 工具</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/nodes/tool.html">5.5.2. 工具</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/nodes/tools/npm.html">npm命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/nodes/tools/yarn.html">yarn命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/nodes/tools/nvm.html">nvm</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/nodes/javascript.html">5.5.4. Javascript文档</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/nodes/javascript.html">5.5.3. Javascript文档</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/nodes/javascripts/document.html">dom命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/nodes/javascripts/js_basic.html">js的常用函数收集</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/nodes/javascripts/jquery.html">jquery文档</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/nodes/javascripts/cordova.html">cordova基本操作</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/nodes/ecmaScript.html">5.5.5. ECMAScript</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/nodes/typeScript.html">5.5.6. TypeScript</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/nodes/deployment.html">5.5.7. 构建工具</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/nodes/ecmaScript.html">5.5.4. ECMAScript</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/nodes/typeScript.html">5.5.5. TypeScript</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/nodes/deployment.html">5.5.6. 构建工具</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/nodes/deployments/deploy_webpack.html">webpack构建工具</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/nodes/deployments/deploy_Browserify.html">Browserify</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/nodes/h5.html">5.5.8. h5相关</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/nodes/h5.html">5.5.7. h5相关</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/nodes/h5s/svg.html">SVG相关</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/nodes/h5s/canvas.html">Canvas</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/nodes/h5s/webGL.html">webGL</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/nodes/question.html">5.5.9. 常见问题</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/nodes/tmp.html">5.5.10. 临时相关</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/nodes/question.html">5.5.8. 常见问题</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/nodes/tmp.html">5.5.9. 临时相关</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../5languages/c.html">5.6. C语言使用文档</a><ul>
@@ -1696,6 +1729,7 @@ var _hmt = _hmt || [];
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../../7assists/emacs/iterm2.html">7.1.8. iterm2相关</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../7assists/emacs/alfred.html">7.1.9. alfred工具</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../7assists/emacs/zsh.html">7.1.10. zsh 相关</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../7assists/git.html">7.2. GIT 文档首页</a><ul>
@@ -1895,6 +1929,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../7assists/collects/resources/linux_port.html">Linux系统端口</a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="../../7assists/collects/env.html">7.8.10. 环境变量</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../7assists/other.html">7.9. 其他</a><ul>
@@ -2185,6 +2220,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l3"><a class="reference internal" href="../../8tools/wiresharks/Wireshark.html">8.8.1. Wireshark命令</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../8tools/wiresharks/Charles.html">8.8.2. Charles</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../8tools/wiresharks/Fiddler.html">8.8.3. Fiddler</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../8tools/wiresharks/Other.html">8.8.4. 其他</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../8tools/jumpserver.html">8.9. JumpServer</a></li>

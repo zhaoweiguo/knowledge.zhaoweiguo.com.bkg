@@ -154,6 +154,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../../1systems/commands/tools/samba.html">samba——文件共享服务命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../1systems/commands/tools/puttygen.html">puttygen——由openssh密钥生成putty ssh密钥</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../1systems/commands/tools/htpasswd.html">htpasswd命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../1systems/commands/tools/fzf.html">fzf命令</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../../../1systems/commands/linux_network.html">1.1.3. 网络命令使用</a><ul>
@@ -500,6 +501,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../../2cores/theorys/laws/Benford'slaw.html">Benford’s law</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../2cores/theorys/laws/Zipf'slaw.html">Zipf’s law</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../2cores/theorys/laws/ruleofthree.html">三次法则</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../2cores/theorys/laws/Clarke's3laws.html">Clarke’s three laws</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../../../2cores/theorys/cognitive.html">2.1.3. 认知升级</a><ul>
@@ -663,6 +665,8 @@ var _hmt = _hmt || [];
 <li class="toctree-l3"><a class="reference internal" href="../../../2cores/architectures/message_bus.html">2.8.9. 消息总线</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../../2cores/architectures/design_mode.html">2.8.10. 23种设计模式 </a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../2cores/architectures/design_modes/singleton.html">单例模式 </a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../2cores/architectures/design_modes/observer-design.html">观察者模式</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../2cores/architectures/design_modes/decorator.html">装饰器模式</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../../../2cores/architectures/sla.html">2.8.11. SLA</a></li>
@@ -672,15 +676,21 @@ var _hmt = _hmt || [];
 <li class="toctree-l2"><a class="reference internal" href="../../../2cores/encrypt.html">2.9. 加密相关</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/encrypt_openssl.html">2.9.1. Openssl命令相关</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/openssls/openssl_normal.html">openssl基本</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/openssls/openssl_cmd.html">openssl子命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/openssls/openssl_aes.html">aes加解密</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/openssls/openssl_question.html">加密常见问题</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/openssls/openssl_rsa.html">openssl rsa命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/openssls/openssl_ciphers.html">openssl ciphers命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/openssls/openssl_pkcs12.html">openssl pkcs12命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/openssls/openssl_rand.html">openssl rand命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/openssls/openssl_ecparam.html">openssl ecparam命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/openssls/openssl_enc.html">openssl enc命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/openssls/openssl_sha.html">openssl sha命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/openssls/openssl_s_client.html">openssl s_client命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/openssls/openssl_dgst.html">openssl dgst命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/openssls/openssl_x509.html">openssl x509命令</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/encrypt_base64.html">2.9.2. baseXX命令使用</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/encrypt_gpg.html">2.9.3. pgp/gpg相关</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/encrypt_sha256.html">2.9.4. sha256加密</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/cert.html">2.9.5. 证书相关</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/cert.html">2.9.3. 证书相关</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/certs/normal.html">基本</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/certs/cert_ca.html">ca证书相关</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/certs/letsencrypt.html">Let’s Encrypt</a></li>
@@ -688,7 +698,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/certs/question.html">常见问题</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/practice.html">2.9.6. 实战</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/practice.html">2.9.4. 实战</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/practices/encrypt_mac_p12.html">mac的p12导出私钥</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/practices/encrypt_makecert.html">微软makecert导出私钥</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/practices/encrypt_ca.html">生成ca证书并签名子证书</a></li>
@@ -699,10 +709,33 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/practices/cert_gen.html">自动创建证书请求</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/encrypt_mbedtls.html">2.9.7. mbedtls-主流的SSL</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/kerberos.html">2.9.8. Kerberos</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/question.html">2.9.9. 常见问题</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/encrypt_tmp.html">2.9.10. encrypt临时</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/encrypt_mbedtls.html">2.9.5. mbedtls-主流的SSL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/kerberos.html">2.9.6. Kerberos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/question.html">2.9.7. 常见问题</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/encrypt_tmp.html">2.9.8. encrypt临时</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/public-key.html">2.9.9. 非对称加密</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/public-keys/RSA.html">rsa加解密</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/public-keys/GPG.html">pgp/gpg相关</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/public-keys/DH.html">DH</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/public-keys/EC.html">EC</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/symmetric-key.html">2.9.10. 对称加密</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/symmetric-keys/AES.html">AES加解密</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/symmetric-keys/DES.html">DES</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/symmetric-keys/RC4.html">RC4</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/digest-algorithm.html">2.9.11. 摘要算法</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/digest-algorithms/sha256.html">sha256加密</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/digest-algorithms/md5.html">md5摘要算法</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/signature-algorithm.html">2.9.12. 签名算法</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/signature-algorithms/DSA.html">DSA</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/signature-algorithms/ECDSA.html">ECDSA</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../../2cores/chart.html">2.10. 图表</a><ul>
@@ -1163,7 +1196,7 @@ var _hmt = _hmt || [];
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../../5language.html">5. 语言相关文档</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../../5languages/erlang.html">5.1. Erlang文档</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/erlang_lib.html">5.1.1. 内置核心项目</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/erlang_lib.html">内置核心项目</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/libs/module_kernel.html">1. kernel </a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/libs/module_stdlib.html">2. stdlib </a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/libs/module_compiler.html">3. compiler</a></li>
@@ -1183,7 +1216,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/libs/users_guide.html">17. users_guide </a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/erlang_opensource.html">5.1.2. 开源项目</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/erlang_opensource.html">5.1.1. 开源项目</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/opensources/normal.html">其他开源项目列表</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/opensource_nets/esockd.html">esockd </a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/opensource_nets/gen_coap.html">gen_coap </a></li>
@@ -1208,7 +1241,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/opensources/mongo-erlang.html">mongo-erlang </a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/erlang.html">5.1.3. Erlang使用文档</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/erlang.html">5.1.2. Erlang使用文档</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/erlangs/erlang_question.html">Erlang常见问题</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/erlangs/erlang_skill.html">Erlang技巧</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/erlangs/erlang_code_skill.html">Erlang code skill</a></li>
@@ -1221,7 +1254,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/erlangs/erlang_remote_shell.html">Erlang接入远程shell控制台</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/mnesia.html">5.1.4. Mnesia文档</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/mnesia.html">5.1.3. Mnesia文档</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/mnesias/mnesia_usage.html">Mnesia基本用法</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/mnesias/mnesia_cluster.html">从头建立mnesia集群</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/mnesias/mnesia_cluster.html#mnesia1">在现在mnesia集群中增加1个结点</a></li>
@@ -1231,7 +1264,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/mnesias/mnesia_practice.html">Mnesia实用操作</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/rebar.html">5.1.5. Rebar文档</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/rebar.html">5.1.4. Rebar文档</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/rebars/rebar3_overal.html">rebar3整体说明</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/rebars/rebar3_command.html">rebar3 command</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/rebars/rebar3_config.html">rebar3配置</a></li>
@@ -1244,20 +1277,20 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/rebars/erlang.mk.html">erlang.mk</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/lager.html">5.1.6. Lager相关</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/lager.html">5.1.5. Lager相关</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/lagers/normal.html">基本</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/lagers/config.html">配置文件</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/lagers/tracing.html">日志跟踪</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/lagers/source.html">源码分析</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/project.html">5.1.7. 其他Erlang项目</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/project.html">5.1.6. 其他Erlang项目</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/projects/erlydtl.html">Erlydtl文档</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/projects/riak.html">Riak文档</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/projects/webmachine.html">Webmachine 使用简介</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/kerl.html">5.1.8. kerl使用 </a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/kerl.html">5.1.7. kerl使用 </a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../../5languages/golang.html">5.2. Golang语言相关</a><ul>
@@ -1487,7 +1520,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/nodes/node_install.html">node简介</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/opensource.html">5.5.2. 开源项目</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/opensource.html">开源项目</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/opensources/vue.html">1. vue相关资料</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/opensources/chart.html">2. chart图表相关</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/opensources/grunt.html">3. grunt</a></li>
@@ -1499,34 +1532,34 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/opensources/other.html">9. 其他</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/tool.html">5.5.3. 工具</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/tool.html">5.5.2. 工具</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/tools/npm.html">npm命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/tools/yarn.html">yarn命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/tools/nvm.html">nvm</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/javascript.html">5.5.4. Javascript文档</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/javascript.html">5.5.3. Javascript文档</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/javascripts/document.html">dom命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/javascripts/js_basic.html">js的常用函数收集</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/javascripts/jquery.html">jquery文档</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/javascripts/cordova.html">cordova基本操作</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/ecmaScript.html">5.5.5. ECMAScript</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/typeScript.html">5.5.6. TypeScript</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/deployment.html">5.5.7. 构建工具</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/ecmaScript.html">5.5.4. ECMAScript</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/typeScript.html">5.5.5. TypeScript</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/deployment.html">5.5.6. 构建工具</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/deployments/deploy_webpack.html">webpack构建工具</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/deployments/deploy_Browserify.html">Browserify</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/h5.html">5.5.8. h5相关</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/h5.html">5.5.7. h5相关</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/h5s/svg.html">SVG相关</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/h5s/canvas.html">Canvas</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/h5s/webGL.html">webGL</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/question.html">5.5.9. 常见问题</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/tmp.html">5.5.10. 临时相关</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/question.html">5.5.8. 常见问题</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/tmp.html">5.5.9. 临时相关</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../../5languages/c.html">5.6. C语言使用文档</a><ul>
@@ -1696,6 +1729,7 @@ var _hmt = _hmt || [];
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../../emacs/iterm2.html">7.1.8. iterm2相关</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../emacs/alfred.html">7.1.9. alfred工具</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../emacs/zsh.html">7.1.10. zsh 相关</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../git.html">7.2. GIT 文档首页</a><ul>
@@ -1895,6 +1929,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../resources/linux_port.html">Linux系统端口</a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="../env.html">7.8.10. 环境变量</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../other.html">7.9. 其他</a><ul>
@@ -2185,6 +2220,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l3"><a class="reference internal" href="../../../8tools/wiresharks/Wireshark.html">8.8.1. Wireshark命令</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../../8tools/wiresharks/Charles.html">8.8.2. Charles</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../../8tools/wiresharks/Fiddler.html">8.8.3. Fiddler</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../8tools/wiresharks/Other.html">8.8.4. 其他</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../../8tools/jumpserver.html">8.9. JumpServer</a></li>
@@ -2349,7 +2385,13 @@ var _hmt = _hmt || [];
 </ul>
 </div>
 <div class="section" id="id4">
-<h3>代码规范<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<h3>基础库<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/pkg/errors">https://github.com/pkg/errors</a></p></li>
+</ul>
+</div>
+<div class="section" id="id5">
+<h3>代码规范<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="https://github.com/uber-go/guide/blob/master/style.md">https://github.com/uber-go/guide/blob/master/style.md</a></p></li>
 <li><p><a class="reference external" href="https://github.com/xxjwxc/uber_go_guide_cn">https://github.com/xxjwxc/uber_go_guide_cn</a></p></li>
@@ -2357,8 +2399,8 @@ var _hmt = _hmt || [];
 </ul>
 </div>
 </div>
-<div class="section" id="id5">
-<h2>配置文件相关<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id6">
+<h2>配置文件相关<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p><a class="reference external" href="https://github.com/go-ini/ini">https://github.com/go-ini/ini</a></p></li>
 <li><p>xml: <a class="reference external" href="https://github.com/antchfx/xmlquery">https://github.com/antchfx/xmlquery</a></p></li>
@@ -2368,8 +2410,8 @@ var _hmt = _hmt || [];
 <li><p>xlsx: <a class="reference external" href="https://github.com/tealeg/xlsx">https://github.com/tealeg/xlsx</a></p></li>
 <li><p>json优化版: <a class="reference external" href="https://github.com/json-iterator/go">https://github.com/json-iterator/go</a></p></li>
 </ul>
-<div class="section" id="id6">
-<h3>Golang工具包<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id7">
+<h3>Golang工具包<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p>总地址: golang.org/x/tools</p></li>
 <li><p>mirror: <a class="reference external" href="https://github.com/golang/tools/">https://github.com/golang/tools/</a></p></li>
@@ -2378,16 +2420,16 @@ var _hmt = _hmt || [];
 <li><p>godoc.org: <a class="reference external" href="https://github.com/golang/gddo">https://github.com/golang/gddo</a></p></li>
 </ul>
 </div>
-<div class="section" id="id7">
-<h3>通知<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id8">
+<h3>通知<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p>email: <a class="reference external" href="https://gopkg.in/gomail.v2">https://gopkg.in/gomail.v2</a></p></li>
 <li><p>email: <a class="reference external" href="https://github.com/jordan-wright/email">https://github.com/jordan-wright/email</a></p></li>
 <li><p>chat: <a class="reference external" href="https://github.com/tinode/chat">https://github.com/tinode/chat</a></p></li>
 </ul>
 </div>
-<div class="section" id="id8">
-<h3>安全<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id9">
+<h3>安全<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="https://github.com/theupdateframework/notary">https://github.com/theupdateframework/notary</a></p></li>
 </ul>
@@ -2427,8 +2469,8 @@ v1.2.0后可打印当前文件和当前行
 </li>
 </ul>
 </div>
-<div class="section" id="id9">
-<h3>环境变量<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id10">
+<h3>环境变量<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p>可读取文件.env来设定环境变量: <a class="reference external" href="https://github.com/joho/godotenv">https://github.com/joho/godotenv</a></p></li>
 <li><p>把环境变量的值自动赋值给自定义类型的变量: <a class="reference external" href="https://github.com/kelseyhightower/envconfig">https://github.com/kelseyhightower/envconfig</a></p></li>
@@ -2443,8 +2485,8 @@ v1.2.0后可打印当前文件和当前行
 <li><p>beautiful terminal output: <a class="reference external" href="https://github.com/pterm/pterm">https://github.com/pterm/pterm</a></p></li>
 </ul>
 </div>
-<div class="section" id="id10">
-<h3>辅助代码生成工具<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id11">
+<h3>辅助代码生成工具<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><dl class="simple">
 <dt><a class="reference external" href="https://github.com/golang/mock">https://github.com/golang/mock</a></dt><dd><ul>
@@ -2456,10 +2498,11 @@ v1.2.0后可打印当前文件和当前行
 </li>
 <li><p><a class="reference external" href="https://github.com/google/wire">https://github.com/google/wire</a></p></li>
 <li><p><a class="reference external" href="https://github.com/jarcoal/httpmock">https://github.com/jarcoal/httpmock</a></p></li>
+<li><p>Type-driven code generation for Go: <a class="reference external" href="https://github.com/clipperhouse/gen">https://github.com/clipperhouse/gen</a></p></li>
 </ul>
 </div>
-<div class="section" id="id11">
-<h3>数据库<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id12">
+<h3>数据库<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p>图数据库: <a class="reference external" href="https://github.com/dgraph-io/dgraph">https://github.com/dgraph-io/dgraph</a></p></li>
 <li><p>图数据库: <a class="reference external" href="https://github.com/cayleygraph/cayley">https://github.com/cayleygraph/cayley</a></p></li>
@@ -2484,8 +2527,8 @@ v1.2.0后可打印当前文件和当前行
 <li><p>cloud-native distributed SQL DB: <a class="reference external" href="https://github.com/cockroachdb/cockroach">https://github.com/cockroachdb/cockroach</a></p></li>
 </ul>
 </div>
-<div class="section" id="id12">
-<h3>数据库驱动<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id13">
+<h3>数据库驱动<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p>sql通用扩展： <a class="reference external" href="https://github.com/jmoiron/sqlx">https://github.com/jmoiron/sqlx</a></p></li>
 <li><p>orm: <a class="reference external" href="https://github.com/jinzhu/gorm">https://github.com/jinzhu/gorm</a></p></li>
@@ -2501,8 +2544,8 @@ v1.2.0后可打印当前文件和当前行
 <li><p>数据结构: <a class="reference external" href="https://github.com/emirpasic/gods">https://github.com/emirpasic/gods</a></p></li>
 </ul>
 </div>
-<div class="section" id="id13">
-<h3>并发<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id14">
+<h3>并发<a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="https://github.com/Jeffail/tunny">https://github.com/Jeffail/tunny</a></p></li>
 <li><p><a class="reference external" href="https://github.com/benmanns/goworke">https://github.com/benmanns/goworke</a></p></li>
@@ -2537,8 +2580,8 @@ https://github.com/sony/gobreaker
 <li><p>tail 工具库: <a class="reference external" href="https://github.com/hpcloud/taglshi">https://github.com/hpcloud/taglshi</a></p></li>
 </ul>
 </div>
-<div class="section" id="id14">
-<h3>框架<a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id15">
+<h3>框架<a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p>web框架: <a class="reference external" href="https://github.com/go-chi/chi">https://github.com/go-chi/chi</a></p></li>
 <li><p>web框架: <a class="reference external" href="https://github.com/gin-gonic/gin">https://github.com/gin-gonic/gin</a></p></li>
@@ -2553,11 +2596,26 @@ https://github.com/sony/gobreaker
 <li><p>rendering JSON, XML: <a class="reference external" href="https://github.com/unrolled/render">https://github.com/unrolled/render</a></p></li>
 </ul>
 </div>
-<div class="section" id="id15">
-<h3>微服务框架<a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id16">
+<h3>微服务框架<a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
+<li><dl class="simple">
+<dt>A Go standard library for microservices: <a class="reference external" href="https://github.com/micro/go-micro">https://github.com/micro/go-micro</a></dt><dd><ul>
+<li><p>a framework for cloud native development: <a class="reference external" href="https://github.com/micro/micro">https://github.com/micro/micro</a></p></li>
+<li><p>go-micro 到底是个啥？ - 知乎: <a class="reference external" href="https://zhuanlan.zhihu.com/p/58985155">https://zhuanlan.zhihu.com/p/58985155</a></p></li>
+</ul>
+</dd>
+</dl>
+</li>
 <li><p>go-zero is a web and rpc framework: <a class="reference external" href="https://github.com/tal-tech/go-zero">https://github.com/tal-tech/go-zero</a></p></li>
 <li><p>jupiter: <a class="reference external" href="https://github.com/douyu/jupiter">https://github.com/douyu/jupiter</a></p></li>
+<li><dl class="simple">
+<dt>A standard library for microservices: <a class="reference external" href="https://github.com/go-kit/kit">https://github.com/go-kit/kit</a></dt><dd><ul>
+<li><p><a class="reference external" href="https://danielsinnott.com/blog/26">https://danielsinnott.com/blog/26</a></p></li>
+</ul>
+</dd>
+</dl>
+</li>
 </ul>
 </div>
 <div class="section" id="grpc">
@@ -2576,16 +2634,16 @@ https://github.com/sony/gobreaker
 <li><p>Tiny WebSocket library for Go: <a class="reference external" href="https://github.com/gobwas/ws">https://github.com/gobwas/ws</a></p></li>
 </ul>
 </div>
-<div class="section" id="web">
-<h3>web服务器<a class="headerlink" href="#web" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id17">
+<h3>代理&amp;网关<a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p>caddy(类nginx,自动支持http2,內建了 Let’s Encrypt): <a class="reference external" href="https://github.com/caddyserver/caddy/tree/v2">https://github.com/caddyserver/caddy/tree/v2</a></p></li>
 <li><p>traefik(可以跟 Docker 很深度的結合): <a class="reference external" href="https://github.com/containous/traefik">https://github.com/containous/traefik</a></p></li>
 <li><p>7层负载: <a class="reference external" href="https://github.com/bfenetworks/bfe">https://github.com/bfenetworks/bfe</a></p></li>
 </ul>
 </div>
-<div class="section" id="id16">
-<h3>网络模拟器<a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id18">
+<h3>网络模拟器<a class="headerlink" href="#id18" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p>web fuzzer: <a class="reference external" href="https://github.com/ffuf/ffuf">https://github.com/ffuf/ffuf</a></p></li>
 <li><p><a class="reference external" href="https://www.gns3.com/">https://www.gns3.com/</a></p></li>
@@ -2595,12 +2653,13 @@ https://github.com/sony/gobreaker
 <li><p>H3C H3C Cloud Lab: H3C H3C Cloud Lab是一款由华三公司研发的网络云平台，模拟真实设备，为用户提供基本的设备信息，并满足初级用户在没有真实设备的条件下进行设备配置的学习需要。</p></li>
 </ul>
 </div>
-<div class="section" id="id17">
-<h3>后台管理<a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id19">
+<h3>后台管理<a class="headerlink" href="#id19" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p>后台框架: <a class="reference external" href="https://github.com/flipped-aurora/gin-vue-admin">https://github.com/flipped-aurora/gin-vue-admin</a></p></li>
 <li><p><a class="reference external" href="https://github.com/wenjianzhang/go-admin">https://github.com/wenjianzhang/go-admin</a></p></li>
 <li><p><a class="reference external" href="https://github.com/LyricTian/gin-admin">https://github.com/LyricTian/gin-admin</a></p></li>
+<li><p>集工单统计、任务钩子、权限管理、灵活配置流程与模版于一身: <a class="reference external" href="https://github.com/lanyulei/ferry">https://github.com/lanyulei/ferry</a></p></li>
 </ul>
 </div>
 <div class="section" id="gui">
@@ -2610,15 +2669,21 @@ https://github.com/sony/gobreaker
 <li><p>mac: <a class="reference external" href="https://github.com/andlabs/ui">https://github.com/andlabs/ui</a></p></li>
 </ul>
 </div>
-<div class="section" id="id18">
-<h3>爬虫<a class="headerlink" href="#id18" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="cui">
+<h3>CUI<a class="headerlink" href="#cui" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/jroimartin/gocui">https://github.com/jroimartin/gocui</a></p></li>
+</ul>
+</div>
+<div class="section" id="id20">
+<h3>爬虫<a class="headerlink" href="#id20" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="http://github.com/henrylee2cn/pholcus">http://github.com/henrylee2cn/pholcus</a></p></li>
 <li><p><a class="reference external" href="https://github.com/crawlab-team/crawlab">https://github.com/crawlab-team/crawlab</a></p></li>
 </ul>
 </div>
-<div class="section" id="id19">
-<h3>混沌工程<a class="headerlink" href="#id19" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id21">
+<h3>混沌工程<a class="headerlink" href="#id21" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="https://github.com/chaosblade-io/chaosblade">https://github.com/chaosblade-io/chaosblade</a></p></li>
 <li><p><a class="reference external" href="https://github.com/chaos-mesh/chaos-mesh">https://github.com/chaos-mesh/chaos-mesh</a></p></li>
@@ -2655,14 +2720,14 @@ https://github.com/sony/gobreaker
 <li><p>Prometheus Operator: <a class="reference external" href="https://github.com/prometheus-operator/prometheus-operator">https://github.com/prometheus-operator/prometheus-operator</a></p></li>
 </ul>
 </div>
-<div class="section" id="id20">
-<h3>微服务<a class="headerlink" href="#id20" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id22">
+<h3>微服务<a class="headerlink" href="#id22" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p>rancher: <a class="reference external" href="https://github.com/rancher/rancher">https://github.com/rancher/rancher</a></p></li>
 <li><p>rancher os: <a class="reference external" href="https://github.com/rancher/os">https://github.com/rancher/os</a></p></li>
 <li><p><a class="reference external" href="https://github.com/cnrancher/octopus">https://github.com/cnrancher/octopus</a></p></li>
 <li><p>k3s: <a class="reference external" href="https://github.com/rancher/k3s">https://github.com/rancher/k3s</a></p></li>
-<li><p><a class="reference external" href="https://github.com/derailed/k9s">https://github.com/derailed/k9s</a></p></li>
+<li><p>OCI implementation of Kubernetes CRI: <a class="reference external" href="https://github.com/cri-o/cri-o">https://github.com/cri-o/cri-o</a></p></li>
 <li><p>helm: <a class="reference external" href="https://github.com/helm/helm">https://github.com/helm/helm</a></p></li>
 <li><p>kubernetes: <a class="reference external" href="https://github.com/kubernetes/kubernetes">https://github.com/kubernetes/kubernetes</a></p></li>
 <li><p><a class="reference external" href="https://github.com/kubernetes/kubeadm">https://github.com/kubernetes/kubeadm</a></p></li>
@@ -2689,8 +2754,8 @@ https://github.com/sony/gobreaker
 <li><p><a class="reference external" href="https://github.com/temporalio/temporal">https://github.com/temporalio/temporal</a></p></li>
 </ul>
 </div>
-<div class="section" id="id21">
-<h3>容器<a class="headerlink" href="#id21" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id23">
+<h3>容器<a class="headerlink" href="#id23" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p>docker: <a class="reference external" href="https://github.com/docker">https://github.com/docker</a></p></li>
 <li><p><a class="reference external" href="https://github.com/opencontainers/runc">https://github.com/opencontainers/runc</a></p></li>
@@ -2710,8 +2775,8 @@ https://github.com/sony/gobreaker
 <li><p>flannel is a network fabric for containers, designed for Kubernetes: <a class="reference external" href="https://github.com/coreos/flannel">https://github.com/coreos/flannel</a></p></li>
 </ul>
 </div>
-<div class="section" id="id22">
-<h3>k8s集群<a class="headerlink" href="#id22" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id24">
+<h3>k8s集群<a class="headerlink" href="#id24" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p>轻量级 Kubernetes 发行版: <a class="reference external" href="https://github.com/KubeOperator/KubeOperator">https://github.com/KubeOperator/KubeOperator</a></p></li>
 </ul>
@@ -2735,14 +2800,6 @@ https://github.com/sony/gobreaker
 <li><p><a class="reference external" href="https://github.com/operator-framework/operator-sdk">https://github.com/operator-framework/operator-sdk</a></p></li>
 </ul>
 </div>
-<div class="section" id="id23">
-<h3>微服务架构<a class="headerlink" href="#id23" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li><p>A Go standard library for microservices: <a class="reference external" href="https://github.com/micro/go-micro">https://github.com/micro/go-micro</a></p></li>
-<li><p>a framework for cloud native development: <a class="reference external" href="https://github.com/micro/micro">https://github.com/micro/micro</a></p></li>
-<li><p>go-micro 到底是个啥？ - 知乎: <a class="reference external" href="https://zhuanlan.zhihu.com/p/58985155">https://zhuanlan.zhihu.com/p/58985155</a></p></li>
-</ul>
-</div>
 <div class="section" id="istio">
 <h3>Istio微服务架构<a class="headerlink" href="#istio" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
@@ -2751,23 +2808,6 @@ https://github.com/sony/gobreaker
 <li><p>observability for the Istio service mesh: <a class="reference external" href="https://github.com/kiali/kiali">https://github.com/kiali/kiali</a></p></li>
 <li><p>Service mesh management for Istio: <a class="reference external" href="https://kiali.io/">https://kiali.io/</a></p></li>
 <li><p>cloud native proxy: <a class="reference external" href="https://github.com/mosn/mosn">https://github.com/mosn/mosn</a></p></li>
-</ul>
-</div>
-<div class="section" id="id24">
-<h3>网络工具<a class="headerlink" href="#id24" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li><p>新型的http反向代理、负载均衡软件: <a class="reference external" href="https://github.com/containous/traefik">https://github.com/containous/traefik</a></p></li>
-<li><p>Google 开源的一个基于 Linux 的负载均衡系统: <a class="reference external" href="https://github.com/google/seesaw">https://github.com/google/seesaw</a></p></li>
-<li><p>简单 HTTP 流量复制工具(原来名gor): <a class="reference external" href="https://github.com/buger/goreplay">https://github.com/buger/goreplay</a></p></li>
-<li><p>穿墙的 HTTP 代理服务器: <a class="reference external" href="https://github.com/cyfdecyf/cow">https://github.com/cyfdecyf/cow</a></p></li>
-<li><p>家庭或者企业网络的透明代理,可用来翻墙等: <a class="reference external" href="https://github.com/xjdrew/kone">https://github.com/xjdrew/kone</a></p></li>
-<li><p>高速的 P2P 端口映射工具，同时支持Socks5代理: <a class="reference external" href="https://github.com/vzex/dog-tunnel">https://github.com/vzex/dog-tunnel</a></p></li>
-<li><p>抓包工具: <a class="reference external" href="https://github.com/40t/go-sniffer">https://github.com/40t/go-sniffer</a></p></li>
-<li><p>网络代理工具: <a class="reference external" href="https://github.com/snail007/goproxy">https://github.com/snail007/goproxy</a></p></li>
-<li><p>反向代理工具，快捷开放内网端口供外部使用: <a class="reference external" href="https://github.com/inconshreveable/ngrok">https://github.com/inconshreveable/ngrok</a></p></li>
-<li><p>反向代理: <a class="reference external" href="https://github.com/fatedier/frp">https://github.com/fatedier/frp</a></p></li>
-<li><p>Cloud Native Tunnel for APIs: <a class="reference external" href="https://github.com/inlets/inlets">https://github.com/inlets/inlets</a></p></li>
-<li><p><a class="reference internal" href="../../../1systems/commands/tools/croc.html#croc"><span class="std std-ref">文件传输</span></a> <a class="reference external" href="https://github.com/schollz/croc">https://github.com/schollz/croc</a></p></li>
 </ul>
 </div>
 <div class="section" id="ci-cd-git">
@@ -2873,7 +2913,7 @@ https://github.com/sony/gobreaker
 </dd>
 </dl>
 </li>
-<li><p><a class="reference external" href="https://github.com/onsi/ginkgo">https://github.com/onsi/ginkgo</a></p></li>
+<li><p>BDD Testing Framework for Go: <a class="reference external" href="https://github.com/onsi/ginkgo">https://github.com/onsi/ginkgo</a></p></li>
 <li><p><a class="reference external" href="https://github.com/gavv/httpexpect">https://github.com/gavv/httpexpect</a></p></li>
 <li><p>A toolkit with common assertions and mocks: <a class="reference external" href="https://github.com/stretchr/testify">https://github.com/stretchr/testify</a></p></li>
 <li><dl class="simple">
@@ -2946,31 +2986,10 @@ https://github.com/sony/gobreaker
 <li><p>Go library for accessing the GitHub API: <a class="reference external" href="https://github.com/google/go-github">https://github.com/google/go-github</a></p></li>
 </ul>
 </div>
-<div class="section" id="id36">
-<h3>颜色<a class="headerlink" href="#id36" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="encryption">
+<h3>加密-encryption<a class="headerlink" href="#encryption" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li><p><a class="reference external" href="https://github.com/gookit/color">https://github.com/gookit/color</a></p></li>
-<li><p>实例说明: <a class="reference external" href="https://github.com/talkgo/night/blob/master/content/discuss/2019-03-07-wechat-discuss.md">https://github.com/talkgo/night/blob/master/content/discuss/2019-03-07-wechat-discuss.md</a></p></li>
-</ul>
-</div>
-<div class="section" id="id37">
-<h3>画图<a class="headerlink" href="#id37" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li><p><a class="reference external" href="https://github.com/blushft/go-diagrams">https://github.com/blushft/go-diagrams</a> (基于dot)</p></li>
-<li><p><a class="reference external" href="https://github.com/mingrammer/diagrams">https://github.com/mingrammer/diagrams</a> (python版)</p></li>
-</ul>
-</div>
-<div class="section" id="id38">
-<h3>共享<a class="headerlink" href="#id38" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li><dl class="simple">
-<dt>屏幕共享: <a class="reference external" href="https://github.com/screego/server">https://github.com/screego/server</a></dt><dd><ul>
-<li><p><a class="reference external" href="https://app.screego.net/">https://app.screego.net/</a></p></li>
-</ul>
-</dd>
-</dl>
-</li>
-<li><p>文件共享: <a class="reference external" href="https://github.com/bitepeng/b0pass">https://github.com/bitepeng/b0pass</a></p></li>
+<li><p>A simple, modern and secure encryption tool (and Go library): <a class="reference external" href="https://github.com/FiloSottile/age">https://github.com/FiloSottile/age</a></p></li>
 </ul>
 </div>
 <div class="section" id="queue">
@@ -2983,12 +3002,7 @@ https://github.com/sony/gobreaker
 <h3>论坛bbs<a class="headerlink" href="#bbs" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="https://github.com/mlogclub/bbs-go">https://github.com/mlogclub/bbs-go</a></p></li>
-</ul>
-</div>
-<div class="section" id="ftp">
-<h3>ftp<a class="headerlink" href="#ftp" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li><p>SFTP server can serve local filesystem, S3, GCS: <a class="reference external" href="https://github.com/drakkan/sftpgo">https://github.com/drakkan/sftpgo</a></p></li>
+<li><p>Self-Hosted, Twitter™-like Decentralised microBlogging platform: <a class="reference external" href="https://github.com/jointwt/twtxt">https://github.com/jointwt/twtxt</a></p></li>
 </ul>
 </div>
 <div class="section" id="history">
@@ -2997,15 +3011,15 @@ https://github.com/sony/gobreaker
 <li><p><a class="reference external" href="https://github.com/changkun/go-history">https://github.com/changkun/go-history</a></p></li>
 </ul>
 </div>
-<div class="section" id="id39">
-<h3>参考<a class="headerlink" href="#id39" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id36">
+<h3>参考<a class="headerlink" href="#id36" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="https://juejin.im/post/5de082a95188256f9a25384f">https://juejin.im/post/5de082a95188256f9a25384f</a></p></li>
 </ul>
 </div>
 </div>
-<div class="section" id="id40">
-<h2>其他功能<a class="headerlink" href="#id40" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id37">
+<h2>其他功能<a class="headerlink" href="#id37" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="ai">
 <h3>AI<a class="headerlink" href="#ai" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
@@ -3020,16 +3034,120 @@ https://github.com/sony/gobreaker
 <li><p>比原链: <a class="reference external" href="https://github.com/Bytom/bytom">https://github.com/Bytom/bytom</a></p></li>
 </ul>
 </div>
-<div class="section" id="id41">
-<h3>电信相关<a class="headerlink" href="#id41" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id38">
+<h3>其他相关<a class="headerlink" href="#id38" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li><p><a class="reference external" href="https://github.com/free5gc/free5gc">https://github.com/free5gc/free5gc</a></p></li>
+<li><p>[电信]: <a class="reference external" href="https://github.com/free5gc/free5gc">https://github.com/free5gc/free5gc</a></p></li>
+<li><p>[医学]医学数字成像和通信: <a class="reference external" href="https://github.com/suyashkumar/dicom">https://github.com/suyashkumar/dicom</a></p></li>
 </ul>
 </div>
-<div class="section" id="id42">
-<h3>资料<a class="headerlink" href="#id42" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id39">
+<h3>资料<a class="headerlink" href="#id39" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p>基于 Go 构建滴滴核心业务平台的实践.pdf: <a class="reference external" href="https://github.com/gopherchina/conference">https://github.com/gopherchina/conference</a></p></li>
+</ul>
+</div>
+<div class="section" id="id40">
+<h3>其他<a class="headerlink" href="#id40" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Golang malware development framework: <a class="reference external" href="https://github.com/redcode-labs/Coldfire">https://github.com/redcode-labs/Coldfire</a></p></li>
+<li><p>Heroku-like memorable random name generator: <a class="reference external" href="https://github.com/yelinaung/go-haikunator">https://github.com/yelinaung/go-haikunator</a></p></li>
+<li><p>个人数据泄漏检测网站，适用于 QQ / 京东 / 顺丰 / 微博: <a class="reference external" href="https://github.com/Brown-Ewing/privacy">https://github.com/Brown-Ewing/privacy</a></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="id41">
+<h2>工具<a class="headerlink" href="#id41" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>An offline solution to convert pdfs into audiobooks: <a class="reference external" href="https://github.com/Harry-027/go-audio">https://github.com/Harry-027/go-audio</a></p></li>
+</ul>
+<div class="section" id="id42">
+<h3>颜色<a class="headerlink" href="#id42" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/gookit/color">https://github.com/gookit/color</a></p></li>
+<li><p>实例说明: <a class="reference external" href="https://github.com/talkgo/night/blob/master/content/discuss/2019-03-07-wechat-discuss.md">https://github.com/talkgo/night/blob/master/content/discuss/2019-03-07-wechat-discuss.md</a></p></li>
+</ul>
+</div>
+<div class="section" id="id43">
+<h3>画图<a class="headerlink" href="#id43" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/blushft/go-diagrams">https://github.com/blushft/go-diagrams</a> (基于dot)</p></li>
+<li><p><a class="reference external" href="https://github.com/mingrammer/diagrams">https://github.com/mingrammer/diagrams</a> (python版)</p></li>
+</ul>
+</div>
+<div class="section" id="id44">
+<h3>图片处理<a class="headerlink" href="#id44" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Fast and secure standalone server for resizing and converting remote images: <a class="reference external" href="https://github.com/imgproxy/imgproxy">https://github.com/imgproxy/imgproxy</a></p></li>
+<li><p><a class="reference external" href="http://www.graphicsmagick.org/">http://www.graphicsmagick.org/</a></p></li>
+<li><p><a class="reference external" href="https://imagemagick.org/index.php">https://imagemagick.org/index.php</a></p></li>
+</ul>
+</div>
+<div class="section" id="id45">
+<h3>共享<a class="headerlink" href="#id45" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><dl class="simple">
+<dt>屏幕共享: <a class="reference external" href="https://github.com/screego/server">https://github.com/screego/server</a></dt><dd><ul>
+<li><p><a class="reference external" href="https://app.screego.net/">https://app.screego.net/</a></p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p>文件共享: <a class="reference external" href="https://github.com/bitepeng/b0pass">https://github.com/bitepeng/b0pass</a></p></li>
+<li><dl class="simple">
+<dt>Copy and paste between devices: <a class="reference external" href="https://github.com/nakabonne/pbgopy">https://github.com/nakabonne/pbgopy</a></dt><dd><ul>
+<li><p><a class="reference external" href="https://github.com/nwtgck/piping-server">https://github.com/nwtgck/piping-server</a></p></li>
+<li><p><a class="reference external" href="https://github.com/bradwood/glsnip">https://github.com/bradwood/glsnip</a></p></li>
+<li><p><a class="reference external" href="https://www.unix.com/man-page/osx/1/pbcopy/">https://www.unix.com/man-page/osx/1/pbcopy/</a></p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="ftp">
+<h3>ftp<a class="headerlink" href="#ftp" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>SFTP server can serve local filesystem, S3, GCS: <a class="reference external" href="https://github.com/drakkan/sftpgo">https://github.com/drakkan/sftpgo</a></p></li>
+</ul>
+</div>
+<div class="section" id="id46">
+<h3>k8s工具<a class="headerlink" href="#id46" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/derailed/k9s">https://github.com/derailed/k9s</a></p></li>
+<li><dl class="simple">
+<dt>Faster way to switch between clusters and namespaces in kubectl: <a class="reference external" href="https://github.com/ahmetb/kubectx">https://github.com/ahmetb/kubectx</a></dt><dd><ul>
+<li><p>kubectx</p></li>
+<li><p>kubens</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p>Kubernetes prompt info for bash and zsh: <a class="reference external" href="https://github.com/jonmosco/kube-ps1">https://github.com/jonmosco/kube-ps1</a></p></li>
+<li><p>A Kubernetes cluster resource sanitizer: <a class="reference external" href="https://github.com/derailed/popeye">https://github.com/derailed/popeye</a></p></li>
+<li><p>Multi pod and container log tailing for Kubernetes: <a class="reference external" href="https://github.com/wercker/stern">https://github.com/wercker/stern</a></p></li>
+<li><p>Display information about the kubectl in zsh prompt: <a class="reference external" href="https://github.com/superbrothers/zsh-kubectl-prompt">https://github.com/superbrothers/zsh-kubectl-prompt</a></p></li>
+</ul>
+<img alt="../../../_images/zsh-kubectl-prompt.png" src="../../../_images/zsh-kubectl-prompt.png" />
+<ul class="simple">
+<li><p>tail Kubernetes logs from multiple pods: <a class="reference external" href="https://github.com/johanhaleby/kubetail">https://github.com/johanhaleby/kubetail</a></p></li>
+</ul>
+</div>
+<div class="section" id="id47">
+<h3>网络工具<a class="headerlink" href="#id47" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>新型的http反向代理、负载均衡软件: <a class="reference external" href="https://github.com/containous/traefik">https://github.com/containous/traefik</a></p></li>
+<li><p>Google 开源的一个基于 Linux 的负载均衡系统: <a class="reference external" href="https://github.com/google/seesaw">https://github.com/google/seesaw</a></p></li>
+<li><p>简单 HTTP 流量复制工具(原来名gor): <a class="reference external" href="https://github.com/buger/goreplay">https://github.com/buger/goreplay</a></p></li>
+<li><p>穿墙的 HTTP 代理服务器: <a class="reference external" href="https://github.com/cyfdecyf/cow">https://github.com/cyfdecyf/cow</a></p></li>
+<li><p>家庭或者企业网络的透明代理,可用来翻墙等: <a class="reference external" href="https://github.com/xjdrew/kone">https://github.com/xjdrew/kone</a></p></li>
+<li><p>高速的 P2P 端口映射工具，同时支持Socks5代理: <a class="reference external" href="https://github.com/vzex/dog-tunnel">https://github.com/vzex/dog-tunnel</a></p></li>
+<li><p>抓包工具: <a class="reference external" href="https://github.com/40t/go-sniffer">https://github.com/40t/go-sniffer</a></p></li>
+<li><p>网络代理工具: <a class="reference external" href="https://github.com/snail007/goproxy">https://github.com/snail007/goproxy</a></p></li>
+<li><p>反向代理工具，快捷开放内网端口供外部使用: <a class="reference external" href="https://github.com/inconshreveable/ngrok">https://github.com/inconshreveable/ngrok</a></p></li>
+<li><p>反向代理: <a class="reference external" href="https://github.com/fatedier/frp">https://github.com/fatedier/frp</a></p></li>
+<li><p>Cloud Native Tunnel for APIs: <a class="reference external" href="https://github.com/inlets/inlets">https://github.com/inlets/inlets</a></p></li>
+<li><p><a class="reference internal" href="../../../1systems/commands/tools/croc.html#croc"><span class="std std-ref">文件传输</span></a> <a class="reference external" href="https://github.com/schollz/croc">https://github.com/schollz/croc</a></p></li>
 </ul>
 </div>
 </div>

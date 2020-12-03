@@ -21,6 +21,10 @@ golang基础
 * https://www.freecodecamp.org/news/golang-tutorial-list-free-courses-learn-go-programming-language/
 * https://github.com/overnote/over-golang
 
+基础库
+------
+
+* https://github.com/pkg/errors
 
 代码规范
 --------
@@ -113,6 +117,7 @@ cli命令
     * 辅助代码生成工具mockgen: github.com/golang/mock/mockgen
 * https://github.com/google/wire
 * https://github.com/jarcoal/httpmock
+* Type-driven code generation for Go: https://github.com/clipperhouse/gen
 
 
 数据库
@@ -209,8 +214,15 @@ lib工具
 微服务框架
 ----------
 
+* A Go standard library for microservices: https://github.com/micro/go-micro
+    * a framework for cloud native development: https://github.com/micro/micro
+    * go-micro 到底是个啥？ - 知乎: https://zhuanlan.zhihu.com/p/58985155
 * go-zero is a web and rpc framework: https://github.com/tal-tech/go-zero
 * jupiter: https://github.com/douyu/jupiter
+* A standard library for microservices: https://github.com/go-kit/kit
+    * https://danielsinnott.com/blog/26
+
+
 
 grpc
 ----
@@ -227,7 +239,7 @@ websocket
 * https://github.com/gorilla/websocket
 * Tiny WebSocket library for Go: https://github.com/gobwas/ws
 
-web服务器
+代理&网关
 ---------
 
 * caddy(类nginx,自动支持http2,內建了 Let’s Encrypt): https://github.com/caddyserver/caddy/tree/v2
@@ -252,12 +264,21 @@ web服务器
 * 后台框架: https://github.com/flipped-aurora/gin-vue-admin
 * https://github.com/wenjianzhang/go-admin
 * https://github.com/LyricTian/gin-admin
+  
+
+* 集工单统计、任务钩子、权限管理、灵活配置流程与模版于一身: https://github.com/lanyulei/ferry
+
 
 GUI
 ---
 
 * windows: https://github.com/lxn/walk
 * mac: https://github.com/andlabs/ui
+
+CUI
+---
+
+* https://github.com/jroimartin/gocui
 
 爬虫
 ----
@@ -313,7 +334,7 @@ DEVOPS
 * rancher os: https://github.com/rancher/os
 * https://github.com/cnrancher/octopus
 * k3s: https://github.com/rancher/k3s
-* https://github.com/derailed/k9s
+* OCI implementation of Kubernetes CRI: https://github.com/cri-o/cri-o
 * helm: https://github.com/helm/helm
 
 * kubernetes: https://github.com/kubernetes/kubernetes
@@ -341,6 +362,7 @@ DEVOPS
 * Application Deployment Engine for Kubernetes: https://github.com/rancher/rio
 * Build and deploy Go applications on Kubernetes: https://github.com/google/ko
 * https://github.com/temporalio/temporal
+
 
 容器
 ----
@@ -385,12 +407,6 @@ operator
 * https://github.com/operator-framework/operator-sdk
 
 
-微服务架构
-----------
-
-* A Go standard library for microservices: https://github.com/micro/go-micro
-* a framework for cloud native development: https://github.com/micro/micro
-* go-micro 到底是个啥？ - 知乎: https://zhuanlan.zhihu.com/p/58985155
 
 Istio微服务架构
 ---------------
@@ -402,23 +418,6 @@ Istio微服务架构
 * cloud native proxy: https://github.com/mosn/mosn
 
 
-
-网络工具
---------
-
-* 新型的http反向代理、负载均衡软件: https://github.com/containous/traefik
-* Google 开源的一个基于 Linux 的负载均衡系统: https://github.com/google/seesaw
-* 简单 HTTP 流量复制工具(原来名gor): https://github.com/buger/goreplay
-* 穿墙的 HTTP 代理服务器: https://github.com/cyfdecyf/cow
-* 家庭或者企业网络的透明代理,可用来翻墙等: https://github.com/xjdrew/kone
-* 高速的 P2P 端口映射工具，同时支持Socks5代理: https://github.com/vzex/dog-tunnel
-* 抓包工具: https://github.com/40t/go-sniffer
-* 网络代理工具: https://github.com/snail007/goproxy
-* 反向代理工具，快捷开放内网端口供外部使用: https://github.com/inconshreveable/ngrok
-* 反向代理: https://github.com/fatedier/frp
-* Cloud Native Tunnel for APIs: https://github.com/inlets/inlets
-  
-* :ref:`文件传输 <croc>` https://github.com/schollz/croc
 
 CI&CD&Git
 ---------
@@ -511,12 +510,16 @@ P2P
 * https://github.com/agiledragon/gomonkey
 * http://labix.org/gocheck
     * gopkg.in/check.v1
-* https://github.com/onsi/ginkgo
+* BDD Testing Framework for Go: https://github.com/onsi/ginkgo
 * https://github.com/gavv/httpexpect
 * A toolkit with common assertions and mocks: https://github.com/stretchr/testify
 * allure工具golang版: https://github.com/dailymotion/allure-go
         * https://github.com/allure-framework/allure1/wiki
 * https://github.com/DATA-DOG/go-sqlmock
+
+
+
+
 
 eBPF
 ----
@@ -569,24 +572,10 @@ pprof
 
 * Go library for accessing the GitHub API: https://github.com/google/go-github
 
-颜色
-----
+加密-encryption
+---------------
 
-* https://github.com/gookit/color
-* 实例说明: https://github.com/talkgo/night/blob/master/content/discuss/2019-03-07-wechat-discuss.md
-
-画图
-----
-
-* https://github.com/blushft/go-diagrams (基于dot)
-* https://github.com/mingrammer/diagrams (python版)
-
-共享
---------
-
-* 屏幕共享: https://github.com/screego/server
-    * https://app.screego.net/
-* 文件共享: https://github.com/bitepeng/b0pass
+* A simple, modern and secure encryption tool (and Go library): https://github.com/FiloSottile/age
 
 队列queue
 ---------
@@ -597,11 +586,8 @@ pprof
 -------
 
 * https://github.com/mlogclub/bbs-go
+* Self-Hosted, Twitter™-like Decentralised microBlogging platform: https://github.com/jointwt/twtxt
 
-ftp
----
-
-* SFTP server can serve local filesystem, S3, GCS: https://github.com/drakkan/sftpgo
 
 
 history
@@ -631,16 +617,104 @@ AI
 * Filecoin protocol in Go: https://github.com/filecoin-project/lotus
 * 比原链: https://github.com/Bytom/bytom
 
-电信相关
+其他相关
 --------
 
-* https://github.com/free5gc/free5gc
-
+* [电信]: https://github.com/free5gc/free5gc
+* [医学]医学数字成像和通信: https://github.com/suyashkumar/dicom
 
 资料
 ----
 
 * 基于 Go 构建滴滴核心业务平台的实践.pdf: https://github.com/gopherchina/conference
+
+其他
+----
+
+* Golang malware development framework: https://github.com/redcode-labs/Coldfire
+* Heroku-like memorable random name generator: https://github.com/yelinaung/go-haikunator
+
+* 个人数据泄漏检测网站，适用于 QQ / 京东 / 顺丰 / 微博: https://github.com/Brown-Ewing/privacy
+
+
+
+
+工具
+==========================
+
+* An offline solution to convert pdfs into audiobooks: https://github.com/Harry-027/go-audio
+
+
+颜色
+----
+
+* https://github.com/gookit/color
+* 实例说明: https://github.com/talkgo/night/blob/master/content/discuss/2019-03-07-wechat-discuss.md
+
+画图
+----
+
+* https://github.com/blushft/go-diagrams (基于dot)
+* https://github.com/mingrammer/diagrams (python版)
+
+图片处理
+--------
+
+* Fast and secure standalone server for resizing and converting remote images: https://github.com/imgproxy/imgproxy
+* http://www.graphicsmagick.org/
+* https://imagemagick.org/index.php
+
+
+共享
+--------
+
+* 屏幕共享: https://github.com/screego/server
+    * https://app.screego.net/
+* 文件共享: https://github.com/bitepeng/b0pass
+* Copy and paste between devices: https://github.com/nakabonne/pbgopy
+    * https://github.com/nwtgck/piping-server
+    * https://github.com/bradwood/glsnip
+    * https://www.unix.com/man-page/osx/1/pbcopy/
+
+ftp
+---
+
+* SFTP server can serve local filesystem, S3, GCS: https://github.com/drakkan/sftpgo
+
+
+k8s工具
+-------
+
+* https://github.com/derailed/k9s
+* Faster way to switch between clusters and namespaces in kubectl: https://github.com/ahmetb/kubectx
+    * kubectx
+    * kubens
+* Kubernetes prompt info for bash and zsh: https://github.com/jonmosco/kube-ps1
+* A Kubernetes cluster resource sanitizer: https://github.com/derailed/popeye
+* Multi pod and container log tailing for Kubernetes: https://github.com/wercker/stern
+* Display information about the kubectl in zsh prompt: https://github.com/superbrothers/zsh-kubectl-prompt
+
+.. image:: /images/k8s/tools/zsh-kubectl-prompt.png
+
+* tail Kubernetes logs from multiple pods: https://github.com/johanhaleby/kubetail
+
+
+网络工具
+--------
+
+* 新型的http反向代理、负载均衡软件: https://github.com/containous/traefik
+* Google 开源的一个基于 Linux 的负载均衡系统: https://github.com/google/seesaw
+* 简单 HTTP 流量复制工具(原来名gor): https://github.com/buger/goreplay
+* 穿墙的 HTTP 代理服务器: https://github.com/cyfdecyf/cow
+* 家庭或者企业网络的透明代理,可用来翻墙等: https://github.com/xjdrew/kone
+* 高速的 P2P 端口映射工具，同时支持Socks5代理: https://github.com/vzex/dog-tunnel
+* 抓包工具: https://github.com/40t/go-sniffer
+* 网络代理工具: https://github.com/snail007/goproxy
+* 反向代理工具，快捷开放内网端口供外部使用: https://github.com/inconshreveable/ngrok
+* 反向代理: https://github.com/fatedier/frp
+* Cloud Native Tunnel for APIs: https://github.com/inlets/inlets
+  
+* :ref:`文件传输 <croc>` https://github.com/schollz/croc
 
 
 

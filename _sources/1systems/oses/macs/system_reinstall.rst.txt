@@ -98,6 +98,46 @@
     // MarkDown工具
     brew cask install macdown
 
+开发专用
+========
+
+
+* brew安装如下软件::
+    
+    brew install emacs tmux htop
+
+tldr::
+
+    brew install tldr
+
+    tldr=Too Long; Didn't Read
+    简化了烦琐的 man 指令帮助文档，仅列出常用的该指令的使用方法
+    代替 man 命令的，如:
+    man python  => tldr python
+
+jq::
+
+    brew install jq
+    格式化 json结构文件，且加亮，如:
+    cat abc.json | jq
+
+ncdu::
+
+    brew install ncdu
+    类似 du 命令，但更智能
+
+taskwarrior::
+
+    命令行版 todo
+
+
+
+Shell Application
+=================
+
+* `iTerm <iterm2>`_: https://www.iterm2.com/
+* Hyper: https://hyper.is/
+
 
 
 
@@ -105,7 +145,3 @@
 .. [2] https://www.jianshu.com/p/dbf2fa105f26
 .. [3] https://docs.microsoft.com/en-us/outlook/troubleshoot/outlook-for-mac/useful-tools
 .. [4] https://support.office.com/en-us/article/uninstall-office-for-mac-eefa1199-5b58-43af-8a3d-b73dc1a8cae3
-
-
-
-

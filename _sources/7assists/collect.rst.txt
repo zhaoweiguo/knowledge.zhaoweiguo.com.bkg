@@ -14,6 +14,7 @@
    collects/keyword
    collects/product
    collects/resource
+   collects/env
 
 
 

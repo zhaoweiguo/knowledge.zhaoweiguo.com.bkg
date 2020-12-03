@@ -19,6 +19,10 @@
 
 
 
+开源捐赠
+--------
+
+* https://opencollective.com/
 
 
 

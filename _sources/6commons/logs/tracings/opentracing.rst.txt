@@ -25,6 +25,7 @@ opentracing
    :maxdepth: 1
 
    opentracings/normal
+   opentracings/scenario
 
 
 .. [2] https://opentracing.io

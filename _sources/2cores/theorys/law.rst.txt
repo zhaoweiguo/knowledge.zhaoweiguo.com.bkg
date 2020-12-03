@@ -13,5 +13,6 @@
    laws/Benford'slaw
    laws/Zipf'slaw
    laws/ruleofthree
+   laws/Clarke's3laws
 
 

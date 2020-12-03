@@ -1,8 +1,10 @@
+.. _iterm2:
+
 iterm2相关
 ###################
 
 技巧1:有跳板机的服务器上「上传」「下载」文件
-'''''''''''''''''''''''''''''''''''''''''''''''''
+===========================================
 
 1. 下载 rz,sz命令
 2. 首先进入:
@@ -24,14 +26,57 @@ iterm2相关
 
 
 技巧2:与tmux配合,把上传复制的文件转到「剪切板」上
-'''''''''''''''''''''''''''''''''''''''''''''''''
+=================================================
+
 .. figure:: /images/emacs/iterm2_pic1.png
    :width: 80%
 
 技巧3:高亮当前行
-''''''''''''''''
+================
+
 .. figure:: /images/emacs/iterm2_pic4.png
    :width: 80%
+
+技巧:Alt Key快捷键(以单词为基准跳)
+==================================
+
+关键词::
+
+    Alt Key
+    Option as Meta Key
+
+Terminal
+--------
+
+.. image:: /images/emacs/iterm2_key_alt1.jpg
+
+iTerm2
+------
+
+.. image:: /images/emacs/iterm2_key_alt2.png
+
+hyper
+-----
+
+打开配置::
+
+    增加一句:
+    modifierKeys: { altIsMeta: true },
+
+例::
+
+    module.exports = {
+      config: {
+        modifierKeys: { altIsMeta: true },
+        ...
+
+其他
+====
+
+技巧:修改字体::
+
+    "iTerm > Preferences > Profiles > Text"
+
 
 
 

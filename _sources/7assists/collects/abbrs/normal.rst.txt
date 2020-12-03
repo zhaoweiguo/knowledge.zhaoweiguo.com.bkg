@@ -44,6 +44,7 @@ C
 * CI: 持续集成 (Continuous integration)
 * CNN: 卷积神经网络（Convolutional Neural Network, CNN）
 * CQRS: Command Query Responsibility Seperation
+* CRI: Container Runtime Interface(容器运行时接口, k8s)
 * CRUD: Create、Retrieve、Update、Delete
 * CSP: Communicating Sequential Processes
 * CSR: certificate signing request
@@ -156,6 +157,7 @@ O
 ----
 
 * OCC: Optimistic concurrency control(乐观并发控制)
+* OCI: Open Container Initiative-based(开放式容器计划, k8s)
 * OCR: Optical Character Recognition, 文字识别
 * OOM: OutOfMemory
 * OOP: Object Oriented Programming, 面向对象程序设计
@@ -200,6 +202,7 @@ S
 * SaaS: Software as a Service(软件服务化)
 * SASL: System Architecture Support Libraries
 * SIG: Special Interest Group
+* SIP: System Integrity Protection (MacOS)
 * SLA: Service Level Agreement(服务等级协议)
 * SLI: Service Level Indicator(服务等级对象)
 * SLO: Service Level Objective(服务等级目标)

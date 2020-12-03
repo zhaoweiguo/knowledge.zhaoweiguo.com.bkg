@@ -7,6 +7,8 @@
 
 
    design_modes/singleton
+   design_modes/observer-design
+   design_modes/decorator
 
 
 概述::

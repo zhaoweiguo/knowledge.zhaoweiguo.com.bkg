@@ -45,7 +45,24 @@
         }()
     }
 
+同样类似 ``loop iteration variable`` 的问题还有这种::
 
+    // Using reference to loop iterator variable
+    // Due to efficiency, the loop iterator variable is 
+        // a single variable that takes different values in each loop iteration. 
+    in := []int{1, 2, 3}
+
+    var out []*int
+    for  _, v := range in {
+        out = append(out, &v)
+    }
+
+    fmt.Println("Values:", *out[0], *out[1], *out[2])
+    fmt.Println("Addresses:", out[0], out[1], out[2])
+
+    output:
+    // Values: 3 3 3
+    // Addresses: 0xc000014188 0xc000014188 0xc000014188
 
 
 * 扩展阅读:

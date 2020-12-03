@@ -20,6 +20,7 @@ Contents:
    emacs/vsCode
    emacs/iterm2
    emacs/alfred
+   emacs/zsh
 
 
 
