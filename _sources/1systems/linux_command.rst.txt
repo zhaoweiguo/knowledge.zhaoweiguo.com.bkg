@@ -8,6 +8,7 @@
 .. toctree::
    :maxdepth: 3
 
+   commands/advance
    commands/linux_tune
    commands/linux_tool
    commands/linux_network

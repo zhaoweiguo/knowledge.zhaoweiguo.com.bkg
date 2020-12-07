@@ -1,5 +1,7 @@
 windows常用软件
-=====================
+###############
+
+
 
 开发相关::
 
@@ -16,4 +18,11 @@ windows常用软件
 
 wox：Windows下的Alfred,内置了everything
 Manico is an App Dock, Launcher and Switcher for OS X.
+
+Mono
+====
+
+To use on mac or linux, install mono-complete then just run mono GitVersion.exe
+
+
 

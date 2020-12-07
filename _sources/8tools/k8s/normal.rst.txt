@@ -8,7 +8,7 @@ kube基本
 .. toctree::
    :maxdepth: 1
 
-   normals/jsonpath
+   normals/install
    normals/volume
    normals/concept
    normals/principle

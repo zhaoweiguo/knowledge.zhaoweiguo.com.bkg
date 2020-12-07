@@ -196,11 +196,14 @@ lib工具
 框架
 -------
 
-* web框架: https://github.com/go-chi/chi
-* web框架: https://github.com/gin-gonic/gin
-* web框架: https://github.com/astaxie/beego
-* web框架: https://github.com/caddyserver/caddy
-* web框架: https://github.com/go-martini/martini
+* web 框架: https://github.com/go-chi/chi
+* web 框架: https://github.com/gin-gonic/gin
+* web 框架: https://github.com/astaxie/beego
+* web 框架: https://github.com/caddyserver/caddy
+* web 框架: https://github.com/go-martini/martini
+* web 框架: https://github.com/gofiber/fiber
+    * inspired by the Node.js Express framework 
+    * built on top of Fasthttp
 * https://github.com/kataras/iris
 * https://github.com/gorilla/mux
 * web框架(cayley): https://github.com/gobuffalo/packr

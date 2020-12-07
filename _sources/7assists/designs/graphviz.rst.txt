@@ -1,7 +1,10 @@
 Graphviz使用
 #################
 
-
+* 官网: http://www.graphviz.org/
+  * https://gitlab.com/graphviz/graphviz/
+* Simple Python interface for Graphviz: https://github.com/xflr6/graphviz
+  * https://graphviz.readthedocs.io/en/stable/
 
 .. toctree::
    :maxdepth: 2

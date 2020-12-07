@@ -1,11 +1,28 @@
 brew命令
 ###############
-::
 
-    // 展示Homebrew的安装路径. 
+brew常见命令::
+
+    brew install
+    brew uninstall 
+    brew link
+    brew unlink
+    brew doctor
+    brew cleanup
+
+brew cask::
+
+    brew cask doctor   // Warning: Calling brew cask doctor is deprecated! Use brew doctor --verbose instead.
+
+
+展示Homebrew的安装路径::
+
     // /usr/local on macOS 
     // /home/linuxbrew/.linuxbrew on Linux
     brew --prefix
+
+
+
 
 
 brew与brew cask的区别

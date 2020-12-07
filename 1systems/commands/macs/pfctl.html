@@ -28,8 +28,8 @@
   <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="1.1.14. 内置函数" href="../linux_buildin.html" />
-    <link rel="prev" title="1.1.13. mac命令" href="../linux_mac.html" /> 
+    <link rel="next" title="1.1.15. 内置函数" href="../linux_buildin.html" />
+    <link rel="prev" title="1.1.14. mac命令" href="../linux_mac.html" /> 
 
   
   <script src="../../../_static/js/modernizr.min.js"></script>
@@ -114,7 +114,12 @@ var _hmt = _hmt || [];
               <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="../../../1system.html">1. 操作系统相关</a><ul class="current">
 <li class="toctree-l2 current"><a class="reference internal" href="../../linux_command.html">1.1. 命令收集</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../linux_tune.html">1.1.1. 性能检测命令</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../advance.html">1.1.1. 高级命令</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../advances/fzf.html">fzf命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../advances/other.html">其他命令临时地</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../linux_tune.html">1.1.2. 性能检测命令</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../tunes/top.html">top命令使用</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../tunes/ps.html">ps命令使用</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../tunes/lsof.html">lsof命令</a></li>
@@ -129,7 +134,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../tunes/tune_tmp.html">调优临时命令</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../linux_tool.html">1.1.2. 工具命令</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../linux_tool.html">1.1.3. 工具命令</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../tools/watch.html">watch命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../tools/tmux.html">tmux使用</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../tools/screen.html">screen命令使用</a></li>
@@ -154,10 +159,9 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../tools/samba.html">samba——文件共享服务命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../tools/puttygen.html">puttygen——由openssh密钥生成putty ssh密钥</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../tools/htpasswd.html">htpasswd命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../tools/fzf.html">fzf命令</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../linux_network.html">1.1.3. 网络命令使用</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../linux_network.html">1.1.4. 网络命令使用</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../networks/netstat.html">netstat命令使用</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../networks/tracert.html">tracert命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../networks/nc.html">nc命令使用</a></li>
@@ -180,7 +184,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../networks/network_other.html">网络相关其他命令</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../linux_simple.html">1.1.4. 简单命令</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../linux_simple.html">1.1.5. 简单命令</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../simples/ls.html">ls命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../simples/tree.html">tree命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../simples/pwd.html">pwd命令</a></li>
@@ -200,7 +204,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../simples/echo.html">echo命令</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../linux_normal.html">1.1.5. 常用命令</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../linux_normal.html">1.1.6. 常用命令</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../normals/crontab.html">crontab命令简析</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../normals/logrotate.html">logrotate命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../normals/nohup.html">nohup命令</a></li>
@@ -224,7 +228,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../normals/df.html">df命令</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../linux_system.html">1.1.6. 系统级linux命令</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../linux_system.html">1.1.7. 系统级linux命令</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../systems/groupadd.html">groupadd命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../systems/useradd.html">useradd命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../systems/usermod.html">usermod命令</a></li>
@@ -234,7 +238,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../systems/passwd.html">passwd命令</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../linux_compress.html">1.1.7. 压缩命令</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../linux_compress.html">1.1.8. 压缩命令</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../compresses/rar.html">rar命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../compresses/tar.html">tar命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../compresses/gzip.html">gzip命令</a></li>
@@ -246,7 +250,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../compresses/compress_other.html">其他压缩命令</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../linux_kernel.html">1.1.8. linux核心修改命令</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../linux_kernel.html">1.1.9. linux核心修改命令</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../kernels/modprobe.html">modprobe命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../kernels/kexec.html">kexec工具</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../kernels/lsmod.html">lsmod命令</a></li>
@@ -257,33 +261,33 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../kernels/inotify.html">inotify系列命令 </a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../linux_special.html">1.1.9. 特殊命令列表</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../linux_special.html">1.1.10. 特殊命令列表</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../specials/locale.html">locale命令</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../linux_centos.html">1.1.10. centos专用命令</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../linux_centos.html">1.1.11. centos专用命令</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../centos/chkconfig.html">chkconfig命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../centos/centos_office.html">office及中文输入法安装</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../linux_debian.html">1.1.11. debain专用命令</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../linux_debian.html">1.1.12. debain专用命令</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../debian/update-rc.d.html">update-rd.d命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../debian/rcconf.html">rcconf命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../debian/apt.html">apt命令</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../linux_freebsd.html">1.1.12. freebsd专用命令</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../linux_freebsd.html">1.1.13. freebsd专用命令</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../freebsds/brew.html">brew命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../freebsds/sockstat.html">sockstat命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../freebsds/systat.html">systat命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../freebsds/netstat.html">netstat命令</a></li>
 </ul>
 </li>
-<li class="toctree-l3 current"><a class="reference internal" href="../linux_mac.html">1.1.13. mac命令</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../linux_mac.html">1.1.14. mac命令</a><ul class="current">
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pfctl命令</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../linux_buildin.html">1.1.14. 内置函数</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../linux_buildin.html">1.1.15. 内置函数</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../buildins/command.html">command命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../buildins/env.html">env命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../buildins/env.html#set-envexport">set,env和export命令</a></li>
@@ -296,7 +300,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../buildins/export.html">export命令</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../linux_tmp.html">1.1.15. 暂未分组的linux命令</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../linux_tmp.html">1.1.16. 暂未分组的linux命令</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../tmps/cksum.html">cksum命令使用</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../tmps/md5sum.html">md5sum命令使用</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../tmps/updatedb.html">updatedb命令使用</a></li>
@@ -1196,7 +1200,7 @@ var _hmt = _hmt || [];
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../../5language.html">5. 语言相关文档</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../../5languages/erlang.html">5.1. Erlang文档</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/erlang_lib.html">内置核心项目</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/erlang_lib.html">5.1.1. 内置核心项目</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/libs/module_kernel.html">1. kernel </a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/libs/module_stdlib.html">2. stdlib </a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/libs/module_compiler.html">3. compiler</a></li>
@@ -1216,7 +1220,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/libs/users_guide.html">17. users_guide </a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/erlang_opensource.html">5.1.1. 开源项目</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/erlang_opensource.html">5.1.2. 开源项目</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/opensources/normal.html">其他开源项目列表</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/opensource_nets/esockd.html">esockd </a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/opensource_nets/gen_coap.html">gen_coap </a></li>
@@ -1241,7 +1245,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/opensources/mongo-erlang.html">mongo-erlang </a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/erlang.html">5.1.2. Erlang使用文档</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/erlang.html">5.1.3. Erlang使用文档</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/erlangs/erlang_question.html">Erlang常见问题</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/erlangs/erlang_skill.html">Erlang技巧</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/erlangs/erlang_code_skill.html">Erlang code skill</a></li>
@@ -1254,7 +1258,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/erlangs/erlang_remote_shell.html">Erlang接入远程shell控制台</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/mnesia.html">5.1.3. Mnesia文档</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/mnesia.html">5.1.4. Mnesia文档</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/mnesias/mnesia_usage.html">Mnesia基本用法</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/mnesias/mnesia_cluster.html">从头建立mnesia集群</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/mnesias/mnesia_cluster.html#mnesia1">在现在mnesia集群中增加1个结点</a></li>
@@ -1264,7 +1268,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/mnesias/mnesia_practice.html">Mnesia实用操作</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/rebar.html">5.1.4. Rebar文档</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/rebar.html">5.1.5. Rebar文档</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/rebars/rebar3_overal.html">rebar3整体说明</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/rebars/rebar3_command.html">rebar3 command</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/rebars/rebar3_config.html">rebar3配置</a></li>
@@ -1277,20 +1281,20 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/rebars/erlang.mk.html">erlang.mk</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/lager.html">5.1.5. Lager相关</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/lager.html">5.1.6. Lager相关</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/lagers/normal.html">基本</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/lagers/config.html">配置文件</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/lagers/tracing.html">日志跟踪</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/lagers/source.html">源码分析</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/project.html">5.1.6. 其他Erlang项目</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/project.html">5.1.7. 其他Erlang项目</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/projects/erlydtl.html">Erlydtl文档</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/projects/riak.html">Riak文档</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/projects/webmachine.html">Webmachine 使用简介</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/kerl.html">5.1.7. kerl使用 </a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/kerl.html">5.1.8. kerl使用 </a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../../5languages/golang.html">5.2. Golang语言相关</a><ul>
@@ -1520,7 +1524,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/nodes/node_install.html">node简介</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/opensource.html">开源项目</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/opensource.html">5.5.2. 开源项目</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/opensources/vue.html">1. vue相关资料</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/opensources/chart.html">2. chart图表相关</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/opensources/grunt.html">3. grunt</a></li>
@@ -1532,34 +1536,34 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/opensources/other.html">9. 其他</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/tool.html">5.5.2. 工具</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/tool.html">5.5.3. 工具</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/tools/npm.html">npm命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/tools/yarn.html">yarn命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/tools/nvm.html">nvm</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/javascript.html">5.5.3. Javascript文档</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/javascript.html">5.5.4. Javascript文档</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/javascripts/document.html">dom命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/javascripts/js_basic.html">js的常用函数收集</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/javascripts/jquery.html">jquery文档</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/javascripts/cordova.html">cordova基本操作</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/ecmaScript.html">5.5.4. ECMAScript</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/typeScript.html">5.5.5. TypeScript</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/deployment.html">5.5.6. 构建工具</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/ecmaScript.html">5.5.5. ECMAScript</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/typeScript.html">5.5.6. TypeScript</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/deployment.html">5.5.7. 构建工具</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/deployments/deploy_webpack.html">webpack构建工具</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/deployments/deploy_Browserify.html">Browserify</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/h5.html">5.5.7. h5相关</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/h5.html">5.5.8. h5相关</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/h5s/svg.html">SVG相关</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/h5s/canvas.html">Canvas</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/h5s/webGL.html">webGL</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/question.html">5.5.8. 常见问题</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/tmp.html">5.5.9. 临时相关</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/question.html">5.5.9. 常见问题</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/tmp.html">5.5.10. 临时相关</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../../5languages/c.html">5.6. C语言使用文档</a><ul>
@@ -1941,7 +1945,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l1"><a class="reference internal" href="../../../8tool.html">8. 工具使用文档</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../../8tools/k8s.html">8.1. k8s相关</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="../../../8tools/k8s/normal.html">8.1.1. kube基本</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../../8tools/k8s/normals/jsonpath.html">JSONPath Support </a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../8tools/k8s/normals/install.html">安装配置kubectl </a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../8tools/k8s/normals/volume.html">卷-磁盘挂载</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../8tools/k8s/normals/concept.html">定义</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../8tools/k8s/normals/principle.html">原理</a></li>
@@ -1952,7 +1956,6 @@ var _hmt = _hmt || [];
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../../../8tools/k8s/cmd.html">8.1.2. kubectl命令</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../../8tools/k8s/cmds/0install.html">安装配置kubectl </a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../8tools/k8s/cmds/0help.html">帮助</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../8tools/k8s/cmds/1create.html">kubectl create</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../8tools/k8s/cmds/1expose.html">kubectl expose</a></li>
@@ -2341,7 +2344,7 @@ var _hmt = _hmt || [];
         
           <li><a href="../../linux_command.html"><span class="section-number">1.1. </span>命令收集</a> &raquo;</li>
         
-          <li><a href="../linux_mac.html"><span class="section-number">1.1.13. </span>mac命令</a> &raquo;</li>
+          <li><a href="../linux_mac.html"><span class="section-number">1.1.14. </span>mac命令</a> &raquo;</li>
         
       <li>pfctl命令</li>
     
@@ -2388,10 +2391,10 @@ pfctl -sa 显示任何可显示的
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../linux_buildin.html" class="btn btn-neutral float-right" title="1.1.14. 内置函数" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="../linux_buildin.html" class="btn btn-neutral float-right" title="1.1.15. 内置函数" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="../linux_mac.html" class="btn btn-neutral" title="1.1.13. mac命令" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="../linux_mac.html" class="btn btn-neutral" title="1.1.14. mac命令" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

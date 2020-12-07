@@ -19,6 +19,29 @@ katacoda-边看边操作学习网站::
 
     * https://repl.it/
 
+OnlineGDB beta::
+
+    // supports 20 different languages
+    * https://www.onlinegdb.com/
+
+正则专用,Regex 101::
+
+    http://regex101.com/
+
+Font Awesome::
+
+    https://fontawesome.com/
+
+unicode::
+
+    https://unicode-table.com/
+
+Music For Programming::
+
+    https://musicforprogramming.net/
+    https://soundcloud.com/
+
+
 工具
 ====
 

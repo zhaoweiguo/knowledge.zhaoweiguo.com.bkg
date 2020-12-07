@@ -38,7 +38,6 @@
    tools/samba
    tools/puttygen
    tools/htpasswd
-   tools/fzf
 
 
 

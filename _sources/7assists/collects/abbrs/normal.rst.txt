@@ -43,6 +43,7 @@ C
 * CEN: Cloud Enterprise Network(云企业网络，阿里)
 * CI: 持续集成 (Continuous integration)
 * CNN: 卷积神经网络（Convolutional Neural Network, CNN）
+* COTS: Commercial Off-The-Shelf(“商用现成品或技术” 或者 “商用货架产品”)
 * CQRS: Command Query Responsibility Seperation
 * CRI: Container Runtime Interface(容器运行时接口, k8s)
 * CRUD: Create、Retrieve、Update、Delete

@@ -12,7 +12,6 @@ kubectl命令
    :maxdepth: 1
    :caption: Basic Commands (Beginner)
 
-   cmds/0install
    cmds/0help
    cmds/1create
    cmds/1expose
