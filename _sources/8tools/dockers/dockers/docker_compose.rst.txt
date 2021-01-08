@@ -19,6 +19,8 @@ github [1]_
    docker_composes/0install
    docker_composes/0normal
    docker_composes/compose_file
+   docker_composes/example_mongo
+   docker_composes/question
 
 
 

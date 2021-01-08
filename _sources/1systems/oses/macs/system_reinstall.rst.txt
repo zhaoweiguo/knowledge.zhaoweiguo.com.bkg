@@ -104,32 +104,13 @@
 
 * brew安装如下软件::
     
-    brew install emacs tmux htop
+    brew install emacs tmux htop jq ng
 
-tldr::
+* 快捷::
 
-    brew install tldr
-
-    tldr=Too Long; Didn't Read
-    简化了烦琐的 man 指令帮助文档，仅列出常用的该指令的使用方法
-    代替 man 命令的，如:
-    man python  => tldr python
-
-jq::
-
-    brew install jq
-    格式化 json结构文件，且加亮，如:
-    cat abc.json | jq
-
-ncdu::
-
-    brew install ncdu
-    类似 du 命令，但更智能
-
-taskwarrior::
-
-    命令行版 todo
-
+    1. sublime 命令行专用  
+    ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+    echo "export EDITOR='subl' -w" >> ~/.zshrc
 
 
 Shell Application

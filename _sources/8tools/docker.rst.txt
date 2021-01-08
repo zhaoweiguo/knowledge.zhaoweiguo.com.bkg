@@ -9,6 +9,8 @@ Docker相关
    dockers/docker
    dockers/nomad
    dockers/rancher
+   dockers/cri
+   dockers/image-build
    dockers/language
    dockers/openstack
    dockers/virtualbox

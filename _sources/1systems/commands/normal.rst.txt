@@ -24,7 +24,7 @@
    normals/find
    normals/exec
    normals/xargs
-   normals/json_pp
+   normals/jq
 
    normals/diff
    normals/sort
@@ -34,6 +34,7 @@
    normals/cut
    normals/read
    normals/tee
+   normals/bc
 
    normals/du
    normals/df

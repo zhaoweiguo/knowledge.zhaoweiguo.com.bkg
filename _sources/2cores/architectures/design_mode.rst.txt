@@ -9,6 +9,7 @@
    design_modes/singleton
    design_modes/observer-design
    design_modes/decorator
+   design_modes/mediator
 
 
 概述::

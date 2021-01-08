@@ -15,6 +15,8 @@ Contents:
 
    nginxs/nginx
    nginxs/apache
+   nginxs/lvs
+   nginxs/HAproxy
    nginxs/openresty
 
 

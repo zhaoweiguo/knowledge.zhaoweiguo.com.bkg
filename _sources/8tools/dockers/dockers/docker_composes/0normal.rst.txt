@@ -16,6 +16,8 @@ Compose 项目由 Python 编写，实现上调用了 Docker 服务提供的 API 
 实例
 ====
 
+* 参考自: https://docs.docker.com/compose/gettingstarted/
+
 web 应用::
 
     from flask import Flask
@@ -55,8 +57,9 @@ docker-compose.yml::
 
 运行 compose 项目::
 
-    $ docker-compose up
-
+    $ docker-compose -f file.yml up
+    or
+    $ docker stack deploy -f file.yml <name>
 
 
 

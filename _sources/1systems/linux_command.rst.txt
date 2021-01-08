@@ -9,22 +9,22 @@
    :maxdepth: 3
 
    commands/advance
-   commands/linux_tune
-   commands/linux_tool
-   commands/linux_network
-   commands/linux_simple
-   commands/linux_normal
-   commands/linux_system
-   commands/linux_compress
-   commands/linux_kernel
-   commands/linux_special
+   commands/tune
+   commands/tool
+   commands/network
+   commands/simple
+   commands/normal
+   commands/system
+   commands/compress
+   commands/kernel
+   commands/special
    
-   commands/linux_centos
-   commands/linux_debian
-   commands/linux_freebsd
-   commands/linux_mac
-   commands/linux_buildin
-   commands/linux_tmp
+   commands/centos
+   commands/debian
+   commands/freebsd
+   commands/mac
+   commands/buildin
+   commands/tmp
 
 
 

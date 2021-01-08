@@ -34,24 +34,6 @@
     3.使集群易于扩展:
     当系统需要更多的空间和资源的时候，MongoDB使我们可以按需方便的扩充系统容量
 
-MongoDB 分片集群的三个组件::
-
-    1. shard
-       每个分片是整体数据的一部分子集。每个分片都可以部署为副本集
-       强烈建议在生产环境下将分片部署为副本集且最少部署 2 个分片
-    2. mongos
-       充当查询路由器，提供客户端应用程序和分片集群之间的接口
-       应用程序直接连接 mongos 即可，可以部署一个或多个
-    3. config servers
-       配置服务器存储集群的元数据和配置（包括权限认证相关）
-       从 MongoDB 3.4 开始，必须将配置服务器部署为副本集
-       （CSRS，全称是 Config Servers Replica Set）
-
-.. figure:: /images/dbs/mongodbs/shard_structure1.png
-
-   MongoDB 分片集群的架构图
-
-
 
 分片集群架构
 ============
@@ -71,8 +53,23 @@ Mongoshard::
     存储应用数据记录。一般有多个Mongod节点，达到数据分片目的。
     真正的数据存储位置，以chunk为单位存数据。
 
+MongoDB 分片集群的三个组件::
 
-.. image:: /images/dbs/mongodbs/architecture_shard_cluster2.png
+    1. shard
+       每个分片是整体数据的一部分子集。每个分片都可以部署为副本集
+       强烈建议在生产环境下将分片部署为副本集且最少部署 2 个分片
+    2. mongos
+       充当查询路由器，提供客户端应用程序和分片集群之间的接口
+       应用程序直接连接 mongos 即可，可以部署一个或多个
+    3. config servers
+       配置服务器存储集群的元数据和配置（包括权限认证相关）
+       从 MongoDB 3.4 开始，必须将配置服务器部署为副本集
+       （CSRS，全称是 Config Servers Replica Set）
+
+.. figure:: /images/dbs/mongodbs/shard_structure1.png
+
+   MongoDB 分片集群的架构图
+
 
 
 集群中数据分布
@@ -92,16 +89,18 @@ chunk的产生，会有以下两个用途::
     1. 使用chunk来存储数据
     2. 进群搭建完成之后，默认开启一个chunk，大小是64M，
     3. 存储需求超过64M，chunk会进行分裂，如果单位时间存储需求很大，设置更大的chunk
-    4. chunk会被自动均衡迁移。
+    4. chunk会被自动均衡迁移
 
 chunksize的选择::
 
     适合业务的chunksize是最好的
     chunk的分裂和迁移非常消耗IO资源；chunk分裂的时机：在插入和更新，读数据不会分裂
 
-　　 chunksize的选择:
-    小的chunksize:数据均衡是迁移速度快，数据分布更均匀。数据分裂频繁，路由节点消耗更多资源
-    大的chunksize:数据分裂少。数据块移动集中消耗IO资源。通常100-200M
+    chunksize的选择:
+    小的chunksize:
+        数据均衡是迁移速度快，数据分布更均匀。数据分裂频繁，路由节点消耗更多资源
+    大的chunksize:
+        数据分裂少。数据块移动集中消耗IO资源。通常100-200M
 
 chunk分裂及迁移
 ---------------
@@ -118,7 +117,8 @@ chunk分裂及迁移
 chunkSize 对分裂及迁移的影响::
 
     chunkSize 越小，chunk 分裂及迁移越多，数据分布越均衡；
-    反之，chunkSize 越大，chunk 分裂及迁移会更少，但可能导致数据分布不均。
+    反之
+    chunkSize 越大，chunk 分裂及迁移会更少，但可能导致数据分布不均。
 
 数据区分
 ========
@@ -296,30 +296,48 @@ balance操作
     mongos> sh.isBalancerRunning()
     false
 
-修改balance 窗口的时间::
+关闭balance::
 
-    db.settings.update(
+    sh.stopBalancer()
+
+
+自动分片平衡
+------------
+
+.. note:: mongodb在做自动分片平衡的时候，或引起数据库响应的缓慢，可以通过禁用自动平衡以及设置自动平衡进行的时间来解决这一问题。
+
+1) 禁用分片的自动平衡::
+
+    > use config
+    > db.settings.update( { _id: "balancer" }, { $set : { stopped: true } } , true );
+
+2) 自定义 自动平衡进行的时间段::
+
+    修改balance 窗口的时间:
+    > use config
+    > db.settings.update(
        { _id: "balancer" },
        { $set: { activeWindow : { start : "<start-time>", stop : "<stop-time>" } } },
        { upsert: true }
     )
-
+    
     实例:
-    db.settings.update(
+    > use config
+    > db.settings.update(
         { _id : "balancer" }, 
-        { $set : { activeWindow : { start : "00:00", stop : "5:00" } } }, 
-    true )
+        { $set : { activeWindow : { start : "21:00", stop : "9:00" } } },
+        true 
+    )
 
-.. note:: 当你设置了activeWindow，就不能用sh.startBalancer() 启动balance。The balancer window must be sufficient to complete the migration of all data inserted during the day. As data insert rates can change based on activity and usage patterns, it is important to ensure that the balancing window you select will be sufficient to support the needs of your deployment.
 
-删除balance 窗口::
+3) 删除balance 窗口::
 
     use config
     db.settings.update({ _id : "balancer" }, { $unset : { activeWindow : true } })
 
-关闭balance::
 
-    sh.stopBalancer()
+.. note:: 当你设置了activeWindow，就不能用sh.startBalancer() 启动balance。The balancer window must be sufficient to complete the migration of all data inserted during the day. As data insert rates can change based on activity and usage patterns, it is important to ensure that the balancing window you select will be sufficient to support the needs of your deployment.
+
 
 关于集合的balance
 -----------------
@@ -335,24 +353,6 @@ balance操作
 确定某个集合的balance是开启或者关闭::
 
     db.getSiblingDB("config").collections.findOne({_id : "students.grades"}).noBalance;
-
-自动分片平衡
-============
-
-.. note:: mongodb在做自动分片平衡的时候，或引起数据库响应的缓慢，可以通过禁用自动平衡以及设置自动平衡进行的时间来解决这一问题。
-
-1）禁用分片的自动平衡::
-
-    > use config
-    > db.settings.update( { _id: "balancer" }, { $set : { stopped: true } } , true );
-
-2）自定义 自动平衡进行的时间段::
-
-    > use config
-    > db.settings.update({ _id : "balancer" }, { $set : { activeWindow : { start : "21:00", stop : "9:00" } } }, true )
-
-
-
 
 
 参考

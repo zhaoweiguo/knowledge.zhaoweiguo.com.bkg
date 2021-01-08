@@ -1,6 +1,8 @@
 安装与卸载
 ##########
 
+* 官网: https://docs.docker.com/compose/install/
+
 验证是否安装::
 
     $ docker-compose --version
@@ -33,5 +35,10 @@ bash 补全命令::
 
     2. 如果是通过 pip 安装的，则执行如下命令即可删除
     $ sudo pip uninstall docker-compose
+
+
+
+
+
 
 

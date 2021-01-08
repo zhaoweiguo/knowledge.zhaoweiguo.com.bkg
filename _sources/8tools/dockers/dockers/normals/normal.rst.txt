@@ -83,6 +83,8 @@ Union FS 是有最大层数限制的，比如 AUFS，曾经是最大不得超过
 
 
 
+.. image:: /images/dockers/docker_architecture.png
+
 
 
 

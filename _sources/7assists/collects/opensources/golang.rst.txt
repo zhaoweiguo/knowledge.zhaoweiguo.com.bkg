@@ -25,6 +25,11 @@ golang基础
 ------
 
 * https://github.com/pkg/errors
+* errors and functions to annotate errors: https://github.com/juju/errors ::
+  
+    if err := SomeFunc(); err != nil {
+      return errors.Annotate(err, "more context")
+    }
 
 代码规范
 --------
@@ -67,12 +72,6 @@ Golang工具包
 
 * https://github.com/theupdateframework/notary
 
-uuid
-----
-
-* https://github.com/satori/go.uuid
-* https://github.com/google/uuid
-* https://code.google.com/archive/p/go-uuid/ -> https://github.com/pborman/uuid
 
 日志log
 -------
@@ -90,9 +89,6 @@ uuid
 * rolling log: https://github.com/natefinch/lumberjack
 * Leveled execution logs for Go: https://github.com/golang/glog
 * zerolog: https://github.com/rs/zerolog (项目 https://github.com/alibaba/kt-connect 中使用)
-* go-kit: https://github.com/go-kit/kit
-    * 阿里一个人推荐 https://www.cnblogs.com/alisystemsoftware/p/12408258.html
-    * `Why I Recommend to Avoid Using the go-kit Library <https://gist.github.com/posener/330c2b08aaefdea6f900ff0543773b2e>`_
 
 环境变量
 -----------
@@ -131,6 +127,7 @@ cli命令
     * 注: 代码不多，注释比较详细，作为学习容易入门
     * BoltDB的优点与缺点: https://zhuanlan.zhihu.com/p/47214093
 * A realtime distributed messaging platform: https://github.com/nsqio/nsq
+    * The official Go package for NSQ: https://github.com/nsqio/go-nsq
 
 * 分布式k/v数据库: https://github.com/etcd-io/etcd
 * distributed, highly available, and data center aware solution: https://github.com/hashicorp/consul
@@ -146,6 +143,8 @@ cli命令
 
 * sql通用扩展： https://github.com/jmoiron/sqlx
 * orm: https://github.com/jinzhu/gorm
+* ORM library for Golang: https://github.com/go-gorm/gorm/stargazers
+    * https://gorm.io/
 * mysql: https://github.com/go-xorm/xorm
 * es: https://github.com/elastic/elasticsearch
 * proxy based rediscluster solution: https://github.com/CodisLabs/codis
@@ -159,20 +158,31 @@ cli命令
 
 * 数据结构: https://github.com/emirpasic/gods
 
+* Graphql: https://github.com/graphql-go/graphql
+    * https://graphql.org/
+
+
 并发
-----
+====
 
 * https://github.com/Jeffail/tunny
 * https://github.com/benmanns/goworke
 * https://github.com/rafaeldias/async
+  
+
+goroutine池
+-----------
+
+* ants 是一个高性能且低损耗的 goroutine 池: https://github.com/panjf2000/ants
+    * https://www.geeksforgeeks.org/goroutines-concurrency-in-golang/
+
 
 lib工具
---------
+=======
 
 * 针对结构体的校验逻辑: https://github.com/asaskevich/govalidator
 * https://github.com/bytedance/go-tagexpr
 * protobuf 文件动态解析的接口，可以实现反射相关的能力: https://github.com/jhump/protoreflect
-* 字符串处理: https://github.com/huandu/xstrings
 * 表达式引擎工具: https://github.com/Knetic/govaluate
 * 表达式引擎工具: https://github.com/google/cel-go
 * ratelimit 工具::
@@ -191,6 +201,35 @@ lib工具
 * https://github.com/go-echarts/go-echarts
 * tail 工具库: https://github.com/hpcloud/taglshi
 
+字符串
+------
+
+* 字符串处理: https://github.com/huandu/xstrings
+* 字符串匹配optimized for filenames and code symbols: https://github.com/sahilm/fuzzy
+
+uuid
+----
+
+* https://github.com/satori/go.uuid
+* https://github.com/google/uuid
+* http://github.com/gofrs/uuid
+* https://code.google.com/archive/p/go-uuid/ -> https://github.com/pborman/uuid
+
+日期转化 date
+-------------
+
+* Dateparse: https://github.com/araddon/dateparse
+
+http 工具
+---------
+
+* 模仿 python 的 Request: https://github.com/levigross/grequests
+
+numerical and scientific algorithms
+-----------------------------------
+
+* 矩阵，统计，积分，微分等(matrices, statistics, integration, differentiation): https://github.com/gonum
+    * https://www.gonum.org/
 
 
 框架
@@ -214,6 +253,8 @@ lib工具
 
 * rendering JSON, XML: https://github.com/unrolled/render
 
+* The boss of http auth(CSRF Protection): https://github.com/volatiletech/authboss
+
 微服务框架
 ----------
 
@@ -221,9 +262,13 @@ lib工具
     * a framework for cloud native development: https://github.com/micro/micro
     * go-micro 到底是个啥？ - 知乎: https://zhuanlan.zhihu.com/p/58985155
 * go-zero is a web and rpc framework: https://github.com/tal-tech/go-zero
-* jupiter: https://github.com/douyu/jupiter
+
 * A standard library for microservices: https://github.com/go-kit/kit
-    * https://danielsinnott.com/blog/26
+    * 阿里一个人推荐 https://www.cnblogs.com/alisystemsoftware/p/12408258.html
+    * `Why I Recommend to Avoid Using the go-kit Library <https://gist.github.com/posener/330c2b08aaefdea6f900ff0543773b2e>`_
+    * Microservices with GoKit: https://danielsinnott.com/blog/26
+
+* jupiter: https://github.com/douyu/jupiter
 
 
 
@@ -277,6 +322,8 @@ GUI
 
 * windows: https://github.com/lxn/walk
 * mac: https://github.com/andlabs/ui
+* Cross platform GUI in Go based on Material Design: https://github.com/fyne-io/fyne
+    * https://fyne.io/
 
 CUI
 ---
@@ -367,18 +414,16 @@ DEVOPS
 * https://github.com/temporalio/temporal
 
 
-容器
-----
+container engine
+----------------
 
 * docker: https://github.com/docker
 * https://github.com/opencontainers/runc
-
-
-podman
-------
-
-* building OCI images: https://github.com/containers/buildah
-* Dockerfile-agnostic builder toolkit: https://github.com/moby/buildkit
+* podman(means: Pod Manager tool)
+    * A tool for managing OCI containers and pods: https://github.com/containers/podman
+    * A tool that facilitates building OCI images: https://github.com/containers/buildah
+    * Dockerfile-agnostic builder toolkit: https://github.com/moby/buildkit
+    * alias docker=podman
 
 
 k8s网络
@@ -456,7 +501,7 @@ CI&CD&Git
 
 * debugger: https://github.com/go-delve/delve
 * perf 工具(go版ps命令): https://github.com/google/gops
-* psutil for golang: https://github.com/shirou/gopsutil
+* psutil for golang(inspired by a `Python package <https://pypi.org/project/psutil/>`): https://github.com/shirou/gopsutil
 * 打印deep pretty printer: https://github.com/davecgh/go-spew
 * 配置化生成证书: https://github.com/cloudflare/cfssl
 * 免费的证书获取工具: https://github.com/Neilpang/acme.sh
@@ -646,6 +691,7 @@ AI
 ==========================
 
 * An offline solution to convert pdfs into audiobooks: https://github.com/Harry-027/go-audio
+* Golang commandline wrapper for wkhtmltopdf: https://github.com/SebastiaanKlippert/go-wkhtmltopdf
 
 
 颜色

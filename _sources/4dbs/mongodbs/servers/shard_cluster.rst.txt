@@ -13,10 +13,10 @@
 启动 Shard Server::
 
     > mkdir -p /www/mongoDB/shard/s0
-    > mkdir -p /www/mongoDB/shard/s1
-    > mkdir -p /www/mongoDB/shard/s2
-    > mkdir -p /www/mongoDB/shard/s3
-    > mkdir -p /www/mongoDB/shard/log
+    mkdir -p /www/mongoDB/shard/s1
+    mkdir -p /www/mongoDB/shard/s2
+    mkdir -p /www/mongoDB/shard/s3
+    mkdir -p /www/mongoDB/shard/log
     > /usr/local/mongoDB/bin/mongod --port 27020 --dbpath=/www/mongoDB/shard/s0 --logpath=/www/mongoDB/shard/log/s0.log --logappend --fork
     ....
     > /usr/local/mongoDB/bin/mongod --port 27023 --dbpath=/www/mongoDB/shard/s3 --logpath=/www/mongoDB/shard/log/s3.log --logappend --fork

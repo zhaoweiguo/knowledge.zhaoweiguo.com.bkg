@@ -3,6 +3,31 @@ Compose 模板文件
 
 .. note:: 注意每个服务都必须通过 image 指令指定镜像或 build 指令（需要 Dockerfile）等来自动构建生成镜像。
 
+* 官网: https://docs.docker.com/compose/compose-file/
+
+
+Compose and Docker compatibility matrix::
+
+    Compose file        format Docker Engine release
+    3.8                         19.03.0+
+    3.7                         18.06.0+
+    3.6                         18.02.0+
+    3.5                         17.12.0+
+    3.4                         17.09.0+
+    3.3                         17.06.0+
+    3.2                         17.04.0+
+    3.1                         1.13.1+
+    3.0                         1.13.0+
+    2.4                         17.12.0+
+    2.3                         17.06.0+
+    2.2                         1.13.0+
+    2.1                         1.12.0+
+    2.0                         1.10.0+
+    1.0                         1.9.1.+
+
+
+
+
 
 depends_on::
 
@@ -131,7 +156,7 @@ volumes::
      - ~/configs:/etc/configs/:ro
 
 
-
+* 参考: https://www.jianshu.com/p/2217cfed29d7
 
 
 

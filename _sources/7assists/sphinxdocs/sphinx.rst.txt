@@ -17,5 +17,8 @@ Contents:
    sphinxs/sphinxdoc_install
    sphinxs/sphinxdoc_search
 
+* 官网: https://www.sphinx-doc.org/en/master/
+* 扩展: https://www.sphinx-doc.org/en/master/usage/extensions/index.html
+* 其他开发: https://www.sphinx-doc.org/en/master/develop.html
 
 

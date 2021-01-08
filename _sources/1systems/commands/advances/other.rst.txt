@@ -15,37 +15,16 @@ pycopy & pbpaste
 .. note::  这个命令好用，比 linux 下此命令好用。可以完美与 gui 接合
 
 
-
-技巧
+网速
 ====
 
-::
-
-    ctrl + r
-
-.. image:: /images/linuxs/shell_skill_C_r.gif
-
-
-Fast Navigation::
-
-    Ctrl + a: Move to the beginning of the command.
-    Ctrl + e: Move to the end of the command.
-    Ctrl + u: Delete everything to the right of the cursor.
-    Ctrl + w: Delete a word to the left.
-    Ctrl + d: Delete a Character to the right.
-    Cmd + w: Closing a Tab
-    Cmd + t: Opening a new Tab
-    
-    The following shortcuts doesn't come preloaded, you need to configure them from `here <https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x>`_ :
-    option + ←: Move one word to the left
-    option + →: Move one word to the right.
-
-iTerm快捷键::
-
-    时间线: Shift + Cmd + E
+* speedtest-cli: https://github.com/sivel/speedtest-cli ::
+  
+    https://github.com/sivel/speedtest-cli/wiki
+    安装在 ~/bin 目录下
 
 
-    自定义: Ctl + Cmd + Z
+
 
 
 
@@ -60,55 +39,83 @@ iTerm快捷键::
         - 类似Magnet
     - [x] 记忆专用
         - 记忆卡片: https://apps.ankiweb.net/
-    - gif 生成工具
-        - https://www.cockos.com/licecap/
-    - 替换 find
-        - fda='fd -IH'
-        - https://github.com/sharkdp/fd
-        - brew install fd
-    - 替换 grep
-        - https://github.com/BurntSushi/ripgrep
-        - It skips files ignored by .gitignore and hidden ones
-    - 比 htop 更全，和 htop 互补
-        - https://nicolargo.github.io/glances/
-        - https://github.com/nicolargo/glances
-        - Glances is a cross-platform system monitoring tool written in Python.
 - docker 工具
-    - ctop
-        - https://github.com/bcicen/ctop
-        - brew install ctop
     - lazydocker
         - https://github.com/jesseduffield/lazydocker
         - The lazier way to manage everything docker
         - brew install lazydocker
         - [更新版]brew install jesseduffield/lazydocker/lazydocker
-- 其他
-    - [x] asciinema
-        - https://asciinema.org/
-        - brew install asciinema
-        - Record and share your terminal sessions, the right way.
 - 小工具
-    - lolcat
-    - colordiff
-        - https://www.colordiff.org/
-    - diff-so-fancy
-        - https://github.com/so-fancy/diff-so-fancy
-    - bat
-        - 代替 cat 和 less(?)
     - httpie
         - https://httpie.org/
         - 更直观
-    - exa
-        - 代替 ls
-        - https://the.exa.website/
-- 开发
-    - litecli
-        - https://litecli.com/
-        - SQLite
-        - With the auto-completion and syntax highlighting
-    - pgcli
-        - https://www.pgcli.com/
-        - PostgreSQL
+
+- 配置信息::
+  
+    https://obihann.github.io/archey-osx/
+    使用:
+    > welcome
+                 ###                  User: zhaoweiguo
+               ####                   Hostname: zhaowgMac
+               ###                    Distro: OS X 11.0.1
+       #######    #######             Kernel: Darwin
+     ######################           Uptime: 19 days
+    #####################             Shell: /bin/zsh
+    ####################              Terminal: xterm iTerm.app
+    ####################              CPU: Intel Core i9-9880H CPU @ 2.30GHz
+    #####################             Memory: 32 GB
+     ######################           Disk: 16%
+      ####################            Battery: 81.54%%
+        ################              IP Address: 60.247.104.73
+         ####     #####
+
+- FIGlet: http://www.figlet.org/ ::
+
+    $ brew install figlet
+    $ printf "\e[92m" && figlet -f standard "Terminal Tips"
+    $ printf "\e[95m" && figlet -f standard "Terminal Tips"
+    $ printf "\e[31;3m" && figlet -f standard "Terminal Tips"
+
+    Fonts:
+    $ printf "\e[96m" && figlet -f starwars "Terminal Tips"
+    // 参考实例: http://www.figlet.org/examples.html
+
+
+- Colors::
+
+    $ for code in {30..37}; do \
+    echo -en "\e[${code}m"'\\e['"$code"'m'"\e[0m"; \
+    echo -en "  \e[$code;1m"'\\e['"$code"';1m'"\e[0m"; \
+    echo -en "  \e[$code;3m"'\\e['"$code"';3m'"\e[0m"; \
+    echo -en "  \e[$code;4m"'\\e['"$code"';4m'"\e[0m"; \
+    echo -e "  \e[$((code+60))m"'\\e['"$((code+60))"'m'"\e[0m"; \
+    done
+
+- Weather reports on your terminal::
+
+    $ curl wttr.in/CityName
+    $ curl wttr.in/Beijing
+    帮助:
+    $ curl wttr.in/:help
+
+    alias:
+    # weather
+    alias we='curl wttr.in\?0nqF'
+    alias we1='curl wttr.in\?1nqF'
+    alias we2='curl wttr.in\?2nqF'
+    alias weather='curl wttr.in\?nqF'
+
+* https://github.com/chubin/wttr.in
+* golang 版: https://github.com/schachmat/wego
+* https://github.com/chubin/pyphoon
+
+.. image:: /images/linuxs/linux_command_advance_weather.png
+
+
+ 
+
+
+
 
 
 

@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>1.1.15. 内置函数 &mdash; 新溪-gordon V1.4.1 documentation</title>
+  <title>8.2.5. 容器运行时 &mdash; 新溪-gordon V1.4.1 documentation</title>
   
 
   
@@ -28,8 +28,8 @@
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="command命令" href="buildins/command.html" />
-    <link rel="prev" title="pfctl命令" href="macs/pfctl.html" /> 
+    <link rel="next" title="8.2.6. Image Build" href="image-build.html" />
+    <link rel="prev" title="8.2.4. Rancher" href="rancher.html" /> 
 
   
   <script src="../../_static/js/modernizr.min.js"></script>
@@ -112,370 +112,374 @@ var _hmt = _hmt || [];
             
             
               <ul class="current">
-<li class="toctree-l1 current"><a class="reference internal" href="../../1system.html">1. 操作系统相关</a><ul class="current">
-<li class="toctree-l2 current"><a class="reference internal" href="../linux_command.html">1.1. 命令收集</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="advance.html">1.1.1. 高级命令</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="advances/fzf.html">fzf命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="advances/other.html">其他命令临时地</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../1system.html">1. 操作系统相关</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../1systems/linux_command.html">1.1. 命令收集</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/commands/advance.html">1.1.1. 高级命令</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/advances/fzf.html">fzf命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/advances/better.html">更好的工具</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/advances/htop.html">htop命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/advances/db.html">数据库</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/advances/record.html">记录软件</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/advances/skill.html">技巧</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/advances/other.html">其他命令临时地</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="linux_tune.html">1.1.2. 性能检测命令</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="tunes/top.html">top命令使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tunes/ps.html">ps命令使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tunes/lsof.html">lsof命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tunes/vmstat.html">vmstat命令使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tunes/dstat.html">dstat命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tunes/sysstat.html">sysstat使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tunes/perf.html">perf命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tunes/nmon.html">nmon命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tunes/ulimit.html">ulimit命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tunes/time.html">time命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tunes/pstree.html">pstree命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tunes/tune_tmp.html">调优临时命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/commands/tune.html">1.1.2. 性能检测命令</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tunes/top.html">top命令使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tunes/ps.html">ps命令使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tunes/lsof.html">lsof命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tunes/vmstat.html">vmstat命令使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tunes/dstat.html">dstat命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tunes/sysstat.html">sysstat使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tunes/perf.html">perf命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tunes/nmon.html">nmon命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tunes/ulimit.html">ulimit命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tunes/time.html">time命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tunes/pstree.html">pstree命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tunes/tune_tmp.html">调优临时命令</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="linux_tool.html">1.1.3. 工具命令</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="tools/watch.html">watch命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tools/tmux.html">tmux使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tools/screen.html">screen命令使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tools/pgrep.html">pgrep命令(与命令pkill关系密切)</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tools/pkill.html">pkill命令(与命令pgrep关系密切)</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tools/mtr.html">mtr命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tools/curl.html">curl命令简析</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tools/mail.html">mail命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tools/ftp.html">ftp命令使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tools/wget.html">wget命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tools/aria2c.html">aria2c命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tools/rsync.html">rsync——文件同步命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tools/rz_sz.html">rz/sz命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tools/croc.html">croc命令-go项目</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tools/ufw.html">ufw——ubuntu防火墙命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tools/iptables.html">iptables——防火墙命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tools/iptables.html#id7">实战</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tools/iptables.html#id8">参考</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tools/mount.html">mount命令使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tools/umount.html">umount命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tools/kill.html">kill命令使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tools/samba.html">samba——文件共享服务命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tools/puttygen.html">puttygen——由openssh密钥生成putty ssh密钥</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tools/htpasswd.html">htpasswd命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/commands/tool.html">1.1.3. 工具命令</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tools/watch.html">watch命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tools/tmux.html">tmux使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tools/screen.html">screen命令使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tools/pgrep.html">pgrep命令(与命令pkill关系密切)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tools/pkill.html">pkill命令(与命令pgrep关系密切)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tools/mtr.html">mtr命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tools/curl.html">curl命令简析</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tools/mail.html">mail命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tools/ftp.html">ftp命令使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tools/wget.html">wget命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tools/aria2c.html">aria2c命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tools/rsync.html">rsync——文件同步命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tools/rz_sz.html">rz/sz命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tools/croc.html">croc命令-go项目</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tools/ufw.html">ufw——ubuntu防火墙命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tools/iptables.html">iptables——防火墙命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tools/mount.html">mount命令使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tools/umount.html">umount命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tools/kill.html">kill命令使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tools/samba.html">samba——文件共享服务命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tools/puttygen.html">puttygen——由openssh密钥生成putty ssh密钥</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tools/htpasswd.html">htpasswd命令</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="linux_network.html">1.1.4. 网络命令使用</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="networks/netstat.html">netstat命令使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="networks/tracert.html">tracert命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="networks/nc.html">nc命令使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="networks/ss.html">ss命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="networks/nmap.html">nmap命令:端口扫描工具</a></li>
-<li class="toctree-l4"><a class="reference internal" href="networks/iftop.html">iftop命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="networks/ngrep.html">ngrep命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="networks/tcpdump.html">tcpdump命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="networks/tcpcopy.html">tcpcopy命令 </a></li>
-<li class="toctree-l4"><a class="reference internal" href="networks/netperf.html">netperf命令使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="networks/ifconfig.html">ifconfig命令使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="networks/ip.html">ip命令使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="networks/ping.html">ping命令使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="networks/route.html">route命令使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="networks/host.html">host命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="networks/dig.html">dig命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="networks/telnet.html">telnet命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="networks/nslookup.html">nslookup命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="networks/slurm.html">slurm命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="networks/network_other.html">网络相关其他命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/commands/network.html">1.1.4. 网络命令使用</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/networks/netstat.html">netstat命令使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/networks/tracert.html">tracert命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/networks/nc.html">nc命令使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/networks/ss.html">ss命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/networks/nmap.html">nmap命令:端口扫描工具</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/networks/iftop.html">iftop命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/networks/ngrep.html">ngrep命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/networks/tcpdump.html">tcpdump命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/networks/tcpcopy.html">tcpcopy命令 </a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/networks/netperf.html">netperf命令使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/networks/ifconfig.html">ifconfig命令使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/networks/ip.html">ip命令使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/networks/ping.html">ping命令使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/networks/route.html">route命令使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/networks/host.html">host命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/networks/dig.html">dig命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/networks/telnet.html">telnet命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/networks/nslookup.html">nslookup命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/networks/slurm.html">slurm命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/networks/network_other.html">网络相关其他命令</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="linux_simple.html">1.1.5. 简单命令</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="simples/ls.html">ls命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="simples/tree.html">tree命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="simples/pwd.html">pwd命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="simples/date.html">date命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="simples/cat.html">cat命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="simples/cp.html">cp命令使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="simples/head.html">head命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="simples/less.html">less命令使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="simples/ln.html">ln命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="simples/mkdir.html">mkdir命令使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="simples/mv.html">mv命令使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="simples/rm.html">rm命令使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="simples/rmdir.html">rmdir命令使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="simples/tail.html">tail命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="simples/touch.html">touch命令使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="simples/wc.html">wc命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="simples/echo.html">echo命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/commands/simple.html">1.1.5. 简单命令</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/simples/ls.html">ls命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/simples/tree.html">tree命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/simples/pwd.html">pwd命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/simples/date.html">date命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/simples/cat.html">cat命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/simples/cp.html">cp命令使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/simples/head.html">head命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/simples/less.html">less命令使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/simples/ln.html">ln命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/simples/mkdir.html">mkdir命令使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/simples/mv.html">mv命令使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/simples/rm.html">rm命令使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/simples/rmdir.html">rmdir命令使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/simples/tail.html">tail命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/simples/touch.html">touch命令使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/simples/wc.html">wc命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/simples/echo.html">echo命令</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="linux_normal.html">1.1.6. 常用命令</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="normals/crontab.html">crontab命令简析</a></li>
-<li class="toctree-l4"><a class="reference internal" href="normals/logrotate.html">logrotate命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="normals/nohup.html">nohup命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="normals/ssh.html">ssh命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="normals/awk.html">awk命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="normals/grep.html">grep使用方法</a></li>
-<li class="toctree-l4"><a class="reference internal" href="normals/sed.html">sed的使用方法</a></li>
-<li class="toctree-l4"><a class="reference internal" href="normals/find.html">find命令使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="normals/exec.html">exec命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="normals/xargs.html">xargs命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="normals/json_pp.html">json_pp命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="normals/diff.html">diff命令使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="normals/sort.html">sort命令使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="normals/uniq.html">uniq命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="normals/split.html">split命令使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="normals/tr.html">tr命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="normals/cut.html">cut命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="normals/read.html">read命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="normals/tee.html">tee命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="normals/du.html">du命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="normals/df.html">df命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/commands/normal.html">1.1.6. 常用命令</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/normals/crontab.html">crontab命令简析</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/normals/logrotate.html">logrotate命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/normals/nohup.html">nohup命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/normals/ssh.html">ssh命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/normals/awk.html">awk命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/normals/grep.html">grep使用方法</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/normals/sed.html">sed的使用方法</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/normals/find.html">find命令使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/normals/exec.html">exec命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/normals/xargs.html">xargs命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/normals/jq.html">json_pp命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/normals/diff.html">diff命令使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/normals/sort.html">sort命令使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/normals/uniq.html">uniq命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/normals/split.html">split命令使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/normals/tr.html">tr命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/normals/cut.html">cut命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/normals/read.html">read命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/normals/tee.html">tee命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/normals/bc.html">bc&amp;calc 等计算器命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/normals/du.html">du命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/normals/df.html">df命令</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="linux_system.html">1.1.7. 系统级linux命令</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="systems/groupadd.html">groupadd命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="systems/useradd.html">useradd命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="systems/usermod.html">usermod命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="systems/chmod.html">chmod命令使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="systems/chown.html">chown命令使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="systems/chgrp.html">chgrp命令使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="systems/passwd.html">passwd命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/commands/system.html">1.1.7. 系统级linux命令</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/systems/groupadd.html">groupadd命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/systems/useradd.html">useradd命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/systems/usermod.html">usermod命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/systems/chmod.html">chmod命令使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/systems/chown.html">chown命令使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/systems/chgrp.html">chgrp命令使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/systems/passwd.html">passwd命令</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="linux_compress.html">1.1.8. 压缩命令</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="compresses/rar.html">rar命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="compresses/tar.html">tar命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="compresses/gzip.html">gzip命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="compresses/gunzip.html">gunzip命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="compresses/bunzip2.html">bunzip2命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="compresses/bzip2.html">bzip2命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="compresses/zip.html">zip/unzip命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="compresses/unzip.html">unzip命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="compresses/compress_other.html">其他压缩命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/commands/compress.html">1.1.8. 压缩命令</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/compresses/rar.html">rar命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/compresses/tar.html">tar命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/compresses/gzip.html">gzip命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/compresses/gunzip.html">gunzip命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/compresses/bunzip2.html">bunzip2命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/compresses/bzip2.html">bzip2命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/compresses/zip.html">zip/unzip命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/compresses/unzip.html">unzip命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/compresses/compress_other.html">其他压缩命令</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="linux_kernel.html">1.1.9. linux核心修改命令</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="kernels/modprobe.html">modprobe命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="kernels/kexec.html">kexec工具</a></li>
-<li class="toctree-l4"><a class="reference internal" href="kernels/lsmod.html">lsmod命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="kernels/sysctl.html">sysctl命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="kernels/systemctl.html">systemctl命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="kernels/supervisor.html">supervisor命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="kernels/make.html">make相关功能</a></li>
-<li class="toctree-l4"><a class="reference internal" href="kernels/inotify.html">inotify系列命令 </a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/commands/kernel.html">1.1.9. linux核心修改命令</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/kernels/modprobe.html">modprobe命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/kernels/kexec.html">kexec工具</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/kernels/lsmod.html">lsmod命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/kernels/sysctl.html">sysctl命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/kernels/systemctl.html">systemctl命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/kernels/supervisor.html">supervisor命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/kernels/make.html">make相关功能</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/kernels/inotify.html">inotify系列命令 </a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="linux_special.html">1.1.10. 特殊命令列表</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="specials/locale.html">locale命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/commands/special.html">1.1.10. 特殊命令列表</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/specials/locale.html">locale命令</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="linux_centos.html">1.1.11. centos专用命令</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="centos/chkconfig.html">chkconfig命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="centos/centos_office.html">office及中文输入法安装</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/commands/centos.html">1.1.11. centos专用命令</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/centos/chkconfig.html">chkconfig命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/centos/centos_office.html">office及中文输入法安装</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="linux_debian.html">1.1.12. debain专用命令</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="debian/update-rc.d.html">update-rd.d命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="debian/rcconf.html">rcconf命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="debian/apt.html">apt命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/commands/debian.html">1.1.12. debain专用命令</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/debian/update-rc.d.html">update-rd.d命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/debian/rcconf.html">rcconf命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/debian/apt.html">apt命令</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="linux_freebsd.html">1.1.13. freebsd专用命令</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="freebsds/brew.html">brew命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="freebsds/sockstat.html">sockstat命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="freebsds/systat.html">systat命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="freebsds/netstat.html">netstat命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/commands/freebsd.html">1.1.13. freebsd专用命令</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/freebsds/brew.html">brew命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/freebsds/sockstat.html">sockstat命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/freebsds/systat.html">systat命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/freebsds/netstat.html">netstat命令</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="linux_mac.html">1.1.14. mac命令</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="macs/pfctl.html">pfctl命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/commands/mac.html">1.1.14. mac命令</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/macs/pfctl.html">pfctl命令</a></li>
 </ul>
 </li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">1.1.15. 内置函数</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="buildins/command.html">command命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="buildins/env.html">env命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="buildins/env.html#set-envexport">set,env和export命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="buildins/id.html">id命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="buildins/sh.html">sh命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="buildins/bash.html">bash命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="buildins/zsh.html">zsh命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="buildins/file.html">file命令使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="buildins/set.html">set命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="buildins/export.html">export命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/commands/buildin.html">1.1.15. 内置函数</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/buildins/command.html">command命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/buildins/env.html">env命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/buildins/env.html#set-envexport">set,env和export命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/buildins/id.html">id命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/buildins/sh.html">sh命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/buildins/bash.html">bash命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/buildins/zsh.html">zsh命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/buildins/file.html">file命令使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/buildins/set.html">set命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/buildins/export.html">export命令</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="linux_tmp.html">1.1.16. 暂未分组的linux命令</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="tmps/cksum.html">cksum命令使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tmps/md5sum.html">md5sum命令使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tmps/updatedb.html">updatedb命令使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tmps/locate.html">locate命令使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tmps/lsattr.html">lsattr命令使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tmps/lspci.html">lspci命令使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tmps/tput.html">tput命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tmps/dmesg.html">dmesg命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tmps/cmp.html">cmp命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tmps/finger.html">finger命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tmps/hostname.html">临时命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tmps/mount.html">mount命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tmps/cloc.html">cloc命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tmps/other.html">其他命令</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="../linux_file.html">1.2. linux文件</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../linux_files/normal.html">1.2.1. 常用文件</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../linux_files/file_sudo.html">1.2.2. /etc/sudoers</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../linux_files/file_sh_rc.html">1.2.3. sh初始化文件</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../linux_files/file_times.html">1.2.4. 时区</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../linux_files/file_nsswitch.html">1.2.5. /etc/nsswitch.conf文件</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../linux_files/file_grub.html">1.2.6. /etc/default/grub文件</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../linux_files/folder_init.d.html">1.2.7. init.d目录</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../linux_files/folder_tmp.html">1.2.8. /tmp目录</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../linux_files/folder_log.html">1.2.9. 日志文件</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../linux_files/logs/messages.html">/var/log/messages文件</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="../linux_files/folder_proc.html">1.2.10. /proc目录</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../linux_files/procs/sysrq-trigger.html">sysrq-trigger文件</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/commands/tmp.html">1.1.16. 暂未分组的linux命令</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tmps/cksum.html">cksum命令使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tmps/md5sum.html">md5sum命令使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tmps/updatedb.html">updatedb命令使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tmps/locate.html">locate命令使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tmps/lsattr.html">lsattr命令使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tmps/lspci.html">lspci命令使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tmps/tput.html">tput命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tmps/dmesg.html">dmesg命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tmps/cmp.html">cmp命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tmps/finger.html">finger命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tmps/hostname.html">临时命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tmps/mount.html">mount命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tmps/cloc.html">cloc命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/tmps/other.html">其他命令</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../core.html">1.3. Linux内核</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../cores/eBPF.html">1.3.1. eBPF</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1systems/linux_file.html">1.2. linux文件</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/linux_files/normal.html">1.2.1. 常用文件</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/linux_files/file_sudo.html">1.2.2. /etc/sudoers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/linux_files/file_sh_rc.html">1.2.3. sh初始化文件</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/linux_files/file_times.html">1.2.4. 时区</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/linux_files/file_nsswitch.html">1.2.5. /etc/nsswitch.conf文件</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/linux_files/file_grub.html">1.2.6. /etc/default/grub文件</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/linux_files/folder_init.d.html">1.2.7. init.d目录</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/linux_files/folder_tmp.html">1.2.8. /tmp目录</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/linux_files/folder_log.html">1.2.9. 日志文件</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/linux_files/logs/messages.html">/var/log/messages文件</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../os.html">1.4. OS相关</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../oses/centos.html">1.4.1. centos专用</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../oses/centos/centos_necessary.html">centos常见的信赖包</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../oses/centos/centos_desktop.html">centos桌面相关</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../oses/centos/yum.html">yum命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../oses/centos/rpm.html">rpm命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../oses/centos/rpm.html#id2">实例</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../oses/centos/rpm.html#id3">其他</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../oses/centos/centos_network.html">CentOS 修改IP地址, DNS, 网关</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../oses/centos/centos_other.html">其他</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="../oses/debian.html">1.4.2. ubuntu/debian专用</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../oses/debians/proxy.html">镜像源</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../oses/debians/apt.html">版本</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../oses/debians/question.html">常见问题</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../oses/debians/upgrade.html">版本升级</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../oses/debians/desktop.html">桌面相关</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="../oses/freebsd.html">1.4.3. freebsd专用</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../oses/alpine.html">1.4.4. Alpine Linux</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../oses/alpines/normal.html">常用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../oses/alpines/docker.html">docker专用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../oses/alpines/musl_libc.html">musl libc</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../oses/alpines/install.html">安装</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="../oses/busybox.html">1.4.5. BusyBox</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../oses/mac.html">1.4.6. Mac相关</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../oses/macs/mac_normal.html">mac常用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../oses/macs/mac_tool.html">工具</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../oses/macs/mac_soft.html">Mac相关软件</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../oses/macs/brew.html">brew命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../oses/macs/emoji.html">emoji</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../oses/macs/mac_tmp.html">其他</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../oses/macs/mac_question.html">问题解决方案</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../oses/macs/mac_uninstall.html">Mac删除软件相关</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../oses/macs/system_reinstall.html">系统重装参考</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="../oses/window.html">1.4.7. Windows文档</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../oses/windows/windows_soft.html">windows常用软件</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../oses/windows/windows_command.html">windows命令</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="../oses/hardware.html">1.4.8. 硬件相关</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../oses/hardwares/hw_protocol.html">协议相关</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../oses/hardwares/hw_iot.html">物联网相关</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../oses/hardwares/hw_cloud.html">云相关</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../oses/hardwares/hw_normal.html">常见知识</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../oses/hardwares/hw_normal.html#id2">设备相关术语</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../oses/hardwares/hw_os.html">硬件相关嵌入式操作系统</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../oses/hardwares/hw_raspberry.html">树莓派相关</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../oses/hardwares/hw_question.html">硬件常见问题</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../oses/hardwares/hw_other.html">其他</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/linux_files/folder_proc.html">1.2.10. /proc目录</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/linux_files/procs/sysrq-trigger.html">sysrq-trigger文件</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../normal.html">1.5. 常用</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../normals/linux_question.html">1.5.1. linux问题汇总</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../normals/linux_security.html">1.5.2. linux安全</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../normals/linux_aliyun.html">1.5.3. 阿里云debian的安装</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../normals/aliyuns/aliyun_aptupdate54.html">安装dotdeb更新源5.4版</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../normals/aliyuns/aliyun_aptupdate56.html">安装dotdeb更新源5.6版</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../normals/aliyuns/aliyun_basic.html">基本安装</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../normals/aliyuns/aliyun_puer.html">puer基本安装</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1systems/core.html">1.3. Linux内核</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/cores/eBPF.html">1.3.1. eBPF</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../normals/linux_other.html">1.5.4. Linux其他</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1systems/os.html">1.4. OS相关</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/oses/centos.html">1.4.1. centos专用</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/oses/centos/centos_necessary.html">centos常见的信赖包</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/oses/centos/centos_desktop.html">centos桌面相关</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/oses/centos/yum.html">yum命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/oses/centos/rpm.html">rpm命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/oses/centos/rpm.html#id2">实例</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/oses/centos/rpm.html#id3">其他</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/oses/centos/centos_network.html">CentOS 修改IP地址, DNS, 网关</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/oses/centos/centos_other.html">其他</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../shell.html">1.6. Shell文档</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../shells/shell_example.html">1.6.1. shell实例</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../shells/examples/example1.html">实例1</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../shells/examples/example2.html">shell实例收集</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../shells/examples/arch_os.html">linux平台架构</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../shells/examples/ssh_login.html">创建ssh远程登录欢迎词</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/oses/debian.html">1.4.2. ubuntu/debian专用</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/oses/debians/proxy.html">镜像源</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/oses/debians/apt.html">版本</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/oses/debians/question.html">常见问题</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/oses/debians/upgrade.html">版本升级</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/oses/debians/desktop.html">桌面相关</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../shells/normal.html">1.6.2. shell基本用法</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../shells/normals/shell_debug.html">shell调试</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../shells/normals/shell_introduce.html">Shell 通配符、元字符、转义符使用实例介绍</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../shells/normals/shell_if.html">shell的if語句</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../shells/normals/shell_for.html">shell的for循环</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../shells/normals/shell_printf.html">shell的printf命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../shells/normals/shell_kv.html">shell的key/value相关知识</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../shells/normals/shell_array.html">shell数组</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../shells/normals/shell_string.html">字符串相关</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../shells/normals/shell_variable.html">变量 </a></li>
-<li class="toctree-l4"><a class="reference internal" href="../shells/normals/shell_test.html">shell test命令使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../shells/normals/shell_shift.html">shift命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../shells/normals/shell_tmp.html">暂时</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/oses/freebsd.html">1.4.3. freebsd专用</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/oses/alpine.html">1.4.4. Alpine Linux</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/oses/alpines/normal.html">常用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/oses/alpines/docker.html">docker专用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/oses/alpines/musl_libc.html">musl libc</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/oses/alpines/install.html">安装</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../shells/question.html">1.6.3. 常见问题</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../shells/shell_expect.html">1.6.4. expect相关文档</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../shells/make.html">1.6.5. make相关</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../shells/makes/make_normal.html">make常用命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../shells/makes/make_cmd.html">make命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../shells/makes/make_Makefile.html">Makefile文件说明 </a></li>
-<li class="toctree-l4"><a class="reference internal" href="../shells/makes/make_include.html">include相关</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../shells/makes/make_env.html">环境变量</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../shells/makes/make_debug.html">调试</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../shells/makes/other.html">其他</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/oses/busybox.html">1.4.5. BusyBox</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/oses/mac.html">1.4.6. Mac相关</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/oses/macs/mac_normal.html">mac常用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/oses/macs/mac_tool.html">工具</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/oses/macs/mac_soft.html">Mac相关软件</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/oses/macs/brew.html">brew命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/oses/macs/emoji.html">emoji</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/oses/macs/mac_tmp.html">其他</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/oses/macs/mac_question.html">问题解决方案</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/oses/macs/mac_uninstall.html">Mac删除软件相关</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/oses/macs/system_reinstall.html">系统重装参考</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../shells/bazel.html">1.6.6. bazel</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/oses/window.html">1.4.7. Windows文档</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/oses/windows/windows_soft.html">windows常用软件</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/oses/windows/windows_command.html">windows命令</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../tune.html">1.7. 优化相关</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../tunes/tune_file.html">1.7.1. 性能相关</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../tunes/tune_tool.html">1.7.2. 优化工具</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../tunes/tools/SystemTap.html">SystemTap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/oses/hardware.html">1.4.8. 硬件相关</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/oses/hardwares/hw_protocol.html">协议相关</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/oses/hardwares/hw_iot.html">物联网相关</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/oses/hardwares/hw_cloud.html">云相关</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/oses/hardwares/hw_normal.html">常见知识</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/oses/hardwares/hw_normal.html#id2">设备相关术语</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/oses/hardwares/hw_os.html">硬件相关嵌入式操作系统</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/oses/hardwares/hw_raspberry.html">树莓派相关</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/oses/hardwares/hw_question.html">硬件常见问题</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/oses/hardwares/hw_other.html">其他</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../tunes/tune_tmp.html">1.7.3. 优化相关临时</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../gpu.html">1.8. GPU</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../gpus/cuda.html">1.8.1. cuda</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../gpus/normal.html">1.8.2. 常用</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1systems/normal.html">1.5. 常用</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/normals/linux_question.html">1.5.1. linux问题汇总</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/normals/linux_security.html">1.5.2. linux安全</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/normals/linux_aliyun.html">1.5.3. 阿里云debian的安装</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/normals/aliyuns/aliyun_aptupdate54.html">安装dotdeb更新源5.4版</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/normals/aliyuns/aliyun_aptupdate56.html">安装dotdeb更新源5.6版</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/normals/aliyuns/aliyun_basic.html">基本安装</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/normals/aliyuns/aliyun_puer.html">puer基本安装</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../history.html">1.9. 历史</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../historys/normal.html">1.9.1. 历史过程</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../historys/tmp.html">1.9.2. 常用</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/normals/linux_other.html">1.5.4. Linux其他</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../other.html">1.10. other</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../others/os.html">1.10.1. 其他OS</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../others/tool.html">1.10.2. 通用工具类</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../others/tmp.html">1.10.3. fish与zsh</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../1systems/shell.html">1.6. Shell文档</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/shells/shell_example.html">1.6.1. shell实例</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/shells/examples/example1.html">实例1</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/shells/examples/example2.html">shell实例收集</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/shells/examples/arch_os.html">linux平台架构</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/shells/examples/ssh_login.html">创建ssh远程登录欢迎词</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/shells/normal.html">1.6.2. shell基本用法</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/shells/normals/shell_debug.html">shell调试</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/shells/normals/shell_introduce.html">Shell 通配符、元字符、转义符使用实例介绍</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/shells/normals/shell_if.html">shell的if語句</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/shells/normals/shell_for.html">shell的for循环</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/shells/normals/shell_printf.html">shell的printf命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/shells/normals/shell_kv.html">shell的key/value相关知识</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/shells/normals/shell_array.html">shell数组</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/shells/normals/shell_string.html">字符串相关</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/shells/normals/shell_variable.html">变量 </a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/shells/normals/shell_test.html">shell test命令使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/shells/normals/shell_shift.html">shift命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/shells/normals/shell_tmp.html">暂时</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/shells/question.html">1.6.3. 常见问题</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/shells/shell_expect.html">1.6.4. expect相关文档</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/shells/make.html">1.6.5. make相关</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/shells/makes/make_normal.html">make常用命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/shells/makes/make_cmd.html">make命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/shells/makes/make_Makefile.html">Makefile文件说明 </a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/shells/makes/make_include.html">include相关</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/shells/makes/make_env.html">环境变量</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/shells/makes/make_debug.html">调试</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/shells/makes/other.html">其他</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/shells/bazel.html">1.6.6. bazel</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../1systems/tune.html">1.7. 优化相关</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/tunes/tune_file.html">1.7.1. 性能相关</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/tunes/tune_tool.html">1.7.2. 优化工具</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/tunes/tools/SystemTap.html">SystemTap</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/tunes/tune_tmp.html">1.7.3. 优化相关临时</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../1systems/gpu.html">1.8. GPU</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/gpus/cuda.html">1.8.1. cuda</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/gpus/normal.html">1.8.2. 常用</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../1systems/history.html">1.9. 历史</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/historys/normal.html">1.9.1. 历史过程</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/historys/tmp.html">1.9.2. 常用</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../1systems/other.html">1.10. other</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/others/os.html">1.10.1. 其他OS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/others/tool.html">1.10.2. 通用工具类</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../1systems/others/tmp.html">1.10.3. 临时</a></li>
 </ul>
 </li>
 </ul>
@@ -671,6 +675,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../2cores/architectures/design_modes/singleton.html">单例模式 </a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../2cores/architectures/design_modes/observer-design.html">观察者模式</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../2cores/architectures/design_modes/decorator.html">装饰器模式</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../2cores/architectures/design_modes/mediator.html">中介者模式</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../../2cores/architectures/sla.html">2.8.11. SLA</a></li>
@@ -987,7 +992,7 @@ var _hmt = _hmt || [];
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../../4dbs/mongodbs/command.html">4.3.3. 其他命令</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../4dbs/mongodbs/commands/db.html">DB相关</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../4dbs/mongodbs/commands/table.html">表相关</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../4dbs/mongodbs/commands/table.html">表(集合)相关</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../4dbs/mongodbs/commands/insert.html">数据插入</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../4dbs/mongodbs/commands/update.html">数据删除/修改</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../4dbs/mongodbs/commands/array.html">数组修改</a></li>
@@ -1036,7 +1041,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l3"><a class="reference internal" href="../../4dbs/mongodbs/question.html">4.3.10. 常见问题</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../4dbs/mongodbs/extend.html">4.3.11. 扩展命令</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../4dbs/mongodbs/extends/mongostat.html">mongostat</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../4dbs/mongodbs/extends/mongodump.html">mongodump数据导入导出</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../4dbs/mongodbs/extends/mongodump.html">数据导入导出</a></li>
 </ul>
 </li>
 </ul>
@@ -1200,7 +1205,7 @@ var _hmt = _hmt || [];
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../5language.html">5. 语言相关文档</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../5languages/erlang.html">5.1. Erlang文档</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/erlang_lib.html">5.1.1. 内置核心项目</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/erlang_lib.html">内置核心项目</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/libs/module_kernel.html">1. kernel </a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/libs/module_stdlib.html">2. stdlib </a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/libs/module_compiler.html">3. compiler</a></li>
@@ -1220,7 +1225,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/libs/users_guide.html">17. users_guide </a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/erlang_opensource.html">5.1.2. 开源项目</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/erlang_opensource.html">5.1.1. 开源项目</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/opensources/normal.html">其他开源项目列表</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/opensource_nets/esockd.html">esockd </a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/opensource_nets/gen_coap.html">gen_coap </a></li>
@@ -1245,7 +1250,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/opensources/mongo-erlang.html">mongo-erlang </a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/erlang.html">5.1.3. Erlang使用文档</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/erlang.html">5.1.2. Erlang使用文档</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/erlangs/erlang_question.html">Erlang常见问题</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/erlangs/erlang_skill.html">Erlang技巧</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/erlangs/erlang_code_skill.html">Erlang code skill</a></li>
@@ -1258,7 +1263,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/erlangs/erlang_remote_shell.html">Erlang接入远程shell控制台</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/mnesia.html">5.1.4. Mnesia文档</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/mnesia.html">5.1.3. Mnesia文档</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/mnesias/mnesia_usage.html">Mnesia基本用法</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/mnesias/mnesia_cluster.html">从头建立mnesia集群</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/mnesias/mnesia_cluster.html#mnesia1">在现在mnesia集群中增加1个结点</a></li>
@@ -1268,7 +1273,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/mnesias/mnesia_practice.html">Mnesia实用操作</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/rebar.html">5.1.5. Rebar文档</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/rebar.html">5.1.4. Rebar文档</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/rebars/rebar3_overal.html">rebar3整体说明</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/rebars/rebar3_command.html">rebar3 command</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/rebars/rebar3_config.html">rebar3配置</a></li>
@@ -1281,20 +1286,20 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/rebars/erlang.mk.html">erlang.mk</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/lager.html">5.1.6. Lager相关</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/lager.html">5.1.5. Lager相关</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/lagers/normal.html">基本</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/lagers/config.html">配置文件</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/lagers/tracing.html">日志跟踪</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/lagers/source.html">源码分析</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/project.html">5.1.7. 其他Erlang项目</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/project.html">5.1.6. 其他Erlang项目</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/projects/erlydtl.html">Erlydtl文档</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/projects/riak.html">Riak文档</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/projects/webmachine.html">Webmachine 使用简介</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/kerl.html">5.1.8. kerl使用 </a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/kerl.html">5.1.7. kerl使用 </a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../5languages/golang.html">5.2. Golang语言相关</a><ul>
@@ -1404,6 +1409,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/goes/skills/run_order.html">程序执行顺序</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/goes/skills/deep_copy.html">深拷贝</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/goes/skills/gc.html">GC相关优化</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../5languages/goes/skills/pointer.html">指针</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../../5languages/goes/tmp.html">5.2.11. 临时</a></li>
@@ -1524,7 +1530,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/nodes/nodes/node_install.html">node简介</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/nodes/opensource.html">5.5.2. 开源项目</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/nodes/opensource.html">开源项目</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/nodes/opensources/vue.html">1. vue相关资料</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/nodes/opensources/chart.html">2. chart图表相关</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/nodes/opensources/grunt.html">3. grunt</a></li>
@@ -1536,34 +1542,34 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/nodes/opensources/other.html">9. 其他</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/nodes/tool.html">5.5.3. 工具</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/nodes/tool.html">5.5.2. 工具</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/nodes/tools/npm.html">npm命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/nodes/tools/yarn.html">yarn命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/nodes/tools/nvm.html">nvm</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/nodes/javascript.html">5.5.4. Javascript文档</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/nodes/javascript.html">5.5.3. Javascript文档</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/nodes/javascripts/document.html">dom命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/nodes/javascripts/js_basic.html">js的常用函数收集</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/nodes/javascripts/jquery.html">jquery文档</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/nodes/javascripts/cordova.html">cordova基本操作</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/nodes/ecmaScript.html">5.5.5. ECMAScript</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/nodes/typeScript.html">5.5.6. TypeScript</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/nodes/deployment.html">5.5.7. 构建工具</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/nodes/ecmaScript.html">5.5.4. ECMAScript</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/nodes/typeScript.html">5.5.5. TypeScript</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/nodes/deployment.html">5.5.6. 构建工具</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/nodes/deployments/deploy_webpack.html">webpack构建工具</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/nodes/deployments/deploy_Browserify.html">Browserify</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/nodes/h5.html">5.5.8. h5相关</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/nodes/h5.html">5.5.7. h5相关</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/nodes/h5s/svg.html">SVG相关</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/nodes/h5s/canvas.html">Canvas</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/nodes/h5s/webGL.html">webGL</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/nodes/question.html">5.5.9. 常见问题</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/nodes/tmp.html">5.5.10. 临时相关</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/nodes/question.html">5.5.8. 常见问题</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/nodes/tmp.html">5.5.9. 临时相关</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../5languages/c.html">5.6. C语言使用文档</a><ul>
@@ -1797,7 +1803,9 @@ var _hmt = _hmt || [];
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../../7assists/nginxs/apache.html">7.3.2. apache的简单使用方法</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../7assists/nginxs/openresty.html">7.3.3. openresty</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../7assists/nginxs/lvs.html">7.3.3. lvs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../7assists/nginxs/HAproxy.html">7.3.4. HAproxy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../7assists/nginxs/openresty.html">7.3.5. openresty</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../7assists/sphinxdoc.html">7.4. Sphinx Document文档</a><ul>
@@ -1942,335 +1950,337 @@ var _hmt = _hmt || [];
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../8tool.html">8. 工具使用文档</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../8tools/k8s.html">8.1. k8s相关</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/k8s/normal.html">8.1.1. kube基本</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/normals/install.html">安装配置kubectl </a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/normals/volume.html">卷-磁盘挂载</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/normals/concept.html">定义</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/normals/principle.html">原理</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/normals/cluster_testing.html">集群测试</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/normals/introduce.html">介绍</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/normals/svc_catalog.html">Catalog服务</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/normals/cAdvisor.html">cAdvisor</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../8tool.html">8. 工具使用文档</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../k8s.html">8.1. k8s相关</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../k8s/normal.html">8.1.1. kube基本</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/normals/install.html">安装配置kubectl </a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/normals/volume.html">卷-磁盘挂载</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/normals/concept.html">定义</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/normals/principle.html">原理</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/normals/cluster_testing.html">集群测试</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/normals/introduce.html">介绍</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/normals/svc_catalog.html">Catalog服务</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/normals/cAdvisor.html">cAdvisor</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/k8s/cmd.html">8.1.2. kubectl命令</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/cmds/0help.html">帮助</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/cmds/1create.html">kubectl create</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/cmds/1expose.html">kubectl expose</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/cmds/1run.html">kubect run</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/cmds/2explain.html">kubectl explain</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/cmds/2get.html">kubectl get</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/cmds/2delete.html">kubectl delete</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/cmds/2edit.html">kubectl edit</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/cmds/3scale.html">kubectl scale</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/cmds/3rollout.html">kubectl rollout</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/cmds/4cluster-info.html">kubectl cluster-info</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/cmds/4cordon.html">kubectl cordon</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/cmds/4drain.html">kubectl drain</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/cmds/4top.html">kubectl top</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/cmds/5describe.html">kubectl describe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/cmds/5logs.html">kubectl logs</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/cmds/5port-forward.html">kubectl port-forward</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/cmds/5attach.html">kubectl attach</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/cmds/5exec.html">kubectl exec</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/cmds/5cp.html">kubectl cp</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/cmds/5proxy.html">kubectl proxy</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/cmds/6apply.html">kubectl apply</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/cmds/6patch.html">kubectl patch</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/cmds/7label.html">kubectl label</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/cmds/7annotate.html">kubectl annotate</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/cmds/8config.html">kubectl config</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/cmds/8api-versions.html">kubectl api-versions</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/cmds/8version.html">kubectl version</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/cmds/8api-resources.html">kubectl api-resources</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../k8s/cmd.html">8.1.2. kubectl命令</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/cmds/0help.html">帮助</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/cmds/1create.html">kubectl create</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/cmds/1expose.html">kubectl expose</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/cmds/1run.html">kubect run</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/cmds/2explain.html">kubectl explain</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/cmds/2get.html">kubectl get</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/cmds/2delete.html">kubectl delete</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/cmds/2edit.html">kubectl edit</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/cmds/3scale.html">kubectl scale</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/cmds/3rollout.html">kubectl rollout</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/cmds/4cluster-info.html">kubectl cluster-info</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/cmds/4cordon.html">kubectl cordon</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/cmds/4drain.html">kubectl drain</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/cmds/4top.html">kubectl top</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/cmds/5describe.html">kubectl describe</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/cmds/5logs.html">kubectl logs</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/cmds/5port-forward.html">kubectl port-forward</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/cmds/5attach.html">kubectl attach</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/cmds/5exec.html">kubectl exec</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/cmds/5cp.html">kubectl cp</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/cmds/5proxy.html">kubectl proxy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/cmds/6apply.html">kubectl apply</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/cmds/6patch.html">kubectl patch</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/cmds/7label.html">kubectl label</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/cmds/7annotate.html">kubectl annotate</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/cmds/8config.html">kubectl config</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/cmds/8api-versions.html">kubectl api-versions</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/cmds/8version.html">kubectl version</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/cmds/8api-resources.html">kubectl api-resources</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/k8s/principle.html">8.1.3. k8s 原理</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/principles/normal.html">整体</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/principles/api-server.html">API Server</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/principles/scheduler.html">scheduler</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/principles/client-go.html">client-go</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/principles/controller.html">controller manager</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/principles/operator.html">Operator</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../k8s/principle.html">8.1.3. k8s 原理</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/principles/normal.html">整体</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/principles/api-server.html">API Server</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/principles/scheduler.html">scheduler</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/principles/client-go.html">client-go</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/principles/controller.html">controller manager</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/principles/operator.html">Operator</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/k8s/yaml.html">8.1.4. kubectl yaml文件</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/yamls/Pod.yml.html">Pod.yaml</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/yamls/Deployment.yml.html">Deployment.yml</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/yamls/Job.yml.html">Job.yml</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/yamls/CronJob.yml.html">CronJob.yaml</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/yamls/Secret.yml.html">Secret.yml</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/yamls/Service.yml.html">Service.yml</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/yamls/Ingress.yml.html">Ingress.yml</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/yamls/PersistentVolume.yml.html">PersistentVolume</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/yamls/StatefulSet.yml.html">StatefulSet</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/yamls/ConfigMap.yml.html">ConfigMap.yaml</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/yamls/Role.yml.html">Role.yml</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/yamls/NetworkPolicy.yml.html">NetworkPolicy.yaml</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/yamls/PodSecurityPolicy.yml.html">PodSecurityPolicy.yaml</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/yamls/LimitRange.yml.html">LimitRange.yml</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/yamls/ResourceQuota.yml.html">ResourceQuota.yaml</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/yamls/ServiceAccount.yml.html">ServiceAccount.yaml</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/yamls/CustomResourceDefinition.yml.html">CustomResourceDefinition.yaml</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/yamls/StorageClasses.yml.html">StorageClasses.yaml</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/yamls/option_securityContext.html">securityContext选项</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/yamls/option_hostNetwork.html">hostNetwork选项</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/yamls/option_hostPort.html">hostPort选项</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/yamls/option_lifecycle.html">lifecycle选项</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../k8s/yaml.html">8.1.4. kubectl yaml文件</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/yamls/Pod.yml.html">Pod.yaml</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/yamls/Deployment.yml.html">Deployment.yml</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/yamls/Job.yml.html">Job.yml</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/yamls/CronJob.yml.html">CronJob.yaml</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/yamls/Secret.yml.html">Secret.yml</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/yamls/Service.yml.html">Service.yml</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/yamls/Ingress.yml.html">Ingress.yml</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/yamls/PersistentVolume.yml.html">PersistentVolume</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/yamls/StatefulSet.yml.html">StatefulSet</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/yamls/ConfigMap.yml.html">ConfigMap.yaml</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/yamls/Role.yml.html">Role.yml</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/yamls/NetworkPolicy.yml.html">NetworkPolicy.yaml</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/yamls/PodSecurityPolicy.yml.html">PodSecurityPolicy.yaml</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/yamls/LimitRange.yml.html">LimitRange.yml</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/yamls/ResourceQuota.yml.html">ResourceQuota.yaml</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/yamls/ServiceAccount.yml.html">ServiceAccount.yaml</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/yamls/CustomResourceDefinition.yml.html">CustomResourceDefinition.yaml</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/yamls/StorageClasses.yml.html">StorageClasses.yaml</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/yamls/option_securityContext.html">securityContext选项</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/yamls/option_hostNetwork.html">hostNetwork选项</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/yamls/option_hostPort.html">hostPort选项</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/yamls/option_lifecycle.html">lifecycle选项</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/k8s/practice.html">8.1.5. k8s实战</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/practices/cluster_setup.html">Kubernetes集群组建</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/practices/cluster_rebuild.html">Kubernetes集群重建</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/practices/cluster_node_upgrade.html">集群结点升级</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/practices/plugin_dashboard.html">dashboard服务安装</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/practices/plugin_ingress.html">Ingress(服务暴露) </a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/practices/custom_API_objects.html">Defining custom API objects</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/practices/git-sync.html">git-sync</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/practices/secret_dockerpull.html">私有仓库拉取镜像 </a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/practices/skill_docker_load.html">小技巧-翻墙才能用的镜像使用方法</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../k8s/practice.html">8.1.5. k8s实战</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/practices/cluster_setup.html">Kubernetes集群组建</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/practices/cluster_rebuild.html">Kubernetes集群重建</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/practices/cluster_node_upgrade.html">集群结点升级</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/practices/plugin_dashboard.html">dashboard服务安装</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/practices/plugin_ingress.html">Ingress(服务暴露) </a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/practices/custom_API_objects.html">Defining custom API objects</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/practices/git-sync.html">git-sync</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/practices/secret_dockerpull.html">私有仓库拉取镜像 </a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/practices/skill_docker_load.html">小技巧-翻墙才能用的镜像使用方法</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/k8s/future.html">8.1.6. 未来</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/k8s/tool.html">8.1.7. 工具</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/tools/kt-connect.html">kt-connect工具</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/tools/kubedog.html">kubedog</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/tools/kustomize.html">Kustomize</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/tools/kubecm.html">kubecm</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/tools/kubewatch.html">kubewatch命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/tools/kubeevent.html">kube-eventer</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/tools/kubebuilder.html">kubebuilder</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/tools/kubeflow.html">kubeflow</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/tools/k3s.html">k3s&amp;k3d</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/tools/k9s.html">k9s</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/tools/fleet.html">fleet</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/tools/ksonnet.html">ksonnet命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/tools/icePanel.html">IcePanel</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/tools/ingress_controller.html">Ingress Controllers</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/tools/minikube.html">Minikube相关</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../k8s/future.html">8.1.6. 未来</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../k8s/tool.html">8.1.7. 工具</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/tools/kt-connect.html">kt-connect工具</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/tools/kubedog.html">kubedog</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/tools/kustomize.html">Kustomize</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/tools/kubecm.html">kubecm</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/tools/kubewatch.html">kubewatch命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/tools/kubeevent.html">kube-eventer</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/tools/kubebuilder.html">kubebuilder</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/tools/kubeflow.html">kubeflow</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/tools/k3s.html">k3s&amp;k3d</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/tools/k9s.html">k9s</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/tools/fleet.html">fleet</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/tools/ksonnet.html">ksonnet命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/tools/icePanel.html">IcePanel</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/tools/ingress_controller.html">Ingress Controllers</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/tools/minikube.html">Minikube相关</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/k8s/helm.html">8.1.8. Helm Chart</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/k8s/history.html">8.1.9. 历史版本</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/historys/v1.14.html">1.14版本</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../k8s/helm.html">8.1.8. Helm Chart</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../k8s/history.html">8.1.9. 历史版本</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../k8s/historys/v1.14.html">1.14版本</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/k8s/question.html">8.1.10. 常见问题</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../k8s/question.html">8.1.10. 常见问题</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../8tools/docker.html">8.2. Docker相关</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/dockers/normal.html">8.2.1. 常用</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/dockers/docker.html">8.2.2. Docker相关</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/dockers/dockers/normal.html">docker基本</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/dockers/dockers/docker_hub.html">常用Docker镜像</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/dockers/dockers/docker_Dockerfile.html">Dockerfile</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/dockers/dockers/docker_cmd.html">docker命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/dockers/dockers/docker_compose.html">docker-compose命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/dockers/dockers/docker_machine.html">docker-machine命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/dockers/dockers/docker_swarm.html">Docker Swarm</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/dockers/dockers/question.html">常见问题</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/dockers/dockers/practice.html">docker实战</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../docker.html">8.2. Docker相关</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="normal.html">8.2.1. 常用</a></li>
+<li class="toctree-l3"><a class="reference internal" href="docker.html">8.2.2. Docker相关</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="dockers/normal.html">docker基本</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dockers/docker_hub.html">常用Docker镜像</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dockers/docker_Dockerfile.html">Dockerfile</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dockers/docker_cmd.html">docker命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dockers/docker_compose.html">docker-compose命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dockers/docker_machine.html">docker-machine命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dockers/docker_swarm.html">Docker Swarm</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dockers/question.html">常见问题</a></li>
+<li class="toctree-l4"><a class="reference internal" href="dockers/practice.html">docker实战</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/dockers/nomad.html">8.2.3. nomad</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/dockers/rancher.html">8.2.4. Rancher</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/dockers/language.html">8.2.5. 云原生编程语言</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/dockers/languages/pulumi.html">Pulumi</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/dockers/languages/ballerina.html">Ballerina</a></li>
+<li class="toctree-l3"><a class="reference internal" href="nomad.html">8.2.3. nomad</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rancher.html">8.2.4. Rancher</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">8.2.5. 容器运行时</a></li>
+<li class="toctree-l3"><a class="reference internal" href="image-build.html">8.2.6. Image Build</a></li>
+<li class="toctree-l3"><a class="reference internal" href="language.html">8.2.7. 云原生编程语言</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="languages/pulumi.html">Pulumi</a></li>
+<li class="toctree-l4"><a class="reference internal" href="languages/ballerina.html">Ballerina</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/dockers/openstack.html">8.2.6. openstack</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/dockers/virtualbox.html">8.2.7. VirtualBox</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/dockers/vmware.html">8.2.8. VMware</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/dockers/vagrant.html">8.2.9. vagrant命令</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/dockers/tmp.html">8.2.10. 临时</a></li>
+<li class="toctree-l3"><a class="reference internal" href="openstack.html">8.2.8. openstack</a></li>
+<li class="toctree-l3"><a class="reference internal" href="virtualbox.html">8.2.9. VirtualBox</a></li>
+<li class="toctree-l3"><a class="reference internal" href="vmware.html">8.2.10. VMware</a></li>
+<li class="toctree-l3"><a class="reference internal" href="vagrant.html">8.2.11. vagrant命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tmp.html">8.2.12. 临时</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../8tools/cicd.html">8.3. CI/CD相关</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/cicds/normal.html">8.3.1. 常用</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/cicds/ops.html">8.3.2. OPS</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/cicds/opses/devops.html">DevOps</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/cicds/opses/gitops.html">GitOps</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/cicds/opses/chatops.html">ChatOps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cicd.html">8.3. CI/CD相关</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../cicds/normal.html">8.3.1. 常用</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../cicds/ops.html">8.3.2. OPS</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../cicds/opses/devops.html">DevOps</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../cicds/opses/gitops.html">GitOps</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../cicds/opses/chatops.html">ChatOps</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/cicds/jenkins.html">8.3.3. Jenkins </a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/cicds/jenkins/normal.html">常用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/cicds/jenkins/Jenkinsfile.html">Jenkinsfile</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../cicds/jenkins.html">8.3.3. Jenkins </a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../cicds/jenkins/normal.html">常用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../cicds/jenkins/Jenkinsfile.html">Jenkinsfile</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/cicds/drone.html">8.3.4. drone</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/cicds/drones/normal.html">常用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/cicds/drones/configuration.html">配置文件</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/cicds/drones/env.html">环境变量</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/cicds/drones/plugin.html">插件</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/cicds/drones/practice.html">实践</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/cicds/drones/question.html">常见问题</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/cicds/drones/source.html">源码</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../cicds/drone.html">8.3.4. drone</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../cicds/drones/normal.html">常用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../cicds/drones/configuration.html">配置文件</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../cicds/drones/env.html">环境变量</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../cicds/drones/plugin.html">插件</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../cicds/drones/practice.html">实践</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../cicds/drones/question.html">常见问题</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../cicds/drones/source.html">源码</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/cicds/github.html">8.3.5. GitHub Action</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/cicds/tekton.html">8.3.6. tekton</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/cicds/argo.html">8.3.7. argo</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/cicds/gitlab.html">8.3.8. gitlab的CI/CD</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/cicds/gitlabs/install.html">安装 </a></li>
+<li class="toctree-l3"><a class="reference internal" href="../cicds/github.html">8.3.5. GitHub Action</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../cicds/tekton.html">8.3.6. tekton</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../cicds/argo.html">8.3.7. argo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../cicds/gitlab.html">8.3.8. gitlab的CI/CD</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../cicds/gitlabs/install.html">安装 </a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/cicds/rancher.html">8.3.9. Rancher</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/cicds/other.html">8.3.10. 其他</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../cicds/rancher.html">8.3.9. Rancher</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../cicds/other.html">8.3.10. 其他</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../8tools/monitor.html">8.4. 监控相关</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/monitors/statsd.html">8.4.1. statsd相关 </a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/monitors/graphite.html">8.4.2. graphite相关 </a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/monitors/grafana.html">8.4.3. grafana相关</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/monitors/grafanas/normal.html">常用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/monitors/grafanas/api.html">API</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../monitor.html">8.4. 监控相关</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../monitors/statsd.html">8.4.1. statsd相关 </a></li>
+<li class="toctree-l3"><a class="reference internal" href="../monitors/graphite.html">8.4.2. graphite相关 </a></li>
+<li class="toctree-l3"><a class="reference internal" href="../monitors/grafana.html">8.4.3. grafana相关</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../monitors/grafanas/normal.html">常用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../monitors/grafanas/api.html">API</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/monitors/prometheus.html">8.4.4. Prometheus</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/monitors/prometheus/normal.html">常用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/monitors/prometheus/prometheus.html">prometheus</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/monitors/prometheus/exporter.html">exporter </a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/monitors/prometheus/alertmanager.html">alertmanager </a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/monitors/prometheus/metrics.html">指标</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/monitors/prometheus/thanos.html">Thanos</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/monitors/prometheus/port.html">端口 </a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/monitors/prometheus/practice.html">实战</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/monitors/prometheus/promql.html">PromQL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../monitors/prometheus.html">8.4.4. Prometheus</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../monitors/prometheus/normal.html">常用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../monitors/prometheus/prometheus.html">prometheus</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../monitors/prometheus/exporter.html">exporter </a></li>
+<li class="toctree-l4"><a class="reference internal" href="../monitors/prometheus/alertmanager.html">alertmanager </a></li>
+<li class="toctree-l4"><a class="reference internal" href="../monitors/prometheus/metrics.html">指标</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../monitors/prometheus/thanos.html">Thanos</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../monitors/prometheus/port.html">端口 </a></li>
+<li class="toctree-l4"><a class="reference internal" href="../monitors/prometheus/practice.html">实战</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../monitors/prometheus/promql.html">PromQL</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/monitors/zabbix.html">8.4.5. zabbix</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/monitors/nagios.html">8.4.6. Nagios使用文档</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/monitors/nagios/nagios_introduce.html">nagios简介</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/monitors/nagios/nagios_quickstart.html">快速开始(以ubuntu为例)</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/monitors/nagios/nagios_basic.html">Nagios基本功能</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/monitors/nagios/nagios_usage.html">Nagios的使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/monitors/nagios/nagios_plugin.html">nagios使用插件</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/monitors/nagios/nagios_monitoring-linux.html">Linux/Unix机器监控</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/monitors/nagios/nagios_monitoring-publicservices.html">监控公共可用服务</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/monitors/nagios/nagios_addons.html">Nagios插件</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/monitors/nagios/nagios_config.html">Nagios配置</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/monitors/nagios/nagios_other.html">其他运维工具</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../monitors/zabbix.html">8.4.5. zabbix</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../monitors/nagios.html">8.4.6. Nagios使用文档</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../monitors/nagios/nagios_introduce.html">nagios简介</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../monitors/nagios/nagios_quickstart.html">快速开始(以ubuntu为例)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../monitors/nagios/nagios_basic.html">Nagios基本功能</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../monitors/nagios/nagios_usage.html">Nagios的使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../monitors/nagios/nagios_plugin.html">nagios使用插件</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../monitors/nagios/nagios_monitoring-linux.html">Linux/Unix机器监控</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../monitors/nagios/nagios_monitoring-publicservices.html">监控公共可用服务</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../monitors/nagios/nagios_addons.html">Nagios插件</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../monitors/nagios/nagios_config.html">Nagios配置</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../monitors/nagios/nagios_other.html">其他运维工具</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/monitors/kibana.html">8.4.7. Kibana</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/monitors/corp.html">8.4.8. 企业版</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/monitors/other.html">8.4.9. 其他</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../monitors/kibana.html">8.4.7. Kibana</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../monitors/corp.html">8.4.8. 企业版</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../monitors/other.html">8.4.9. 其他</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../8tools/servicemesh.html">8.5. 服务风格</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/servicemeshes/normal.html">8.5.1. 常用</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/servicemeshes/normals/history.html">历史</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/servicemeshes/normals/concept.html">定义</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../servicemesh.html">8.5. 服务网格</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../servicemeshes/normal.html">8.5.1. 常用</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../servicemeshes/normals/history.html">历史</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../servicemeshes/normals/concept.html">定义</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/servicemeshes/istio.html">8.5.2. Istio</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/servicemeshes/istios/normal.html">常用</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="../../8tools/testing.html">8.6. 测试</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/testings/stress_testing.html">8.6.1. 压力测试</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/testings/stress_testings/normal.html">常用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/testings/stress_testings/simple.html">简单工具</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/testings/stress_testings/k6.html">k6</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/testings/stress_testings/tsung.html">Tsung使用文档</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/testings/stress_testings/jmeter.html">Apache JMeter</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/testings/stress_testings/loadRunner.html">LoadRunner</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/testings/stress_testings/cloudPlatform.html">云平台</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/testings/auto_testing.html">8.6.2. 自动化测试</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/testings/auto_testings/httprunner.html">HttpRunner </a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/testings/performance_testing.html">8.6.3. 性能测试</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/testings/performance_testings/normal.html">常用</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../servicemeshes/istio.html">8.5.2. Istio</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../servicemeshes/istios/normal.html">常用</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../8tools/mqtt.html">8.7. Emqtt文档</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/mqtts/mqtt_normal.html">8.7.1. MQTT文档简介</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/mqtts/mqtt_emq.html">8.7.2. Emqtt的使用</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/mqtts/emqtts/emqtt_basic.html">Emqtt基本</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/mqtts/emqtts/emqtt_tune.html">Emqtt优化相关</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/mqtts/emqtts/emqtt_command.html">Emqtt使用命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/mqtts/emqtts/emqtt_config.html">Emqtt配置文件</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/mqtts/emqtts/emqtt_plugin.html">Emqtt插件</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/mqtts/emqtts/emqtt_cluster.html">Emqtt分布集群</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/mqtts/emqtts/emqtt_bridge.html">Emqtt节点桥接Bridge</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/mqtts/emqtts/emqtt_userguide.html">Emqtt用户指南 (User Guide)</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/mqtts/emqtts/emqtt_design.html">Emqtt架构设计 (Design)</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/mqtts/emqtts/emqtt_version.html">Emqtt版本</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../testing.html">8.6. 测试</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../testings/stress_testing.html">8.6.1. 压力测试</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../testings/stress_testings/normal.html">常用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../testings/stress_testings/simple.html">简单工具</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../testings/stress_testings/k6.html">k6</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../testings/stress_testings/tsung.html">Tsung使用文档</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../testings/stress_testings/jmeter.html">Apache JMeter</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../testings/stress_testings/loadRunner.html">LoadRunner</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../testings/stress_testings/cloudPlatform.html">云平台</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/mqtts/mqtt_protocol.html">8.7.3. MQTT协议</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/mqtts/protocols/protocol_mqtt_basic.html">MQTT协议</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/mqtts/protocols/protocol_mqtt_sn.html">MQTT-SN协议</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/mqtts/protocols/protocol_mqtt_v3.1.1.html">MQTT V3.1.1协议报文</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/mqtts/protocols/protocol_mqtt_v5.0.html">MQTT5.0  </a></li>
+<li class="toctree-l3"><a class="reference internal" href="../testings/auto_testing.html">8.6.2. 自动化测试</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../testings/auto_testings/httprunner.html">HttpRunner </a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/mqtts/mqtt_mosquitto.html">8.7.4. mosquitto的使用</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../testings/performance_testing.html">8.6.3. 性能测试</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../testings/performance_testings/normal.html">常用</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../8tools/wireshark.html">8.8. 抓包工具</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/wiresharks/Wireshark.html">8.8.1. Wireshark命令</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/wiresharks/Charles.html">8.8.2. Charles</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/wiresharks/Fiddler.html">8.8.3. Fiddler</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/wiresharks/Other.html">8.8.4. 其他</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../8tools/jumpserver.html">8.9. JumpServer</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../8tools/vpn.html">8.10. 翻墙技术</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/vpns/normal.html">8.10.1. 基础</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/vpns/concept.html">8.10.2. 定义</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/vpns/fanqiang.html">8.10.3. 翻墙技术</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/vpns/fanqiangs/fanqiang_vpn.html">VPN相关</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/vpns/fanqiangs/fanqiang_server.html">启动ssh隧道</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/vpns/fanqiangs/fanqiang_client.html">proxy client使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/vpns/fanqiangs/fanqiang_browser.html">浏览器代理</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/vpns/fanqiangs/fanqiang_git.html">git使用ssh隧道翻墙</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/vpns/fanqiangs/shadowsock.html">Shadowsock</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/vpns/fanqiangs/outline.html">outline</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/vpns/fanqiangs/V2Ray.html">V2Ray</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../mqtt.html">8.7. Emqtt文档</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../mqtts/mqtt_normal.html">8.7.1. MQTT文档简介</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../mqtts/mqtt_emq.html">8.7.2. Emqtt的使用</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../mqtts/emqtts/emqtt_basic.html">Emqtt基本</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../mqtts/emqtts/emqtt_tune.html">Emqtt优化相关</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../mqtts/emqtts/emqtt_command.html">Emqtt使用命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../mqtts/emqtts/emqtt_config.html">Emqtt配置文件</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../mqtts/emqtts/emqtt_plugin.html">Emqtt插件</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../mqtts/emqtts/emqtt_cluster.html">Emqtt分布集群</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../mqtts/emqtts/emqtt_bridge.html">Emqtt节点桥接Bridge</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../mqtts/emqtts/emqtt_userguide.html">Emqtt用户指南 (User Guide)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../mqtts/emqtts/emqtt_design.html">Emqtt架构设计 (Design)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../mqtts/emqtts/emqtt_version.html">Emqtt版本</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/vpns/dnat.html">8.10.4. 端口映射</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/vpns/dnats/ssh.html">SSH代理</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/vpns/dnats/sshuttle.html">sshuttle</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../mqtts/mqtt_protocol.html">8.7.3. MQTT协议</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../mqtts/protocols/protocol_mqtt_basic.html">MQTT协议</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../mqtts/protocols/protocol_mqtt_sn.html">MQTT-SN协议</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../mqtts/protocols/protocol_mqtt_v3.1.1.html">MQTT V3.1.1协议报文</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../mqtts/protocols/protocol_mqtt_v5.0.html">MQTT5.0  </a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/vpns/ngrok.html">8.10.5. ngrok </a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/vpns/tool.html">8.10.6. 种类工具</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/vpns/tools/sshuttle.html">sshuttle工具</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/vpns/tools/Drony.html">Drony</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/vpns/tools/Droid.html">Droid</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../mqtts/mqtt_mosquitto.html">8.7.4. mosquitto的使用</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/vpns/question.html">8.10.7. 常见问题</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../wireshark.html">8.8. 抓包工具</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../wiresharks/Wireshark.html">8.8.1. Wireshark命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../wiresharks/Charles.html">8.8.2. Charles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../wiresharks/Fiddler.html">8.8.3. Fiddler</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../wiresharks/Other.html">8.8.4. 其他</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../8tools/tmp.html">8.11. 临时</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../8tools/other.html">8.12. 其他工具</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/others/freeswitch.html">8.12.1. Freeswitch文档</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/others/freeswitches/freeswitch_install.html">FreeSWITCH安装</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../jumpserver.html">8.9. JumpServer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../vpn.html">8.10. 翻墙技术</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../vpns/normal.html">8.10.1. 基础</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../vpns/concept.html">8.10.2. 定义</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../vpns/fanqiang.html">8.10.3. 翻墙技术</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../vpns/fanqiangs/fanqiang_vpn.html">VPN相关</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../vpns/fanqiangs/fanqiang_server.html">启动ssh隧道</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../vpns/fanqiangs/fanqiang_client.html">proxy client使用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../vpns/fanqiangs/fanqiang_browser.html">浏览器代理</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../vpns/fanqiangs/fanqiang_git.html">git使用ssh隧道翻墙</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../vpns/fanqiangs/shadowsock.html">Shadowsock</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../vpns/fanqiangs/outline.html">outline</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../vpns/fanqiangs/V2Ray.html">V2Ray</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/others/asterisk.html">8.12.2. Asterisk文档</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/others/asterisks/asterisk_install.html">asterisk安装</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/others/asterisks/asterisk_command.html">asterisk命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../vpns/dnat.html">8.10.4. 端口映射</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../vpns/dnats/ssh.html">SSH代理</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../vpns/dnats/sshuttle.html">sshuttle</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/others/webqq.html">8.12.3. webqq使用</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/others/dia.html">8.12.4. dia使用文档</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/others/dias/dia_introduce.html">dia介绍</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/others/dias/dia_install.html">dia的安装启动</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../vpns/ngrok.html">8.10.5. ngrok </a></li>
+<li class="toctree-l3"><a class="reference internal" href="../vpns/tool.html">8.10.6. 种类工具</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../vpns/tools/sshuttle.html">sshuttle工具</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../vpns/tools/Drony.html">Drony</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../vpns/tools/Droid.html">Droid</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../vpns/question.html">8.10.7. 常见问题</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../tmp.html">8.11. 临时</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../other.html">8.12. 其他工具</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../others/freeswitch.html">8.12.1. Freeswitch文档</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../others/freeswitches/freeswitch_install.html">FreeSWITCH安装</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../others/asterisk.html">8.12.2. Asterisk文档</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../others/asterisks/asterisk_install.html">asterisk安装</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../others/asterisks/asterisk_command.html">asterisk命令</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../others/webqq.html">8.12.3. webqq使用</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../others/dia.html">8.12.4. dia使用文档</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../others/dias/dia_introduce.html">dia介绍</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../others/dias/dia_install.html">dia的安装启动</a></li>
 </ul>
 </li>
 </ul>
@@ -2340,17 +2350,17 @@ var _hmt = _hmt || [];
     
       <li><a href="../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../1system.html"><span class="section-number">1. </span>操作系统相关</a> &raquo;</li>
+          <li><a href="../../8tool.html"><span class="section-number">8. </span>工具使用文档</a> &raquo;</li>
         
-          <li><a href="../linux_command.html"><span class="section-number">1.1. </span>命令收集</a> &raquo;</li>
+          <li><a href="../docker.html"><span class="section-number">8.2. </span>Docker相关</a> &raquo;</li>
         
-      <li><span class="section-number">1.1.15. </span>内置函数</li>
+      <li><span class="section-number">8.2.5. </span>容器运行时</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="../../_sources/1systems/commands/linux_buildin.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../../_sources/8tools/dockers/cri.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -2364,36 +2374,12 @@ var _hmt = _hmt || [];
            <div itemprop="articleBody">
             
   <div class="section" id="id1">
-<h1><span class="section-number">1.1.15. </span>内置函数<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="buildins/command.html">command命令</a></li>
-<li class="toctree-l1"><a class="reference internal" href="buildins/env.html">env命令</a></li>
-<li class="toctree-l1"><a class="reference internal" href="buildins/env.html#set-envexport">set,env和export命令</a></li>
-<li class="toctree-l1"><a class="reference internal" href="buildins/id.html">id命令</a></li>
-<li class="toctree-l1"><a class="reference internal" href="buildins/sh.html">sh命令</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="buildins/sh.html#bourne-shell">Bourne shell启动脚本相关</a></li>
+<h1><span class="section-number">8.2.5. </span>容器运行时<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>CRI: Kubernetes Container Runtime Interface</p></li>
+<li><p>containerd: <a class="reference external" href="https://github.com/containerd/containerd/">https://github.com/containerd/containerd/</a></p></li>
+<li><p>CRI-O: <a class="reference external" href="https://github.com/cri-o/cri-o">https://github.com/cri-o/cri-o</a></p></li>
 </ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="buildins/bash.html">bash命令</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="buildins/bash.html#bashbourne-shell">bash的语法对Bourne shell的不足的扩展</a></li>
-<li class="toctree-l2"><a class="reference internal" href="buildins/bash.html#id10">Bash启动脚本相关</a></li>
-<li class="toctree-l2"><a class="reference internal" href="buildins/bash.html#id15">参考</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="buildins/zsh.html">zsh命令</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="buildins/zsh.html#id1">zsh启动脚本相关</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="buildins/file.html">file命令使用</a></li>
-<li class="toctree-l1"><a class="reference internal" href="buildins/set.html">set命令</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="buildins/set.html#id1">实例</a></li>
-<li class="toctree-l2"><a class="reference internal" href="buildins/set.html#id2">代码</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="buildins/export.html">export命令</a></li>
-</ul>
-</div>
 </div>
 
 
@@ -2404,10 +2390,10 @@ var _hmt = _hmt || [];
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="buildins/command.html" class="btn btn-neutral float-right" title="command命令" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="image-build.html" class="btn btn-neutral float-right" title="8.2.6. Image Build" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="macs/pfctl.html" class="btn btn-neutral" title="pfctl命令" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="rancher.html" class="btn btn-neutral" title="8.2.4. Rancher" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
