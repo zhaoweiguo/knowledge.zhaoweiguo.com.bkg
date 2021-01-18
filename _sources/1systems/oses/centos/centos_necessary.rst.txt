@@ -24,6 +24,22 @@ automake安装::
   yum install automake
   //依赖:autoconf/imake
 
+常见文件::
+
+    版本号相关:
+    $ cat /etc/redhat-release
+    Linux 版本:
+    $ cat /proc/version
+
+    $ uname -a
+    $ uname -r
+
+查看系统是 32 位或者 64 位的方法::
+
+    $ getconf LONG_BIT or getconf WORD_BIT
+    $ file /bin/ls
+
+
 
 ::
 

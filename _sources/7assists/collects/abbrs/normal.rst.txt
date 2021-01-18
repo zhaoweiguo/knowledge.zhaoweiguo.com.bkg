@@ -162,7 +162,9 @@ O
 * OCR: Optical Character Recognition, 文字识别
 * OOM: OutOfMemory
 * OOP: Object Oriented Programming, 面向对象程序设计
-* OSI: Open Systems Interconnection 
+* OSI: Open Systems Interconnection
+* OSM: OpenStreetMap
+  * OSM object (N - node, W - way, R - relation)
 
 P
 -----
@@ -241,6 +243,7 @@ W
 ----
 
 * WebDAV: Web-based Distributed Authoring and Versioning
+* WGS84: World Geodetic System 1984(为 GPS 全球定位系统使用而建立的坐标系统)
 
 Y
 ----

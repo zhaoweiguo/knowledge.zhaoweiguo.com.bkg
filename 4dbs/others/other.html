@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>4.11.3. 其他 &mdash; 新溪-gordon V1.4.1 documentation</title>
+  <title>4.10.3. 其他 &mdash; 新溪-gordon V1.4.1 documentation</title>
   
 
   
@@ -210,6 +210,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l3"><a class="reference internal" href="../../1systems/commands/normal.html">1.1.6. 常用命令</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/normals/crontab.html">crontab命令简析</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/normals/logrotate.html">logrotate命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/normals/job.html">job(fg/bg)命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/normals/nohup.html">nohup命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/normals/ssh.html">ssh命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/normals/awk.html">awk命令</a></li>
@@ -1046,78 +1047,58 @@ var _hmt = _hmt || [];
 </li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../mysql.html">4.4. MySQL使用文档</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../mysqls/mysql_command.html">4.4.1. 基本命令与实例</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/commands/cmd_shell.html">shell操作mysql命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/commands/cmd_db.html">数据库级操作</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/commands/cmd_table.html">表级操作</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/commands/cmd_alter.html">alter修改表字段</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/commands/cmd_select.html">select命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/commands/cmd_update.html">update命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/commands/cmd_insert.html">insert命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/commands/cmd_delete.html">delete命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/commands/cmd_index.html">index索引操作</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/commands/cmd_event.html">event事件调度器</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/commands/cmd_declare.html">MySQL变量</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/commands/cmd_procedure.html">procedure存储过程相关</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/commands/cmd_partition.html">partition分区表相关</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/commands/cmd_lock.html">lock锁相关</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/commands/cmd_foreignkey.html">外键</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/commands/cmd_explain.html">explain命令相关</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/commands/cmd_profile.html">profiling分析查询</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/commands/cmd_show.html">show查看相关命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/commands/cmd_other.html">其他命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/commands/cmd_optimization.html">优化相关</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/commands/cmd_type.html">时间类型</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/commands/cmd_mysqldump.html">mysqldump–数据库备份程序</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/commands/cmd_mysqladmin.html">mysqladmin命令使用</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../sql.html">4.4. 关系型数据库</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../sqls/mysql.html">4.4.1. MySQL使用文档</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/mysqls/mysql_user.html">用户使用命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/mysqls/mysql_question.html">MySQL问题汇总</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/mysqls/mysql_check.html">检查命令使用汇总</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/mysqls/mysql_config.html">MySQL配置文件修改</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/mysqls/mysql_tool.html">MySQL工具</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/mysqls/mysql_practice.html">MySQL实际操作</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/mysqls/06mysql_security.html">06. 安全</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/mysqls/06mysql_security.html#id2">6.1. 安全使用指南</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/mysqls/07mysql_backup.html">07. 备份与恢复</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/mysqls/16mysql_replication.html">16. 复制</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/mysqls/mysql_other.html">其他MySQL相关</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/mysqls/mysql_architecture.html">MySQL架构</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/mysqls/mysql-proxy.html">MySQL代理</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../mysqls/mysql_user.html">4.4.2. 用户使用命令</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../mysqls/mysql_question.html">4.4.3. MySQL问题汇总</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/questions/mysql_simple.html">MySQL简单错误</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/questions/mysql_advance.html">MySQL高级错误</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/questions/mysql_optimize.html">MySQL优化相关</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../sqls/command.html">4.4.2. 基本命令与实例</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/commands/cmd_shell.html">shell操作mysql命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/commands/cmd_db.html">数据库级操作</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/commands/cmd_table.html">表级操作</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/commands/cmd_alter.html">alter修改表字段</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/commands/cmd_select.html">select命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/commands/cmd_update.html">update命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/commands/cmd_insert.html">insert命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/commands/cmd_delete.html">delete命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/commands/cmd_index.html">index索引操作</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/commands/cmd_event.html">event事件调度器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/commands/cmd_declare.html">MySQL变量</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/commands/cmd_procedure.html">procedure存储过程相关</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/commands/cmd_partition.html">partition分区表相关</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/commands/cmd_lock.html">lock锁相关</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/commands/cmd_foreignkey.html">外键</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/commands/cmd_explain.html">explain命令相关</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/commands/cmd_profile.html">profiling分析查询</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/commands/cmd_show.html">show查看相关命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/commands/cmd_other.html">其他命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/commands/cmd_optimization.html">优化相关</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/commands/cmd_type.html">时间类型</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/commands/cmd_mysqldump.html">mysqldump–数据库备份程序</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/commands/cmd_mysqladmin.html">mysqladmin命令使用</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../mysqls/mysql_check.html">4.4.4. 检查命令使用汇总</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../mysqls/mysql_config.html">4.4.5. MySQL配置文件修改</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/configs/mysql_important.html">重要参数说明</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/configs/mysql_example.html">文件詳細说明</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/configs/mysql_config_param.html">配置文件相关参数</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/configs/mysql_config_cmd.html">配置参数查询优化</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../sqls/postgre.html">4.4.3. postgresql使用文档</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/postgresqls/normal.html">常用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/postgresqls/docker.html">docker相关</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../mysqls/mysql_tool.html">4.4.6. MySQL工具</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/tools/mysqlsla.html">慢查询日志分析工具</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/tools/mysqldumpslow.html">mysqldumpslow——MySQL自带慢查询工具</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/tools/pt-table-checksum.html">pt-table-checksum命令</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="../mysqls/mysql_practice.html">4.4.7. MySQL实际操作</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/practices/mysql_practice_replication.html">实践MySQL复制</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/practices/mysql_practice_checkout.html">MySQL查看操作</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/practices/mysql_example.html">MySQL实例</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/practices/mysql_summary.html">MySQL知识汇总</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="../mysqls/06mysql_security.html">4.4.8. 06. 安全</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../mysqls/06mysql_security.html#id2">4.4.9. 6.1. 安全使用指南</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../mysqls/07mysql_backup.html">4.4.10. 07. 备份与恢复</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/07backups/backup_type.html">7.1 备份与恢复类型</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/07backups/backup_method.html">7.2 数据库备份方法</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/07backups/backup_example.html">7.3 备份与恢复机制实例</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/07backups/backup_mysqldump.html">7.4 使用mysqldump命令备份</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/07backups/backup_incremental.html">7.5 使用Binary Log工具恢复按时间点增量备份</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="../mysqls/16mysql_replication.html">4.4.11. 16. 复制</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../mysqls/mysql_other.html">4.4.12. 其他MySQL相关</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../mysqls/mysql_architecture.html">4.4.13. MySQL架构</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../mysqls/mysql-proxy.html">4.4.14. MySQL代理</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/mysql-proxys/mysql-proxy_install.html">MySQL代理安装</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/mysql-proxys/mysql-proxy_usage.html">MySQL代理的使用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../mysqls/mysql-proxys/mysql-proxy_config.html">MySQL代理配置</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../sqls/sqlite.html">4.4.4. SQLite使用文档</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/sqlites/sqlite_introduce.html">sqlite基本介绍</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/sqlites/sqlite_command.html">sqlite基本命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sqls/sqlites/sqlite_question.html">常见问题</a></li>
 </ul>
 </li>
 </ul>
@@ -1183,29 +1164,23 @@ var _hmt = _hmt || [];
 <li class="toctree-l3"><a class="reference internal" href="../hbases/hbase_shell.html">4.9.2. HBase Shell</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../sqlite.html">4.10. SQLite使用文档</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../sqlites/sqlite_introduce.html">4.10.1. sqlite基本介绍</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../sqlites/sqlite_command.html">4.10.2. sqlite基本命令</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../sqlites/sqlite_question.html">4.10.3. 常见问题</a></li>
-</ul>
-</li>
-<li class="toctree-l2 current"><a class="reference internal" href="../other.html">4.11. 其他DB</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="oracle.html">4.11.1. Oracle文档</a><ul>
+<li class="toctree-l2 current"><a class="reference internal" href="../other.html">4.10. 其他DB</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="oracle.html">4.10.1. Oracle文档</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="oracles/oracle_simple.html">oracle的简单使用</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="sqlserver.html">4.11.2. SQLserver文档</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="sqlserver.html">4.10.2. SQLserver文档</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="sqlservers/sqlserver_simple.html">sqlserver命令</a></li>
 </ul>
 </li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">4.11.3. 其他</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">4.10.3. 其他</a></li>
 </ul>
 </li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../5language.html">5. 语言相关文档</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../5languages/erlang.html">5.1. Erlang文档</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/erlang_lib.html">内置核心项目</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/erlang_lib.html">5.1.1. 内置核心项目</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/libs/module_kernel.html">1. kernel </a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/libs/module_stdlib.html">2. stdlib </a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/libs/module_compiler.html">3. compiler</a></li>
@@ -1225,7 +1200,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/libs/users_guide.html">17. users_guide </a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/erlang_opensource.html">5.1.1. 开源项目</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/erlang_opensource.html">5.1.2. 开源项目</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/opensources/normal.html">其他开源项目列表</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/opensource_nets/esockd.html">esockd </a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/opensource_nets/gen_coap.html">gen_coap </a></li>
@@ -1250,7 +1225,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/opensources/mongo-erlang.html">mongo-erlang </a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/erlang.html">5.1.2. Erlang使用文档</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/erlang.html">5.1.3. Erlang使用文档</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/erlangs/erlang_question.html">Erlang常见问题</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/erlangs/erlang_skill.html">Erlang技巧</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/erlangs/erlang_code_skill.html">Erlang code skill</a></li>
@@ -1263,7 +1238,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/erlangs/erlang_remote_shell.html">Erlang接入远程shell控制台</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/mnesia.html">5.1.3. Mnesia文档</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/mnesia.html">5.1.4. Mnesia文档</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/mnesias/mnesia_usage.html">Mnesia基本用法</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/mnesias/mnesia_cluster.html">从头建立mnesia集群</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/mnesias/mnesia_cluster.html#mnesia1">在现在mnesia集群中增加1个结点</a></li>
@@ -1273,7 +1248,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/mnesias/mnesia_practice.html">Mnesia实用操作</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/rebar.html">5.1.4. Rebar文档</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/rebar.html">5.1.5. Rebar文档</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/rebars/rebar3_overal.html">rebar3整体说明</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/rebars/rebar3_command.html">rebar3 command</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/rebars/rebar3_config.html">rebar3配置</a></li>
@@ -1286,20 +1261,20 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/rebars/erlang.mk.html">erlang.mk</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/lager.html">5.1.5. Lager相关</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/lager.html">5.1.6. Lager相关</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/lagers/normal.html">基本</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/lagers/config.html">配置文件</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/lagers/tracing.html">日志跟踪</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/lagers/source.html">源码分析</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/project.html">5.1.6. 其他Erlang项目</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/project.html">5.1.7. 其他Erlang项目</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/projects/erlydtl.html">Erlydtl文档</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/projects/riak.html">Riak文档</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/erlangs/projects/webmachine.html">Webmachine 使用简介</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/kerl.html">5.1.7. kerl使用 </a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../5languages/erlangs/kerl.html">5.1.8. kerl使用 </a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../5languages/golang.html">5.2. Golang语言相关</a><ul>
@@ -2063,6 +2038,9 @@ var _hmt = _hmt || [];
 <li class="toctree-l3"><a class="reference internal" href="../../8tools/k8s/helm.html">8.1.8. Helm Chart</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../8tools/k8s/history.html">8.1.9. 历史版本</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/historys/v1.14.html">1.14版本</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/historys/v1.16.html">v1.16版本</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/historys/v1.18.html">1.18版本</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../8tools/k8s/historys/v1.20.html">v1.20版本</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../../8tools/k8s/question.html">8.1.10. 常见问题</a></li>
@@ -2352,9 +2330,9 @@ var _hmt = _hmt || [];
         
           <li><a href="../../4db.html"><span class="section-number">4. </span>数据库相关文档</a> &raquo;</li>
         
-          <li><a href="../other.html"><span class="section-number">4.11. </span>其他DB</a> &raquo;</li>
+          <li><a href="../other.html"><span class="section-number">4.10. </span>其他DB</a> &raquo;</li>
         
-      <li><span class="section-number">4.11.3. </span>其他</li>
+      <li><span class="section-number">4.10.3. </span>其他</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -2374,7 +2352,7 @@ var _hmt = _hmt || [];
            <div itemprop="articleBody">
             
   <div class="section" id="id1">
-<h1><span class="section-number">4.11.3. </span>其他<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<h1><span class="section-number">4.10.3. </span>其他<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">voltdb</span>
 </pre></div>
 </div>

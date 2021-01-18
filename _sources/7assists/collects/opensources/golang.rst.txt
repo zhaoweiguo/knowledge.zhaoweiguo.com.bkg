@@ -137,6 +137,9 @@ cli命令
 * database clustering system for horizontal scaling of MySQL: https://github.com/vitessio/vitess
 * pingcap可水平扩展、兼容MySQL: https://github.com/pingcap/tidb
 * cloud-native distributed SQL DB: https://github.com/cockroachdb/cockroach
+* LevelDB key/value database in Go: https://github.com/syndtr/goleveldb
+    * 原版(c++): https://github.com/google/leveldb
+
 
 数据库驱动
 ----------
@@ -584,6 +587,8 @@ filesystem
 
 * https://github.com/dertuxmalwieder/rssfs
 * https://github.com/polyrabbit/etcdfs
+* a distributed object store and file system: https://github.com/chrislusf/seaweedfs
+* A distributed key value store in under 1000 lines: https://github.com/geohot/minikeyvalue
 
 压测工具
 --------
@@ -710,9 +715,11 @@ AI
 --------
 
 * Fast and secure standalone server for resizing and converting remote images: https://github.com/imgproxy/imgproxy
-* http://www.graphicsmagick.org/
-* https://imagemagick.org/index.php
+    * http://www.graphicsmagick.org/
+    * https://imagemagick.org/index.php
 
+* Personal Photo Management: https://github.com/photoprism/photoprism
+    * docker版: https://docs.photoprism.org/getting-started/docker-compose/
 
 共享
 --------
@@ -767,4 +774,45 @@ k8s工具
 
 
 
+GPS/geocoding
+=============
+
+* nominatim:
+    * Open Source search based on OpenStreetMap data: https://github.com/osm-search/Nominatim
+    * PHP + C
+    * 试用版: https://nominatim.openstreetmap.org/
+    * https://www.openstreetmap.org/
+    * 官网: https://nominatim.org/
+    * k8s 版: https://github.com/peter-evans/nominatim-k8s
+    * docker 版: https://github.com/mediagis/nominatim-docker
+    * 数据导入: https://nominatim.org/release-docs/latest/admin/Import/
+
+* 商用版:
+    * PickPoint: https://www.pickpoint.io/
+    * MapQuest: https://developer.mapquest.com/documentation/open/
+
+* GeoPy:
+    * https://geopy.readthedocs.io/
+    * github: https://github.com/geopy/geopy
+    * geopy is a Python client for several popular geocoding web services.
+    * geopy is just a library which provides these implementations for many different services in a single package.
+
+* 数据:
+    * Geofabrik: https://download.geofabrik.de/
+    * 亚洲: http://download.geofabrik.de/asia.html
+    * other providers for extracts: https://wiki.openstreetmap.org/wiki/Planet.osm#Downloading
+    * https://planet.openstreetmap.org/pbf/
+
+* GEO Golang 版:
+    * https://github.com/codingsince1985/geo-golang
+
+* photon: 
+    * https://photon.komoot.io/
+    * https://github.com/komoot/photon
+    * Java, 1.1k star
+
+* Psql:
+    * https://osm2pgsql.org/
+    * PostgreSQL/PostGIS: 空间数据存储扩展
+    * https://github.com/openstreetmap/osm2pgsql
 

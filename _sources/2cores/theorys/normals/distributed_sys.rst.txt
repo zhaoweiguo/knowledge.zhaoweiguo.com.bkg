@@ -246,7 +246,29 @@ CAP 一致性::
     三者都是为了通过一定的方式去保护流量过大时，保护系统的手段。
 
 
+限流是防止上游服务调用量过大导致当前服务被压垮，熔断是预防下游服务出现故障时阻断对下游的调用。
 
+.. image:: /images/architectures/limiting_fusing1.png
+
+熔断器设计模式是基于 AOP 对所有的请求调用进行拦截，在请求调用前做状态判断是否熔断，请求调用后做计数统计，并根据策略做熔断状态转移。:
+
+.. image:: /images/architectures/limiting_fusing2.png
+
+
+熔断器涉及三种状态和四种状态转移:
+
+.. image:: /images/architectures/limiting_fusing3.png
+
+设计模式思想源自 Microsoft 《Circuit Breaker Pattern》::
+
+    在熔断领域中，还有大名鼎鼎的 Hystrix （有 Java 和 Golang 版本）
+        是 Netflix 开源的限流熔断项目，它支持并发请求，异步上报统计结果提高了并发性
+
+根据服务发现和服务调用的不同，主要有三种方式::
+
+    直连模式，服务 A 直接访问 服务 B
+    集中代理模式，通过引入内网网关做代理，调用时通过网关做转发和负载均衡
+    还有目前比较火的 服务网格模式 Service Mesh，也叫边车模式 SideCar
 
 
 

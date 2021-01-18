@@ -15,6 +15,7 @@
 
    normals/crontab
    normals/logrotate
+   normals/job
    normals/nohup
    normals/ssh
 
