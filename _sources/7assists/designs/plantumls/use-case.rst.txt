@@ -9,7 +9,7 @@
 
 * 展示图:
 
-.. figure:: ./files/user-case.png
+.. uml:: ./files/user-case.puml
 
 
 

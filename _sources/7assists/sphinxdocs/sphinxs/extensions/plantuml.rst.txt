@@ -51,9 +51,9 @@ PlantUML插件 [2]_
        Alice -> Bob: Hi!
        Alice <- Bob: How are you?
 
-使用2::
+使用2-指定文件::
 
-    .. uml:: external.uml
+    .. uml:: /folder/file/external.uml
 
 指定height, width, scale and align::
 

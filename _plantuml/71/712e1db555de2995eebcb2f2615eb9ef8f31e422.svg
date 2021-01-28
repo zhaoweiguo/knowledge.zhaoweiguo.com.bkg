@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="238px" preserveAspectRatio="none" style="width:121px;height:238px;" version="1.1" viewBox="0 0 121 238" width="121px" zoomAndPan="magnify"><defs><filter height="300%" id="f1tjs5mj38vscv" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="31" x2="31" y1="38.2969" y2="198.2969"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="89" x2="89" y1="38.2969" y2="198.2969"/><rect fill="#FEFECE" filter="url(#f1tjs5mj38vscv)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="42" x="8" y="3"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="15" y="22.9951">Bob</text><rect fill="#FEFECE" filter="url(#f1tjs5mj38vscv)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="42" x="8" y="197.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="15" y="217.292">Bob</text><rect fill="#FEFECE" filter="url(#f1tjs5mj38vscv)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="46" x="64" y="3"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="32" x="71" y="22.9951">Alice</text><rect fill="#FEFECE" filter="url(#f1tjs5mj38vscv)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="46" x="64" y="197.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="32" x="71" y="217.292">Alice</text><line style="stroke: #A80036; stroke-width: 2.0;" x1="71" x2="81" y1="49.2969" y2="59.2969"/><line style="stroke: #A80036; stroke-width: 2.0;" x1="71" x2="81" y1="59.2969" y2="49.2969"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="31" x2="76" y1="54.2969" y2="54.2969"/><polygon fill="#A80036" points="77,64.2969,87,68.2969,77,72.2969,81,68.2969" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="31" x2="83" y1="68.2969" y2="68.2969"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="87" x2="77" y1="82.2969" y2="78.2969"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="87" x2="77" y1="82.2969" y2="86.2969"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="31" x2="88" y1="82.2969" y2="82.2969"/><polygon fill="#A80036" points="77,92.2969,87,96.2969,77,96.2969" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="31" x2="88" y1="96.2969" y2="96.2969"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="31" x2="41" y1="110.2969" y2="114.2969"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="31" x2="88" y1="110.2969" y2="110.2969"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="31" x2="41" y1="124.2969" y2="120.2969"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="31" x2="88" y1="124.2969" y2="124.2969"/><ellipse cx="88.5" cy="137.5469" fill="none" rx="4" ry="4" style="stroke: #A80036; stroke-width: 1.5;"/><polygon fill="#A80036" points="71.5,134.2969,81.5,138.2969,71.5,142.2969,75.5,138.2969" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="31" x2="77.5" y1="138.2969" y2="138.2969"/><ellipse cx="30.5" cy="151.5469" fill="none" rx="4" ry="4" style="stroke: #A80036; stroke-width: 1.5;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="36.5" x2="46.5" y1="152.2969" y2="156.2969"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="31" x2="88" y1="152.2969" y2="152.2969"/><polygon fill="#A80036" points="42,162.2969,32,166.2969,42,170.2969,38,166.2969" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="77,162.2969,87,166.2969,77,170.2969,81,166.2969" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="36" x2="83" y1="166.2969" y2="166.2969"/><polygon fill="#A80036" points="42,176.2969,32,180.2969,42,184.2969,38,180.2969" style="stroke: #A80036; stroke-width: 1.0;"/><ellipse cx="88.5" cy="179.5469" fill="none" rx="4" ry="4" style="stroke: #A80036; stroke-width: 1.5;"/><polygon fill="#A80036" points="71.5,176.2969,81.5,180.2969,71.5,184.2969,75.5,180.2969" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="36" x2="77.5" y1="180.2969" y2="180.2969"/><!--
+@startuml
+Bob ->x Alice
+Bob -> Alice
+Bob ->> Alice
+Bob -\ Alice
+Bob \\- Alice
+Bob //- - Alice
+
+Bob ->o Alice
+Bob o\\- - Alice
+
+Bob <-> Alice
+Bob <->o Alice
+@enduml
+
+PlantUML version 1.2019.05(Sat Apr 20 16:45:36 UTC 2019)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.9+11-post-Debian-1deb10u1
+Operating System: Linux
+OS Version: 5.4.0-1036-azure
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

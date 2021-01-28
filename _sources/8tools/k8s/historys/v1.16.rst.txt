@@ -32,6 +32,7 @@ Kubernetes 1.16.6版本相较于1.14版本的演进和增强值得注意的变�
 
 * Kubernetes Release Note 解读（1.15， 1.16）: https://developer.aliyun.com/article/748085
 * Kubernetes 1.16 与 1.14性能对比: https://developer.aliyun.com/article/747908
+* Deprecated APIs Removed In 1.16: Here’s What You Need To Know: https://kubernetes.io/blog/2019/07/18/api-deprecations-in-1-16/
 
 .. [1] https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.16.md
 

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="178px" preserveAspectRatio="none" style="width:168px;height:178px;" version="1.1" viewBox="0 0 168 178" width="168px" zoomAndPan="magnify"><defs><filter height="300%" id="fyc5bpx87zv40" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="104" x="27.5" y="37.6357">Example Title</text><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="33" x2="33" y1="83.2344" y2="161.5"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="128" x2="128" y1="83.2344" y2="161.5"/><rect fill="#FEFECE" filter="url(#fyc5bpx87zv40)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="46" x="8" y="47.9375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="32" x="15" y="67.9326">Alice</text><rect fill="#FEFECE" filter="url(#fyc5bpx87zv40)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="42" x="105" y="47.9375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="112" y="67.9326">Bob</text><polygon fill="#A80036" points="116,110.3672,126,114.3672,116,118.3672,120,114.3672" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="33" x2="122" y1="114.3672" y2="114.3672"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="71" x="40" y="109.3013">message 1</text><polygon fill="#A80036" points="116,139.5,126,143.5,116,147.5,120,143.5" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="33" x2="122" y1="143.5" y2="143.5"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="71" x="40" y="138.4341">message 2</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="64" x="92" y="12.2822">Page Header</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="56" x="51.5" y="164.7822">Page 1 of 1</text><!--
+@startuml
+
+hide footbox
+header Page Header
+footer Page %page% of %lastpage%
+
+title Example Title
+
+Alice -> Bob : message 1
+Alice -> Bob : message 2
+
+@enduml
+
+PlantUML version 1.2019.05(Sat Apr 20 16:45:36 UTC 2019)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.9+11-post-Debian-1deb10u1
+Operating System: Linux
+OS Version: 5.4.0-1036-azure
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

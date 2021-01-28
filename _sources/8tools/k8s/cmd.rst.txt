@@ -76,9 +76,9 @@ kubectl命令
 
    cmds/6apply
    cmds/6patch
+   cmds/6convert
 ..   cmds/6replace
    cmds/6wait
-   cmds/6convert
 
 
 .. toctree::

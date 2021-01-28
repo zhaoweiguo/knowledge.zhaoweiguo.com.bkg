@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="238px" preserveAspectRatio="none" style="width:175px;height:238px;" version="1.1" viewBox="0 0 175 238" width="175px" zoomAndPan="magnify"><defs><filter height="300%" id="f60cv29rf2lht" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="35" x2="35" y1="38.2969" y2="197.9609"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="110.5" x2="110.5" y1="38.2969" y2="197.9609"/><rect fill="#FEFECE" filter="url(#f60cv29rf2lht)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="50" x="8" y="3"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="36" x="15" y="22.9951">caller</text><rect fill="#FEFECE" filter="url(#f60cv29rf2lht)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="50" x="8" y="196.9609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="36" x="15" y="216.9561">caller</text><rect fill="#FEFECE" filter="url(#f60cv29rf2lht)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="57" x="80.5" y="3"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="43" x="87.5" y="22.9951">server</text><rect fill="#FEFECE" filter="url(#f60cv29rf2lht)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="57" x="80.5" y="196.9609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="43" x="87.5" y="216.9561">server</text><polygon fill="#A80036" points="99,65.4297,109,69.4297,99,73.4297,103,69.4297" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="35" x2="105" y1="69.4297" y2="69.4297"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="47" x="42" y="64.3638">conReq</text><polygon fill="#FBFB77" filter="url(#f60cv29rf2lht)" points="22,82.4297,48,82.4297,58,93.4297,48,105.4297,22,105.4297,12,93.4297,22,82.4297" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="22" x="24" y="98.4966">idle</text><polygon fill="#A80036" points="46,127.6953,36,131.6953,46,135.6953,42,131.6953" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="40" x2="110" y1="131.6953" y2="131.6953"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="52" x="52" y="126.6294">conConf</text><rect fill="#FBFB77" filter="url(#f60cv29rf2lht)" height="38" style="stroke: #A80036; stroke-width: 1.0;" width="106" x="58" y="144.6953"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="98" x="62" y="160.7622">"r" as rectangle</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="96" x="62" y="175.895">"h" as hexagon</text><!--
+@startuml
+caller -> server : conReq
+hnote over caller : idle
+caller <- server : conConf
+rnote over server
+ "r" as rectangle
+ "h" as hexagon
+endrnote
+@enduml
+
+PlantUML version 1.2019.05(Sat Apr 20 16:45:36 UTC 2019)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.9+11-post-Debian-1deb10u1
+Operating System: Linux
+OS Version: 5.4.0-1036-azure
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

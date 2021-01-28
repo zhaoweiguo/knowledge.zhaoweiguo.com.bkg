@@ -9,6 +9,8 @@ plantuml [1]_
    plantumls/use-case
    plantumls/deployment
    plantumls/activity
+   plantumls/sequence
+   plantumls/timing
    plantumls/class
    plantumls/question
 

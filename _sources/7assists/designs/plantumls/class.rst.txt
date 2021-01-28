@@ -47,7 +47,17 @@
 
     @enduml
 
-.. image:: /images/plantumls/visiable.png
+.. uml::
+
+    @startuml
+
+    class Dummy {
+     -field1
+     #field2
+     ~method1()
+     +method2()
+    }
+    @enduml
 
 你可以采用以下命令停用这些特性 skinparam classAttributeIconSize 0::
 
@@ -61,7 +71,17 @@
     }
     @enduml
 
-.. image:: /images/plantumls/visiable2.png
+.. uml::
+
+    @startuml
+    skinparam classAttributeIconSize 0
+    class Dummy {
+     -field1
+     #field2
+     ~method1()
+     +method2()
+    }
+    @enduml
 
 
 高级类体
@@ -74,38 +94,11 @@
     ==
     __
 
-实例::
+实例:
 
-    @startuml
-    class Foo1 {
-      You can use
-      several lines
-      ..
-      as you want
-      and group
-      ==
-      things together.
-      __
-      You can have as many groups
-      as you want
-      --
-      End of class
-    }
+.. literalinclude:: ./files/classes/class1_advance.puml
 
-    class User {
-      .. Simple Getter ..
-      + getName()
-      + getAddress()
-      .. Some setter ..
-      + setName()
-      __ private data __
-      int age
-      -- encrypted --
-      String password
-    }
-    @enduml
-
-.. image:: /images/plantumls/advance1.png
+.. uml:: ./files/classes/class1_advance.puml
 
 备注和模板
 ==========
@@ -124,25 +117,11 @@
     note top, 
     note bottom
 
-实例::
+实例:
 
-    @startuml
-    class Object << general >>
-    Object <|--- ArrayList
+.. literalinclude:: ./files/classes/class2_remark.puml
 
-    note top of Object : In java, every class\nextends this one.
-
-    note "This is a floating note" as N1
-    note "This note is connected\nto several objects." as N2
-    Object .. N2
-    N2 .. ArrayList
-
-    class Foo
-    note left: On last defined class
-
-    @enduml
-
-.. image:: /images/plantumls/remark1.png
+.. uml:: ./files/classes/class2_remark.puml
 
 包
 ===
@@ -156,45 +135,19 @@
     你可以通过以下的命令来设置默认样式 : skinparam packageStyle,或者对包使用对应的模板:
 
 
-实例1::
+实例1:
 
-    @startuml
-    package "Classic Collections" #DDDDDD {
-      Object <|-- ArrayList
-    }
-    package net.sourceforge.plantuml {
-      Object <|-- Demo1
-      Demo1 *- Demo2
-    }
-    @enduml
 
-.. image:: /images/plantumls/package1.png
+.. literalinclude:: ./files/classes/class3_package.puml
 
-实例-包样式::
+.. uml:: ./files/classes/class3_package.puml
 
-    @startuml
-    scale 750 width
-    package foo1 <<Node>> {
-      class Class1
-    }
-    package foo2 <<Rectangle>> {
-      class Class2
-    }
-    package foo3 <<Folder>> {
-      class Class3
-    }
-    package foo4 <<Frame>> {
-      class Class4
-    }
-    package foo5 <<Cloud>> {
-      class Class5
-    }
-    package foo6 <<Database>> {
-      class Class6
-    }
-    @enduml
+实例-包样式:
 
-.. image:: /images/plantumls/package2.png
+
+.. literalinclude:: ./files/classes/class4_package.puml
+
+.. uml:: ./files/classes/class4_package.puml
 
 命名空间(Namespaces)
 ====================
@@ -209,44 +162,20 @@
     默认命名空间下的类，以一个“."开头（的类名）来引用
     注意：你不用显示地创建命名空间：一个使用全限定名的类会自动被放置到对应的命名空间。
 
-实例::
+实例:
 
-    @startuml
 
-    class BaseClass
+.. literalinclude:: ./files/classes/class5_ns.puml
 
-    namespace net.dummy #DDDDDD {
-        .BaseClass <|-- Person
-        Meeting o-- Person
+.. uml:: ./files/classes/class5_ns.puml
 
-        .BaseClass <|- Meeting
-    }
-
-    namespace net.foo {
-      net.dummy.Person  <|- Person
-      .BaseClass <|-- Person
-
-      net.dummy.Meeting o-- Person
-    }
-
-    BaseClass <|-- net.unused.Person
-
-    @enduml
-
-.. image:: /images/plantumls/namespace1.png
 
 自动创建命名空间::
 
-    @startuml
+.. literalinclude:: ./files/classes/class6_ns.puml
 
-    set namespaceSeparator ::
-    class X1::X2::foo {
-      some info
-    }
+.. uml:: ./files/classes/class6_ns.puml
 
-    @enduml
-
-.. image:: /images/plantumls/namespace2.png
 
 箭头方向
 ========
@@ -263,7 +192,12 @@
     Room *-- Chair
     @enduml
 
-.. image:: /images/plantumls/arrow1.png
+.. uml::
+
+    @startuml
+    Room o- Student
+    Room *-- Chair
+    @enduml
 
 可通过在箭头内部使用关键字， 例如left, right, up 或者 down，来改变方向::
 
@@ -274,63 +208,47 @@
     foo -down-> dummyDown
     @enduml
 
-.. image:: /images/plantumls/arrow2.png
+.. uml::
+
+    @startuml
+    foo -left-> dummyLeft
+    foo -right-> dummyRight
+    foo -up-> dummyUp
+    foo -down-> dummyDown
+    @enduml
 
 皮肤参数 [2]_
 ==============
 
-::
 
-    @startuml
+.. literalinclude:: ./files/classes/class7_skin.puml
 
-    skinparam class {
-      BackgroundColor PaleGreen
-      ArrowColor SeaGreen
-      BorderColor SpringGreen
-    }
-    skinparam stereotypeCBackgroundColor YellowGreen
+.. uml:: ./files/classes/class7_skin.puml
 
-    Class01 "1" *-- "many" Class02 : contains
 
-    Class03 o-- Class04 : aggregation
+Skinned Stereotypes:
 
-    @enduml
+.. literalinclude:: ./files/classes/class8_skin.puml
 
-.. image:: /images/plantumls/skin1.png
+.. uml:: ./files/classes/class8_skin.puml
 
-Skinned Stereotypes::
-
-    @startuml
-
-    skinparam class {
-    BackgroundColor PaleGreen
-    ArrowColor SeaGreen
-    BorderColor SpringGreen
-    BackgroundColor<<Foo>> Wheat
-    BorderColor<<Foo>> Tomato
-    }
-    skinparam stereotypeCBackgroundColor YellowGreen
-    skinparam stereotypeCBackgroundColor<< Foo >> DimGray
-
-    Class01 <<Foo>>
-    Class03 <<Foo>>
-    Class01 "1" *-- "many" Class02 : contains
-
-    Class03 o-- Class04 : aggregation
-
-    @enduml
 
 Extends and implements
 ======================
 
-实例::
+::
 
     @startuml
     class ArrayList implements List
     class ArrayList extends AbstractList
     @enduml
 
-.. image:: /images/plantumls/extend1.png
+.. uml::
+
+    @startuml
+    class ArrayList implements List
+    class ArrayList extends AbstractList
+    @enduml
 
 
 

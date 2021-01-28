@@ -8,7 +8,7 @@
 
 * 展示图:
 
-.. figure:: ./files/deployment.png
+.. uml:: ./files/deployment.puml
 
 
 

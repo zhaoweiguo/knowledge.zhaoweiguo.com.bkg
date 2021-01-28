@@ -9,6 +9,7 @@ postgresql使用文档
    :maxdepth: 2
 
    postgresqls/normal
+   postgresqls/config
    postgresqls/docker
 
 

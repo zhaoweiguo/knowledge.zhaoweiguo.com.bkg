@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="193px" preserveAspectRatio="none" style="width:342px;height:193px;" version="1.1" viewBox="0 0 342 193" width="342px" zoomAndPan="magnify"><defs><filter height="300%" id="fwzvmr8bfjsld" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--class Foo1--><rect fill="#FEFECE" filter="url(#fwzvmr8bfjsld)" height="174.4375" id="Foo1" style="stroke: #A80036; stroke-width: 1.5;" width="185" x="6" y="8"/><ellipse cx="78.75" cy="24" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M81.7188,29.6406 Q81.1406,29.9375 80.5,30.0781 Q79.8594,30.2344 79.1563,30.2344 Q76.6563,30.2344 75.3281,28.5938 Q74.0156,26.9375 74.0156,23.8125 Q74.0156,20.6875 75.3281,19.0313 Q76.6563,17.375 79.1563,17.375 Q79.8594,17.375 80.5,17.5313 Q81.1563,17.6875 81.7188,17.9844 L81.7188,20.7031 Q81.0938,20.125 80.5,19.8594 Q79.9063,19.5781 79.2813,19.5781 Q77.9375,19.5781 77.25,20.6563 Q76.5625,21.7188 76.5625,23.8125 Q76.5625,25.9063 77.25,26.9844 Q77.9375,28.0469 79.2813,28.0469 Q79.9063,28.0469 80.5,27.7813 Q81.0938,27.5 81.7188,26.9219 L81.7188,29.6406 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="31" x="99.25" y="28.1543">Foo1</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="190" y1="40" y2="40"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="70" x="12" y="54.2104">You can use</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="73" x="12" y="67.0151">several lines</text><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 1.0,2.0;" x1="7" x2="190" y1="73.6094" y2="73.6094"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="69" x="12" y="87.8198">as you want</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="58" x="12" y="100.6245">and group</text><line style="stroke: #A80036; stroke-width: 1.0;" x1="7" x2="190" y1="107.2188" y2="107.2188"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="7" x2="190" y1="109.2188" y2="109.2188"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="91" x="12" y="121.4292">things together.</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="190" y1="128.0234" y2="128.0234"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="173" x="12" y="142.2339">You can have as many groups</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="69" x="12" y="155.0386">as you want</text><line style="stroke: #A80036; stroke-width: 1.0;" x1="7" x2="190" y1="161.6328" y2="161.6328"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="70" x="12" y="175.8433">End of class</text><!--class User--><rect fill="#FEFECE" filter="url(#fwzvmr8bfjsld)" height="171.2422" id="User" style="stroke: #A80036; stroke-width: 1.5;" width="106" x="225.5" y="9.5"/><ellipse cx="260.75" cy="25.5" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M263.7188,31.1406 Q263.1406,31.4375 262.5,31.5781 Q261.8594,31.7344 261.1563,31.7344 Q258.6563,31.7344 257.3281,30.0938 Q256.0156,28.4375 256.0156,25.3125 Q256.0156,22.1875 257.3281,20.5313 Q258.6563,18.875 261.1563,18.875 Q261.8594,18.875 262.5,19.0313 Q263.1563,19.1875 263.7188,19.4844 L263.7188,22.2031 Q263.0938,21.625 262.5,21.3594 Q261.9063,21.0781 261.2813,21.0781 Q259.9375,21.0781 259.25,22.1563 Q258.5625,23.2188 258.5625,25.3125 Q258.5625,27.4063 259.25,28.4844 Q259.9375,29.5469 261.2813,29.5469 Q261.9063,29.5469 262.5,29.2813 Q263.0938,29 263.7188,28.4219 L263.7188,31.1406 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="29" x="279.25" y="29.6543">User</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="226.5" x2="330.5" y1="41.5" y2="41.5"/><ellipse cx="236.5" cy="70.207" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="59" x="245.5" y="72.5151">getName()</text><ellipse cx="236.5" cy="83.0117" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="73" x="245.5" y="85.3198">getAddress()</text><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 1.0,2.0;" x1="226.5" x2="239" y1="55.9023" y2="55.9023"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="79" x="239" y="59.2104">Simple Getter</text><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 1.0,2.0;" x1="318" x2="330.5" y1="55.9023" y2="55.9023"/><ellipse cx="236.5" cy="112.6211" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="59" x="245.5" y="114.9292">setName()</text><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 1.0,2.0;" x1="226.5" x2="243" y1="98.3164" y2="98.3164"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="71" x="243" y="101.6245">Some setter</text><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 1.0,2.0;" x1="314" x2="330.5" y1="98.3164" y2="98.3164"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="39" x="231.5" y="144.5386">int age</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="226.5" x2="244.5" y1="127.9258" y2="127.9258"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="68" x="244.5" y="131.2339">private data</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="312.5" x2="330.5" y1="127.9258" y2="127.9258"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="94" x="231.5" y="174.1479">String password</text><line style="stroke: #A80036; stroke-width: 1.0;" x1="226.5" x2="250.5" y1="157.5352" y2="157.5352"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="56" x="250.5" y="160.8433">encrypted</text><line style="stroke: #A80036; stroke-width: 1.0;" x1="306.5" x2="330.5" y1="157.5352" y2="157.5352"/><!--
+@startuml
+class Foo1 {
+  You can use
+  several lines
+  ..
+  as you want
+  and group
+  ==
+  things together.
+  __
+  You can have as many groups
+  as you want
+  - -
+  End of class
+}
+
+class User {
+  .. Simple Getter ..
+  + getName()
+  + getAddress()
+  .. Some setter ..
+  + setName()
+  __ private data __
+  int age
+  - - encrypted - -
+  String password
+}
+@enduml
+
+PlantUML version 1.2019.05(Sat Apr 20 16:45:36 UTC 2019)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.9+11-post-Debian-1deb10u1
+Operating System: Linux
+OS Version: 5.4.0-1036-azure
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
