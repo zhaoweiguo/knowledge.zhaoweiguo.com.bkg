@@ -7,6 +7,7 @@ linux文件
    :maxdepth: 2
 
    linux_files/normal
+   linux_files/Makefile
    linux_files/file_sudo
    linux_files/file_sh_rc
    linux_files/file_times

@@ -11,4 +11,5 @@
    simples/siege
    simples/locust
    simples/wrk
+   simples/hey
 

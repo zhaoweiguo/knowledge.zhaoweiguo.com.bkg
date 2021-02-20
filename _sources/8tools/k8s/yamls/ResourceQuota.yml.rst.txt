@@ -3,7 +3,7 @@
 ResourceQuota.yaml
 ##################
 
-
+相关参考: :ref:`limitRange<limitRange.yml>`
 
 .. literalinclude:: /files/k8s/yamls/ResourceQuota.yaml
    :language: yaml

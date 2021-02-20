@@ -9,6 +9,8 @@
 
    encrypts/encrypt_openssl
    encrypts/encrypt_base64
+   encrypts/encrypt_easy-rsa
+   encrypts/encrypt_cfssl
    encrypts/cert
    encrypts/practice
    encrypts/encrypt_mbedtls

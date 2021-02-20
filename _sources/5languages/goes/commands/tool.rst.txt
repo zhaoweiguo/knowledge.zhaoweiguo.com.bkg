@@ -34,6 +34,20 @@ Usage::
 
     $ go tool pprof binary profile
 
+.. _go_tool_link:
+
+link
+====
+
+go tool link::
+
+    -s    disable symbol table
+    -w    disable DWARF generation
+
+
+
+
+
 
 
 

@@ -13,6 +13,7 @@ centos专用
    centos/yum
    centos/rpm
    centos/dnf
+   centos/mirror
    centos/centos_network
    centos/centos_other
 

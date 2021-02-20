@@ -326,18 +326,25 @@ var _hmt = _hmt || [];
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../../1systems/linux_file.html">1.2. linux文件</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="../../../1systems/linux_files/normal.html">1.2.1. 常用文件</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../1systems/linux_files/file_sudo.html">1.2.2. /etc/sudoers</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../1systems/linux_files/file_sh_rc.html">1.2.3. sh初始化文件</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../1systems/linux_files/file_times.html">1.2.4. 时区</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../1systems/linux_files/file_nsswitch.html">1.2.5. /etc/nsswitch.conf文件</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../1systems/linux_files/file_grub.html">1.2.6. /etc/default/grub文件</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../1systems/linux_files/folder_init.d.html">1.2.7. init.d目录</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../1systems/linux_files/folder_tmp.html">1.2.8. /tmp目录</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../1systems/linux_files/folder_log.html">1.2.9. 日志文件</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../1systems/linux_files/Makefile.html">1.2.2. Makefile 类似文件</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../1systems/linux_files/Makefiles/Makefile.html">Makefile文件</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../1systems/linux_files/Makefiles/Dockerfile.html">Dockerfile 文件</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../1systems/linux_files/Makefiles/Procfile.html">Procfile 文件</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../1systems/linux_files/Makefiles/Gemfile.html">Gemfile</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../1systems/linux_files/file_sudo.html">1.2.3. /etc/sudoers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../1systems/linux_files/file_sh_rc.html">1.2.4. sh初始化文件</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../1systems/linux_files/file_times.html">1.2.5. 时区</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../1systems/linux_files/file_nsswitch.html">1.2.6. /etc/nsswitch.conf文件</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../1systems/linux_files/file_grub.html">1.2.7. /etc/default/grub文件</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../1systems/linux_files/folder_init.d.html">1.2.8. init.d目录</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../1systems/linux_files/folder_tmp.html">1.2.9. /tmp目录</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../1systems/linux_files/folder_log.html">1.2.10. 日志文件</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../1systems/linux_files/logs/messages.html">/var/log/messages文件</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../1systems/linux_files/folder_proc.html">1.2.10. /proc目录</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../1systems/linux_files/folder_proc.html">1.2.11. /proc目录</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../1systems/linux_files/procs/sysrq-trigger.html">sysrq-trigger文件</a></li>
 </ul>
 </li>
@@ -353,9 +360,8 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../../1systems/oses/centos/centos_desktop.html">centos桌面相关</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../1systems/oses/centos/yum.html">yum命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../1systems/oses/centos/rpm.html">rpm命令</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../../1systems/oses/centos/rpm.html#id2">实例</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../../1systems/oses/centos/rpm.html#id3">其他</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../1systems/oses/centos/dnf.html">dnf</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../1systems/oses/centos/mirror.html">镜像源</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../1systems/oses/centos/centos_network.html">CentOS 修改IP地址, DNS, 网关</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../1systems/oses/centos/centos_other.html">其他</a></li>
 </ul>
@@ -701,7 +707,9 @@ var _hmt = _hmt || [];
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/encrypt_base64.html">2.9.2. baseXX命令使用</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/cert.html">2.9.3. 证书相关</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/encrypt_easy-rsa.html">2.9.3. easy-rsa命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/encrypt_cfssl.html">2.9.4. cfssl命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/cert.html">2.9.5. 证书相关</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/certs/normal.html">基本</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/certs/cert_ca.html">ca证书相关</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/certs/letsencrypt.html">Let’s Encrypt</a></li>
@@ -709,7 +717,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/certs/question.html">常见问题</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/practice.html">2.9.4. 实战</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/practice.html">2.9.6. 实战</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/practices/encrypt_mac_p12.html">mac的p12导出私钥</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/practices/encrypt_makecert.html">微软makecert导出私钥</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/practices/encrypt_ca.html">生成ca证书并签名子证书</a></li>
@@ -720,29 +728,29 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/practices/cert_gen.html">自动创建证书请求</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/encrypt_mbedtls.html">2.9.5. mbedtls-主流的SSL</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/kerberos.html">2.9.6. Kerberos</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/question.html">2.9.7. 常见问题</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/encrypt_tmp.html">2.9.8. encrypt临时</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/public-key.html">2.9.9. 非对称加密</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/encrypt_mbedtls.html">2.9.7. mbedtls-主流的SSL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/kerberos.html">2.9.8. Kerberos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/question.html">2.9.9. 常见问题</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/encrypt_tmp.html">2.9.10. encrypt临时</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/public-key.html">2.9.11. 非对称加密</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/public-keys/RSA.html">rsa加解密</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/public-keys/GPG.html">pgp/gpg相关</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/public-keys/DH.html">DH</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/public-keys/EC.html">EC</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/symmetric-key.html">2.9.10. 对称加密</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/symmetric-key.html">2.9.12. 对称加密</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/symmetric-keys/AES.html">AES加解密</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/symmetric-keys/DES.html">DES</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/symmetric-keys/RC4.html">RC4</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/digest-algorithm.html">2.9.11. 摘要算法</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/digest-algorithm.html">2.9.13. 摘要算法</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/digest-algorithms/sha256.html">sha256加密</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/digest-algorithms/md5.html">md5摘要算法</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/signature-algorithm.html">2.9.12. 签名算法</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../2cores/encrypts/signature-algorithm.html">2.9.14. 签名算法</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/signature-algorithms/DSA.html">DSA</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../2cores/encrypts/signature-algorithms/ECDSA.html">ECDSA</a></li>
 </ul>
@@ -1182,7 +1190,7 @@ var _hmt = _hmt || [];
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../../5language.html">5. 语言相关文档</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../../5languages/erlang.html">5.1. Erlang文档</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/erlang_lib.html">5.1.1. 内置核心项目</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/erlang_lib.html">内置核心项目</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/libs/module_kernel.html">1. kernel </a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/libs/module_stdlib.html">2. stdlib </a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/libs/module_compiler.html">3. compiler</a></li>
@@ -1202,7 +1210,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/libs/users_guide.html">17. users_guide </a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/erlang_opensource.html">5.1.2. 开源项目</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/erlang_opensource.html">5.1.1. 开源项目</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/opensources/normal.html">其他开源项目列表</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/opensource_nets/esockd.html">esockd </a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/opensource_nets/gen_coap.html">gen_coap </a></li>
@@ -1227,7 +1235,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/opensources/mongo-erlang.html">mongo-erlang </a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/erlang.html">5.1.3. Erlang使用文档</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/erlang.html">5.1.2. Erlang使用文档</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/erlangs/erlang_question.html">Erlang常见问题</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/erlangs/erlang_skill.html">Erlang技巧</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/erlangs/erlang_code_skill.html">Erlang code skill</a></li>
@@ -1240,7 +1248,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/erlangs/erlang_remote_shell.html">Erlang接入远程shell控制台</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/mnesia.html">5.1.4. Mnesia文档</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/mnesia.html">5.1.3. Mnesia文档</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/mnesias/mnesia_usage.html">Mnesia基本用法</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/mnesias/mnesia_cluster.html">从头建立mnesia集群</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/mnesias/mnesia_cluster.html#mnesia1">在现在mnesia集群中增加1个结点</a></li>
@@ -1250,7 +1258,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/mnesias/mnesia_practice.html">Mnesia实用操作</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/rebar.html">5.1.5. Rebar文档</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/rebar.html">5.1.4. Rebar文档</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/rebars/rebar3_overal.html">rebar3整体说明</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/rebars/rebar3_command.html">rebar3 command</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/rebars/rebar3_config.html">rebar3配置</a></li>
@@ -1263,20 +1271,20 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/rebars/erlang.mk.html">erlang.mk</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/lager.html">5.1.6. Lager相关</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/lager.html">5.1.5. Lager相关</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/lagers/normal.html">基本</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/lagers/config.html">配置文件</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/lagers/tracing.html">日志跟踪</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/lagers/source.html">源码分析</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/project.html">5.1.7. 其他Erlang项目</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/project.html">5.1.6. 其他Erlang项目</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/projects/erlydtl.html">Erlydtl文档</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/projects/riak.html">Riak文档</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/erlangs/projects/webmachine.html">Webmachine 使用简介</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/kerl.html">5.1.8. kerl使用 </a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/erlangs/kerl.html">5.1.7. kerl使用 </a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../../5languages/golang.html">5.2. Golang语言相关</a><ul>
@@ -1321,6 +1329,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/goes/normals/go_mod.html">Go包管理</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/goes/normals/cross_os.html">跨语言</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/goes/normals/code_gen.html">代码自动生成</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../5languages/goes/normals/placeholder.html">占位符</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../../../5languages/goes/opensource.html">5.2.4. 开源项目</a><ul>
@@ -1343,6 +1352,7 @@ var _hmt = _hmt || [];
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../../../5languages/goes/history.html">5.2.6. 版本更新</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../5languages/goes/historys/v1.16.html">go1.16 (released 2021/02/16)</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/goes/historys/v1.15.html">go1.15 (released 2020/08/11)</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/goes/historys/v1.14.html">go1.14 (released 2020/02/25)</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/goes/historys/v1.13.html">Go 1.13(released 2019/09/03)</a></li>
@@ -1507,7 +1517,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/nodes/node_install.html">node简介</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/opensource.html">5.5.2. 开源项目</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/opensource.html">开源项目</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/opensources/vue.html">1. vue相关资料</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/opensources/chart.html">2. chart图表相关</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/opensources/grunt.html">3. grunt</a></li>
@@ -1519,34 +1529,34 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/opensources/other.html">9. 其他</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/tool.html">5.5.3. 工具</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/tool.html">5.5.2. 工具</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/tools/npm.html">npm命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/tools/yarn.html">yarn命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/tools/nvm.html">nvm</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/javascript.html">5.5.4. Javascript文档</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/javascript.html">5.5.3. Javascript文档</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/javascripts/document.html">dom命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/javascripts/js_basic.html">js的常用函数收集</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/javascripts/jquery.html">jquery文档</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/javascripts/cordova.html">cordova基本操作</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/ecmaScript.html">5.5.5. ECMAScript</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/typeScript.html">5.5.6. TypeScript</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/deployment.html">5.5.7. 构建工具</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/ecmaScript.html">5.5.4. ECMAScript</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/typeScript.html">5.5.5. TypeScript</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/deployment.html">5.5.6. 构建工具</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/deployments/deploy_webpack.html">webpack构建工具</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/deployments/deploy_Browserify.html">Browserify</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/h5.html">5.5.8. h5相关</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/h5.html">5.5.7. h5相关</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/h5s/svg.html">SVG相关</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/h5s/canvas.html">Canvas</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../5languages/nodes/h5s/webGL.html">webGL</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/question.html">5.5.9. 常见问题</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/tmp.html">5.5.10. 临时相关</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/question.html">5.5.8. 常见问题</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../5languages/nodes/tmp.html">5.5.9. 临时相关</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../../5languages/c.html">5.6. C语言使用文档</a><ul>
@@ -1903,6 +1913,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../collects/abbrs/architecture.html">架构设计</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../collects/abbrs/psychology.html">心理学</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../collects/abbrs/job.html">工作相关</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../collects/abbrs/optimise.html">优化</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../collects/abbrs/tmp.html">未定</a></li>
 </ul>
 </li>
@@ -1994,6 +2005,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../../8tools/k8s/yamls/Ingress.yml.html">Ingress.yml</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../8tools/k8s/yamls/PersistentVolume.yml.html">PersistentVolume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../8tools/k8s/yamls/StatefulSet.yml.html">StatefulSet</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../8tools/k8s/yamls/DaemonSet.yml.html">DaemonSet</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../8tools/k8s/yamls/ConfigMap.yml.html">ConfigMap.yaml</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../8tools/k8s/yamls/Role.yml.html">Role.yml</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../8tools/k8s/yamls/NetworkPolicy.yml.html">NetworkPolicy.yaml</a></li>
@@ -2360,6 +2372,630 @@ var _hmt = _hmt || [];
             
   <div class="section" id="id1">
 <h1>活动图<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>活动图 (新语法) <a class="footnote-reference brackets" href="#id10" id="id2">1</a></p></li>
+<li><p>活动图（老语法） <a class="footnote-reference brackets" href="#id11" id="id3">2</a></p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>旧语法有诸多限制和缺点，比如代码难以维护。所以从 V7947 开始提出一种全新的、更好的语法格式和软件实现供用户使用 (beta 版)。就像序列图一样，新的软件实现的另一个优点是它不再依赖于 Graphviz。新的语法将会替换旧的语法。然而考虑到兼容性，旧的语法仍被能够使用以确保 向前兼容</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>这儿只讲新版</p>
+</div>
+<div class="section" id="id4">
+<h2>简单活动图<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<p>说明:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>活动标签 (activity label) 以冒号开始，以分号结束
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nd">@startuml</span>
+<span class="p">:</span><span class="n">Hello</span> <span class="n">world</span><span class="p">;</span>
+<span class="p">:</span><span class="n">This</span> <span class="ow">is</span> <span class="n">on</span> <span class="n">defined</span> <span class="n">on</span>
+<span class="n">several</span> <span class="o">**</span><span class="n">lines</span><span class="o">**</span><span class="p">;</span>
+<span class="nd">@enduml</span>
+</pre></div>
+</div>
+<p class="plantuml">
+<object data="../../../_images/plantuml-3ee03cfbd2e2d96c7da61896dc8406396b6814e9.svg" type="image/svg+xml" style="width:171px;height:122px;">
+<img src="../../../_images/plantuml-3ee03cfbd2e2d96c7da61896dc8406396b6814e9.png" alt="&#64;startuml
+:Hello world;
+:This is on defined on
+several **lines**;
+&#64;enduml"/>
+
+</object></p>
+</div>
+<div class="section" id="id5">
+<h2>开始 / 结束<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<p>使用关键字 start 和 stop 表示图示的开始和结束:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nd">@startuml</span>
+<span class="n">start</span>
+<span class="p">:</span><span class="n">Hello</span> <span class="n">world</span><span class="p">;</span>
+<span class="p">:</span><span class="n">This</span> <span class="ow">is</span> <span class="n">on</span> <span class="n">defined</span> <span class="n">on</span>
+<span class="n">several</span> <span class="o">**</span><span class="n">lines</span><span class="o">**</span><span class="p">;</span>
+<span class="n">stop</span>
+<span class="nd">@enduml</span>
+</pre></div>
+</div>
+<p class="plantuml">
+<object data="../../../_images/plantuml-3fbea9e419c369c090888ce540513288bbef6232.svg" type="image/svg+xml" style="width:171px;height:204px;">
+<img src="../../../_images/plantuml-3fbea9e419c369c090888ce540513288bbef6232.png" alt="&#64;startuml
+start
+:Hello world;
+:This is on defined on
+several **lines**;
+stop
+&#64;enduml"/>
+
+</object></p>
+<p>使用 end 关键字:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nd">@startuml</span>
+<span class="n">start</span>
+<span class="p">:</span><span class="n">Hello</span> <span class="n">world</span><span class="p">;</span>
+<span class="p">:</span><span class="n">This</span> <span class="ow">is</span> <span class="n">on</span> <span class="n">defined</span> <span class="n">on</span>
+<span class="n">several</span> <span class="o">**</span><span class="n">lines</span><span class="o">**</span><span class="p">;</span>
+<span class="n">end</span>
+<span class="nd">@enduml</span>
+</pre></div>
+</div>
+<p class="plantuml">
+<object data="../../../_images/plantuml-7e500e1159704cbf9202050f5ce5d50b7c3e79ee.svg" type="image/svg+xml" style="width:171px;height:202px;">
+<img src="../../../_images/plantuml-7e500e1159704cbf9202050f5ce5d50b7c3e79ee.png" alt="&#64;startuml
+start
+:Hello world;
+:This is on defined on
+several **lines**;
+end
+&#64;enduml
+"/>
+
+</object></p>
+</div>
+<div class="section" id="id6">
+<h2>条件语句<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
+<p>使用关键字 if，then 和 else 设置分支测试。标注文字则放在括号中:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>@startuml
+
+start
+
+if (Graphviz installed?) then (yes)
+  :process all\ndiagrams;
+else (no)
+  :process only
+  __sequence__ and __activity__ diagrams;
+endif
+
+stop
+
+@enduml
+</pre></div>
+</div>
+<p class="plantuml">
+<object data="../../../_images/plantuml-2f6782ca7f62c5d778ef325dd5465f9b6016efc8.svg" type="image/svg+xml" style="width:348px;height:214px;">
+<img src="../../../_images/plantuml-2f6782ca7f62c5d778ef325dd5465f9b6016efc8.png" alt="&#64;startuml
+
+start
+
+if (Graphviz installed?) then (yes)
+  :process all\ndiagrams;
+else (no)
+  :process only
+  __sequence__ and __activity__ diagrams;
+endif
+
+stop
+
+&#64;enduml
+"/>
+
+</object></p>
+<p>使用关键字 elseif 设置多个分支测试:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>@startuml
+
+start
+
+if (Graphviz installed?) then (yes)
+  :process all\ndiagrams;
+else (no)
+  :process only
+  __sequence__ and __activity__ diagrams;
+endif
+
+stop
+
+@enduml
+</pre></div>
+</div>
+<p class="plantuml">
+<object data="../../../_images/plantuml-2f6782ca7f62c5d778ef325dd5465f9b6016efc8.svg" type="image/svg+xml" style="width:348px;height:214px;">
+<img src="../../../_images/plantuml-2f6782ca7f62c5d778ef325dd5465f9b6016efc8.png" alt="&#64;startuml
+
+start
+
+if (Graphviz installed?) then (yes)
+  :process all\ndiagrams;
+else (no)
+  :process only
+  __sequence__ and __activity__ diagrams;
+endif
+
+stop
+
+&#64;enduml
+"/>
+
+</object></p>
+<p>Conditional with error on an action:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>@startuml
+if (condition?) then
+  #pink:error;
+  kill
+endif
+#palegreen:action;
+@enduml
+</pre></div>
+</div>
+<p class="plantuml">
+<object data="../../../_images/plantuml-291d9c87d50284b8e767539480c44232d8864bb6.svg" type="image/svg+xml" style="width:139px;height:174px;">
+<img src="../../../_images/plantuml-291d9c87d50284b8e767539480c44232d8864bb6.png" alt="&#64;startuml
+if (condition?) then
+  #pink:error;
+  kill
+endif
+#palegreen:action;
+&#64;enduml"/>
+
+</object></p>
+<p>Conditional with detach on an action:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>@startuml
+if (condition?) then
+  #pink:error;
+  detach
+endif
+#palegreen:action;
+@enduml
+</pre></div>
+</div>
+<p class="plantuml">
+<object data="../../../_images/plantuml-890d8d03f49fd5a1d6674f0cc5ecda61ce9accd4.svg" type="image/svg+xml" style="width:139px;height:174px;">
+<img src="../../../_images/plantuml-890d8d03f49fd5a1d6674f0cc5ecda61ce9accd4.png" alt="&#64;startuml
+if (condition?) then
+  #pink:error;
+  detach
+endif
+#palegreen:action;
+&#64;enduml"/>
+
+</object></p>
+</div>
+<div class="section" id="id7">
+<h2>重复循环<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="repeat">
+<h3>repeat循环<a class="headerlink" href="#repeat" title="Permalink to this headline">¶</a></h3>
+<p>使用关键字 repeat 和 repeatwhile 进行重复循环:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>@startuml
+
+start
+
+repeat
+  :read data;
+  :generate diagrams;
+repeat while (more data?)
+
+stop
+
+@enduml
+</pre></div>
+</div>
+<p class="plantuml">
+<object data="../../../_images/plantuml-8997f269987353e0a081982d3899d0ba2f0cd2e0.svg" type="image/svg+xml" style="width:188px;height:286px;">
+<img src="../../../_images/plantuml-8997f269987353e0a081982d3899d0ba2f0cd2e0.png" alt="&#64;startuml
+
+start
+
+repeat
+  :read data;
+  :generate diagrams;
+repeat while (more data?)
+
+stop
+
+&#64;enduml
+"/>
+
+</object></p>
+<p>backward keyword:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>@startuml
+
+start
+
+repeat :foo as starting label;
+  :read data;
+  :generate diagrams;
+backward:This is backward;
+repeat while (more data?)
+
+stop
+
+@enduml
+</pre></div>
+</div>
+<p class="plantuml">
+<object data="../../../_images/plantuml-7f02a7ef2caea42a29f1a7e706942cac749113a4.svg" type="image/svg+xml" style="width:310px;height:311px;">
+<img src="../../../_images/plantuml-7f02a7ef2caea42a29f1a7e706942cac749113a4.png" alt="&#64;startuml
+
+start
+
+repeat :foo as starting label;
+  :read data;
+  :generate diagrams;
+backward:This is backward;
+repeat while (more data?)
+
+stop
+
+&#64;enduml"/>
+
+</object></p>
+<p>break keyword:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>@startuml
+start
+repeat
+  :Test something;
+    if (Something went wrong?) then (no)
+      #palegreen:OK;
+      break
+    endif
+    -&gt;NOK;
+    :Alert &quot;Error with long text&quot;;
+repeat while (Something went wrong with long text?) is (yes)
+-&gt;no;
+:Alert &quot;Sucess&quot;;
+stop
+@enduml
+</pre></div>
+</div>
+<p class="plantuml">
+<object data="../../../_images/plantuml-daf02431517af26052212728213477d2d8c84691.svg" type="image/svg+xml" style="width:299px;height:551px;">
+<img src="../../../_images/plantuml-daf02431517af26052212728213477d2d8c84691.png" alt="&#64;startuml
+start
+repeat
+  :Test something;
+    if (Something went wrong?) then (no)
+      #palegreen:OK;
+      break
+    endif
+    -&gt;NOK;
+    :Alert &quot;Error with long text&quot;;
+repeat while (Something went wrong with long text?) is (yes)
+-&gt;no;
+:Alert &quot;Sucess&quot;;
+stop
+&#64;enduml"/>
+
+</object></p>
+</div>
+<div class="section" id="while">
+<h3>while循环<a class="headerlink" href="#while" title="Permalink to this headline">¶</a></h3>
+<p>使用关键字 while 和 end while:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>@startuml
+
+start
+
+while (data available?)
+  :read data;
+  :generate diagrams;
+endwhile
+
+stop
+
+@enduml
+</pre></div>
+</div>
+<p class="plantuml">
+<object data="../../../_images/plantuml-1e051729eb917588ac5ea81c32b00e0131ac1a5a.svg" type="image/svg+xml" style="width:223px;height:230px;">
+<img src="../../../_images/plantuml-1e051729eb917588ac5ea81c32b00e0131ac1a5a.png" alt="&#64;startuml
+
+start
+
+while (data available?)
+  :read data;
+  :generate diagrams;
+endwhile
+
+stop
+
+&#64;enduml"/>
+
+</object></p>
+<p>在关键字 endwhile 后添加标注，还有一种方式是使用关键字 is:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>@startuml
+while (check filesize ?) is (not empty)
+  :read file;
+endwhile (empty)
+:close file;
+@enduml
+</pre></div>
+</div>
+<p class="plantuml">
+<object data="../../../_images/plantuml-675074c4252379d001636c4b47442f84e6b9dae2.svg" type="image/svg+xml" style="width:192px;height:188px;">
+<img src="../../../_images/plantuml-675074c4252379d001636c4b47442f84e6b9dae2.png" alt="&#64;startuml
+while (check filesize ?) is (not empty)
+  :read file;
+endwhile (empty)
+:close file;
+&#64;enduml"/>
+
+</object></p>
+</div>
+</div>
+<div class="section" id="id8">
+<h2>并行处理<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h2>
+<p>使用关键字 fork，fork again 和 end fork 表示并行处理:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>@startuml
+
+start
+
+if (multiprocessor?) then (yes)
+  fork
+    :Treatment 1;
+  fork again
+    :Treatment 2;
+  end fork
+else (monoproc)
+  :Treatment 1;
+  :Treatment 2;
+endif
+
+@enduml
+</pre></div>
+</div>
+<p class="plantuml">
+<object data="../../../_images/plantuml-9362c5d836e61e5c8c0a38ba57a5f266d5538428.svg" type="image/svg+xml" style="width:386px;height:228px;">
+<img src="../../../_images/plantuml-9362c5d836e61e5c8c0a38ba57a5f266d5538428.png" alt="&#64;startuml
+
+start
+
+if (multiprocessor?) then (yes)
+  fork
+    :Treatment 1;
+  fork again
+    :Treatment 2;
+  end fork
+else (monoproc)
+  :Treatment 1;
+  :Treatment 2;
+endif
+
+&#64;enduml
+"/>
+
+</object></p>
+<p>split, split again and end split keywords:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>@startuml
+
+start
+
+if (multiprocessor?) then (yes)
+  fork
+    :Treatment 1;
+  fork again
+    :Treatment 2;
+  end fork
+else (monoproc)
+  :Treatment 1;
+  :Treatment 2;
+endif
+
+@enduml
+</pre></div>
+</div>
+<p class="plantuml">
+<object data="../../../_images/plantuml-9362c5d836e61e5c8c0a38ba57a5f266d5538428.svg" type="image/svg+xml" style="width:386px;height:228px;">
+<img src="../../../_images/plantuml-9362c5d836e61e5c8c0a38ba57a5f266d5538428.png" alt="&#64;startuml
+
+start
+
+if (multiprocessor?) then (yes)
+  fork
+    :Treatment 1;
+  fork again
+    :Treatment 2;
+  end fork
+else (monoproc)
+  :Treatment 1;
+  :Treatment 2;
+endif
+
+&#64;enduml
+"/>
+
+</object></p>
+<p>Input split (multi-start):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nd">@startuml</span>
+<span class="n">split</span>
+   <span class="o">-</span><span class="p">[</span><span class="n">hidden</span><span class="p">]</span><span class="o">-&gt;</span>
+   <span class="p">:</span><span class="n">A</span><span class="p">;</span>
+<span class="n">split</span> <span class="n">again</span>
+   <span class="o">-</span><span class="p">[</span><span class="n">hidden</span><span class="p">]</span><span class="o">-&gt;</span>
+   <span class="p">:</span><span class="n">B</span><span class="p">;</span>
+<span class="n">split</span> <span class="n">again</span>
+   <span class="o">-</span><span class="p">[</span><span class="n">hidden</span><span class="p">]</span><span class="o">-&gt;</span>
+   <span class="p">:</span><span class="n">C</span><span class="p">;</span>
+<span class="n">end</span> <span class="n">split</span>
+<span class="p">:</span><span class="n">D</span><span class="p">;</span>
+<span class="nd">@enduml</span>
+</pre></div>
+</div>
+<p class="plantuml">
+<object data="../../../_images/plantuml-7f9775398cf5f43b17a7445fd278506ea203141a.svg" type="image/svg+xml" style="width:127px;height:150px;">
+<img src="../../../_images/plantuml-7f9775398cf5f43b17a7445fd278506ea203141a.png" alt="&#64;startuml
+split
+   -[hidden]-&gt;
+   :A;
+split again
+   -[hidden]-&gt;
+   :B;
+split again
+   -[hidden]-&gt;
+   :C;
+end split
+:D;
+&#64;enduml
+"/>
+
+</object></p>
+<p>Output split (multi-end):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nd">@startuml</span>
+<span class="n">start</span>
+<span class="n">split</span>
+   <span class="p">:</span><span class="n">A</span><span class="p">;</span>
+   <span class="n">kill</span>
+<span class="n">split</span> <span class="n">again</span>
+   <span class="p">:</span><span class="n">B</span><span class="p">;</span>
+   <span class="n">detach</span>
+<span class="n">split</span> <span class="n">again</span>
+   <span class="p">:</span><span class="n">C</span><span class="p">;</span>
+   <span class="n">kill</span>
+<span class="n">end</span> <span class="n">split</span>
+<span class="nd">@enduml</span>
+</pre></div>
+</div>
+<p class="plantuml">
+<object data="../../../_images/plantuml-f9b71a44b4eef02136abcb75ce6f9ffbcfa41b69.svg" type="image/svg+xml" style="width:126px;height:114px;">
+<img src="../../../_images/plantuml-f9b71a44b4eef02136abcb75ce6f9ffbcfa41b69.png" alt="&#64;startuml
+start
+split
+   :A;
+   kill
+split again
+   :B;
+   detach
+split again
+   :C;
+   kill
+end split
+&#64;enduml"/>
+
+</object></p>
+</div>
+<div class="section" id="id9">
+<h2>注释<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nd">@startuml</span>
+
+<span class="n">start</span>
+<span class="p">:</span><span class="n">foo1</span><span class="p">;</span>
+<span class="n">floating</span> <span class="n">note</span> <span class="n">left</span><span class="p">:</span> <span class="n">This</span> <span class="ow">is</span> <span class="n">a</span> <span class="n">note</span>
+<span class="p">:</span><span class="n">foo2</span><span class="p">;</span>
+<span class="n">note</span> <span class="n">right</span>
+  <span class="n">This</span> <span class="n">note</span> <span class="ow">is</span> <span class="n">on</span> <span class="n">several</span>
+  <span class="o">//</span><span class="n">lines</span><span class="o">//</span> <span class="ow">and</span> <span class="n">can</span>
+  <span class="n">contain</span> <span class="o">&lt;</span><span class="n">b</span><span class="o">&gt;</span><span class="n">HTML</span><span class="o">&lt;/</span><span class="n">b</span><span class="o">&gt;</span>
+  <span class="o">====</span>
+  <span class="o">*</span> <span class="n">Calling</span> <span class="n">the</span> <span class="n">method</span> <span class="s2">&quot;&quot;</span><span class="n">foo</span><span class="p">()</span><span class="s2">&quot;&quot;</span> <span class="ow">is</span> <span class="n">prohibited</span>
+<span class="n">end</span> <span class="n">note</span>
+<span class="n">stop</span>
+
+<span class="nd">@enduml</span>
+</pre></div>
+</div>
+<p class="plantuml">
+<object data="../../../_images/plantuml-b449d2bab93cf0ede287b522b4e869fff4d7ce45.svg" type="image/svg+xml" style="width:484px;height:227px;">
+<img src="../../../_images/plantuml-b449d2bab93cf0ede287b522b4e869fff4d7ce45.png" alt="&#64;startuml
+
+start
+:foo1;
+floating note left: This is a note
+:foo2;
+note right
+  This note is on several
+  //lines// and can
+  contain &lt;b&gt;HTML&lt;/b&gt;
+  ====
+  * Calling the method &quot;&quot;foo()&quot;&quot; is prohibited
+end note
+stop
+
+&#64;enduml"/>
+
+</object></p>
+</div>
+<div class="section" id="sdl">
+<h2>特殊领域语言 (SDL)<a class="headerlink" href="#sdl" title="Permalink to this headline">¶</a></h2>
+<p>修改活动标签最后的分号分隔符 (;)，可以为活动设置不同的形状:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">|</span>
+<span class="o">&lt;</span>
+<span class="o">&gt;</span>
+<span class="o">/</span>
+<span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nd">@startuml</span>
+<span class="p">:</span><span class="n">Ready</span><span class="p">;</span>
+<span class="p">:</span><span class="nb">next</span><span class="p">(</span><span class="n">o</span><span class="p">)</span><span class="o">|</span>
+<span class="p">:</span><span class="n">Receiving</span><span class="p">;</span>
+<span class="n">split</span>
+ <span class="p">:</span><span class="n">nak</span><span class="p">(</span><span class="n">i</span><span class="p">)</span><span class="o">&lt;</span>
+ <span class="p">:</span><span class="n">ack</span><span class="p">(</span><span class="n">o</span><span class="p">)</span><span class="o">&gt;</span>
+<span class="n">split</span> <span class="n">again</span>
+ <span class="p">:</span><span class="n">ack</span><span class="p">(</span><span class="n">i</span><span class="p">)</span><span class="o">&lt;</span>
+ <span class="p">:</span><span class="nb">next</span><span class="p">(</span><span class="n">o</span><span class="p">)</span>
+ <span class="n">on</span> <span class="n">several</span> <span class="n">line</span><span class="o">|</span>
+ <span class="p">:</span><span class="n">i</span> <span class="p">:</span><span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span>
+ <span class="p">:</span><span class="n">ack</span><span class="p">(</span><span class="n">o</span><span class="p">)</span><span class="o">&gt;</span>
+<span class="n">split</span> <span class="n">again</span>
+ <span class="p">:</span><span class="n">err</span><span class="p">(</span><span class="n">i</span><span class="p">)</span><span class="o">&lt;</span>
+ <span class="p">:</span><span class="n">nak</span><span class="p">(</span><span class="n">o</span><span class="p">)</span><span class="o">&gt;</span>
+<span class="n">split</span> <span class="n">again</span>
+ <span class="p">:</span><span class="n">foo</span><span class="o">/</span>
+<span class="n">split</span> <span class="n">again</span>
+ <span class="p">:</span><span class="n">i</span> <span class="o">&gt;</span> <span class="mi">5</span><span class="p">}</span>
+<span class="n">stop</span>
+<span class="n">end</span> <span class="n">split</span>
+<span class="p">:</span><span class="n">finish</span><span class="p">;</span>
+<span class="nd">@enduml</span>
+</pre></div>
+</div>
+<p class="plantuml">
+<object data="../../../_images/plantuml-524861f85083d19e6d32459d765c3c4c69e717a0.svg" type="image/svg+xml" style="width:431px;height:501px;">
+<img src="../../../_images/plantuml-524861f85083d19e6d32459d765c3c4c69e717a0.png" alt="&#64;startuml
+:Ready;
+:next(o)|
+:Receiving;
+split
+ :nak(i)&lt;
+ :ack(o)&gt;
+split again
+ :ack(i)&lt;
+ :next(o)
+ on several line|
+ :i := i + 1]
+ :ack(o)&gt;
+split again
+ :err(i)&lt;
+ :nak(o)&gt;
+split again
+ :foo/
+split again
+ :i &gt; 5}
+stop
+end split
+:finish;
+&#64;enduml"/>
+
+</object></p>
+<dl class="footnote brackets">
+<dt class="label" id="id10"><span class="brackets"><a class="fn-backref" href="#id2">1</a></span></dt>
+<dd><p><a class="reference external" href="https://plantuml.com/zh/activity-diagram-beta">https://plantuml.com/zh/activity-diagram-beta</a></p>
+</dd>
+<dt class="label" id="id11"><span class="brackets"><a class="fn-backref" href="#id3">2</a></span></dt>
+<dd><p><a class="reference external" href="https://plantuml.com/zh/activity-diagram-legacy">https://plantuml.com/zh/activity-diagram-legacy</a></p>
+</dd>
+</dl>
+</div>
 </div>
 
 

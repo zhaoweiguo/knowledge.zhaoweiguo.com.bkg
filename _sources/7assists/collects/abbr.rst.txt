@@ -12,6 +12,7 @@
    abbrs/architecture
    abbrs/psychology
    abbrs/job
+   abbrs/optimise
    abbrs/tmp
 
 

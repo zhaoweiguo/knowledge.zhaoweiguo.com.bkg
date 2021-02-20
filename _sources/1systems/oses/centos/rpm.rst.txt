@@ -1,7 +1,7 @@
 .. _rpm:
 
 rpm命令
-=========
+#######
 
 QUERYING AND VERIFYING PACKAGES::
 

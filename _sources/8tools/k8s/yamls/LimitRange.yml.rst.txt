@@ -3,6 +3,16 @@
 LimitRange.yml
 ###############
 
+
+相关参考: :ref:`ResourceQuota<ResourceQuota_yaml>`
+
+说明::
+
+    cpu: 500m   // 500 millicpus
+    等同
+    cpu: "0.5"
+
+
 LimitRange是namespace级别的, 即在namespace中有一个LimitRange, 则此namespace下创建pod时会自动加上LimitRange上的限制。
 
 .. literalinclude:: /files/k8s/yamls/LimitRange.yaml

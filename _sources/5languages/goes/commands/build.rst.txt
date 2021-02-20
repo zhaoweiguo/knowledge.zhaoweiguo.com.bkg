@@ -29,6 +29,47 @@ usage::
 
     arguments to pass on each go tool link invocation.
 
+app/config/vars.go::
+
+    package config
+
+    var Version string 
+
+    var BuildTime string 
+
+main.go::
+
+    package main
+
+    import (
+        "fmt"
+        "app/config"
+    )
+
+    func main() {
+        fmt.Println("build.Version:\t", Version)
+        fmt.Println("build.Time:\t", build.BuildTime)
+    }
+
+build::
+
+    $ go build -ldflags "-X 'app/config.Version=0.0.1' -X 'app/config.BuildTime=$(date)'" main.go
+
+run::
+
+    $ ./app 
+    Version:     0.0.1
+    build.Time:  Sat Jul  4 19:49:19 UTC 2020
+
+更多实例: `参见 <https://github.com/zhaoweiguo/demo-go/tree/master/pkg/basic4_flag/ldflags>`_
+
+
+.. note:: ``-w``: turns off DWARF debugging information: you will not be able to use gdb on the binary to look at specific functions or set breakpoints or get stack traces, because all the metadata gdb needs will not be included. 
+
+.. note:: ``-s``: turns off generation of the Go symbol table: you will not be able to use 'go tool nm' to list the symbols in the binary. Strip -s is like passing -s to -ldflags but it doesn't strip quite as much.
+
+
+更多详情: :ref:`参见<go_tool_link>`
 
 
 

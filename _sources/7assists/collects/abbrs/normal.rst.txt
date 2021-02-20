@@ -12,6 +12,7 @@ A
 
 * AAA(protocol): Authentication, Authorization and Accounting
 * ACID: 原子性(Atomicity),一致性(Consistency),隔离性(Isolation),持久性(Durability).与BASE对应
+* ADSL: Asymmetric Digital Subscriber Line(非对称数字用户线路)
 * ADT: Android Development Tools
 * AES: Advanced Encryption Standard
 * AI: Artificial Intelligence

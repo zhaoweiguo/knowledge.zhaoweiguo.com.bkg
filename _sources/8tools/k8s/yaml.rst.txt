@@ -15,6 +15,7 @@ kubectl yaml文件
    yamls/Ingress.yml
    yamls/PersistentVolume.yml
    yamls/StatefulSet.yml
+   yamls/DaemonSet.yml
    yamls/ConfigMap.yml
 
 * 不大常用配置

@@ -50,6 +50,7 @@ golang基础
 * xlsx: https://github.com/tealeg/xlsx
 
 * json优化版: https://github.com/json-iterator/go
+* goreman: https://github.com/mattn/goreman
 
 Golang工具包
 ------------
@@ -377,7 +378,6 @@ DEVOPS
   
 * Like Prometheus, but for logs: https://github.com/grafana/loki
 
-
 * Prometheus Operator: https://github.com/prometheus-operator/prometheus-operator
 
 微服务
@@ -533,6 +533,8 @@ P2P
 
 静态文件打包到一个go文件
 -------------------------
+
+.. note:: golang1.16版本增加了``embed``库解决此类问题
 
 * https://github.com/bradrydzewski/togo
 * React.js and Go: https://github.com/GeertJohan/go.rice
