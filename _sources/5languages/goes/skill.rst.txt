@@ -14,6 +14,7 @@
    skills/deep_copy
    skills/gc
    skills/pointer
+   skills/tmp
 
 
 

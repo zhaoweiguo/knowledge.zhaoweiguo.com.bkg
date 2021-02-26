@@ -13,5 +13,6 @@
    buildins/file
    buildins/set
    buildins/export
+   buildins/dirs
 
 

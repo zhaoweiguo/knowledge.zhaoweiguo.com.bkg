@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>2.5.19. Protocol Buffer &mdash; 新溪-gordon V1.4.1 documentation</title>
+  <title>2.9.1. 架构图 &mdash; 新溪-gordon V1.4.1 documentation</title>
   
 
   
@@ -28,8 +28,8 @@
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="2.5.20. thrift" href="thrift.html" />
-    <link rel="prev" title="2.5.18. rpc相关" href="rpc.html" /> 
+    <link rel="next" title="2.9.2. 微服务架构" href="microservice.html" />
+    <link rel="prev" title="2.9. 架构设计" href="../architecture.html" /> 
 
   
   <script src="../../_static/js/modernizr.min.js"></script>
@@ -111,7 +111,8 @@ var _hmt = _hmt || [];
               
             
             
-              <ul class="current">
+              <p class="caption"><span class="caption-text">我的知识体系</span></p>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../../1system.html">1. 操作系统相关</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../1systems/linux_command.html">1.1. 命令收集</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="../../1systems/commands/advance.html">1.1.1. 高级命令</a><ul>
@@ -303,6 +304,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/buildins/file.html">file命令使用</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/buildins/set.html">set命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/buildins/export.html">export命令</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/commands/buildins/dirs.html">pushd, popd &amp; dirs命令</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../../1systems/commands/tmp.html">1.1.16. 暂未分组的linux命令</a><ul>
@@ -433,6 +435,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../1systems/shells/examples/example2.html">shell实例收集</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../1systems/shells/examples/arch_os.html">linux平台架构</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../1systems/shells/examples/ssh_login.html">创建ssh远程登录欢迎词</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../1systems/shells/examples/opensource.html">开源项目</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../../1systems/shells/normal.html">1.6.2. shell基本用法</a><ul>
@@ -583,115 +586,117 @@ var _hmt = _hmt || [];
 <li class="toctree-l3"><a class="reference internal" href="../ais/other.html#caffe">2.3.10. caffe</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../vr.html">2.4. AR&amp;VR</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../protocol.html">2.5. 协议</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="http.html">2.5.1. http文档</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="https/protocol.html">协议细节</a></li>
-<li class="toctree-l4"><a class="reference internal" href="https/normal.html">常用</a></li>
-<li class="toctree-l4"><a class="reference internal" href="https/rest.html">Rest相关</a></li>
-<li class="toctree-l4"><a class="reference internal" href="https/phrase_polling.html">轮询、长轮询、长连接</a></li>
-<li class="toctree-l4"><a class="reference internal" href="https/http_code.html">http返回码</a></li>
-<li class="toctree-l4"><a class="reference internal" href="https/practice.html">实践</a></li>
-<li class="toctree-l4"><a class="reference internal" href="https/tmp.html">临时</a></li>
-<li class="toctree-l4"><a class="reference internal" href="https/tool.html">tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../5G.html">2.4. 5G 相关</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../vr.html">2.5. AR&amp;VR</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../protocol.html">2.6. 协议</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../protocols/http.html">2.6.1. http文档</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../protocols/https/protocol.html">协议细节</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../protocols/https/normal.html">常用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../protocols/https/rest.html">Rest相关</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../protocols/https/phrase_polling.html">轮询、长轮询、长连接</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../protocols/https/http_code.html">http返回码</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../protocols/https/practice.html">实践</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../protocols/https/tmp.html">临时</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../protocols/https/tool.html">tool</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="ssl_tls.html">2.5.2. ssl/tls协议</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="ssl_tls/normal.html">基本</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ssl_tls/ca.html">如何使用ca证书签名证书</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ssl_tls/check.html">证书验证</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ssl_tls/handshake.html">SSL/TLS协议的基本过程</a></li>
-<li class="toctree-l4"><a class="reference internal" href="ssl_tls/bidiauth.html">单向认证vs双向认证 </a></li>
-<li class="toctree-l4"><a class="reference internal" href="ssl_tls/tmp.html">临时</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../protocols/ssl_tls.html">2.6.2. ssl/tls协议</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../protocols/ssl_tls/normal.html">基本</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../protocols/ssl_tls/ca.html">如何使用ca证书签名证书</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../protocols/ssl_tls/check.html">证书验证</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../protocols/ssl_tls/handshake.html">SSL/TLS协议的基本过程</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../protocols/ssl_tls/bidiauth.html">单向认证vs双向认证 </a></li>
+<li class="toctree-l4"><a class="reference internal" href="../protocols/ssl_tls/tmp.html">临时</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="http2.html">2.5.3. http2协议 </a></li>
-<li class="toctree-l3"><a class="reference internal" href="http3.html">2.5.4. http3协议</a></li>
-<li class="toctree-l3"><a class="reference internal" href="websocket.html">2.5.5. websocket协议</a></li>
-<li class="toctree-l3"><a class="reference internal" href="ftp.html">2.5.6. FTP返回码</a></li>
-<li class="toctree-l3"><a class="reference internal" href="ip.html">2.5.7. ip协议</a></li>
-<li class="toctree-l3"><a class="reference internal" href="udp.html">2.5.8. udp协议</a></li>
-<li class="toctree-l3"><a class="reference internal" href="tcp.html">2.5.9. tcp相关</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="tcps/tcp1.html">tcp协议 </a></li>
-<li class="toctree-l4"><a class="reference internal" href="tcps/tcp2.html">tcp2 </a></li>
-<li class="toctree-l4"><a class="reference internal" href="tcps/arp.html">ARP协议</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tcps/icmp.html">ICMP(网络控制报文)协议</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tcps/igmp.html">广播和多播, IGMP协议</a></li>
-<li class="toctree-l4"><a class="reference internal" href="tcps/dll.html">数据链路层 </a></li>
+<li class="toctree-l3"><a class="reference internal" href="../protocols/http2.html">2.6.3. http2协议 </a></li>
+<li class="toctree-l3"><a class="reference internal" href="../protocols/http3.html">2.6.4. http3协议</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../protocols/websocket.html">2.6.5. websocket协议</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../protocols/ftp.html">2.6.6. FTP返回码</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../protocols/ip.html">2.6.7. ip协议</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../protocols/udp.html">2.6.8. udp协议</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../protocols/tcp.html">2.6.9. tcp相关</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../protocols/tcps/tcp1.html">tcp协议 </a></li>
+<li class="toctree-l4"><a class="reference internal" href="../protocols/tcps/tcp2.html">tcp2 </a></li>
+<li class="toctree-l4"><a class="reference internal" href="../protocols/tcps/arp.html">ARP协议</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../protocols/tcps/icmp.html">ICMP(网络控制报文)协议</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../protocols/tcps/igmp.html">广播和多播, IGMP协议</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../protocols/tcps/dll.html">数据链路层 </a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="dns.html">2.5.10. DNS域名系统</a></li>
-<li class="toctree-l3"><a class="reference internal" href="amqp.html">2.5.11. AMQP协议</a></li>
-<li class="toctree-l3"><a class="reference internal" href="coap.html">2.5.12. COAP协议  </a><ul>
-<li class="toctree-l4"><a class="reference internal" href="coaps/coap_protocol.html">Coap协议</a></li>
-<li class="toctree-l4"><a class="reference internal" href="coaps/coap_cli.html">Coap协议client </a></li>
-<li class="toctree-l4"><a class="reference internal" href="coaps/coap_example_node.html">Coap协议Node实例</a></li>
-<li class="toctree-l4"><a class="reference internal" href="coaps/coap_architecture.html">Coap架构图</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../protocols/dns.html">2.6.10. DNS域名系统</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../protocols/amqp.html">2.6.11. AMQP协议</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../protocols/coap.html">2.6.12. COAP协议  </a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../protocols/coaps/coap_protocol.html">Coap协议</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../protocols/coaps/coap_cli.html">Coap协议client </a></li>
+<li class="toctree-l4"><a class="reference internal" href="../protocols/coaps/coap_example_node.html">Coap协议Node实例</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../protocols/coaps/coap_architecture.html">Coap架构图</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="dtls.html">2.5.13. DTLS协议</a></li>
-<li class="toctree-l3"><a class="reference internal" href="auth1.html">2.5.14. Auth1.0协议</a></li>
-<li class="toctree-l3"><a class="reference internal" href="auth2.html">2.5.15. Auth2.0协议 </a></li>
-<li class="toctree-l3"><a class="reference internal" href="qos.html">2.5.16. QoS</a></li>
-<li class="toctree-l3"><a class="reference internal" href="jwt.html">2.5.17. JWT</a></li>
-<li class="toctree-l3"><a class="reference internal" href="rpc.html">2.5.18. rpc相关</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">2.5.19. Protocol Buffer</a></li>
-<li class="toctree-l3"><a class="reference internal" href="thrift.html">2.5.20. thrift</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="thrifts/thrift_introduce.html">简单介绍</a></li>
-<li class="toctree-l4"><a class="reference internal" href="thrifts/thrift_usage.html">简单用法</a></li>
-<li class="toctree-l4"><a class="reference internal" href="thrifts/thrift_usage.html#id2">实例</a></li>
-<li class="toctree-l4"><a class="reference internal" href="thrifts/thrift_usage.html#thrift-erlang">thrift-erlang实例</a></li>
-<li class="toctree-l4"><a class="reference internal" href="thrifts/thrift_protocalbuffer.html">与protocal buffer的比较</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../protocols/dtls.html">2.6.13. DTLS协议</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../protocols/auth1.html">2.6.14. Auth1.0协议</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../protocols/auth2.html">2.6.15. Auth2.0协议 </a></li>
+<li class="toctree-l3"><a class="reference internal" href="../protocols/qos.html">2.6.16. QoS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../protocols/jwt.html">2.6.17. JWT</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../protocols/rpc.html">2.6.18. rpc相关</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../protocols/protobuf.html">2.6.19. protobuf</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../protocols/thrift.html">2.6.20. thrift</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../protocols/thrifts/thrift_introduce.html">简单介绍</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../protocols/thrifts/thrift_usage.html">简单用法</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../protocols/thrifts/thrift_usage.html#id2">实例</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../protocols/thrifts/thrift_usage.html#thrift-erlang">thrift-erlang实例</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../protocols/thrifts/thrift_protocalbuffer.html">与protocal buffer的比较</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="jsonnet.html">2.5.21. jsonnet</a></li>
-<li class="toctree-l3"><a class="reference internal" href="other.html">2.5.22. 其他协议</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="others/Gopher.html">Gopher协议</a></li>
-<li class="toctree-l4"><a class="reference internal" href="others/other.html">其他</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../protocols/jsonnet.html">2.6.21. jsonnet</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../protocols/other.html">2.6.22. 其他协议</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../protocols/others/Gopher.html">Gopher协议</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../protocols/others/other.html">其他</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../encoding.html">2.6. 编码</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../encodings/ascii.html">2.6.1. ASCII 码</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../encodings/utf8.html">2.6.2. UTF-8</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../encodings/gbk.html">2.6.3. GBK</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../encodings/iso_8859.html">2.6.4. ISO-8859</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../encodings/escape.html">2.6.5. 转义</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../encodings/history.html">2.6.6. 历史</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../encodings/other.html">2.6.7. 其他</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../encodings/other_encoding.html">2.6.8. 编码相关问题</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../encoding.html">2.7. 编码</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../encodings/ascii.html">2.7.1. ASCII 码</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../encodings/utf8.html">2.7.2. UTF-8</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../encodings/gbk.html">2.7.3. GBK</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../encodings/iso_8859.html">2.7.4. ISO-8859</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../encodings/escape.html">2.7.5. 转义</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../encodings/history.html">2.7.6. 历史</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../encodings/other.html">2.7.7. 其他</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../encodings/other_encoding.html">2.7.8. 编码相关问题</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../time_zone.html">2.7. 时区</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../time_zones/normal.html">2.7.1. 常用</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../time_zones/utc_cst.html">2.7.2. 存储用UTC时间</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../time_zones/time.html">2.7.3. 时间格式</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../time_zone.html">2.8. 时区</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../time_zones/normal.html">2.8.1. 常用</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../time_zones/utc_cst.html">2.8.2. 存储用UTC时间</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../time_zones/time.html">2.8.3. 时间格式</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../architecture.html">2.8. 架构设计</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../architectures/microservice.html">2.8.1. 微服务架构</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../architectures/cqrs.html">2.8.2. CQRS </a></li>
-<li class="toctree-l3"><a class="reference internal" href="../architectures/crud.html">2.8.3. CRUD</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../architectures/ddd.html">2.8.4. 领域驱动设计</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../architectures/api.html">2.8.5. api设计</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../architectures/discovery.html">2.8.6. 服务发现 </a></li>
-<li class="toctree-l3"><a class="reference internal" href="../architectures/event_driver.html">2.8.7. 事件驱动架构</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../architectures/network_agent.html">2.8.8. 网络代理</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../architectures/message_bus.html">2.8.9. 消息总线</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../architectures/design_mode.html">2.8.10. 23种设计模式 </a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../architectures/design_modes/singleton.html">单例模式 </a></li>
-<li class="toctree-l4"><a class="reference internal" href="../architectures/design_modes/observer-design.html">观察者模式</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../architectures/design_modes/decorator.html">装饰器模式</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../architectures/design_modes/mediator.html">中介者模式</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../architecture.html">2.9. 架构设计</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">2.9.1. 架构图</a></li>
+<li class="toctree-l3"><a class="reference internal" href="microservice.html">2.9.2. 微服务架构</a></li>
+<li class="toctree-l3"><a class="reference internal" href="cqrs.html">2.9.3. CQRS </a></li>
+<li class="toctree-l3"><a class="reference internal" href="crud.html">2.9.4. CRUD</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ddd.html">2.9.5. 领域驱动设计</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api.html">2.9.6. api设计</a></li>
+<li class="toctree-l3"><a class="reference internal" href="discovery.html">2.9.7. 服务发现 </a></li>
+<li class="toctree-l3"><a class="reference internal" href="event_driver.html">2.9.8. 事件驱动架构</a></li>
+<li class="toctree-l3"><a class="reference internal" href="network_agent.html">2.9.9. 网络代理</a></li>
+<li class="toctree-l3"><a class="reference internal" href="message_bus.html">2.9.10. 消息总线</a></li>
+<li class="toctree-l3"><a class="reference internal" href="design_mode.html">2.9.11. 23种设计模式 </a><ul>
+<li class="toctree-l4"><a class="reference internal" href="design_modes/singleton.html">单例模式 </a></li>
+<li class="toctree-l4"><a class="reference internal" href="design_modes/observer-design.html">观察者模式</a></li>
+<li class="toctree-l4"><a class="reference internal" href="design_modes/decorator.html">装饰器模式</a></li>
+<li class="toctree-l4"><a class="reference internal" href="design_modes/mediator.html">中介者模式</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../architectures/sla.html">2.8.11. SLA</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../architectures/other.html">2.8.12. 其他</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sla.html">2.9.12. SLA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="other.html">2.9.13. 其他</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../encrypt.html">2.9. 加密相关</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../encrypts/encrypt_openssl.html">2.9.1. Openssl命令相关</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../encrypt.html">2.10. 加密相关</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../encrypts/encrypt_openssl.html">2.10.1. Openssl命令相关</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../encrypts/openssls/openssl_normal.html">openssl基本</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../encrypts/openssls/openssl_question.html">加密常见问题</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../encrypts/openssls/openssl_rsa.html">openssl rsa命令</a></li>
@@ -706,10 +711,10 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../encrypts/openssls/openssl_x509.html">openssl x509命令</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../encrypts/encrypt_base64.html">2.9.2. baseXX命令使用</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../encrypts/encrypt_easy-rsa.html">2.9.3. easy-rsa命令</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../encrypts/encrypt_cfssl.html">2.9.4. cfssl命令</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../encrypts/cert.html">2.9.5. 证书相关</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../encrypts/encrypt_base64.html">2.10.2. baseXX命令使用</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../encrypts/encrypt_easy-rsa.html">2.10.3. easy-rsa命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../encrypts/encrypt_cfssl.html">2.10.4. cfssl命令</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../encrypts/cert.html">2.10.5. 证书相关</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../encrypts/certs/normal.html">基本</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../encrypts/certs/cert_ca.html">ca证书相关</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../encrypts/certs/letsencrypt.html">Let’s Encrypt</a></li>
@@ -717,7 +722,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../encrypts/certs/question.html">常见问题</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../encrypts/practice.html">2.9.6. 实战</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../encrypts/practice.html">2.10.6. 实战</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../encrypts/practices/encrypt_mac_p12.html">mac的p12导出私钥</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../encrypts/practices/encrypt_makecert.html">微软makecert导出私钥</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../encrypts/practices/encrypt_ca.html">生成ca证书并签名子证书</a></li>
@@ -728,60 +733,60 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../encrypts/practices/cert_gen.html">自动创建证书请求</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../encrypts/encrypt_mbedtls.html">2.9.7. mbedtls-主流的SSL</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../encrypts/kerberos.html">2.9.8. Kerberos</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../encrypts/question.html">2.9.9. 常见问题</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../encrypts/encrypt_tmp.html">2.9.10. encrypt临时</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../encrypts/public-key.html">2.9.11. 非对称加密</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../encrypts/encrypt_mbedtls.html">2.10.7. mbedtls-主流的SSL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../encrypts/kerberos.html">2.10.8. Kerberos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../encrypts/question.html">2.10.9. 常见问题</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../encrypts/encrypt_tmp.html">2.10.10. encrypt临时</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../encrypts/public-key.html">2.10.11. 非对称加密</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../encrypts/public-keys/RSA.html">rsa加解密</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../encrypts/public-keys/GPG.html">pgp/gpg相关</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../encrypts/public-keys/DH.html">DH</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../encrypts/public-keys/EC.html">EC</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../encrypts/symmetric-key.html">2.9.12. 对称加密</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../encrypts/symmetric-key.html">2.10.12. 对称加密</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../encrypts/symmetric-keys/AES.html">AES加解密</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../encrypts/symmetric-keys/DES.html">DES</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../encrypts/symmetric-keys/RC4.html">RC4</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../encrypts/digest-algorithm.html">2.9.13. 摘要算法</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../encrypts/digest-algorithm.html">2.10.13. 摘要算法</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../encrypts/digest-algorithms/sha256.html">sha256加密</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../encrypts/digest-algorithms/md5.html">md5摘要算法</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../encrypts/signature-algorithm.html">2.9.14. 签名算法</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../encrypts/signature-algorithm.html">2.10.14. 签名算法</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../encrypts/signature-algorithms/DSA.html">DSA</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../encrypts/signature-algorithms/ECDSA.html">ECDSA</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../chart.html">2.10. 图表</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../charts/common.html">2.10.1. 图表</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../charts/sankey_diagram.html">2.10.2. 桑基图</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../charts/bubble_chart.html">2.10.3. 气泡图</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../charts/rose_illustration.html">2.10.4. 南丁格尔玫瑰图</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../charts/flame_graph.html">2.10.5. 火焰图</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../charts/other.html">2.10.6. 其他</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chart.html">2.11. 图表</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../charts/common.html">2.11.1. 图表</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../charts/sankey_diagram.html">2.11.2. 桑基图</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../charts/bubble_chart.html">2.11.3. 气泡图</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../charts/rose_illustration.html">2.11.4. 南丁格尔玫瑰图</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../charts/flame_graph.html">2.11.5. 火焰图</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../charts/other.html">2.11.6. 其他</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../rfc.html">2.11. rfc</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../rfcs/rfc1123.html">2.11.1. rfc1123</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../rfcs/rfc2045.html">2.11.2. rfc2045</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../rfcs/rfc2068.html">2.11.3. rfc2068</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../rfcs/rfc3339.html">2.11.4. rfc3339</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../rfc.html">2.12. rfc</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../rfcs/rfc1123.html">2.12.1. rfc1123</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../rfcs/rfc2045.html">2.12.2. rfc2045</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../rfcs/rfc2068.html">2.12.3. rfc2068</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../rfcs/rfc3339.html">2.12.4. rfc3339</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../paper.html">2.12. 论文</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../regexp.html">2.13. 正则表达式</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../regexps/normal.html">2.13.1. 正则基本功能</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../regexps/example.html">2.13.2. 实例</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../paper.html">2.13. 论文</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regexp.html">2.14. 正则表达式</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../regexps/normal.html">2.14.1. 正则基本功能</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../regexps/example.html">2.14.2. 实例</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../tmp.html">2.14. 临时</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../tmps/bot.html">2.14.1. 对话机器人</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../tmps/other.html">2.14.2. 其他core</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tmp.html">2.15. 临时</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../tmps/bot.html">2.15.1. 对话机器人</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../tmps/other.html">2.15.2. 其他core</a></li>
 </ul>
 </li>
 </ul>
@@ -965,7 +970,9 @@ var _hmt = _hmt || [];
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../../4dbs/kvs/memcached.html">4.2.2. Memcached相关文档</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../4dbs/kvs/etcd.html">4.2.3. etcd</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../4dbs/kvs/etcds/etcd.html">etcd命令</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../4dbs/kvs/etcds/etcdctl.html">etcdctl命令 </a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../4dbs/kvs/etcds/principle.html">原理</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../4dbs/kvs/etcds/normal.html">常用</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../4dbs/kvs/etcds/api.html">api</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../4dbs/kvs/etcds/history.html">历史版本</a></li>
@@ -982,6 +989,7 @@ var _hmt = _hmt || [];
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../../4dbs/kvs/nacos.html">4.2.6. nacos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../4dbs/kvs/bolt.html">4.2.7. bolt</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../4dbs/mongodb.html">4.3. MongoDB的使用 </a><ul>
@@ -1397,6 +1405,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/goes/skills/deep_copy.html">深拷贝</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/goes/skills/gc.html">GC相关优化</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../5languages/goes/skills/pointer.html">指针</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../5languages/goes/skills/tmp.html">临时知识</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../../5languages/goes/tmp.html">5.2.11. 临时</a></li>
@@ -1859,6 +1868,11 @@ var _hmt = _hmt || [];
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../../7assists/designs/online.html">7.5.5. 在线版</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../7assists/designs/dia.html">7.5.6. dia使用文档</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../7assists/designs/dias/dia_introduce.html">dia介绍</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../7assists/designs/dias/dia_install.html">dia的安装启动</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../7assists/chrome.html">7.6. chrome相关</a><ul>
@@ -1876,6 +1890,7 @@ var _hmt = _hmt || [];
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../7assists/tool.html">7.7. 开发工具</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="../../7assists/tools/web_server.html">7.7.1. Web Server</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../7assists/tools/goreman.html">7.7.2. goreman</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../7assists/collect.html">7.8. 好的收集</a><ul>
@@ -2273,11 +2288,6 @@ var _hmt = _hmt || [];
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../../8tools/others/webqq.html">8.12.3. webqq使用</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../8tools/others/dia.html">8.12.4. dia使用文档</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/others/dias/dia_introduce.html">dia介绍</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../8tools/others/dias/dia_install.html">dia的安装启动</a></li>
-</ul>
-</li>
 </ul>
 </li>
 </ul>
@@ -2347,15 +2357,15 @@ var _hmt = _hmt || [];
         
           <li><a href="../../2core.html"><span class="section-number">2. </span>核心技术</a> &raquo;</li>
         
-          <li><a href="../protocol.html"><span class="section-number">2.5. </span>协议</a> &raquo;</li>
+          <li><a href="../architecture.html"><span class="section-number">2.9. </span>架构设计</a> &raquo;</li>
         
-      <li><span class="section-number">2.5.19. </span>Protocol Buffer</li>
+      <li><span class="section-number">2.9.1. </span>架构图</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="../../_sources/2cores/protocols/protocol_buffer.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../../_sources/2cores/architectures/graph.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -2368,9 +2378,147 @@ var _hmt = _hmt || [];
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="protocol-buffer">
-<h1><span class="section-number">2.5.19. </span>Protocol Buffer<a class="headerlink" href="#protocol-buffer" title="Permalink to this headline">¶</a></h1>
-<p>Protocol Buffer，是Google内部使用一种语言中立、平台中立和可扩展的序列化结构化数据的方式，并提供 Java、C++ 和 Python 这三种语言的实现，每一种实现都包含了相应语言的编译器以及库文件，而且它是一种二进制的格式，所以其速度是使用 XML 进行数据交换的10倍左右。它主要用于两个方面：其一是RPC通信，它可用于分布式应用之间或者异构环境下的通信。其二是数据存储方面，因为它自描述，而 且压缩很方便，所以可用于对数据进行持久化，比如存储日志信息，并可被Map Reduce程序处理。与Protocol Buffer比较类似的产品还有Facebook的 Thrift ，而且 Facebook 号称Thrift在速度上还有一定的优势。</p>
+  <div class="section" id="id1">
+<h1><span class="section-number">2.9.1. </span>架构图<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="id2">
+<h2>业务架构图<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p><code class="docutils literal notranslate"><span class="pre">架构设计</span></code>、<code class="docutils literal notranslate"><span class="pre">功能设计``和``数据设计</span></code>，是软件设计过程中三个不同层次的设计工作。其中``业务架构的设计``又是系统整体规划中最重要的基础工作，后续所有的设计和开发等工作都是基于对业务架构的展开，从业务架构的设计成果中可以获得业务逻辑、功能需求、数据关系等重要信息，表达业务架构的主要方法就是使用业务架构图。</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>表达准确的业务架构图，应该不用说明（或少许的介绍），观者就可以自己从图上读出你要传递的意图、逻辑。</p>
+</div>
+<p>定义:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>在非软件行业中（如制造业、建筑业务等）
+  设计意图传递、加工制造的依据等都是设计图纸
+
+在业务架构初期，将模糊的需求描述转变成清晰的问题域，梳理出清晰的业务流程，为之后的架构做基础。
+既可以通过图看出要实现那些业务，又能通过分层，包含等图形表示看出业务之间的关系。
+</pre></div>
+</div>
+<p>意义:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>看清楚系统包含哪几个部分，各部分的职责，相互之间的关系。
+很容易确认问题所在的业务模块，可以让相关人员快速了解业务。
+</pre></div>
+</div>
+<div class="section" id="id3">
+<h3>建筑行业<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<p>在建筑行业，设计师使用最多的就是三种基本图形，称之为 “建筑三视图”。
+以①的建筑物（三维图）为例，三个基本图形分别为：<code class="docutils literal notranslate"><span class="pre">平面图</span></code>、<code class="docutils literal notranslate"><span class="pre">立面图</span></code>、<code class="docutils literal notranslate"><span class="pre">剖面图</span></code>。通常看到了这三种图形后，观者大体上就可以理解建筑的基本构成了。</p>
+<img alt="../../_images/graph_nonsoft_architecture1.jpg" src="../../_images/graph_nonsoft_architecture1.jpg" />
+<p>建筑三视图的说明如下:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>②平面图：
+  它是对①建筑物从某个高度 “沿水平面一刀”，露出横断面，然后从鸟瞰的视角从上向下看，
+  表达的是建筑平面形状、内部布局、与周边的关系等（有买房或租房经验的人一定都看过此图）。
+
+③立面图：
+  它是站在①建筑物的对面看，表达的是建筑的外立面形状。
+
+④剖面图：
+    它是将①建筑物的某个位置上 “纵向切一刀”，去掉后一半后，观看剩下的另一半的内部情况，
+    它表达的是建筑物的内部各层之间的关系。
+</pre></div>
+</div>
+</div>
+<div class="section" id="id4">
+<h3>制造行业<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<p>在机械制造行业，设计师使用的最多是三种基本图形，称之为 “机械三视图”。
+以①的机械零件（三维图）为例，三个基本图形分别为：<code class="docutils literal notranslate"><span class="pre">前视图</span></code>、<code class="docutils literal notranslate"><span class="pre">侧视图</span></code>、<code class="docutils literal notranslate"><span class="pre">俯视图</span></code>，通常看到了这三种图形后，观者大体上就可以理解零件的基本构成了。</p>
+<img alt="../../_images/graph_nonsoft_architecture2.jpg" src="../../_images/graph_nonsoft_architecture2.jpg" />
+<p>机械三视图的说明如下:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>②前视图：
+  它是对着①，从②的角度（前视）看零件；
+③侧视图：
+  它是对着①，从③的角度（侧视）看零件；
+④俯视图：
+  它是对着①，从④的角度（俯视）看零件；
+</pre></div>
+</div>
+</div>
+<div class="section" id="id5">
+<h3>软件行业<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<p>软件行业业务架构也有类似的三视图，即：<code class="docutils literal notranslate"><span class="pre">框架图</span></code>、<code class="docutils literal notranslate"><span class="pre">分解图``和``流程图</span></code>，它们可以称之为 “业务架构三视图”，通常看到了这三种图形后，观者大体上就可以理解业务的基本构成了</p>
+<img alt="../../_images/graph_soft_architecture1.jpg" src="../../_images/graph_soft_architecture1.jpg" />
+<p>业务架构三视图说明如下:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>②框架图：
+  表达了对图①内容的体规划、范围、分区、区域之间的关系；
+③分解图：
+  表达了对图②中的某个区域内容的静态分解关系；
+④流程图：
+  表达了对图③中的某些活动之间的流程关系；
+</pre></div>
+</div>
+</div>
+<div class="section" id="id6">
+<h3>模型特点分析<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id7">
+<h4>特征的差异<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h4>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>不论是哪一个行业的设计图，选取研究对象最具特征的视角、维度
+使用最少的图形就可以将对象的基本情况表达出来
+这个对研究对象特征的提炼非常重要。
+</pre></div>
+</div>
+<img alt="../../_images/graph_soft_architecture2.jpg" src="../../_images/graph_soft_architecture2.jpg" />
+<p>建筑 / 机械图:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>从三维空间（X、Y、D）的视角，用尺寸给出了对象的特征表达；
+描绘的是具象的、直观的、可触摸的物体，有物理的原理、空间尺寸等的约束，
+判断正确与否的依据是原理、尺寸关系等；
+</pre></div>
+</div>
+<p>业务架构图:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>从静态（框架、分解）、动态（流程）的视角，用要素之间的关联关系（箭头、位置、包含）给出了特征表达；
+描绘的是抽象的 “事物”，不可触摸、不直观，
+判断正确与否的依据是业务事理、逻辑关系、规则约束等；
+</pre></div>
+</div>
+</div>
+<div class="section" id="id8">
+<h4>绘图目的差异<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h4>
+<p>建筑 / 机械图:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>用高仿真的方式，画出与未来制造完成后完全一致的对象结构；
+</pre></div>
+</div>
+<p>业务架构图:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>用逻辑模型给企业的业务 “画像”，让看不见的企业管理对象（如：营销管理、物流管理、经费报销等）可以变得能 “看见”；
+</pre></div>
+</div>
+</div>
+<div class="section" id="id9">
+<h4>结论<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h4>
+<p>建筑 / 机械图:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>表达对象的空间尺寸图；
+</pre></div>
+</div>
+<p>业务架构图:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>表达对象的逻辑关系图；
+</pre></div>
+</div>
+<p>业务组和技术组之间相互抱怨，都说对方听不懂自己的意思:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">同样在软件工程师和客户之间也会经常发生需求误解的现象</span>
+</pre></div>
+</div>
+<p>造成这个问题的原因有很多，但最为重要的还是大家没有一个:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>“共同语言”
+每一方都在用只有自己熟悉的方式说明问题，如:
+  客户用客户的行业用语、
+  软件工程师用 IT 的用语（UML 等）
+因为两者的用语都不能作为 “共同语言”，所以无法精准地进行意图沟通和传递。
+</pre></div>
+</div>
+<p>建筑行业、机械行业就不存在这个问题，因为:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>他们有 “共同语言 = 图纸”。
+业务架构图也可以起到 “共同语言” 的作用
+
+它的表达载体是符合 “IT 技术要求” 的逻辑图，但表达的是客户的 “行业业务”
+因此，就实现了让软件的相关人（客户、业务、技术）三者都可以理解，并可以作为沟通、交流、设计和验收的依据。
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>如何绘制业务架构图(李鸿君): <a class="reference external" href="https://blog.csdn.net/lihognjun/article/details/110732496">https://blog.csdn.net/lihognjun/article/details/110732496</a></p></li>
+<li><p>怎么画业务架构图: <a class="reference external" href="https://www.pianshen.com/article/16871857598/">https://www.pianshen.com/article/16871857598/</a></p></li>
+</ul>
+</div>
+</div>
+</div>
 </div>
 
 
@@ -2381,10 +2529,10 @@ var _hmt = _hmt || [];
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="thrift.html" class="btn btn-neutral float-right" title="2.5.20. thrift" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="microservice.html" class="btn btn-neutral float-right" title="2.9.2. 微服务架构" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="rpc.html" class="btn btn-neutral" title="2.5.18. rpc相关" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="../architecture.html" class="btn btn-neutral" title="2.9. 架构设计" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

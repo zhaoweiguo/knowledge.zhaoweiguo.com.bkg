@@ -1,7 +1,7 @@
 基本
 ####
 
-* :ref:`matplotlib魔法 <ipython_magic>`
+* 打开 :ref:`matplotlib魔法 <ipython_magic>` 找到 ``%matplotlib``
 
 基本元素
 ========
@@ -47,7 +47,7 @@
 图表样式
 ========
 
-图表样式::
+图表样式各选项::
 
     linestyle
     color

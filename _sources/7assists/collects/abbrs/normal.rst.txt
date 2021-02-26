@@ -7,6 +7,11 @@
 
 * 3GPP: 3rd Generation Partnership Project，也就是第三代合作伙伴计划
 
+5
+---
+
+* 5G NR: 5G New Radio
+
 A
 ----
 
@@ -73,6 +78,8 @@ D
 E
 ----
 
+* EC: Edge Computing
+* ECS: Edge Configuration Server, ECS
 * EDA: Event Driven Architecture
 * EIPs: Ethereum Improvement Proposals
 * ELK: Elasticsearch、Logstash、Kibana(https://www.elastic.co/cn/)
@@ -142,9 +149,11 @@ M
 * MTU: Maximum Transfer Unit 
 * MLP: multilayer perceptron(多层感知器)
 * MLP: Machine Language Program（机器语言程序）
+* mMTC: massive Machine Type Communication
 * MS: Master of Science(理学硕士)
 * MSA: Micro-Service Architecture, 微服务架构(对应CBA)
 * MTBF: Mean Time Between Failure，平均无故障时间(平均故障间隔时间)
+* MVCC: Multiversion concurrency control(多版本并发控制)
 
 N
 ----
@@ -177,11 +186,14 @@ P
 * PGP: Pretty Good Privacy(1991, 加密)
 * POP结点: Point of Presence(入网点，阿里)
 * POSIX: Portable Operating System Interface
+* PTP: Point-to-Point 单点对单点
+* PTM: Point-to-Multipoint 单点对多点
 * Pull Request (PR)
 
 Q
 ----
 
+* QoE: Quality of experience
 * QoS: Quality of Service
 
 R
@@ -236,6 +248,12 @@ U
 
 V
 ----
+
+* V2X: Vehicle to Everything
+* V2I: Vehicle toInfrastructure(车与路之间)
+* V2P: Vehicle to Pedestrian(车与人之间)
+* V2N: Vehicle to Network(车与网络之间)
+* V2V: vehicle-to-vehicle(车与车之间)
 
 * VPN: Virtual Private Networks 
 * VPS: Virtual Private Servers 

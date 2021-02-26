@@ -1,8 +1,8 @@
 sphinx_rtd_theme主题
 -------------------------
 
-网站:
-https://sphinx-rtd-theme.readthedocs.io/
+* 网站: https://sphinx-rtd-theme.readthedocs.io/
+* demo: https://sphinx-rtd-theme.readthedocs.io/en/stable/demo/demo.html
 
 安装::
 
@@ -34,5 +34,6 @@ https://sphinx-rtd-theme.readthedocs.io/
       'titles_only': False
   }
 
+.. note:: 有问题时，一定记得来 `这儿 <https://sphinx-rtd-theme.readthedocs.io/en/stable/index.html>`_ 查使用方法
 
 

@@ -6,7 +6,7 @@
    :maxdepth: 2
 
    tools/web_server
-
+   tools/goreman
 
 
 

@@ -1,9 +1,7 @@
-字典{}
-============
+字典/map{}
+==========
 
 .. note:: 为一种没有顺序的的容器，其使用的是大括弧{}，里面包含键值与值(key : value)
-
-
 
 
 实例::
@@ -16,13 +14,21 @@
      }
      print("key1's value is %s" % ab['key1'])
 
-     # 增加一条记录
+     # 1. 增加
      ab['key5'] = 'value5'
 
-     # 删除一条记录
+     # 2. 删除一条记录
      del ab['key3']
 
-     # 打印字典组中数据
+     # 3. 查询
+     ab['key1']            => 'value1'
+     ab['key_not_exist']   => 报错: KeyError
+
+     # 4. 查询（默认值）
+     ab.get('key1', 'abc')    => 'value1'
+     ab.get('key_not_exist', 'abc')    => 'abc'  # 查不到使用默认值
+
+     # 6. 打印字典组中全部数据
      for key, value in ab.items():
          print ('key %s 的 value is %s' % (key, value))
 

@@ -1,5 +1,5 @@
 内置函数(标准库函数)
-=====================
+####################
 
 
 ::
@@ -8,19 +8,11 @@
     str(x)    # convert to Strings
     list(x)   # convert to List
 
-lambda形式::
-
-    def make_repeater(n):
-        return lambda s: s*n
-
-    twice = make_repeater(2)
-
-    print twice('word')
 
 
 exec和eval语句::
 
-    exec 'print "Hello World"'
+    exec 'print "Hello World"'    # fail
     eval('2*3')
 
 assert语句::
@@ -74,8 +66,39 @@ repr函数(用来取得对象的规范字符串表示)::
        f.seek(2, os.SEEK_CUR)     //advances the position by two
        f.seek(-3, os.SEEK_END)    //sets the position to the third to last
 
+lambda
+======
+
+可以这样认为，lambda 作为一个表达式，定义了一个匿名函数，如::
+
+    例:
+    g = lambda x:x+1
+
+    可看作:
+    def g(x):
+         return x+1
+
+.. note:: 　　lambda 定义了一个匿名函数。lambda 并不会带来程序运行效率的提高，只会使代码更简洁。
+
+
+全局函数方便使用的，filter, map, reduce::
+
+    foo = [2, 18, 9, 22, 17, 24, 8, 12, 27]
+    print(filter(lambda x: x % 3 == 0, foo))
+    print(map(lambda x: x * 2 + 10, foo))
+    print(reduce(lambda x, y: x + y, foo))
+
+实例::
+
+    def make_repeater(n):
+        return lambda s: s*n
+
+    twice = make_repeater(2)
+
+    print(twice('word'))
 
 
 
 
-       
+
+

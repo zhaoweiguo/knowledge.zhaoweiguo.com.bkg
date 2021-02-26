@@ -334,7 +334,7 @@ modf返回浮点数数组的小数和整数部分::
 用于数组的文件输入输出::
 
     In [30]: arr = np.arange(10)
-        ...: np.save('some_array', arr)         // 保存数组到文件some_array.py
+        ...: np.save('some_array', arr)         // 保存数组到文件some_array.npy
         ...: print(np.load('some_array.npy'))   // 加载文件
     [0 1 2 3 4 5 6 7 8 9]
 

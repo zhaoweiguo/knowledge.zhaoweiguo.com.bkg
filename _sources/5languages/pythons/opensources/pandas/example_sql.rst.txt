@@ -21,7 +21,7 @@
     0  LiuShunxiang   M   27   165.7      61
     1     Zhangshan   F   23   167.2      63
 
-将student2中的数据新增到:ref:`student <pandas_example_subset>` 中，可以通过concat函数实现::
+将student2中的数据新增到 :ref:`student <pandas_example_subset>` 中，可以通过concat函数实现::
 
     student3 = pd.concat([student,student2])
     print(student3)

@@ -22,4 +22,8 @@ GOINSECURE::
     Like the existing GOPRIVATE variable, GOINSECURE is a comma-separated list of glob patterns
 
 
+
+
+
+
 .. [1] https://golang.org/doc/go1.14

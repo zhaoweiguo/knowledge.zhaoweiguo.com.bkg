@@ -81,7 +81,8 @@ pivot_table函数的语法和参数::
 
 使用多个聚合函数::
 
-    In [133]: Table5 = pd.pivot_table(student, values=['Height','Weight'], columns=['Sex'],aggfunc=[np.mean,np.median,np.std])
+    In [133]: Table5 = pd.pivot_table(student, values=['Height','Weight'], columns=['Sex'],
+        aggfunc=[np.mean,np.median,np.std])
          ...: print(Table5)
                  mean         median                std
     Sex             F       M      F       M          F          M

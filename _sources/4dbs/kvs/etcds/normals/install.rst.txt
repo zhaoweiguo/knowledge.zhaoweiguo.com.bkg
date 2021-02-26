@@ -1,6 +1,10 @@
 安装&使用
 #########
 
+最新安装方法参见: https://github.com/etcd-io/etcd/releases
+
+
+
 下载安装 [2]_
 =============
 

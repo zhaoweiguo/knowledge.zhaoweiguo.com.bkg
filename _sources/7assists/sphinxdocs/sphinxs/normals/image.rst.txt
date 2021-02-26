@@ -42,6 +42,10 @@ Example for image usage::
 figure
 ======
 
+.. note:: A figure is an image with a caption and/or a legend:
+
+
+
 Example for figure usage::
 
     .. figure:: picture.png

@@ -11,6 +11,7 @@
    designs/graphviz
    designs/plantuml
    designs/online
+   designs/dia
 
 
 

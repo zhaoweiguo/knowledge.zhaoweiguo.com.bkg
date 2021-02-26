@@ -1,3 +1,5 @@
+.. _Procfile:
+
 Procfile 文件
 #############
 

@@ -11,4 +11,5 @@ K/V数据库
    kvs/zookeeper
    kvs/consul
    kvs/nacos
+   kvs/bolt
 

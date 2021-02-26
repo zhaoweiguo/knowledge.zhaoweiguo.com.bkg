@@ -1,6 +1,26 @@
 etcdctl命令 [1]_
 ################
 
+常用flag
+========
+
+--write-out="table"::
+
+    table
+
+
+
+查看集群成员::
+
+    etcdctl member list
+
+集群状态::
+
+    etcdctl endpoint status  --write-out="table"
+
+
+
+
 
 数据库操作
 ==========
@@ -17,6 +37,13 @@ get::
     $ etcdctl get testkey
     testkey
     hello
+
+    查询所有数据:
+    $ etcdctl get --from-key ""
+
+    前缀查询:
+    etcdctl get --prefix test
+
 
 del::
 
@@ -41,6 +68,30 @@ member::
 
     $ etcdctl member list
     422a74f03b622fef, started, node1, http://172.16.238.100:2380, http://172.16.238.100:23
+
+
+lead 租约
+=========
+
+::
+
+    ectdctl lease grant  ttl    创建 lease，返回 lease ID ttl 秒
+    ectdctl lease revoke  leaseId  删除 lease，并删除所有关联的 key 
+    ectdctl lease timetolive leaseId 取得 lease 的总时间和剩余时间 
+    ectdctl lease keep-alive leaseId     keep-alive 会不间断的刷新 lease 时间，从而保证 lease 不会过期。
+
+
+分布式锁
+========
+
+使用 lock 命令后加锁名称 做分布式锁，如果没有显示释放锁，其他地方只能等待::
+
+    etcdctl --endpoints=$ENDPOINTS lock mutex1
+
+    # 在另一个终端输入
+    etcdctl --endpoints=$ENDPOINTS lock mutex1
+
+
 
 
 

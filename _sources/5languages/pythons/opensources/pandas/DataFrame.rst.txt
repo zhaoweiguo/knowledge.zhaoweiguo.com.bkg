@@ -41,6 +41,28 @@ DataFrame的创建::
       2  3  7
       3  4  8
 
+主要函数
+========
+
+DataFrame.pivot_table函数::
+
+
+    DataFrame.pivot_table(
+        values=None,          # column to aggregate, optional
+        index=None,           # Keys to group by on the pivot table index
+        columns=None,         # Keys to group by on the pivot table column.
+        aggfunc='mean',       # the key is column to aggregate
+        fill_value=None,      # Value to replace missing values
+        margins=False,        # Add all row / columns
+        dropna=True,          # Do not include columns whose entries are all NaN
+        margins_name='All',   # 
+        observed=False
+    )
+
+
+
+
+
 
 
 

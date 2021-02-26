@@ -39,7 +39,9 @@
 
        Figure caption
 
+下载专用::
 
+    :download:`图片/文件下载 <image/photo.jpg>`
 
 
 

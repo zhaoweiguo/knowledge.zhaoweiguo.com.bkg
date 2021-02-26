@@ -113,9 +113,9 @@ cli命令
     * gomock库: github.com/golang/mock/gomock
     * 辅助代码生成工具mockgen: github.com/golang/mock/mockgen
 * https://github.com/google/wire
-* https://github.com/jarcoal/httpmock
 * Type-driven code generation for Go: https://github.com/clipperhouse/gen
 
+* https://github.com/jarcoal/httpmock
 
 数据库
 ------
@@ -123,14 +123,9 @@ cli命令
 * 图数据库: https://github.com/cayleygraph/cayley
 * 时序数据库: https://github.com/influxdata/influxdb
 * 经济图数据库: https://github.com/degdb/degdb
-* 嵌入式k/v数据库: https://github.com/boltdb/bolt
-    * https://github.com/etcd-io/bbolt
-    * 注: 代码不多，注释比较详细，作为学习容易入门
-    * BoltDB的优点与缺点: https://zhuanlan.zhihu.com/p/47214093
 * A realtime distributed messaging platform: https://github.com/nsqio/nsq
     * The official Go package for NSQ: https://github.com/nsqio/go-nsq
 
-* 分布式k/v数据库: https://github.com/etcd-io/etcd
 * distributed, highly available, and data center aware solution: https://github.com/hashicorp/consul
 * Programmatic lb backend(inspired by Hystrix): https://github.com/vulcand/vulcand
 * Global Distributed Client Side Rate Limiting: https://github.com/youtube/doorman
@@ -722,6 +717,7 @@ AI
 
 * Personal Photo Management: https://github.com/photoprism/photoprism
     * docker版: https://docs.photoprism.org/getting-started/docker-compose/
+    * powered by Go and Google TensorFlow
 
 共享
 --------

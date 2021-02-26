@@ -8,7 +8,9 @@ etcd
 .. toctree::
    :maxdepth: 1
 
+   etcds/etcd
    etcds/etcdctl
+   etcds/principle
    etcds/normal
    etcds/api
    etcds/history

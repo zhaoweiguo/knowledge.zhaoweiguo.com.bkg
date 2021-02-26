@@ -20,6 +20,8 @@ kubectl get
     $> kubectl get jobs
     $> kubectl get event --watch
 
+    // 获取全部类型的资源
+    $> kubectl get all
 
 
 

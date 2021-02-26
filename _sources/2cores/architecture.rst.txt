@@ -5,6 +5,7 @@
 .. toctree::
    :maxdepth: 2
 
+   architectures/graph
    architectures/microservice
    architectures/cqrs
    architectures/crud

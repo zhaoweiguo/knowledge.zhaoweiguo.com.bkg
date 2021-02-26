@@ -24,6 +24,35 @@
     print("s4['c':]: ",s4['c':])
     print("s4['b':'e']: ",s4['b':'e'])
 
+    // 打印:
+    s4[3]:  3
+    s4[e]:  5
+    s4[1,3,5]:  b    1
+    d    3
+    f    8
+    dtype: int64
+    s4[['a','b','d','f']]:  a    1
+    b    1
+    d    3
+    f    8
+    dtype: int64
+    s4[:4]:  a    1
+    b    1
+    c    2
+    d    3
+    dtype: int64
+    s4['c':]:  c    2
+    d    3
+    e    5
+    f    8
+    dtype: int64
+    s4['b':'e']:  b    1
+    c    2
+    d    3
+    e    5
+    dtype: int64
+
+
 
 
 

@@ -11,7 +11,6 @@
    others/freeswitch
    others/asterisk
    others/webqq
-   others/dia
 
 
 

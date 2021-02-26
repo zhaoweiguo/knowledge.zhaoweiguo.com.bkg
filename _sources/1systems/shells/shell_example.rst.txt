@@ -8,6 +8,7 @@ shell实例
    examples/example2
    examples/arch_os
    examples/ssh_login
+   examples/opensource
 
 
 

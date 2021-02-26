@@ -29,7 +29,7 @@
    protocols/qos
    protocols/jwt
    protocols/rpc
-   protocols/protocol_buffer
+   protocols/protobuf
    protocols/thrift
    protocols/jsonnet
    protocols/other

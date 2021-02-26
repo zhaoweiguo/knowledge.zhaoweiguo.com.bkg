@@ -6,6 +6,7 @@
    :maxdepth: 2
 
    normals/basic
+   normals/sidebar
    normals/link
    normals/image
    normals/include

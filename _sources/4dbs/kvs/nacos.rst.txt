@@ -3,7 +3,10 @@ nacos
 
 
 
-* github: https://github.com/alibaba/nacos
+* github: https://github.com/alibaba/nacos::
+    
+    开发语言: Java
+    开源协议: Apache 2.0
   
 +-----------------+---------------------------+-------------------+------------+-----------+
 | 名称            | Nacos                     | Consul            | Eureka     | Zookeeper |

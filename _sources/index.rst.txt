@@ -8,13 +8,23 @@
 :作者: 新溪-gordon
 :日期: 2012-06-29
 
-内容:
+.. toctree::
+   :maxdepth: 2
+   :numbered: 3
+   :name: mastertoc
+   :titlesonly:
+   :caption: 我的知识体系
+
+
+
+
 
 .. toctree::
    :maxdepth: 2
    :numbered: 3
    :name: mastertoc
    :titlesonly:
+   :caption: 我的知识体系
 
    1system
    2core
