@@ -12,7 +12,6 @@
    opensources/ui
    opensources/algorithm
    opensources/course
-   opensources/ml
    opensources/book
    opensources/awesome
    opensources/data_analysis

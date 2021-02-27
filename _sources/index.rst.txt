@@ -11,11 +11,15 @@
 .. toctree::
    :maxdepth: 2
    :numbered: 3
-   :name: mastertoc
+   :name: aitoc
    :titlesonly:
-   :caption: 我的知识体系
+   :caption: AI
 
-
+   001ais/normal
+   001ais/library
+   001ais/framework
+   001ais/deep_learning
+   001ais/opensource
 
 
 
@@ -24,7 +28,7 @@
    :numbered: 3
    :name: mastertoc
    :titlesonly:
-   :caption: 我的知识体系
+   :caption: 通用知识
 
    1system
    2core

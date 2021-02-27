@@ -12,7 +12,6 @@
 
    2cores/theory
    2cores/blockchain
-   2cores/ai
    2cores/5G
    2cores/vr
    2cores/protocol

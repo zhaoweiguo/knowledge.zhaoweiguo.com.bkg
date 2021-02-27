@@ -11,18 +11,5 @@
    opensources/certifi
 
 
-.. toctree::
-   :maxdepth: 2
-
-   opensources/ipython
-   opensources/jupyter
-   opensources/numpy
-   opensources/pandas
-   opensources/matplotlib
-   opensources/scipy
-   opensources/mxnet
-   opensources/sklearn
-   opensources/statsmodels
-
 
 
