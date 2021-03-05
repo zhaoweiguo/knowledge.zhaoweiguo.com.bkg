@@ -18,6 +18,7 @@ Matplotlib: Visualization with Python。Matplotlib is a comprehensive library fo
     matplotlibs/install
     matplotlibs/pyplot
     matplotlibs/example
+    matplotlibs/pylab
 
 
 

@@ -8,8 +8,10 @@ Python使用方法
 .. toctree::
    :maxdepth: 2
 
-   pythons/normal
+   pythons/collect
    pythons/kernel
+   pythons/lib
+   pythons/normal
    pythons/opensource
    pythons/tool
    pythons/crawler

@@ -49,59 +49,6 @@ import相关::
     // [1, 2, 3, 4]
 
 
-python函数::
-
-    如果一个Python函数、类方法或属性的名字以两个下划线开始(但不是结束), 它是私有的
-    类方法或者是私有 (只能在它们自已的类中使用) 或者是公有 (任何地方都可使用)
-
-    def <funName>():    #定义
-    ... ...
-
-    <funName>() # 调用
-
-
-实例1::
-
-    def func(x):
-        global y        #全局变量
-        print 'x is', x #打印变量
-        x = 2    #修改变量
-
-    x = 50  #函数外修改
-    func(x) #执行函数
-
-    //——使用默认参数值::
-    def say(message, times = 1):
-        print message * times
-
-    say('Hello')
-    say('World', 5)
-
-    //实例3——ifelse、return語句::
-    def maximum(x, y):
-        if x > y:
-            return x
-        else:
-            return y
-    print maximum(2, 3)
-
-DocStrings(文档字符串, 它通常被简称为 ``docstrings``, DocStrings是一个重要的工具, 由于它帮助你的程序文档更加简单易懂, 你应该尽量使用它)::
-
-    def printMax(x, y):
-        '''Prints the maximum of two numbers.
-        The two values must be integers.'''     # 文档字串
-        x = int(x) # convert to integers, if possible
-        y = int(y)
-
-        if x > y:
-            print x, 'is maximum'
-        else:
-            print y, 'is maximum'
-
-        printMax(3, 5)
-        print printMax.__doc__  #文档打印
-
-
 模块::
 
     import sys

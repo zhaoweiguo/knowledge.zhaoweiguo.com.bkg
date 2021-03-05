@@ -13,6 +13,9 @@
 * https://github.com/d2l-ai/d2l-en
 
 
+deep learning
+=============
 
+* https://github.com/fchollet/deep-learning-with-python-notebooks
 
 

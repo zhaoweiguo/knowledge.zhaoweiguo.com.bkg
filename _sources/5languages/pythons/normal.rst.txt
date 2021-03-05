@@ -6,7 +6,6 @@
 
    normals/install
    normals/simple
-   normals/class
    normals/skill
    normals/uwsgi
 
@@ -19,6 +18,8 @@ KDnuggets2018年的一个博客发起了一项投票：数据科学中最好用�
     Visual Studio Code，21%
     Sublime Text，12%
 
+
+.. note:: Python 里面“万物皆对象”
 
 
 

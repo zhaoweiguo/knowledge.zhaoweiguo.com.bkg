@@ -12,7 +12,6 @@
    algorithms/example
    algorithms/iq
    algorithms/graph_theory
-   algorithms/machine-learning
    algorithms/other
 
 

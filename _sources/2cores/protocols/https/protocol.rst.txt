@@ -13,5 +13,6 @@
    protocols/transfer-encoding
    protocols/cookie
    protocols/http_method
+   protocols/Content-Security-Policy
 
 

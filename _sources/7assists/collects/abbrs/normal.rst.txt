@@ -22,6 +22,8 @@ A
 * AES: Advanced Encryption Standard
 * AI: Artificial Intelligence
 * ANSI: American National Standards Institute
+* API: Application Programming Interface(应用程序接口)
+* AR: Augmented Reality(AR/VR, 增强现实)
 
 B
 ----
@@ -54,6 +56,7 @@ C
 * CRI: Container Runtime Interface(容器运行时接口, k8s)
 * CRUD: Create、Retrieve、Update、Delete
 * CSP: Communicating Sequential Processes
+* CSP: Content Security Policy(网页安全政策, http)
 * CSR: certificate signing request
 
 
@@ -102,7 +105,8 @@ G
 * GE: General Electrical(美国通用电气, 又称奇异公司)
 * GNU: GNU is Not Unix 
 * GPG: GnuPG(加密)
-* GPL——General Public License
+* GPL: General Public License
+* GPU: Graphics Processing Unit(图形处理器)
 * GSA: Google Search Appliance
 * GUI——Graphical User Interface
 * GMT: Greenwich Mean Time, 格林威治标准时间
@@ -150,6 +154,7 @@ M
 * MLP: multilayer perceptron(多层感知器)
 * MLP: Machine Language Program（机器语言程序）
 * mMTC: massive Machine Type Communication
+* MR: Mixed Reality(AR/VR)
 * MS: Master of Science(理学硕士)
 * MSA: Micro-Service Architecture, 微服务架构(对应CBA)
 * MTBF: Mean Time Between Failure，平均无故障时间(平均故障间隔时间)
@@ -175,6 +180,7 @@ O
 * OSI: Open Systems Interconnection
 * OSM: OpenStreetMap
   * OSM object (N - node, W - way, R - relation)
+* OWASP: Open Web Application Security Project(组织: 开放式 Web 应用程序安全项目)
 
 P
 -----
@@ -208,6 +214,7 @@ R
 * REST: Representational State Transfer
 * PFS: Perfect Forward Secrecy
 * RFC: Request for Comments 
+* RGB: Red, Green, Blue(三元色)
 * ROA: Resource Oriented Architecture
 * RPC: Remote Procedure Call 
 * RNN: Recurrent Neural Network，RNN, 循环神经网
@@ -217,6 +224,7 @@ S
 
 * SaaS: Software as a Service(软件服务化)
 * SASL: System Architecture Support Libraries
+* SDK: Soft Development Kit
 * SIG: Special Interest Group
 * SIP: System Integrity Protection (MacOS)
 * SLA: Service Level Agreement(服务等级协议)
@@ -243,6 +251,7 @@ T
 U
 ----
 
+* UI: User Interface
 * URI: Uniform resource Identifier 
 * UTC: Universal Time Coordinated(世界标准时间)
 
@@ -257,12 +266,19 @@ V
 
 * VPN: Virtual Private Networks 
 * VPS: Virtual Private Servers 
+* VR: Virtual Reality(AR/VR, 虚拟现实)
 
 W
 ----
 
 * WebDAV: Web-based Distributed Authoring and Versioning
 * WGS84: World Geodetic System 1984(为 GPS 全球定位系统使用而建立的坐标系统)
+
+X
+---
+
+* XSS: Cross-site scripting(跨站脚本攻击, http)
+
 
 Y
 ----

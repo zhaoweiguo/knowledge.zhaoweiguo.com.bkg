@@ -18,6 +18,7 @@
    001ais/normal
    001ais/library
    001ais/framework
+   001ais/algorithm
    001ais/deep_learning
    001ais/opensource
 

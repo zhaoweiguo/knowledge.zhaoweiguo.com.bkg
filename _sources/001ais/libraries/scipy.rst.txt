@@ -5,13 +5,15 @@ SciPy
 * github [2]_
 * 文档 [3]_
 
-安装::
 
-    $ pip install numpy scipy matplotlib ipython jupyter pandas sympy nose
+.. toctree::
+   :maxdepth: 2
 
-    $ apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
+   SciPys/normal
 
-    $ brew install numpy scipy ipython jupyter
+
+
+* SciPy (pronounced "Sigh Pie") 是一个开源的数学、科学和工程计算包。
 
 
 

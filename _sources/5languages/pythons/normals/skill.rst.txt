@@ -58,33 +58,6 @@ set推导式::
     $ print({number for number in range(1,6) if number % 3 == 1})
     {1, 4}
 
-使用 * 与 ** 收集位置参数与关键字参数::
-
-    说明:
-    *收集而成的参数会以Tuples储存
-    **收集到的会以Dictionary储存
-
-    $ print('\n混合位置参数使用，剩下的都给收集器')
-    $ def print_more(required1, required2, *args):
-        print('Need this one:', required1)
-        print('Need this one too:', required2)
-        print('All the rest:', args)
-   
-    $ print_more('cap', 'gloves', 'scarf', 'monocle', 'mustache wax')
-
-    混合位置参数使用，剩下的都给收集器
-    Need this one: cap
-    Need this one too: gloves
-    All the rest: ('scarf', 'monocle', 'mustache wax')
-
-    $ def print_kwargs(**kwargs):
-         print('Keyword arguments:', kwargs)
-    
-    $ print_kwargs(wine='merlot', entree='mutton', dessert='macaroon')
-
-    Keyword arguments: {'wine': 'merlot', 'entree': 'mutton', 'dessert': 'macaroon'}
-
-
 
 
 

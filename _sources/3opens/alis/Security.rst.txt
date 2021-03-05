@@ -6,4 +6,5 @@ Security安全
 
    Securitys/bastionHost
    Securitys/SecurityCenter
+   Securitys/tmp
 
