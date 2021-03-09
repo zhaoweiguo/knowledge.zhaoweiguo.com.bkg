@@ -7,6 +7,7 @@
 
    normals/ml
    normals/bi
+   normals/english
    normals/other
 
 

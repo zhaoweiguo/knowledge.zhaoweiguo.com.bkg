@@ -11,7 +11,7 @@
 .. toctree::
    :maxdepth: 2
    :numbered: 3
-   :name: aitoc
+   :name: ai
    :titlesonly:
    :caption: AI
 
@@ -21,13 +21,33 @@
    001ais/algorithm
    001ais/deep_learning
    001ais/opensource
-
-
+   001ais/math
 
 .. toctree::
    :maxdepth: 2
    :numbered: 3
-   :name: mastertoc
+   :name: architecture
+   :titlesonly:
+   :caption: 架构设计
+
+   010architectures/normal
+   010architectures/design_mode
+   010architectures/other
+
+.. toctree::
+   :maxdepth: 2
+   :numbered: 3
+   :name: distributed
+   :titlesonly:
+   :caption: 分布式系统
+
+   011distributeds/normal
+   011distributeds/theory
+
+.. toctree::
+   :maxdepth: 2
+   :numbered: 3
+   :name: master
    :titlesonly:
    :caption: 通用知识
 

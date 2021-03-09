@@ -101,6 +101,7 @@ G
 -----
 
 * GA: Global Accelerator(全球加速器，阿里)
+* GAN: Generative Adversarial Network(生成对抗网络, ai)
 * GDPR: General Data Protection Regulation, 通用数据保护条例(欧洲联盟的条例)
 * GE: General Electrical(美国通用电气, 又称奇异公司)
 * GNU: GNU is Not Unix 
@@ -206,7 +207,7 @@ R
 ----
 
 
-* RBAC: Role-based access control
+* RBAC: Role-Based Access Control
 * REPL: Read-Eval-Print Loop(读取-求值-输出-循环,  一种「交互式解释器」)
 * REST: Representational State Transfer
 * RDF: Resource Description Framework(资源描述框架)
@@ -215,6 +216,7 @@ R
 * PFS: Perfect Forward Secrecy
 * RFC: Request for Comments 
 * RGB: Red, Green, Blue(三元色)
+* RL: Reinforcement Learning(强化学习, AI)
 * ROA: Resource Oriented Architecture
 * RPC: Remote Procedure Call 
 * RNN: Recurrent Neural Network，RNN, 循环神经网

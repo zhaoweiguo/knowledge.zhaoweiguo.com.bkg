@@ -1,4 +1,4 @@
-pyplot [4]_
+pyplot [1]_
 ###########
 
 引入::
@@ -39,4 +39,4 @@ plt.rcParams::
 
 
 
-.. [4] https://matplotlib.org/api/pyplot_summary.html
+.. [1] https://matplotlib.org/api/pyplot_summary.html

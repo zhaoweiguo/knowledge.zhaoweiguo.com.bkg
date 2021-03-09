@@ -9,9 +9,7 @@
    theorys/law
    theorys/cognitive
    theorys/algorithm
-   theorys/concurrency
    theorys/vision
-   theorys/math
 
 
 

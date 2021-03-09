@@ -8,8 +8,6 @@
 
    abbrs/normal
    abbrs/cluster
-   abbrs/ai
-   abbrs/architecture
    abbrs/psychology
    abbrs/job
    abbrs/optimise

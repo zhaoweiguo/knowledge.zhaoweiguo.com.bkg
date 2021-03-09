@@ -17,7 +17,6 @@
    2cores/protocol
    2cores/encoding
    2cores/time_zone
-   2cores/architecture
    2cores/encrypt
    2cores/chart
    2cores/rfc

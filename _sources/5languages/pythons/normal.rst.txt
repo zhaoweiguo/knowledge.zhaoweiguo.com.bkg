@@ -4,6 +4,7 @@
 .. toctree::
    :maxdepth: 2
 
+   normals/normal
    normals/install
    normals/simple
    normals/skill

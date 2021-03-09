@@ -15,6 +15,7 @@
 * 快速学习——Comparison with SQL: https://pandas.pydata.org/docs/getting_started/comparison/comparison_with_sql.html
 * API reference: https://pandas.pydata.org/docs/reference/index.html
 * User Guide: https://pandas.pydata.org/docs/user_guide/index.html
-
+* 【Pandas 学习】Pandas 基础: https://tianchi.aliyun.com/notebook-ai/detail?postId=6068
+* 教程: http://joyfulpandas.datawhale.club/Content/index.html
 
 
