@@ -15,6 +15,7 @@
    5languages/erlang
    5languages/golang
    5languages/python
+   5languages/children
    5languages/php
    5languages/node
    5languages/c

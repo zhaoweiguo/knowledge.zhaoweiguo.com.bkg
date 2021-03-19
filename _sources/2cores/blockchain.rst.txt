@@ -16,10 +16,10 @@
 
 三大原则::
 
-  1.No-trust
+  1. No-trust
     Any other node might be evil
-  2.Rely on cryptographic proofs for consistency
-  3.Incentivize cooperation + make attacks costly
+  2. Rely on cryptographic proofs for consistency
+  3. Incentivize cooperation + make attacks costly
 
 ::
 

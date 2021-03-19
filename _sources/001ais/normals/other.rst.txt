@@ -69,6 +69,14 @@ Deeplearning4j 简称 DL4J，是基于JVM、聚焦行业应用且提供商业支
 Keras
 =====
 
+* 官网: https://keras.io/
+* github: https://github.com/keras-team/keras
+* 发音::
+  
+    ／kerəz／
+
+
+
 Keras 由谷歌软件工程师 Francois Chollet 开发，是一个基于 Theano 和 TensorFlow 的深度学习库，具有一个受 Torch 启发、较为直观的 API。其优缺点如下::
 
     ✓ 受 Torch 启发的直观;
@@ -105,12 +113,35 @@ Theano 是深度学习框架中的元老，用 Python 编写，可与其他学�
     ✗ 仅支持单机单卡;
     ✗ 对预训练模型的支持不够完善。
 
+临时
+====
 
+* tensorflow：http://www.tensorfly.cn/谷歌基于DistBelief进行研发的第二代人工智能学习系统
+* caffe2：https://caffe2.ai/，A New Lightweight, Modular, and Scalable Deep Learning Framework
+* PyTorch is a deep learning framework for fast, flexible experimentation. https://pytorch.org/
+* mxnet: http://mxnet.incubator.apache.org/A flexible and efficient library for deep learning.
+* OpenCV (Open Source Computer Vision Library) is released under a BSD license and hence it’s free for both academic and commercial use. https://opencv.org/
+* Dlib is a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems. http://dlib.net/
 
+深度学习工具::
 
+  tensorflow
+  caffe
+  pytorch
+  mxnet
 
+计算机视觉工具::
 
+  opencv
+  dlib
 
+语音处理软件::
+
+  kaldi
+  htk
+
+* 机器学习: https://github.com/JustFollowUs/Machine-Learning
+* 欧拉公式、费马小定理、中国剩余定理
 
 
 .. [1] http://torch.ch/

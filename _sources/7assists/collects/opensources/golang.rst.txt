@@ -594,6 +594,7 @@ filesystem
 * c语言版: https://github.com/wg/wrk
 * 负载工具类似ab: https://github.com/rakyll/hey
 * HTTP load testing tool and library. It's over 9000!: https://github.com/tsenart/vegeta
+* Generate HTTP load and plot the results in real-time: https://github.com/nakabonne/ali
 
 pprof
 -----

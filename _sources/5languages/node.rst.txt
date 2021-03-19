@@ -9,7 +9,6 @@ NODE文档
 
 
 .. toctree::
-   :maxdepth: 2
 
    nodes/node
    nodes/opensource

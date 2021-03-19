@@ -10,6 +10,7 @@
    trees/lsm_tree
    trees/balanced_binary_tree
    trees/red_black_tree
+   trees/trie-tree
 
 
 

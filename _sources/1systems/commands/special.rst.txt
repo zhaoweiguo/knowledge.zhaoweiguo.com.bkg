@@ -7,3 +7,4 @@
    :maxdepth: 2
 
    specials/locale
+   specials/arch_os

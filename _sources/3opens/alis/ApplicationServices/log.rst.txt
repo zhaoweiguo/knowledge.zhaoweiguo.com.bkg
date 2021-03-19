@@ -56,6 +56,8 @@ https://help.aliyun.com/document_detail/69313.html?spm=a2c4g.11186623.6.804.5086
 --------
 https://help.aliyun.com/document_detail/102530.html?spm=a2c4g.11186623.6.818.51402960JQn3jf
 
+日志服务可视化重磅升级！专属你的炫酷仪表盘: https://yq.aliyun.com/articles/689418
+
 其他可视化方案
 ---------------
 

@@ -10,8 +10,6 @@
 
 
 .. toctree::
-   :maxdepth: 2
-   :numbered: 3
 
    libs/module_kernel
    libs/module_stdlib

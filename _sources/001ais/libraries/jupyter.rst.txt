@@ -5,6 +5,11 @@ Jupyter
 
 * 官网 [1]_
 
+发音::
+
+    音标:/ˈdʒuːpɪtə(r)/
+    与 “木星（jupiter）” 谐音
+
 打开Jupyter记事本::
 
     $ jupyter notebook

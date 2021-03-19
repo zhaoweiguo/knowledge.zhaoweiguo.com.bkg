@@ -5,9 +5,9 @@
    :glob:
    :maxdepth: 1
 
+   normals/normal
    normals/ml
    normals/bi
-   normals/english
    normals/other
 
 
@@ -24,13 +24,16 @@
 * 百度PaddlePaddle
 * 阿里PAI
 
+* machine-learning competi- tion website
+  * 2010年: https://www.kaggle.com/
+  * https://tianchi.aliyun.com
+
 
 * https://datawhalechina.github.io/leeml-notes/
 * https://www.captainbed.net/
 * https://developers.google.cn/machine-learning/crash-course/prereqs-and-prework
 * https://tf.wiki/
-* 天池人工智能基础课程: https://tianchi.aliyun.com/course/courseDetail?courseId=41138
-* https://www.kaggle.com/
+
 * https://github.com/datawhalechina/pumpkin-book
 
 

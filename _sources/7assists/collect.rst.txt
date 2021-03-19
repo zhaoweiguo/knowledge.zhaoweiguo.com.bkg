@@ -8,11 +8,8 @@
    collects/opensource
    collects/website
    collects/concept
-   collects/author
-   collects/abbr
    collects/paper
    collects/keyword
-   collects/product
    collects/resource
    collects/env
 

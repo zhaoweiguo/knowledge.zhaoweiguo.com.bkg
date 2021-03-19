@@ -41,6 +41,8 @@ lib
 * https://blog.csdn.net/liyuechun520/article/details/78110394?locationNum=9&fps=1
 * https://github.com/LiuBoyu/blockchain
 * https://blog.csdn.net/omnispace/article/details/80234477
+* https://ethfans.org/wikis/Home
+  * https://ethfans.org/posts/understanding-blockchain-fundamentals-part-1-byzantine-fault-tolerance
 
 公有链与私有链的区别
 ====================

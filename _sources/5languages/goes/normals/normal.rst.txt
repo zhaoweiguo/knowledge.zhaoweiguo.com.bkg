@@ -62,7 +62,21 @@ Code organization::
     grpc-go
 
 
+基础
+====
 
+* Golang语言规范文档: https://golang.google.cn/ref/spec
+* Golang语言命令文档: https://golang.google.cn/cmd/go
+* 《Go并发编程实战》
+* Go命令教程: https://github.com/hyper0x/go_command_tutorial
+
+
+进阶
+====
+
+* Effective Go: https://golang.google.cn/doc/effective_go.html
+* Go语言内存模型: https://golang.google.cn/ref/mem
+* Go程序诊断: https://golang.google.cn/doc/diagnostics.html
 
 
 

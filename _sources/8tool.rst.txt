@@ -17,7 +17,6 @@
    8tools/cicd
    8tools/monitor
    8tools/servicemesh
-   8tools/testing
    8tools/mqtt
    8tools/wireshark
    8tools/jumpserver

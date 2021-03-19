@@ -8,41 +8,21 @@
 :作者: 新溪-gordon
 :日期: 2012-06-29
 
-.. toctree::
-   :maxdepth: 2
-   :numbered: 3
-   :name: ai
-   :titlesonly:
-   :caption: AI
-
-   001ais/normal
-   001ais/library
-   001ais/framework
-   001ais/algorithm
-   001ais/deep_learning
-   001ais/opensource
-   001ais/math
 
 .. toctree::
    :maxdepth: 2
    :numbered: 3
-   :name: architecture
+   :name: core
    :titlesonly:
-   :caption: 架构设计
+   :caption: 关键知识
 
-   010architectures/normal
-   010architectures/design_mode
-   010architectures/other
-
-.. toctree::
-   :maxdepth: 2
-   :numbered: 3
-   :name: distributed
-   :titlesonly:
-   :caption: 分布式系统
-
-   011distributeds/normal
-   011distributeds/theory
+   001ai
+   010architecture
+   011distributed
+   021security
+   022performance
+   098trend
+   099english
 
 .. toctree::
    :maxdepth: 2

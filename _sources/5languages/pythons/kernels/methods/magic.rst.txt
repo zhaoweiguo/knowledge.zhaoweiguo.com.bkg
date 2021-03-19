@@ -1,7 +1,8 @@
 魔法方法
 ########
 
-.. sidebar::
+.. sidebar:: Contents
+    
     .. contents::
 
 

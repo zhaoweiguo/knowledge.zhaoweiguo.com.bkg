@@ -6,7 +6,7 @@
 .. toctree::
    :maxdepth: 1
 
-   normals/english
+   normals/normal
 
 
 

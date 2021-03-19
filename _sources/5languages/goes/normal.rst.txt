@@ -23,5 +23,4 @@ gopher原意地鼠，在golang 的世界里解释为地道的go程序员。
 
 
 
-
 .. [1] https://golang.org/pkg/
