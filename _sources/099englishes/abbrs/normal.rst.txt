@@ -24,6 +24,7 @@ A
 * ANSI: American National Standards Institute
 * API: Application Programming Interface(应用程序接口)
 * AR: Augmented Reality(AR/VR, 增强现实)
+* ARIES: Algorithms for Recovery and Isolation Exploiting Semantics(基于语义的恢复与隔离算法, transaction)
 
 B
 ----
@@ -77,7 +78,8 @@ D
 * DoS: Denial of Service(拒绝服务)
 * DSS: Data Storage Segregation(数据存储隔离)
 * DST: Daylight Saving Time(夏令时)
-* DTLS(Datagram Transport Layer Security)
+* DTLS: Datagram Transport Layer Security)
+* DTP: Distributed Transaction Processing(分布式事务处理, transaction)
 
 
 E
@@ -88,6 +90,7 @@ E
 * EDA: Event Driven Architecture
 * EIPs: Ethereum Improvement Proposals
 * ELK: Elasticsearch、Logstash、Kibana(https://www.elastic.co/cn/)
+* EMA: Exponential Moving Average(指数移动平均值, math)
 * ENS: Edge Node Service(边缘结点服务，阿里)
 * ETL: Extract-Transform-Load(大数据相关)
 * ES: Expert System(专家系统,人工智能相关领域)
@@ -136,6 +139,7 @@ I
 * IoC: Inversion of Control(控制反转), 常见的方式:Dependency Injection(依赖注入)
 * IOE: IBM, Oracle, EMC 
 * IP: Internet Protocol 
+* IPC: Inter-Process Communication
 * ISO: International Organization of Standardization 
 
 J
@@ -156,6 +160,7 @@ M
 ----
 
 * MAC: Message Authentication Code(消息验证码, security)
+* MAE: Mean Absolute Error(平均绝对误差, math)
 * MFA: Multi-factor authentication(多因素认证, security, SFA)
 * MIME: Multipurpose Internet Mail Extensions(rfc2045)
 * MIT: Massachusetts Institute of Technology(麻省理工学院)
@@ -165,9 +170,10 @@ M
 * MR: Mixed Reality(AR/VR)
 * MS: Master of Science(理学硕士)
 * MSA: Micro-Service Architecture, 微服务架构(对应CBA)
+* MSE: Mean Squared Error(均方误差, math)
 * MTBF: Mean Time Between Failure，平均无故障时间(平均故障间隔时间)
 * MTU: Maximum Transfer Unit 
-* MVCC: Multiversion concurrency control(多版本并发控制)
+* MVCC: Multiversion concurrency control(多版本并发控制, transaction)
 
 N
 ----
@@ -182,7 +188,7 @@ N
 O
 ----
 
-* OCC: Optimistic concurrency control(乐观并发控制)
+* OCC: Optimistic Concurrency Control(乐观并发控制, transaction)
 * OCI: Open Container Initiative-based(开放式容器计划, k8s)
 * OCR: Optical Character Recognition, 文字识别
 * OOM: OutOfMemory
@@ -221,7 +227,7 @@ R
 * REST: Representational State Transfer
 * RDF: Resource Description Framework(资源描述框架)
 * RDBMS: Relational DataBase Management System
-* REST: Representational State Transfer
+* REST: Representational State Transfer(表征状态转移)
 * PFS: Perfect Forward Secrecy
 * RFC: Request for Comments 
 * RGB: Red, Green, Blue(三元色, color)
@@ -250,11 +256,13 @@ S
 * SPA: Single Page web Application(单页面应用):不刷新页面, 动态变更html
 * SRE: Site Reliability Engineering(网站可靠性工程师)
 * SSL: Security Socket Layer
+* SSR: Server-Side Rendering
 * SVM: Support Vector Machine(支持向量机, ai)
 
 T
 ----
 
+* TCC: Try-Confirm-Cancel(transaction)
 * TCP: Transmission Control Portocol 
 * TDD: Test-Driven Development(测试驱动开发)
 * TLS: Transport Layer Security
@@ -285,12 +293,15 @@ V
 W
 ----
 
+* WAL: Write-Ahead Logging(db, 事务)
 * WebDAV: Web-based Distributed Authoring and Versioning
 * WGS84: World Geodetic System 1984(为 GPS 全球定位系统使用而建立的坐标系统)
+* WSDL: Web Services Description Language(网络服务描述语言)
 
 X
 ---
 
+* XA: eXtended Architecture(transaction)
 * XSS: Cross-site scripting(跨站脚本攻击, http)
 
 

@@ -29,8 +29,6 @@
    protocols/qos
    protocols/jwt
    protocols/rpc
-   protocols/protobuf
-   protocols/thrift
    protocols/jsonnet
    protocols/other
 

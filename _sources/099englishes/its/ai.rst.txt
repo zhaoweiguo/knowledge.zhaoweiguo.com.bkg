@@ -24,9 +24,11 @@ AI
 
 
 * feature engineering特征工程
+* statistical power: 统计功效(比随机好就是有统计功效)
 
 
 
-
+* densely connected network
+* convolutional neural networks, also known as convnets
 
 

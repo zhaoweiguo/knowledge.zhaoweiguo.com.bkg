@@ -139,7 +139,8 @@ aptitude命令的简单操作介绍::
 
 命令行::
 
-    aptitude提供了一个有趣的命令行模式，可以作为一个基本的嵌入模式来取代 apt-get 并具有 apt-cache 的查询能力，并在 aptitude 的交互接口增加了搜索判断。
+    aptitude提供了一个有趣的命令行模式，可以作为一个基本的嵌入模式来取代 apt-get 并具有 apt-cache 的查询能力，
+      并在 aptitude 的交互接口增加了搜索判断。
     aptitude的命令行请求形如下:
 
         # aptitude action [arguments...]
@@ -150,13 +151,16 @@ aptitude命令的简单操作介绍::
         # aptitude [ install | remove | purge ] pkg1 [pkg2...] * …* 
         # aptitude search pattern1 [pattern2...] * …*
 
-    就象 apt-get，可以在交互界面使用拼接字符将多个不同的查询动作置于同一命令行中。下面的情况中，安装A，删除B，清除C，保持D，’+’是冗余的，因为默认为安装:
+    就象 apt-get，可以在交互界面使用拼接字符将多个不同的查询动作置于同一命令行中。
+    下面的情况中，安装A，删除B，清除C，保持D，’+’是冗余的，因为默认为安装:
 
         # aptitude install A+ B- C_ D=
 
 aptitude命令的操作日志::
 
-    aptitude将您所有的请求动作写入/var/log/aptitude。这个文件可以方便的用于安装和删除软件的跟踪。如果您使用apt-get 安装软件，用dpkg卸载软件，aptitude的日志很快就会同步。另外，aptitude只记录请求。如果某一动作失败了，它是不会记录的。
+    aptitude将您所有的请求动作写入/var/log/aptitude。这个文件可以方便的用于安装和删除软件的跟踪。
+    如果您使用apt-get 安装软件，用dpkg卸载软件，aptitude的日志很快就会同步。
+    另外，aptitude只记录请求。如果某一动作失败了，它是不会记录的。
 
 
 

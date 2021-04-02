@@ -21,7 +21,7 @@
 
     一致性问题 共识问题
 
-分布式计算的8个谬论::
+分布式计算的8个谬论（`通过网络进行分布式运算的八宗罪 <https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing>`_ （8 Fallacies of Distributed Computing））::
 
     The network is reliable.
     Latency is zero.
@@ -31,6 +31,18 @@
     There is one administrator.
     Transport cost is zero.
     The network is homogeneous.
+
+    网络是可靠的（The network is reliable）
+    延迟是不存在的（Latency is zero ）
+    带宽是无限的（Bandwidth is infinite）
+    网络是安全的（The network is secure）
+    拓扑结构是一成不变的（Topology doesn't change）
+    总会有一个管理员（There is one administrator）
+    不考虑传输成本（Transport cost is zero）
+    网络是同质化的（The network is homogeneous）
+
+* :ref:`RPC协议 <rpc>`
+
 
 一致性
 ------

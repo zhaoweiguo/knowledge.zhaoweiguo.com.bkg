@@ -3,7 +3,7 @@
 
 .. toctree::
 
-   words/intellect
+   words/durable
    words/represent
    words/project
    words/succeed

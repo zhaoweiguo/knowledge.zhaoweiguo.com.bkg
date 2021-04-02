@@ -6,6 +6,7 @@
 .. toctree::
    :maxdepth: 2
 
+   libraries/normal
    libraries/ipython
    libraries/jupyter
    libraries/numpy

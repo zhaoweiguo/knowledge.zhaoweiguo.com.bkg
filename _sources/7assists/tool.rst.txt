@@ -5,7 +5,8 @@
 .. toctree::
    :maxdepth: 2
 
-   tools/web_server
+   tools/http_server
+   tools/http_client
    tools/goreman
 
 

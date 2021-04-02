@@ -9,6 +9,7 @@
    opensources/mongo
    opensources/mysql
    opensources/certifi
+   opensources/tqdm
 
 
 

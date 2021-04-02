@@ -66,23 +66,6 @@ Deeplearning4j 简称 DL4J，是基于JVM、聚焦行业应用且提供商业支
   ✗ 提供的预训练模型有限;   
   ✗ 框架速度不够快。 
 
-Keras
-=====
-
-* 官网: https://keras.io/
-* github: https://github.com/keras-team/keras
-* 发音::
-  
-    ／kerəz／
-
-
-
-Keras 由谷歌软件工程师 Francois Chollet 开发，是一个基于 Theano 和 TensorFlow 的深度学习库，具有一个受 Torch 启发、较为直观的 API。其优缺点如下::
-
-    ✓ 受 Torch 启发的直观;
-    ✓ 可使用 Theano、TensorFlow 和 Deeplearning4j 后端;
-    ✓ 支持自动求导;
-    ✓ 框架更新速度快。  
 
 
 

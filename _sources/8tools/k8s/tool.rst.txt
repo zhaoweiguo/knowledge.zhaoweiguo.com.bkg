@@ -22,3 +22,9 @@
    tools/minikube
 
 
+直接使用curl命令调试::
+
+   kubectl run yourdockername --image=radial/busyboxplus:curl -n yournamespace -i --tty --rm
+
+
+

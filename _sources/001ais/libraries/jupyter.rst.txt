@@ -27,7 +27,10 @@ Jupyter
 常见问题
 ========
 
-远程server执行时, 如果不配置ip::
+远程server执行时, 如果不配置ip
+------------------------------
+
+::
 
     (gluon) [root@GPU1 d2l-zh]# jupyter notebook
     Traceback (most recent call last):
@@ -72,6 +75,17 @@ Jupyter
     or
     $ jupyter notebook --ip=*
 
+libomp.dylib
+------------
+
+问题::
+
+    OMP: Error #15: Initializing libomp.dylib, but found libiomp5.dylib already initialized.
+
+解决方法::
+
+    import os
+    os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 
 
 

@@ -54,29 +54,62 @@ multitrack最简单使用::
 
 实例1::
 
-    $ echo '{"StatefulSets":[{"ResourceName":"mysts1","Namespace":"myns"}],"Deployments":[{"ResourceName":"mydeploy22","Namespace":"myns"}]}' | kubedog multitrack
+    $ echo '{
+        "StatefulSets":[{"ResourceName":"mysts1","Namespace":"myns"}],
+        "Deployments":[{"ResourceName":"mydeploy22","Namespace":"myns"}]
+      }' | kubedog multitrack
     $ kubectl -n myns get po
     $ kubectl -n myns delete po mydeploy22-5bxxxxx-xxx mysts1-0 mysts1-1 --force --grace-period=0
     // 再监测
-    $ echo '{"StatefulSets":[{"ResourceName":"mysts1","Namespace":"myns"}],"Deployments":[{"ResourceName":"mydeploy22","Namespace":"myns"}]}' | kubedog multitrack
+    $ echo '{
+        "StatefulSets":[{"ResourceName":"mysts1","Namespace":"myns"}],
+        "Deployments":[{"ResourceName":"mydeploy22","Namespace":"myns"}]
+      }' | kubedog multitrack
 
 .. image:: /images/k8s/tools/kubedog-multitrack-cmd.gif
 
 
 实例2::
 
-    $ echo '{"DaemonSets":[{"ResourceName":"mysts1","Namespace":"myns"}], "StatefulSets":[{"ResourceName":"mysts1","Namespace":"myns"}],"Deployments":[{"ResourceName":"mydeploy22","Namespace":"myns"}]}' | kubedog multitrack --output-prefix="     "
+    $ echo '{
+        "DaemonSets":[{"ResourceName":"mysts1","Namespace":"myns"}], 
+        "StatefulSets":[{"ResourceName":"mysts1","Namespace":"myns"}],
+        "Deployments":[{"ResourceName":"mydeploy22","Namespace":"myns"}]
+      }' | kubedog multitrack --output-prefix="     "
     $ kubectl -n myns get po
     $ kubectl -n myns delete po mydeploy22-5bxxxxx-xxx mysts1-0 mysts1-1 myds1-xxxxx --force --grace-period=0
     // 再监测:
-    $ echo '{"DaemonSets":[{"ResourceName":"mysts1","Namespace":"myns"}], "StatefulSets":[{"ResourceName":"mysts1","Namespace":"myns"}],"Deployments":[{"ResourceName":"mydeploy22","Namespace":"myns"}]}' | kubedog multitrack --output-prefix="     "
+    $ echo '{
+        "DaemonSets":[{"ResourceName":"mysts1","Namespace":"myns"}], 
+        "StatefulSets":[{"ResourceName":"mysts1","Namespace":"myns"}],
+        "Deployments":[{"ResourceName":"mydeploy22","Namespace":"myns"}]
+      }' | kubedog multitrack --output-prefix="     "
 
 .. image:: /images/k8s/tools/kubedog-multitrack-with-output-prefix.gif
 
 
 实例3::
 
-    $ echo '{"Deployments":[{"ResourceName":"mydeploy","Namespace":"myns"},{"ResourceName":"myresource","Namespace":"myns","FailMode":"HopeUntilEndOfDeployProcess","AllowFailuresCount":3,"SkipLogsForContainers":["two", "three"]}], "StatefulSets":[{"ResourceName":"mysts","Namespace":"myns"}]}' | kubedog multitrack
+    $ echo '{
+            "Deployments":[
+              {
+                "ResourceName":"mydeploy",
+                "Namespace":"myns"
+              },
+              {
+                "ResourceName":"myresource",
+                "Namespace":"myns",
+                "FailMode":"HopeUntilEndOfDeployProcess",
+                "AllowFailuresCount":3,
+                "SkipLogsForContainers":["two", "three"]
+              }
+            ], 
+            "StatefulSets":[
+              {
+                  "ResourceName":"mysts",
+                  "Namespace":"myns"
+              }
+            ]}' | kubedog multitrack
 
 
 
