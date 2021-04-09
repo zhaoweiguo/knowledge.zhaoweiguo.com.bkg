@@ -14,7 +14,6 @@
    2cores/blockchain
    2cores/5G
    2cores/vr
-   2cores/protocol
    2cores/encoding
    2cores/time_zone
    2cores/encrypt

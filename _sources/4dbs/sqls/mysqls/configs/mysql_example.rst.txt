@@ -4,7 +4,6 @@
 ==================
 
 .. literalinclude:: /files/mysqls/mysql_my.cnf
-    :language: mysql
     :emphasize-lines: 12,15-18
     :linenos:
 

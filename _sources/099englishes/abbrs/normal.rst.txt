@@ -133,9 +133,11 @@ I
 * I18N: internationalization(首末字符i和n，18为中间的字符数), 类似的有L10N, K8S
 * IaaS: Infrastructure as a Service(基础设施即服务)
 * IaC: Infrastructure as Code
+* ICMP: Internet Control Message Protocol(网络控制报文协议, protocol)
 * IDL: Interactive Data Language(交互式数据语言)
 * IEEE: Institute for Electrical and Electronics Engineers 
 * IETF: Internet Engineering Task Force
+* IGMP: Internet Group Management Protocol(互联网组管理协议, protocol)
 * IoC: Inversion of Control(控制反转), 常见的方式:Dependency Injection(依赖注入)
 * IOE: IBM, Oracle, EMC 
 * IP: Internet Protocol 

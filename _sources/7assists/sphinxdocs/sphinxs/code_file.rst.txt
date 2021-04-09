@@ -81,7 +81,6 @@ mysql实例::
     MIME types: text/x-mysql
 
 .. literalinclude:: ./files/languages/mysql.cnf
-   :language: mysql
    :linenos:
 
 

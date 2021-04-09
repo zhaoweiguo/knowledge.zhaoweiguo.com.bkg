@@ -42,7 +42,7 @@ Paxos 算法是怎么解决并发操作带来的竞争的::
 
 2. 当提案节点收到了多数派决策节点的应答（称为 Promise 应答）后，可以开始第二阶段 “批准”（Accept）过程::
 
-
+    todo
 
 
 
@@ -50,3 +50,5 @@ Paxos 算法是怎么解决并发操作带来的竞争的::
 
 
 * Paxos Made Simple: https://lamport.azurewebsites.net/pubs/paxos-simple.pdf
+
+
