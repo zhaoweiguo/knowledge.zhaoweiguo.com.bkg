@@ -224,7 +224,6 @@ var _hmt = _hmt || [];
 <li class="toctree-l3"><a class="reference internal" href="../../010architectures/historys/04microService.html">2.3.4. 微服务架构</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../010architectures/historys/05cloudnative.html">2.3.5. 云原生时代——后微服务时代</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../010architectures/historys/06serverless.html">2.3.6. 无服务时代</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../010architectures/historys/timeline.html">2.3.7. 时间线</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../010architectures/transaction.html">2.4. 事务</a><ul>
@@ -265,7 +264,13 @@ var _hmt = _hmt || [];
 <li class="toctree-l3"><a class="reference internal" href="Actor.html">3.2.4. Actor</a></li>
 <li class="toctree-l3"><a class="reference internal" href="Raft.html">3.2.5. The Raft Consensus Algorithm </a></li>
 <li class="toctree-l3"><a class="reference internal" href="Paxos.html">3.2.6. 一致性-Paxos算法</a></li>
-<li class="toctree-l3"><a class="reference internal" href="consistent_hash.html">3.2.7. 一致性hash</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Gossip.html">3.2.7. Gossip协议</a></li>
+<li class="toctree-l3"><a class="reference internal" href="consistent_hash.html">3.2.8. 一致性hash</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../consensus.html">3.3. 分布式共识</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../consensus/normal.html">3.3.1. 常用</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../consensus/paxos.html">3.3.2. Paxos算法</a></li>
 </ul>
 </li>
 </ul>
@@ -329,6 +334,11 @@ var _hmt = _hmt || [];
 <li class="toctree-l2"><a class="reference internal" href="../../098trends/meeting.html">6.1. 会议</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../098trends/it.html">6.2. it相关</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../098trends/official.html">6.3. 官方</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../098trends/timeline.html">6.4. 时间线</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../098trends/timelines/architecture.html">6.4.1. 软件架构</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../098trends/timelines/consensus.html">6.4.2. 共识相关</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../099english.html">7. 英语学习</a><ul>
@@ -2546,6 +2556,10 @@ var _hmt = _hmt || [];
             
   <div class="section" id="cap">
 <span id="id1"></span><h1><span class="section-number">3.2.1. </span>并发相关-CAP<a class="headerlink" href="#cap" title="Permalink to this headline">¶</a></h1>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>CAP是解决FLP定理的问题，提出的一种Trade-off方式解决分布式问题，通过对系统主要设计指标进行一定的妥协，来设计出一个理论上可行的、可以满足实际需求的分布式系统</p>
+</div>
 <div class="section" id="id2">
 <h2>分布式系统理论基础 - CAP<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
 <p>CAP由Eric Brewer在2000年PODC会议上提出，是Eric Brewer在Inktomi期间研发搜索引擎、分布式web缓存时得出的关于数据一致性(consistency)、服务可用性(availability)、分区容错性(partition-tolerance)的猜想：</p>
@@ -2584,6 +2598,10 @@ var _hmt = _hmt || [];
     放宽对时间的要求，在被调完成操作响应后的某个时间点，被调多个节点的数据最终达成一致
 </pre></div>
 </div>
+<div class="figure align-default" id="id7">
+<img alt="../../_images/cap1.png" src="../../_images/cap1.png" />
+<p class="caption"><span class="caption-text">知名分布式系统的主场景设计权衡</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+</div>
 </div>
 <div class="section" id="id3">
 <h2>实例讲解CAP<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
@@ -2597,9 +2615,9 @@ var _hmt = _hmt || [];
 分布式场景: 每一个服务都有多个节点，每一个服务都有着自己的数据库
 </pre></div>
 </div>
-<div class="figure align-default" id="id7">
+<div class="figure align-default" id="id8">
 <img alt="../../_images/transaction4.jpg" src="../../_images/transaction4.jpg" />
-<p class="caption"><span class="caption-text">Fenix’s Bookstore 的服务拓扑</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Fenix’s Bookstore 的服务拓扑</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
 </div>
 <p>操作:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>假设某次交易请求分别由 “账号节点 1”“商家节点 2”“仓库节点 N” 来进行响应
@@ -2719,7 +2737,8 @@ AP 系统目前是分布式系统设计的主流选择
 <ul class="simple">
 <li><p>数据一致性、服务可用性、分区容错性: <a class="reference external" href="https://app.yinxiang.com/fx/12b8f4c1-b55e-4368-a1c3-cc57265df5b1">https://app.yinxiang.com/fx/12b8f4c1-b55e-4368-a1c3-cc57265df5b1</a></p></li>
 <li><p>【极客时间】分布式事务: <a class="reference external" href="https://time.geekbang.org/column/article/322287">https://time.geekbang.org/column/article/322287</a></p></li>
-<li><p>分布式系统 CAP 理论深入探索和分析: f;llfhttps://blog.csdn.net/u014645192/article/details/90695205</p></li>
+<li><p>分布式系统 CAP 理论深入探索和分析: <a class="reference external" href="https://blog.csdn.net/u014645192/article/details/90695205">https://blog.csdn.net/u014645192/article/details/90695205</a></p></li>
+<li><p>【维基】CAP定理: <a class="reference external" href="https://en.wikipedia.org/wiki/CAP_theorem">https://en.wikipedia.org/wiki/CAP_theorem</a></p></li>
 </ul>
 </div>
 </div>

@@ -3,6 +3,9 @@
 并发相关-CAP
 ###############
 
+.. note:: CAP是解决FLP定理的问题，提出的一种Trade-off方式解决分布式问题，通过对系统主要设计指标进行一定的妥协，来设计出一个理论上可行的、可以满足实际需求的分布式系统
+
+
 
 分布式系统理论基础 - CAP
 =============================
@@ -44,6 +47,12 @@ CAP::
         不要求时序一致，A操作先于B操作，在B操作后如果所有调用端读操作得到A操作的结果，满足序列一致性
     2. 最终一致性(eventual consistency)
         放宽对时间的要求，在被调完成操作响应后的某个时间点，被调多个节点的数据最终达成一致
+
+
+.. figure:: /images/theorys/cap1.png
+
+   知名分布式系统的主场景设计权衡
+
 
 
 
@@ -182,8 +191,8 @@ CAP理论的修改版本
 
 * 数据一致性、服务可用性、分区容错性: https://app.yinxiang.com/fx/12b8f4c1-b55e-4368-a1c3-cc57265df5b1
 * 【极客时间】分布式事务: https://time.geekbang.org/column/article/322287 
-* 分布式系统 CAP 理论深入探索和分析: f;llfhttps://blog.csdn.net/u014645192/article/details/90695205 
-
+* 分布式系统 CAP 理论深入探索和分析: https://blog.csdn.net/u014645192/article/details/90695205 
+* 【维基】CAP定理: https://en.wikipedia.org/wiki/CAP_theorem
 
 
 

@@ -28,7 +28,14 @@ influxdb::
   安装和管理简单，数据输入和输出速度快
   它旨在实时响应查询。这意味着point数据写入即被索引并立即可供响应时间应小于100ms的查询使用。
 
-  CorfuDB、TimescaleDB 和 BTrDB 和 Confluo
+  开源distributed time series, metrics, and events database。
+  Go语言编写, 不依赖于其他外部服务。
+  底层支持多种存储引擎，目前是LevelDB, RocksDB, HyberLevelDB和LMDB
+   (0.9之后只支持Bolt，最新版本采用了自己写的存储引擎)。
+
+
+
+
 
 
 

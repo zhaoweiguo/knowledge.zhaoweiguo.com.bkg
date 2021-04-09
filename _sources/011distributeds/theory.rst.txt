@@ -11,6 +11,7 @@
    theorys/Actor
    theorys/Raft
    theorys/Paxos
+   theorys/Gossip
    theorys/consistent_hash
 
 

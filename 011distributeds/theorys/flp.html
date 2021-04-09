@@ -224,7 +224,6 @@ var _hmt = _hmt || [];
 <li class="toctree-l3"><a class="reference internal" href="../../010architectures/historys/04microService.html">2.3.4. 微服务架构</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../010architectures/historys/05cloudnative.html">2.3.5. 云原生时代——后微服务时代</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../010architectures/historys/06serverless.html">2.3.6. 无服务时代</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../010architectures/historys/timeline.html">2.3.7. 时间线</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../010architectures/transaction.html">2.4. 事务</a><ul>
@@ -265,7 +264,13 @@ var _hmt = _hmt || [];
 <li class="toctree-l3"><a class="reference internal" href="Actor.html">3.2.4. Actor</a></li>
 <li class="toctree-l3"><a class="reference internal" href="Raft.html">3.2.5. The Raft Consensus Algorithm </a></li>
 <li class="toctree-l3"><a class="reference internal" href="Paxos.html">3.2.6. 一致性-Paxos算法</a></li>
-<li class="toctree-l3"><a class="reference internal" href="consistent_hash.html">3.2.7. 一致性hash</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Gossip.html">3.2.7. Gossip协议</a></li>
+<li class="toctree-l3"><a class="reference internal" href="consistent_hash.html">3.2.8. 一致性hash</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../consensus.html">3.3. 分布式共识</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../consensus/normal.html">3.3.1. 常用</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../consensus/paxos.html">3.3.2. Paxos算法</a></li>
 </ul>
 </li>
 </ul>
@@ -329,6 +334,11 @@ var _hmt = _hmt || [];
 <li class="toctree-l2"><a class="reference internal" href="../../098trends/meeting.html">6.1. 会议</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../098trends/it.html">6.2. it相关</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../098trends/official.html">6.3. 官方</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../098trends/timeline.html">6.4. 时间线</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../098trends/timelines/architecture.html">6.4.1. 软件架构</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../098trends/timelines/consensus.html">6.4.2. 共识相关</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../099english.html">7. 英语学习</a><ul>
@@ -2548,14 +2558,15 @@ var _hmt = _hmt || [];
 <h1><span class="section-number">3.2.3. </span>并发相关-FLP<a class="headerlink" href="#flp" title="Permalink to this headline">¶</a></h1>
 <p>定义:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>FLP不可能原理：
-    在网络可靠，但允许节点失效（即便只有一个）的最小化异步模型系统中，不存在一个可解决一致性问题的确定性共识算法。
+    在网络可靠，但允许节点失效（即便只有一个）的最小化异步模型系统中
+        不存在一个可解决一致性(Consensus, 共识)问题的确定性共识算法
 
-FLP不可能原理实际上告诉人们，不要浪费时间，去为异步分布式系统设计在任意场景下都能实现共识的算法。
+FLP不可能原理实际上告诉人们，不要浪费时间，去为异步分布式系统设计在任意场景下都能实现共识的算法
 
 FLP给出了一个令人吃惊的结论：
     在异步通信场景，即使只有一个进程失败，也没有任何算法能保证非失败进程达到一致性！
 
-该定理的论文是由Fischer, Lynch and Patterson三位作者于1985年发表,之后该论文毫无疑问得获得了Dijkstra奖。
+该定理的论文由Fischer, Lynch and Patterson三位作者于1985年发表,之后该论文毫无疑问得获得了Dijkstra奖
 
 
 因同步通信中一致性被证明是可以达到的，因此在之前一直有人尝试各种算法解决以异步环境的一致性问题，
@@ -2697,6 +2708,7 @@ Di=e(Ci),i=0,1，是i-valent的。假设C1=e&#39;(C0),e&#39;=(p&#39;,m&#39;)：
 <h2>参考<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.cnblogs.com/firstdream/p/6585923.html">https://www.cnblogs.com/firstdream/p/6585923.html</a></p></li>
+<li><p>FLP不可能性: <a class="reference external" href="http://cs-www.cs.yale.edu/homes/arvind/cs425/doc/fischer.pdf">http://cs-www.cs.yale.edu/homes/arvind/cs425/doc/fischer.pdf</a></p></li>
 </ul>
 </div>
 </div>

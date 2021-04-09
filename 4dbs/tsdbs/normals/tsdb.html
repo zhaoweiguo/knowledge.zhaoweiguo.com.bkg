@@ -224,7 +224,6 @@ var _hmt = _hmt || [];
 <li class="toctree-l3"><a class="reference internal" href="../../../010architectures/historys/04microService.html">2.3.4. 微服务架构</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../../010architectures/historys/05cloudnative.html">2.3.5. 云原生时代——后微服务时代</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../../010architectures/historys/06serverless.html">2.3.6. 无服务时代</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../010architectures/historys/timeline.html">2.3.7. 时间线</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../../010architectures/transaction.html">2.4. 事务</a><ul>
@@ -265,7 +264,13 @@ var _hmt = _hmt || [];
 <li class="toctree-l3"><a class="reference internal" href="../../../011distributeds/theorys/Actor.html">3.2.4. Actor</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../../011distributeds/theorys/Raft.html">3.2.5. The Raft Consensus Algorithm </a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../../011distributeds/theorys/Paxos.html">3.2.6. 一致性-Paxos算法</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../011distributeds/theorys/consistent_hash.html">3.2.7. 一致性hash</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../011distributeds/theorys/Gossip.html">3.2.7. Gossip协议</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../011distributeds/theorys/consistent_hash.html">3.2.8. 一致性hash</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../011distributeds/consensus.html">3.3. 分布式共识</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../011distributeds/consensus/normal.html">3.3.1. 常用</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../011distributeds/consensus/paxos.html">3.3.2. Paxos算法</a></li>
 </ul>
 </li>
 </ul>
@@ -329,6 +334,11 @@ var _hmt = _hmt || [];
 <li class="toctree-l2"><a class="reference internal" href="../../../098trends/meeting.html">6.1. 会议</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../098trends/it.html">6.2. it相关</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../098trends/official.html">6.3. 官方</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../098trends/timeline.html">6.4. 时间线</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../098trends/timelines/architecture.html">6.4.1. 软件架构</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../098trends/timelines/consensus.html">6.4.2. 共识相关</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../../099english.html">7. 英语学习</a><ul>
@@ -2548,7 +2558,7 @@ var _hmt = _hmt || [];
             
   <div class="section" id="id1">
 <h1>其他时序数据库<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
-<ul class="simple">
+<ul>
 <li><p>RRDtool <a class="reference external" href="http://oss.oetiker.ch/rrdtool/">http://oss.oetiker.ch/rrdtool/</a></p></li>
 <li><p><a class="reference internal" href="../../../8tools/monitors/graphite.html#graphite"><span class="std std-ref">Graphite</span></a></p></li>
 <li><p>Kdb+  <a class="reference external" href="http://kx.com/">http://kx.com/</a></p></li>
@@ -2557,17 +2567,30 @@ var _hmt = _hmt || [];
 <li><p>from: <a class="reference external" href="https://www.sojson.com/blog/67.html">https://www.sojson.com/blog/67.html</a></p></li>
 <li><p>RRD(round-robin-database): RRDtool使用的底层存储。C语言编写的。性能比较高</p></li>
 <li><p>whisper: Graphite底层的存储,Python写的</p></li>
-<li><p>prometheus: An open-source service monitoring system and time series database. 目前只有单机版本。</p></li>
-<li><p>InfluxDB: 开源distributed time series, metrics, and events database。Go语言编写, 不依赖于其他外部服务。底层支持多种存储引擎，目前是LevelDB, RocksDB, HyberLevelDB和LMDB(0.9之后只支持Bolt，最新版本采用了自己写的存储引擎)。</p></li>
-<li><p>OpenTSDB <a class="footnote-reference brackets" href="#id3" id="id2">1</a> : 基于HBase编写的Time Series Database</p></li>
+<li><p>prometheus: An open-source service monitoring system and time series database. 目前只有单机版本</p></li>
 <li><p>kairosdb: OpenTSDB的改善版，底层存储引擎是Cassandra。</p></li>
 <li><p>Heroic: Kairosdb的改善版，Spotify公司开源的时序数据库（Spotify的监控框架），引入了ElasticSearch作为元数据索引。目前还处于不稳定状态。</p></li>
+<li><p>CorfuDB: <a class="reference external" href="https://github.com/CorfuDB/CorfuDB">https://github.com/CorfuDB/CorfuDB</a>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">A</span> <span class="n">cluster</span> <span class="n">consistency</span> <span class="n">platform</span>
+</pre></div>
+</div>
+</li>
+<li><p>TimescaleDB: <a class="reference external" href="https://www.timescale.com/">https://www.timescale.com/</a>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>PostgreSQL for time‑series
+</pre></div>
+</div>
+</li>
+<li><p>BTrDB: <a class="reference external" href="http://btrdb.io/">http://btrdb.io/</a>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">The</span> <span class="n">Berkeley</span> <span class="n">Tree</span> <span class="n">DataBase</span> <span class="n">provides</span> <span class="n">very</span> <span class="n">fast</span> <span class="n">storage</span> <span class="n">of</span>
+  <span class="n">scalar</span><span class="o">-</span><span class="n">valued</span> <span class="n">timeseries</span> <span class="n">data</span>
+</pre></div>
+</div>
+</li>
+<li><p>Confluo:
+* <a class="reference external" href="https://www.usenix.org/conference/nsdi19/presentation/khandelwal">https://www.usenix.org/conference/nsdi19/presentation/khandelwal</a>
+* <a class="reference external" href="https://github.com/ucbrise/confluo">https://github.com/ucbrise/confluo</a>
+* Real-time Monitoring and Analysis of Data Streams</p></li>
 </ul>
-<dl class="footnote brackets">
-<dt class="label" id="id3"><span class="brackets"><a class="fn-backref" href="#id2">1</a></span></dt>
-<dd><p><a class="reference external" href="http://opentsdb.net/index.html">http://opentsdb.net/index.html</a></p>
-</dd>
-</dl>
 </div>
 
 

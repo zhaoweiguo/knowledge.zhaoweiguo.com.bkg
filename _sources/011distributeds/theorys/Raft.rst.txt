@@ -17,5 +17,9 @@ MIT6.824
 
 
 
+MongoDB r3.2.0 以前选举协议是基于 Bully 算法，从 r3.2.0 开始默认使用基于 Raft 算法的选举策略
+
+
+
 
 .. [1] https://raft.github.io/

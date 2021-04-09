@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>2.3.7. 时间线 &mdash; 新溪-gordon V1.5.1 documentation</title>
+  <title>3.3.1. 常用 &mdash; 新溪-gordon V1.5.1 documentation</title>
   
 
   
@@ -28,8 +28,8 @@
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="2.4. 事务" href="../transaction.html" />
-    <link rel="prev" title="2.3.6. 无服务时代" href="06serverless.html" /> 
+    <link rel="next" title="3.3.2. Paxos算法" href="paxos.html" />
+    <link rel="prev" title="3.3. 分布式共识" href="../consensus.html" /> 
 
   
   <script src="../../_static/js/modernizr.min.js"></script>
@@ -205,67 +205,72 @@ var _hmt = _hmt || [];
 <li class="toctree-l2"><a class="reference internal" href="../../001ais/question.html">1.8. 常见问题</a></li>
 </ul>
 </li>
-<li class="toctree-l1 current"><a class="reference internal" href="../../010architecture.html">2. 架构设计</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../normal.html">2.1. 常用</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../normals/normal.html">2.1.1. 常用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../010architecture.html">2. 架构设计</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../010architectures/normal.html">2.1. 常用</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../010architectures/normals/normal.html">2.1.1. 常用</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../design_mode.html">2.2. 23种设计模式 </a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../design_modes/singleton.html">2.2.1. 单例模式 </a></li>
-<li class="toctree-l3"><a class="reference internal" href="../design_modes/observer-design.html">2.2.2. 观察者模式</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../design_modes/decorator.html">2.2.3. 装饰器模式</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../design_modes/mediator.html">2.2.4. 中介者模式</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../010architectures/design_mode.html">2.2. 23种设计模式 </a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../010architectures/design_modes/singleton.html">2.2.1. 单例模式 </a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../010architectures/design_modes/observer-design.html">2.2.2. 观察者模式</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../010architectures/design_modes/decorator.html">2.2.3. 装饰器模式</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../010architectures/design_modes/mediator.html">2.2.4. 中介者模式</a></li>
 </ul>
 </li>
-<li class="toctree-l2 current"><a class="reference internal" href="../history.html">2.3. 架构的历史</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="01origin_distributed_sys.html">2.3.1. 原始分布式时代</a></li>
-<li class="toctree-l3"><a class="reference internal" href="02monolithic_sys.html">2.3.2. 单体系统时代</a></li>
-<li class="toctree-l3"><a class="reference internal" href="03soa_sys.html">2.3.3. SOA架构</a></li>
-<li class="toctree-l3"><a class="reference internal" href="04microService.html">2.3.4. 微服务架构</a></li>
-<li class="toctree-l3"><a class="reference internal" href="05cloudnative.html">2.3.5. 云原生时代——后微服务时代</a></li>
-<li class="toctree-l3"><a class="reference internal" href="06serverless.html">2.3.6. 无服务时代</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">2.3.7. 时间线</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../010architectures/history.html">2.3. 架构的历史</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../010architectures/historys/01origin_distributed_sys.html">2.3.1. 原始分布式时代</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../010architectures/historys/02monolithic_sys.html">2.3.2. 单体系统时代</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../010architectures/historys/03soa_sys.html">2.3.3. SOA架构</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../010architectures/historys/04microService.html">2.3.4. 微服务架构</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../010architectures/historys/05cloudnative.html">2.3.5. 云原生时代——后微服务时代</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../010architectures/historys/06serverless.html">2.3.6. 无服务时代</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../transaction.html">2.4. 事务</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../transactions/normal.html">2.4.1. 通用</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../transactions/local.html">2.4.2. 本地事务</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../transactions/global.html">2.4.3. 全局事务(Global Transactions)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../transactions/share.html">2.4.4. 共享事务(Share Transactions)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../transactions/distribute.html">2.4.5. 分布式事务</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../010architectures/transaction.html">2.4. 事务</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../010architectures/transactions/normal.html">2.4.1. 通用</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../010architectures/transactions/local.html">2.4.2. 本地事务</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../010architectures/transactions/global.html">2.4.3. 全局事务(Global Transactions)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../010architectures/transactions/share.html">2.4.4. 共享事务(Share Transactions)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../010architectures/transactions/distribute.html">2.4.5. 分布式事务</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../other.html">2.5. 其他架构设计</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../others/graph.html">2.5.1. 架构图</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../others/microservice.html">2.5.2. 微服务架构</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../others/cqrs.html">2.5.3. CQRS </a></li>
-<li class="toctree-l3"><a class="reference internal" href="../others/crud.html">2.5.4. CRUD</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../others/ddd.html">2.5.5. 领域驱动设计</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../others/api.html">2.5.6. api设计</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../others/discovery.html">2.5.7. 服务发现 </a></li>
-<li class="toctree-l3"><a class="reference internal" href="../others/event_driver.html">2.5.8. 事件驱动架构</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../others/network_agent.html">2.5.9. 网络代理</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../others/message_bus.html">2.5.10. 消息总线</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../others/sla.html">2.5.11. SLA</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../others/other.html">2.5.12. 其他</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../010architectures/other.html">2.5. 其他架构设计</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../010architectures/others/graph.html">2.5.1. 架构图</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../010architectures/others/microservice.html">2.5.2. 微服务架构</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../010architectures/others/cqrs.html">2.5.3. CQRS </a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../010architectures/others/crud.html">2.5.4. CRUD</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../010architectures/others/ddd.html">2.5.5. 领域驱动设计</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../010architectures/others/api.html">2.5.6. api设计</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../010architectures/others/discovery.html">2.5.7. 服务发现 </a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../010architectures/others/event_driver.html">2.5.8. 事件驱动架构</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../010architectures/others/network_agent.html">2.5.9. 网络代理</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../010architectures/others/message_bus.html">2.5.10. 消息总线</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../010architectures/others/sla.html">2.5.11. SLA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../010architectures/others/other.html">2.5.12. 其他</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../011distributed.html">3. 分布式系统</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../011distributeds/normal.html">3.1. 常用</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../011distributeds/normals/normal.html">3.1.1. 分布式系统</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../011distributeds/normals/concept.html">3.1.2. 并发</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../011distributed.html">3. 分布式系统</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../normal.html">3.1. 常用</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../normals/normal.html">3.1.1. 分布式系统</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../normals/concept.html">3.1.2. 并发</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../011distributeds/theory.html">3.2. 并发相关理论</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../011distributeds/theorys/cap.html">3.2.1. 并发相关-CAP</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../011distributeds/theorys/csp.html">3.2.2. 并发相关-CSP</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../011distributeds/theorys/flp.html">3.2.3. 并发相关-FLP</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../011distributeds/theorys/Actor.html">3.2.4. Actor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../011distributeds/theorys/Raft.html">3.2.5. The Raft Consensus Algorithm </a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../011distributeds/theorys/Paxos.html">3.2.6. 一致性-Paxos算法</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../011distributeds/theorys/consistent_hash.html">3.2.7. 一致性hash</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../theory.html">3.2. 并发相关理论</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../theorys/cap.html">3.2.1. 并发相关-CAP</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../theorys/csp.html">3.2.2. 并发相关-CSP</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../theorys/flp.html">3.2.3. 并发相关-FLP</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../theorys/Actor.html">3.2.4. Actor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../theorys/Raft.html">3.2.5. The Raft Consensus Algorithm </a></li>
+<li class="toctree-l3"><a class="reference internal" href="../theorys/Paxos.html">3.2.6. 一致性-Paxos算法</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../theorys/Gossip.html">3.2.7. Gossip协议</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../theorys/consistent_hash.html">3.2.8. 一致性hash</a></li>
+</ul>
+</li>
+<li class="toctree-l2 current"><a class="reference internal" href="../consensus.html">3.3. 分布式共识</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">3.3.1. 常用</a></li>
+<li class="toctree-l3"><a class="reference internal" href="paxos.html">3.3.2. Paxos算法</a></li>
 </ul>
 </li>
 </ul>
@@ -329,6 +334,11 @@ var _hmt = _hmt || [];
 <li class="toctree-l2"><a class="reference internal" href="../../098trends/meeting.html">6.1. 会议</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../098trends/it.html">6.2. it相关</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../098trends/official.html">6.3. 官方</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../098trends/timeline.html">6.4. 时间线</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../098trends/timelines/architecture.html">6.4.1. 软件架构</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../098trends/timelines/consensus.html">6.4.2. 共识相关</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../099english.html">7. 英语学习</a><ul>
@@ -2521,17 +2531,17 @@ var _hmt = _hmt || [];
     
       <li><a href="../../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../../010architecture.html"><span class="section-number">2. </span>架构设计</a> &raquo;</li>
+          <li><a href="../../011distributed.html"><span class="section-number">3. </span>分布式系统</a> &raquo;</li>
         
-          <li><a href="../history.html"><span class="section-number">2.3. </span>架构的历史</a> &raquo;</li>
+          <li><a href="../consensus.html"><span class="section-number">3.3. </span>分布式共识</a> &raquo;</li>
         
-      <li><span class="section-number">2.3.7. </span>时间线</li>
+      <li><span class="section-number">3.3.1. </span>常用</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="../../_sources/010architectures/historys/timeline.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../../_sources/011distributeds/consensus/normal.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -2545,15 +2555,59 @@ var _hmt = _hmt || [];
            <div itemprop="articleBody">
             
   <div class="section" id="id1">
-<h1><span class="section-number">2.3.7. </span>时间线<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<h1><span class="section-number">3.3.1. </span>常用<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<p>状态转移（State Transfer）:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>以同步为代表的数据复制方法，叫做 状态转移（State Transfer）。
+这类方法属于比较符合人类思维的可靠性保障手段，但通常要以牺牲可用性为代价。
+</pre></div>
+</div>
+<p>操作转移（Operation Transfer）:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>系统高可用和高可靠之间的矛盾，是由于增加机器数量反而降低了可用性带来的。
+为缓解这个矛盾，在分布式系统里主流的数据复制方法，是以 操作转移（Operation Transfer）为基础的。
+我们想要改变数据的状态，除了直接将目标状态赋予它之外，还有另一种常用的方法，就是通过某种操作，把源状态转换为目标状态。
+</pre></div>
+</div>
+<p>状态机（State Machine）:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>能够使用确定的操作，促使状态间产生确定的转移结果的计算模型，在计算机科学中被称为状态机（State Machine）。
+
+状态机有一个特性:
+  任何初始状态一样的状态机，如果执行的命令序列一样，那么最终达到的状态也一样。
+
+基于此特性:
+  要让多台机器的最终状态一致
+  只要确保它们的初始状态和接收到的操作指令都是完全一致的就可以。
+  多机器的同步问题变成: 将一连串的操作日志正确地广播给各个分布式节点。
+</pre></div>
+</div>
+<p>状态机复制（State Machine Replication）:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>广播指令与指令执行期间，允许系统内部状态存在不一致的情况，但要求在此期间的内部状态不能被外部观察到，
+且当操作指令序列执行完成的时候，所有节点的最终的状态是一致的。
+这种模型，就是状态机复制（State Machine Replication）。
+</pre></div>
+</div>
+<p>Quorum 机制:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>在分布式环境下，考虑到网络分区问题，所以采用的是 “少数服从多数” 的原则。
+
+也就是说:
+  一旦系统中超过半数的节点完成了状态的转换，就可以认为数据的变化已经被正确地存储在了系统当中。
+  这样就可以容忍少数（通常是不超过半数）的节点失联，使得增加机器数量可以用来提升系统整体的可用性。
+  在分布式中，这种思想被叫做 Quorum 机制。
+</pre></div>
+</div>
+<p>协商共识（Consensus）:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>需要设计出一种算法，能够让分布式系统内部可以暂时容忍存在不同的状态，但最终能够保证大多数节点的状态能够达成一致；
+同时，能够让分布式系统在外部看来，始终表现出整体一致的结果。
+
+这个让系统各节点不受局部的网络分区、机器崩溃、执行性能或者其他因素影响，能最终表现出整体一致的过程，
+就是各个节点的协商共识（Consensus）
+</pre></div>
+</div>
+<p>共识（Consensus）与一致性（Consistency）的区别:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>一致性指的是数据不同副本之间的差异，而共识是指达成一致性的方法与过程。
+</pre></div>
+</div>
 <ul class="simple">
-<li><p>1987 年普林斯顿大学的赫克托・加西亚・莫利纳（Hector Garcia Molina）和肯尼斯・麦克米伦（Kenneth Salem）在 ACM 发表的一篇论文《SAGAS》</p></li>
-<li><p>20世纪 90 年代，IBM Almaden 研究院总结了研发原型数据库系统 “IBM System R” 的经验，发表了 ARIES 理论中最主要的三篇论文</p></li>
-<li><p>1991 年的时候 X/Open 组织（后来并入了 The Open Group）提出了一套叫做 X/Open XA（XA 是 eXtended Architecture 的缩写）的事务处理框架。</p></li>
-<li><p>2000 年 7 月 加州大学伯克利分校的埃里克・布鲁尔（Eric Brewer）教授在“ACM 分布式计算原理研讨会（PODC）” 上提出的一个猜想—— <a class="reference internal" href="../../011distributeds/theorys/cap.html#cap"><span class="std std-ref">CAP</span></a> 理论又叫 Brewer 理论。</p></li>
-<li><p>2002 年，麻省理工学院的赛斯・吉尔伯特（Seth Gilbert）和南希・林奇（Nancy Lynch）就以严谨的数学推理证明了这个 CAP 猜想。</p></li>
-<li><p>2007 年，数据库专家帕特・赫兰德（Pat Helland）在撰写的论文《Life beyond Distributed Transactions: An Apostate’s Opinion》中提出：TCC（Try-Confirm-Cancel）是除可靠消息队列以外的另一种常见的分布式事务机制。</p></li>
-<li><p>2008 年，eBay 的系统架构师丹・普利切特（Dan Pritchett）发表于 ACM 的论文 “Base: An Acid Alternative” 中提出『最终一致性』的概念</p></li>
+<li><p>Quorum 机制: <a class="reference external" href="https://en.wikipedia.org/wiki/Quorum_(distributed_computing">https://en.wikipedia.org/wiki/Quorum_(distributed_computing</a>)</p></li>
 </ul>
 </div>
 
@@ -2565,10 +2619,10 @@ var _hmt = _hmt || [];
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../transaction.html" class="btn btn-neutral float-right" title="2.4. 事务" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="paxos.html" class="btn btn-neutral float-right" title="3.3.2. Paxos算法" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="06serverless.html" class="btn btn-neutral" title="2.3.6. 无服务时代" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="../consensus.html" class="btn btn-neutral" title="3.3. 分布式共识" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
