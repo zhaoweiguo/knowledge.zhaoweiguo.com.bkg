@@ -57,6 +57,13 @@ netstat命令使用
    -t, --tcp
       指明显示TCP端口
 
+选项说明(mac)::
+
+    -p protocol:
+      Show statistics about protocol, 
+        which is either a well-known name for a protocol or an alias for it.  
+      Some protocol names and aliases are listed in the file /etc/protocols.
+
 
 实例::
 

@@ -24,6 +24,7 @@ A
 * ANSI: American National Standards Institute
 * API: Application Programming Interface(应用程序接口)
 * AR: Augmented Reality(AR/VR, 增强现实)
+* ARP: Address Resolution Protocol(地址解析协议, network-protocol)
 * ARIES: Algorithms for Recovery and Isolation Exploiting Semantics(基于语义的恢复与隔离算法, transaction)
 
 B
@@ -34,6 +35,7 @@ B
 * BASE: 基本可用(Basically Available),软状态(Soft State),最终一致性(Eventual Consistency).与ACID对应
 * BDD: 行为驱动开发（Behavior-Driven Development）
 * BFF: Backend For Frontend
+* BGP: Border Gateway Protocol(边界网关协议, network-protocol)
 * BI: Business Intelligence
 * BLAS: basic linear algebra subroutine(基本线性代数运算)
 * BS: Bachelor of Science(理学学士)
@@ -48,12 +50,14 @@ C
 
 * CAP: Consistency Availability Partition-tolerance
 * CBA: Cell-Based Architecture, 基于单元格的架构(对应MSA)
-* CD: 持续部署（continuous deployment）
-* CE: 社区版(Community Edition), 如:Docker社区版（CE）,Docker企业版（EE）
-* CE: 持续探索(Continuous Exploration)
+* CD: continuous deployment(持续部署)
+* CDN: Content Delivery Network 或 Content Distribution Network
+* CE: Community Edition(社区版), 如:Docker社区版(CE), Docker企业版(EE)
+* CE: Continuous Exploration(持续探索)
 * CEN: Cloud Enterprise Network(云企业网络，阿里)
-* CI: 持续集成 (Continuous integration)
-* CNN: 卷积神经网络 (Convolutional Neural Network, convnet)
+* CGI: Common Gateway Interface(通用网关接口)
+* CI: Continuous integration(持续集成)
+* CNN: Convolutional Neural Network, convnet(卷积神经网络, AI)
 * COTS: Commercial Off-The-Shelf(“商用现成品或技术” 或者 “商用货架产品”)
 * CQRS: Command Query Responsibility Seperation
 * CRI: Container Runtime Interface(容器运行时接口, k8s)
@@ -61,6 +65,7 @@ C
 * CSP: Communicating Sequential Processes
 * CSP: Content Security Policy(网页安全政策, http)
 * CSR: certificate signing request
+* CSRF: Cross-Site-Request-Forgery(跨站请求伪造, vulnerability)
 
 
 D
@@ -71,6 +76,7 @@ D
 * DCL: Data Cached Layer
 * DDD: Domain-Driver Design, 领域驱动设计
 * DDoS: Distributed DoS(分布式拒绝服务)
+* DHCP: Dynamic Host Configuration Protocol(动态主机配置协议)
 * DHT: Distributed Hash Table，分布式哈希表
 * DNAT: 目的地址转换(Destination NAT)
 * DNN: 深度神经网络（Deep Neural Network, DNN）
@@ -112,6 +118,7 @@ G
 * GNU: GNU is Not Unix 
 * GPG: GnuPG(加密)
 * GPL: General Public License
+* GPRS: General Packet Radio Service(通用分组无线业务, 移动数据网络)
 * GPU: Graphics Processing Unit(图形处理器)
 * GSA: Google Search Appliance
 * GUI——Graphical User Interface
@@ -133,16 +140,17 @@ I
 * I18N: internationalization(首末字符i和n，18为中间的字符数), 类似的有L10N, K8S
 * IaaS: Infrastructure as a Service(基础设施即服务)
 * IaC: Infrastructure as Code
-* ICMP: Internet Control Message Protocol(网络控制报文协议, protocol)
+* ICMP: Internet Control Message Protocol(网络控制报文协议, network-protocol)
 * IDL: Interactive Data Language(交互式数据语言)
 * IEEE: Institute for Electrical and Electronics Engineers 
 * IETF: Internet Engineering Task Force
-* IGMP: Internet Group Management Protocol(互联网组管理协议, protocol)
+* IGMP: Internet Group Management Protocol(互联网组管理协议, network-protocol)
 * IoC: Inversion of Control(控制反转), 常见的方式:Dependency Injection(依赖注入)
 * IOE: IBM, Oracle, EMC 
-* IP: Internet Protocol 
+* IP: Internet Protocol(network-protocol)
 * IPC: Inter-Process Communication
 * ISO: International Organization of Standardization 
+* IX: Internet eXchange(互联网交换中心, network-protocol)
 
 J
 ---
@@ -162,9 +170,10 @@ M
 ----
 
 * MAC: Message Authentication Code(消息验证码, security)
+* MAC: Medium Access Control(媒体访问控制, network-protocol)
 * MAE: Mean Absolute Error(平均绝对误差, math)
 * MFA: Multi-factor authentication(多因素认证, security, SFA)
-* MIME: Multipurpose Internet Mail Extensions(rfc2045)
+* MIME: Multipurpose Internet Mail Extensions(多用途因特网邮件扩充, rfc2045)
 * MIT: Massachusetts Institute of Technology(麻省理工学院)
 * MLP: multilayer perceptron(多层感知器)
 * MLP: Machine Language Program（机器语言程序）
@@ -173,8 +182,9 @@ M
 * MS: Master of Science(理学硕士)
 * MSA: Micro-Service Architecture, 微服务架构(对应CBA)
 * MSE: Mean Squared Error(均方误差, math)
+* MSS: Maximum Segment Size(最大分段大小, network-protocol)
 * MTBF: Mean Time Between Failure，平均无故障时间(平均故障间隔时间)
-* MTU: Maximum Transfer Unit 
+* MTU: Maximum Transfer Unit (最大传输单元, network-protocol)
 * MVCC: Multiversion concurrency control(多版本并发控制, transaction)
 
 N
@@ -192,7 +202,7 @@ O
 
 * OCC: Optimistic Concurrency Control(乐观并发控制, transaction)
 * OCI: Open Container Initiative-based(开放式容器计划, k8s)
-* OCR: Optical Character Recognition, 文字识别
+* OCR: Optical Character Recognition(光学文字识别)
 * OOM: OutOfMemory
 * OOP: Object Oriented Programming, 面向对象程序设计
 * OSI: Open Systems Interconnection
@@ -209,11 +219,17 @@ P
 * PERN: Postgres, Express, React, Node
 * PFS: Perfect Forward Secrecy(前向安全性, SSL/TLS协议)
 * PGP: Pretty Good Privacy(1991, 加密)
+* PID: Process ID
+* PnP: Plug and Play(即插即用)
 * POP结点: Point of Presence(入网点，阿里)
 * POSIX: Portable Operating System Interface
+* PPP: Point-to-Point Protocol(点到点协议, network-protocol)
+* PPPoA: PPP over ATM
+* PPPoE: PPP over Ethernet(一种控制 ADSL、FTTH 等宽带网络的方式, network-protocol)
+* PR: Pull Request
 * PTP: Point-to-Point 单点对单点
 * PTM: Point-to-Multipoint 单点对多点
-* Pull Request (PR)
+* PXE: Pre-boot Execution Environment(预启动执行环境, BIOS, DHCP)
 
 Q
 ----
@@ -234,9 +250,9 @@ R
 * RFC: Request for Comments 
 * RGB: Red, Green, Blue(三元色, color)
 * RL: Reinforcement Learning(强化学习, AI)
+* RNN: Recurrent Neural Network(循环神经网, AI)
 * ROA: Resource Oriented Architecture
 * RPC: Remote Procedure Call 
-* RNN: Recurrent Neural Network，RNN, 循环神经网
 
 S
 ----
@@ -259,13 +275,15 @@ S
 * SRE: Site Reliability Engineering(网站可靠性工程师)
 * SSL: Security Socket Layer
 * SSR: Server-Side Rendering
+* SSRF: Server-side Request Forge(服务端请求伪造, vulnerability)
+* STP: Spanning Tree Protocol(生成树协议)
 * SVM: Support Vector Machine(支持向量机, ai)
 
 T
 ----
 
 * TCC: Try-Confirm-Cancel(transaction)
-* TCP: Transmission Control Portocol 
+* TCP: Transmission Control Portocol(network-protocol)
 * TDD: Test-Driven Development(测试驱动开发)
 * TLS: Transport Layer Security
 * TOC: Technical Oversight Committee(技术监督委员会)
@@ -275,6 +293,7 @@ T
 U
 ----
 
+* UDP: User Datagram Protocol(network-protocol)
 * UI: User Interface
 * URI: Uniform resource Identifier 
 * UTC: Universal Time Coordinated(世界标准时间)
@@ -304,7 +323,8 @@ X
 ---
 
 * XA: eXtended Architecture(transaction)
-* XSS: Cross-site scripting(跨站脚本攻击, http)
+* XSS: Cross-site scripting(跨站脚本攻击, vulnerability)
+* XSRF: Cross-site request forgery(跨站请求伪造, CSRF, vulnerability)
 
 
 Y

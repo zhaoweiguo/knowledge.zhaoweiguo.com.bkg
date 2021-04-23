@@ -8,7 +8,6 @@
    others/Gopher
 
    others/ftp
-   others/dns
    others/amqp
    others/coap
    others/auth1

@@ -13,6 +13,8 @@
 
   
   
+    <link rel="shortcut icon" href="../../../_static/favicon-16x16.ico"/>
+  
   
   
 
@@ -28,7 +30,7 @@
   <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="7.8.4. 论文" href="../paper.html" />
+    <link rel="next" title="7.8.2. 资源" href="../resource.html" />
     <link rel="prev" title="Kubernetes" href="k8s.html" /> 
 
   
@@ -283,10 +285,14 @@ var _hmt = _hmt || [];
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../../021securities/vulnerability.html">4.2. 漏洞相关</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="../../../021securities/vulnerabilities/SSRF.html">4.2.1. SSRF</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../021securities/vulnerabilities/xPath_injection.html">4.2.2. XPath injection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../021securities/vulnerabilities/injection_xPath.html">4.2.2. XPath injection</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../../021securities/vulnerabilities/XSS.html">4.2.3. XSS跨站脚本攻击</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../021securities/vulnerabilities/CSRF.html">4.2.4. CSRF</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../021securities/vulnerabilities/SSRF.html">4.2.1. SSRF</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../021securities/vulnerabilities/Control_Missing.html">4.2.5. 越权(控制缺失)</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="../../../021securities/DNS.html">4.3. DNS相关安全</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../../022performance.html">5. 性能相关</a><ul>
@@ -333,34 +339,46 @@ var _hmt = _hmt || [];
 <li class="toctree-l1"><a class="reference internal" href="../../../031protocol.html">6. 协议</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../../031protocols/normal.html">6.1. 常用</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="../../../031protocols/normals/normal.html">6.1.1. 常用</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/normals/osi.html">6.1.2. OSI各层级</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/normals/layer_datalink.html">6.1.3. 数据链路层 </a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/normals/hub.html">6.1.2. 集线器</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/normals/switch.html">6.1.3. 交换机</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/normals/router.html">6.1.4. 路由器及相关</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/normals/osi.html">6.1.5. OSI各层级</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/normals/layer_datalink.html">6.1.6. 数据链路层 </a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../../031protocols/http.html">6.2. http文档</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/https/protocol.html">6.2.1. 协议细节</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../../031protocols/https/protocols/connection.html">Connection</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../../031protocols/https/protocols/content-encoding.html">Content-Encoding</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../../031protocols/https/protocols/content-length.html">Content-Length</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../../031protocols/https/protocols/content-range.html">Content-Range</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../../031protocols/https/protocols/content-type.html">Content-Type</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../../031protocols/https/protocols/transfer-encoding.html">Transfer-Encoding</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../../031protocols/https/protocols/cookie.html">cookie</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../../031protocols/https/protocols/http_method.html">HTTP POST GET方法</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../../031protocols/https/protocols/http_method.html#http">HTTP协议的格式</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../../031protocols/https/protocols/Content-Security-Policy.html">Content-Security-Policy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/https/normal.html">6.2.1. 常用</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../031protocols/https/normals/normal.html">常用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../031protocols/https/normals/http_method.html">HTTP Method方法</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/https/normal.html">6.2.2. 常用</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/https/header.html">6.2.2. 协议header</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../031protocols/https/headers/normal.html">常用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../031protocols/https/headers/connection.html">Connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../031protocols/https/headers/content-encoding.html">Content-Encoding</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../031protocols/https/headers/content-length.html">Content-Length</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../031protocols/https/headers/content-range.html">Content-Range</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../031protocols/https/headers/content-type.html">Content-Type</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../031protocols/https/headers/transfer-encoding.html">Transfer-Encoding</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../031protocols/https/headers/cookie.html">cookie</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../031protocols/https/headers/Content-Security-Policy.html">Content-Security-Policy</a></li>
+</ul>
+</li>
 <li class="toctree-l3"><a class="reference internal" href="../../../031protocols/https/http_code.html">6.2.3. http返回码</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/https/practice.html">6.2.4. 实践</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/https/DNS.html">6.2.4. DNS</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../031protocols/https/DNS/normal.html">常用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../031protocols/https/DNS/root.html">根 DNS 服务器</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../031protocols/https/DNS/type.html">三类DNS</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/https/practice.html">6.2.5. 实践</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../031protocols/https/practices/real_ip.html">真实IP</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/https/http2.html">6.2.5. http2协议 </a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/https/http3.html">6.2.6. http3协议</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/https/websocket.html">6.2.7. websocket协议</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/https/other.html">6.2.8. 其他</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/https/http2.html">6.2.6. http2协议 </a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/https/http3.html">6.2.7. http3协议</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/https/websocket.html">6.2.8. websocket协议</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/https/other.html">6.2.9. 其他</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../031protocols/https/others/phrase_polling.html">轮询、长轮询、长连接</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../031protocols/https/others/tmp.html">临时</a></li>
 </ul>
@@ -379,12 +397,18 @@ var _hmt = _hmt || [];
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../../031protocols/tcp-ip.html">6.4. TCP/IP相关协议</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="../../../031protocols/tcp-ips/tcp.html">6.4.1. tcp相关</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../031protocols/tcp-ips/tcps/normal.html">常用</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../031protocols/tcp-ips/tcps/tcp1.html">tcp协议 </a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../031protocols/tcp-ips/tcps/tcp2.html">tcp2 </a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../../../031protocols/tcp-ips/udp.html">6.4.2. udp协议</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/tcp-ips/ip.html">6.4.3. ip协议</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/tcp-ips/ip.html">6.4.3. ip协议</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../031protocols/tcp-ips/ips/normal.html">常用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../031protocols/tcp-ips/ips/dhcp.html">DHCP</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../031protocols/tcp-ips/ips/tool.html">工具</a></li>
+</ul>
+</li>
 <li class="toctree-l3"><a class="reference internal" href="../../../031protocols/tcp-ips/icmp.html">6.4.4. ICMP协议</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../../031protocols/tcp-ips/igmp.html">6.4.5. IGMP协议</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../../031protocols/tcp-ips/arp.html">6.4.6. ARP协议</a></li>
@@ -428,36 +452,58 @@ var _hmt = _hmt || [];
 <li class="toctree-l2"><a class="reference internal" href="../../../031protocols/other.html">6.6. 其他协议</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="../../../031protocols/others/Gopher.html">6.6.1. Gopher协议</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../../031protocols/others/ftp.html">6.6.2. FTP协议</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/others/dns.html">6.6.3. DNS域名系统</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/others/amqp.html">6.6.4. AMQP协议</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/others/coap.html">6.6.5. COAP协议  </a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/others/amqp.html">6.6.3. AMQP协议</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/others/coap.html">6.6.4. COAP协议  </a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../../031protocols/others/coaps/coap_protocol.html">Coap协议</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../031protocols/others/coaps/coap_cli.html">Coap协议client </a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../031protocols/others/coaps/coap_example_node.html">Coap协议Node实例</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../031protocols/others/coaps/coap_architecture.html">Coap架构图</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/others/auth1.html">6.6.6. Auth1.0协议</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/others/auth2.html">6.6.7. Auth2.0协议 </a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/others/qos.html">6.6.8. QoS</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/others/jwt.html">6.6.9. JWT</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/others/jsonnet.html">6.6.10. jsonnet</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/others/other.html">6.6.11. 其他</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/others/auth1.html">6.6.5. Auth1.0协议</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/others/auth2.html">6.6.6. Auth2.0协议 </a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/others/qos.html">6.6.7. QoS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/others/jwt.html">6.6.8. JWT</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/others/jsonnet.html">6.6.9. jsonnet</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../031protocols/others/other.html">6.6.10. 其他</a></li>
 </ul>
 </li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../../061question.html">7. 专题专问</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../098trend.html">8. 趋势学习</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../../098trends/meeting.html">8.1. 会议</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../098trends/it.html">8.2. it相关</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../098trends/official.html">8.3. 官方</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../098trends/timeline.html">8.4. 时间线</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../../098trends/timelines/architecture.html">8.4.1. 软件架构</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../098trends/timelines/consensus.html">8.4.2. 共识相关</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../098trends/timelines/protocol.html">8.4.3. 协议相关</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../098trends/book.html">8.1. 书</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../098trends/books/cryptography_graph.html">8.1.1. 图解密码技术</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../098trends/books/deep-learning-with-python.html">8.1.2. Deep learning with Python</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../098trends/books/how-networks-work.html">8.1.3. 网络是怎么连接的</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="../../../098trends/meeting.html">8.2. 会议</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../098trends/it.html">8.3. it相关</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../098trends/official.html">8.4. 官方</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../098trends/timeline.html">8.5. 时间线</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../098trends/timelines/architecture.html">8.5.1. 软件架构</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../098trends/timelines/consensus.html">8.5.2. 共识相关</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../098trends/timelines/protocol.html">8.5.3. 协议相关</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../098trends/timelines/other.html">8.5.4. 其他</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../098trends/opensource.html">8.6. 开源项目</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../098trends/opensources/golang.html">8.6.1. Golang开源项目</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../098trends/opensources/node.html">8.6.2. Node开源项目</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../098trends/opensources/python.html">8.6.3. Python</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../098trends/opensources/rust.html">8.6.4. Rust开源项目</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../098trends/opensources/ui.html">8.6.5. UI开源项目</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../098trends/opensources/algorithm.html">8.6.6. 算法</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../098trends/opensources/course.html">8.6.7. 课程</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../098trends/opensources/book.html">8.6.8. 开源书籍</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../098trends/opensources/awesome.html">8.6.9. awesome</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../098trends/opensources/data_analysis.html">8.6.10. 数据分析</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../098trends/website.html">8.7. 好的网站</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../098trends/paper.html">8.8. 论文</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../098trends/keyword.html">8.9. 关键词</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../../099english.html">9. 英语学习</a><ul>
@@ -2052,7 +2098,8 @@ var _hmt = _hmt || [];
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../nginx.html">7.3. Nginx使用文档</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../nginxs/nginx.html">7.3.1. Nginx相关</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../nginxs/normal.html">7.3.1. 常用</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../nginxs/nginx.html">7.3.2. Nginx相关</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../nginxs/nginxs/normal.html">常用</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../nginxs/nginxs/config.html">配置文件</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../nginxs/nginxs/docker.html">Docker相关</a></li>
@@ -2062,10 +2109,10 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../nginxs/nginxs/question.html">NginX问题汇总</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../nginxs/apache.html">7.3.2. apache的简单使用方法</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../nginxs/lvs.html">7.3.3. lvs</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../nginxs/HAproxy.html">7.3.4. HAproxy</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../nginxs/openresty.html">7.3.5. openresty</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../nginxs/apache.html">7.3.3. apache的简单使用方法</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../nginxs/lvs.html">7.3.4. lvs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../nginxs/HAproxy.html">7.3.5. HAproxy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../nginxs/openresty.html">7.3.6. openresty</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../sphinxdoc.html">7.4. Sphinx Document文档</a><ul>
@@ -2159,21 +2206,7 @@ var _hmt = _hmt || [];
 </ul>
 </li>
 <li class="toctree-l2 current"><a class="reference internal" href="../../collect.html">7.8. 好的收集</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="../opensource.html">7.8.1. 开源项目</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../opensources/golang.html">Golang开源项目</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../opensources/node.html">Node开源项目</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../opensources/python.html">Python</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../opensources/rust.html">Rust开源项目</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../opensources/ui.html">UI开源项目</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../opensources/algorithm.html">算法</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../opensources/course.html">课程</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../opensources/book.html">开源书籍</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../opensources/awesome.html">awesome</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../opensources/data_analysis.html">数据分析</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="../website.html">7.8.2. 好的网站</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="../concept.html">7.8.3. 概念</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../concept.html">7.8.1. 概念</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="big_data.html">大数据</a></li>
 <li class="toctree-l4"><a class="reference internal" href="learning_theory.html">学习理论</a></li>
 <li class="toctree-l4"><a class="reference internal" href="cloud_native.html">云原生</a></li>
@@ -2183,9 +2216,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4 current"><a class="current reference internal" href="#">临时</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../paper.html">7.8.4. 论文</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../keyword.html">7.8.5. 关键词</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../resource.html">7.8.6. 资源</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../resource.html">7.8.2. 资源</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../resources/http_Content-Type.html">Http Content-type</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../resources/html_transfer-character.html">Html转意字符</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../resources/Ascii.html">Ascii对照表</a></li>
@@ -2193,7 +2224,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../resources/linux_port.html">Linux系统端口</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../env.html">7.8.7. 环境变量</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../env.html">7.8.3. 环境变量</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../other.html">7.9. 其他</a><ul>
@@ -2585,7 +2616,7 @@ var _hmt = _hmt || [];
         
           <li><a href="../../collect.html"><span class="section-number">7.8. </span>好的收集</a> &raquo;</li>
         
-          <li><a href="../concept.html"><span class="section-number">7.8.3. </span>概念</a> &raquo;</li>
+          <li><a href="../concept.html"><span class="section-number">7.8.1. </span>概念</a> &raquo;</li>
         
       <li>临时</li>
     
@@ -2658,7 +2689,7 @@ TLS终止代理用于通过将加密处理卸载到另一台计算机来减少�
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../paper.html" class="btn btn-neutral float-right" title="7.8.4. 论文" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="../resource.html" class="btn btn-neutral float-right" title="7.8.2. 资源" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="k8s.html" class="btn btn-neutral" title="Kubernetes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

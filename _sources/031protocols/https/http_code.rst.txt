@@ -1,7 +1,17 @@
 .. _http_code:
 
 http返回码
-===============
+##########
+
+状态码&含义::
+
+    状态码             含  义
+    1xx         告知请求的处理进度和情况
+    2xx         成功
+    3xx         表示需要进一步操作
+    4xx         客户端错误
+    5xx         服务器错误
+
 
 .. figure:: /images/protocols/http_status.jpg
    :width: 100%

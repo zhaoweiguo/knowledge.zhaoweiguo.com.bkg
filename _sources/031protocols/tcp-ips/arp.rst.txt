@@ -1,9 +1,17 @@
 ARP协议
-----------
+#######
+
 ::
 
-  1.以太网的协议中,每一个数据包都有一个MAC地址
-  2.每一块以太网卡都有一个MAC地址
+    ARP: Address Resolution Protocol
+
+    根据 IP 地址查询相应的以太网 MAC 地址
+
+
+::
+
+  1. 以太网的协议中,每一个数据包都有一个MAC地址
+  2. 每一块以太网卡都有一个MAC地址
   IP包是如何知道这个MAC地址的？这就是ARP协议的工作
 
 ARP（地址解析）协议是::
@@ -23,6 +31,29 @@ ARP（地址解析）协议是::
     Internet Address      Physical Address      Type
     192.168.11.1          00-0d-0b-43-a0-2f     dynamic
     192.168.11.2          00-01-4a-03-5b-ea     dynamic
+
+
+ARP 缓存::
+
+    $ arp -a
+    ? (10.112.97.33) at f8:a2:d6:eb:82:31 on en0 ifscope [ethernet]
+    ? (10.112.127.254) at 0:0:5e:0:1:3 on en0 ifscope [ethernet]
+    ? (224.0.0.251) at 1:0:5e:0:0:fb on en0 ifscope permanent [ethernet]
+    ? (239.255.255.250) at 1:0:5e:7f:ff:fa on en0 ifscope permanent [ethernet]
+
+    注:MAC地址长度为48比特(6字节)有下面2种写法:
+    a. 00-80-C8-2D-82-EA
+    b. f8:a2:d6:eb:82:31
+
+    注:
+    IP 地址发生变化时，ARP 缓存 的内容就会和现实发生差异。为了防止这种问题的发生:
+      ARP 缓存中的值 在经过一段时间后会被删除，一般这个时间在几分钟左右
+      这个删除的操 作非常简单粗暴，不管 ARP 缓存中的内容是否有效，只要经过几分钟就全部删掉
+
+    注:
+    但 IP 地址刚刚发生改变的时候，ARP 缓存中依然会保留老的地址，这时就会发生通信的异常
+    遇到这种情况，可以查看 ARP 缓存的内容，并手动删除过时的条目
+
 
 
 
