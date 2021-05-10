@@ -81,6 +81,10 @@ loopback协议::
     ISDN
     专线
 
+.. note:: MAC 地址是一个局域网内才有效的地址。因而，MAC 地址只要过网关，就必定会改变，因为已经换了局域网。
+
+
+
 
 MAC 头部的字段::
 
@@ -103,6 +107,11 @@ MAC 头部的字段::
 .. figure:: /images/protocols/mac0.png
 
    MAC 头部的字段说明
+
+
+.. figure:: /images/protocols/mac4.png
+
+   MAC 头部的字段说2
 
 CRC::
 

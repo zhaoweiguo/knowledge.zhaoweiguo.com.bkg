@@ -12,6 +12,7 @@
    normals/router
    normals/osi
    normals/layer_datalink
+   normals/gateway
 
 
 

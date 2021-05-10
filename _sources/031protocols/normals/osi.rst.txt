@@ -1,6 +1,9 @@
 OSI各层级
 #########
 
+.. figure:: /images/protocols/tcp_ip_ios_osi.gif
+   :width: 70%
+
 
 1. 物理层(Physical Layer)::
 
@@ -8,6 +11,8 @@ OSI各层级
     IEEE 802
     IEEE 802.1
     IEEE 802.2
+
+    Ethernet 协议?
 
     交叉线: 1－3、2－6 交叉接法
     Hub，也就是集线器

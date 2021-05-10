@@ -19,48 +19,22 @@
 
 路由表(Routing Table)::
 
-    ➜ netstat -nr
-    Routing tables
+    一张路由表中会有多条路由规则。
+    每一条规则至少包含这三项信息:
+    1. 目的网络: 这个包想去哪儿
+    2. 出口设备: 将包从哪个口扔出去
+    3. 下一跳网关: 下一个路由器的地址
 
-    Internet:
     Destination        Gateway            Flags        Netif Expire
     default            10.112.127.254     UGSc           en0
     10.112/17          link#6             UCS            en0      !
     10.112.25.28/32    link#6             UCS            en0      !
     10.112.33/24       10.112.33.9        UGSc         utun2
-    10.112.33.9        10.112.33.10       UH           utun2
-    10.112.127.254/32  link#6             UCS            en0      !
-    10.112.127.254     0:0:5e:0:1:3       UHLWIir        en0   1139
-    10.128/16          10.112.33.9        UGSc         utun2
-    10.128.128/23      10.112.33.9        UGSc         utun2
-    10.128.130/23      10.112.33.9        UGSc         utun2
-    10.128.132/23      10.112.33.9        UGSc         utun2
-    10.140.2/24        10.112.33.9        UGSc         utun2
     127                127.0.0.1          UCS            lo0
     127.0.0.1          127.0.0.1          UH             lo0
-    169.254            link#6             UCS            en0      !
-    224.0.0/4          link#6             UmCS           en0      !
-    239.255.255.250    1:0:5e:7f:ff:fa    UHmLWI         en0
-    255.255.255.255/32 link#6             UCS            en0      !
+    ... ....
 
-    注:  linux 上面的命令 route -n
-
-mac下操作::
-
-    查看所有路由表:
-    netstat -rn
-
-    查看默认网关:
-    route -n get default
-    route -n get www.baidu.com
-
-    添加路由: 
-    sudo route add 34.0.7.0 34.0.7.1
-
-    删除路由: 
-    sudo route delete 0.0.0.0
-
-    注: 多网卡可以调整不同网卡的优先级
+家用路由器的五个口是一个局域网?
 
 
 
@@ -107,6 +81,9 @@ mac下操作::
     11.123.23.2     5437     192.168.1.23       443
     11.123.23.2     5438     192.168.1.11       80
 
+
+
+
 包过滤功能
 ----------
 
@@ -128,6 +105,99 @@ mac下操作::
         通过分析这些包能够搞清楚 入侵者使用的手法，从而帮助我们更好地防范非法入侵
     而对内置包过滤功能的路由器来说，内存容量小，没有足够的空间用来记录日志
         在丢弃包时基本上不会留下记录
+
+
+命令操作
+========
+
+
+
+路由表(Routing Table)::
+
+    ➜ netstat -nr
+    Routing tables
+
+    Internet:
+    Destination        Gateway            Flags        Netif Expire
+    default            10.112.127.254     UGSc           en0
+    10.112/17          link#6             UCS            en0      !
+    10.112.25.28/32    link#6             UCS            en0      !
+    10.112.33/24       10.112.33.9        UGSc         utun2
+    10.112.33.9        10.112.33.10       UH           utun2
+    10.112.127.254/32  link#6             UCS            en0      !
+    10.112.127.254     0:0:5e:0:1:3       UHLWIir        en0   1139
+    10.128/16          10.112.33.9        UGSc         utun2
+    10.128.128/23      10.112.33.9        UGSc         utun2
+    10.128.130/23      10.112.33.9        UGSc         utun2
+    10.128.132/23      10.112.33.9        UGSc         utun2
+    10.140.2/24        10.112.33.9        UGSc         utun2
+    127                127.0.0.1          UCS            lo0
+    127.0.0.1          127.0.0.1          UH             lo0
+    169.254            link#6             UCS            en0      !
+    224.0.0/4          link#6             UmCS           en0      !
+    239.255.255.250    1:0:5e:7f:ff:fa    UHmLWI         en0
+    255.255.255.255/32 link#6             UCS            en0      !
+
+    注:  linux 上面的命令 route -n
+
+mac下操作::
+
+    查看所有路由表:
+    netstat -rn
+
+    查看默认网关:
+    route -n get default
+    route -n get www.baidu.com
+
+    添加路由: 
+    sudo route add 34.0.7.0 34.0.7.1
+
+    删除路由: 
+    sudo route delete 0.0.0.0
+
+    注: 多网卡可以调整不同网卡的优先级
+
+
+增加一条路由::
+
+    $ ip route add 10.176.48.0/20 via 10.173.32.1 dev eth0
+    要去 10.176.48.0/20 这个目标网络，要从 eth0 端口出去，经过 10.173.32.1:
+
+    $ ip rule add from 192.168.1.0/24 table 10 
+    $ ip rule add from 192.168.2.0/24 table 20
+    从 192.168.1.10/24 这个网段来的，使用 table 10 中的路由表
+    而从 192.168.2.0/24 网段来的，使用 table20 的路由表
+
+    $ ip route add default scope global \
+        nexthop via 100.100.100.1 weight 1 \
+        nexthop via 200.200.200.1 weight 2
+    下一跳有两个地方，分别是 100.100.100.1 和 200.200.200.1，权重分别为 1 比 2
+    此方法适用于有多个出口IP时
+
+
+静态&动态路由
+=============
+
+路由分静态路由和动态路由::
+
+    静态路由可以配置复杂的策略路由，控制转发策略；
+    动态路由主流算法有两种，「距离矢量算法」和「链路状态算法」
+        「距离矢量算法」基于 Bellman-Ford 算法，产生BGP 协议
+        「链路状态算法」基于 Dijkstra 算法，产生OSPF 协议
+
+        求最短路径常用的有两种方法：
+        一种是 Bellman-Ford 算法
+        一种是 Dijkstra 算法
+
+
+BGP 又分为两类，eBGP 和 iBGP::
+
+    BGP 协议使用的算法是「路径矢量路由协议」（path-vector protocol）。
+    它是「距离矢量路由协议」的升级版。
+
+
+
+
 
 
 

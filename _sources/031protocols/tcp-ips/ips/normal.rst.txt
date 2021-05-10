@@ -64,7 +64,10 @@ IP路由选择::
 IP 头部格式
 ===========
 
-.. figure:: /images/protocols/ip_1.png
+.. figure:: /images/protocols/ip1.png
+   :width: 70%
+
+.. figure:: /images/protocols/ip2.png
    :width: 70%
 
 八位的TTL字段::

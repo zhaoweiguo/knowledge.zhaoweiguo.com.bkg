@@ -15,5 +15,8 @@
    algorithms/other
 
 
+* 最短路径常用的有两种方法，一种是 Bellman-Ford 算法，一种是 Dijkstra 算法。
+
+
 * https://github.com/greyireland/algorithm-pattern
 

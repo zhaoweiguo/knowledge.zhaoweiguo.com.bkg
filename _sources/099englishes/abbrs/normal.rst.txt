@@ -35,7 +35,7 @@ B
 * BASE: 基本可用(Basically Available),软状态(Soft State),最终一致性(Eventual Consistency).与ACID对应
 * BDD: 行为驱动开发（Behavior-Driven Development）
 * BFF: Backend For Frontend
-* BGP: Border Gateway Protocol(边界网关协议, network-protocol)
+* BGP: Border Gateway Protocol(边界网关协议, network-protocol, IGP)
 * BI: Business Intelligence
 * BLAS: basic linear algebra subroutine(基本线性代数运算)
 * BS: Bachelor of Science(理学学士)
@@ -48,6 +48,7 @@ B
 C
 ----
 
+* CAAS: Communications-as-a-Service(容器即服务)
 * CAP: Consistency Availability Partition-tolerance
 * CBA: Cell-Based Architecture, 基于单元格的架构(对应MSA)
 * CD: continuous deployment(持续部署)
@@ -59,7 +60,7 @@ C
 * CI: Continuous integration(持续集成)
 * CNN: Convolutional Neural Network, convnet(卷积神经网络, AI)
 * COTS: Commercial Off-The-Shelf(“商用现成品或技术” 或者 “商用货架产品”)
-* CQRS: Command Query Responsibility Seperation
+* CQRS: Command Query Responsibility Seperation(命令查询职责分离)
 * CRI: Container Runtime Interface(容器运行时接口, k8s)
 * CRUD: Create、Retrieve、Update、Delete
 * CSP: Communicating Sequential Processes
@@ -76,6 +77,7 @@ D
 * DCL: Data Cached Layer
 * DDD: Domain-Driver Design, 领域驱动设计
 * DDoS: Distributed DoS(分布式拒绝服务)
+* DFX: Design For X(面向产品生命周期各环节设计)
 * DHCP: Dynamic Host Configuration Protocol(动态主机配置协议)
 * DHT: Distributed Hash Table，分布式哈希表
 * DNAT: 目的地址转换(Destination NAT)
@@ -145,6 +147,7 @@ I
 * IEEE: Institute for Electrical and Electronics Engineers 
 * IETF: Internet Engineering Task Force
 * IGMP: Internet Group Management Protocol(互联网组管理协议, network-protocol)
+* IGP: Interior Gateway Protocol(内部网关协议, network-protocol, BGP)
 * IoC: Inversion of Control(控制反转), 常见的方式:Dependency Injection(依赖注入)
 * IOE: IBM, Oracle, EMC 
 * IP: Internet Protocol(network-protocol)
@@ -162,6 +165,7 @@ L
 ---
 
 * L10N: localization(首末字符l和n，10为中间的字符数), 类似的有I18N, K8S
+* LAN: Local Area Network(局域网, network-protocol)
 * LDAP: Lightweight Directory Access Protocol
 * LSTM: 长短时记忆（Long Short Term Memory，LSTM）
 
@@ -182,6 +186,7 @@ M
 * MS: Master of Science(理学硕士)
 * MSA: Micro-Service Architecture, 微服务架构(对应CBA)
 * MSE: Mean Squared Error(均方误差, math)
+* MSL: Maximum Segment Lifetime(报文最大生存时间)
 * MSS: Maximum Segment Size(最大分段大小, network-protocol)
 * MTBF: Mean Time Between Failure，平均无故障时间(平均故障间隔时间)
 * MTU: Maximum Transfer Unit (最大传输单元, network-protocol)
@@ -190,7 +195,8 @@ M
 N
 ----
 
-* NAT: Network Address Translation(网络地址转换)
+* NAPT: Network Address Port Translation(网络地址端口转换, network-protocol)
+* NAT: Network Address Translation(网络地址转换, network-protocol)
 * MFA: Multi-factor Authentication(多因子身份验证)
 * NTP: Network Time Protocol(网络时间协议)
 
@@ -208,7 +214,8 @@ O
 * OSI: Open Systems Interconnection
 * OSM: OpenStreetMap
   * OSM object (N - node, W - way, R - relation)
-* OWASP: Open Web Application Security Project(组织: 开放式 Web 应用程序安全项目)
+* OSPF: Open Shortest Path First(开放式最短路径优先, network-protocol)
+* OWASP: Open Web Application Security Project(组织: 开放式 Web 应用程序安全项目), https://www.owasp.org/
 
 P
 -----
@@ -274,6 +281,7 @@ S
 * SPA: Single Page web Application(单页面应用):不刷新页面, 动态变更html
 * SRE: Site Reliability Engineering(网站可靠性工程师)
 * SSL: Security Socket Layer
+* SSO: Single Sign-On(单点登录)
 * SSR: Server-Side Rendering
 * SSRF: Server-side Request Forge(服务端请求伪造, vulnerability)
 * STP: Spanning Tree Protocol(生成树协议)
@@ -307,6 +315,7 @@ V
 * V2N: Vehicle to Network(车与网络之间)
 * V2V: vehicle-to-vehicle(车与车之间)
 
+* VLAN: Virtual LAN(虚拟局域网, network-protocol)
 * VPN: Virtual Private Networks 
 * VPS: Virtual Private Servers 
 * VR: Virtual Reality(AR/VR, 虚拟现实)

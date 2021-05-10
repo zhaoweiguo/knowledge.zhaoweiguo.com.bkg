@@ -1,8 +1,6 @@
 概念
 ###########
 
-
-
 内容:
 
 .. toctree::
@@ -10,10 +8,7 @@
 
    concepts/big_data
    concepts/learning_theory
-   concepts/cloud_native
-   concepts/serverless
    concepts/data_center
-   concepts/k8s
    concepts/tmp
 
 

@@ -18,7 +18,11 @@ ssh暴力破解::
     // 有多少个IP在暴利ssh破解
     grep "Failed password" /var/log/auth.log | awk '{print $11}' | sort | uniq -c | sort -nr | more
 
+安全模块::
 
+    Ubuntu 和 SuSE 默认使用 AppArmour
+    RedHat 一直以来都支持 SELinux
+    一个新的选择是 GrSSecurity
 
 
 

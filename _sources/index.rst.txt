@@ -17,6 +17,7 @@
    :caption: 关键知识
 
    001ai
+   002blockchain
    010architecture
    011distributed
    021security
