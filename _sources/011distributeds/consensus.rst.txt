@@ -9,6 +9,8 @@
 
    consensus/normal
    consensus/paxos
+   consensus/zab
+   consensus/raft
 
 
 

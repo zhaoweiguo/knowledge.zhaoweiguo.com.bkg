@@ -17,5 +17,10 @@
       You can't optimize what you don't have measure for
 
 
+性能优化::
 
+    充满挑战
+     性能是主观的
+     系统是复杂的
+     可能多问题并存
 

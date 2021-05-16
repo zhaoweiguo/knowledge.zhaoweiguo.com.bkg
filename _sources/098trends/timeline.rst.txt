@@ -8,6 +8,9 @@
    timelines/architecture
    timelines/consensus
    timelines/protocol
+   timelines/IoT
+   timelines/AI
+   timelines/robot
    timelines/other
 
 

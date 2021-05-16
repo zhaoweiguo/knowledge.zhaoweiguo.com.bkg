@@ -1,5 +1,5 @@
-架构设计
-########
+010架构设计
+###########
 
 .. toctree::
    :name: architecture
@@ -10,6 +10,7 @@
    010architectures/design_mode
    010architectures/history
    010architectures/transaction
+   010architectures/graph
    010architectures/other
 
 

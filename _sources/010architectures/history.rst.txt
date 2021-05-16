@@ -5,6 +5,7 @@
 .. toctree::
    :maxdepth: 1
 
+   historys/normal
    historys/01origin_distributed_sys
    historys/02monolithic_sys
    historys/03soa_sys

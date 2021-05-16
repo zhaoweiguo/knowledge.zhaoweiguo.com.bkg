@@ -1,26 +1,66 @@
+.. _keyword:
+
 关键词
 ######
 
-.. _kw_sidecar:
-
-Sidecar
-=======
-
-Sidecar 这个词中文翻译为边车，或者车斗，也有一个乡土气息浓重的翻译叫做边三轮。Sidecar 这个东西出现的时间挺长的，它在原有的客户端和服务端之间加多了一个代理。
-
-.. _kw_service_mesh:
-
-Service Mesh
-============
 
 
-
-canary
+devops
 ======
 
-金丝雀
+::
 
-blue-green, canary, and rolling deployments
-blue/green deployment
-fault injections, circuit breaking, and canary deployments
+    blue-green, 金丝雀canary, and rolling deployments
+    blue/green deployment
+    fault injections, circuit breaking, and canary deployments
+
+    Sidecar
+    Service Mesh
+
+
+other
+=====
+
+::
+
+    镜像治理
+    资源治理
+    源码治理
+    服务治理
+
+
+    熔断
+    隔离&降级
+    中台模式
+    微服务架构
+    Serverless
+    产品矩阵
+
+    云原生、中台、微服务、CI/CD、Devops、SaaS
+
+
+::
+
+    海明距离
+    正交
+
+    the principle of loosely coupled: 松散耦合
+
+
+    面向服务的架构（SOA
+    演进式架构
+
+    高内聚低耦合
+    云原生架构
+
+    领域驱动设计(DDD:Domain-Driven Design)
+    贫血模型
+    充血模型
+    领域服务
+
+    云计算
+    雾计算
+
+
+
 

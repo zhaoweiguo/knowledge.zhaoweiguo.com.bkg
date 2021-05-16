@@ -10,12 +10,18 @@
 
 * 2000 年 7 月 加州大学伯克利分校的埃里克・布鲁尔（Eric Brewer）教授在“ACM 分布式计算原理研讨会（PODC）” 上提出的一个猜想—— :ref:`CAP <cap>` 理论又叫 Brewer 理论。
 * 2002 年，麻省理工学院的赛斯・吉尔伯特（Seth Gilbert）和南希・林奇（Nancy Lynch）就以严谨的数学推理证明了这个 CAP 猜想。
+* 2004-2007, Google大规模使用容器(cgroup)技术
 * 2007 年，数据库专家帕特・赫兰德（Pat Helland）在撰写的论文《Life beyond Distributed Transactions: An Apostate’s Opinion》中提出：TCC（Try-Confirm-Cancel）是除可靠消息队列以外的另一种常见的分布式事务机制。
+* 2008.01, cgroup合并到Linux主干
 * 2008 年，eBay 的系统架构师丹・普利切特（Dan Pritchett）发表于 ACM 的论文 “Base: An Acid Alternative” 中提出『最终一致性』的概念
 * 2012 年，在波兰克拉科夫举行的 “33rd Degree Conference” 大会上，Thoughtworks 首席咨询师 James Lewis 做了题为 《Microservices - Java, the Unix Way》 的主题演讲
+* 2013.03, Docker正式发布
 * 2014 年，微服务真正崛起， Martin Fowler 和 James Lewis 合写文章 “Microservices: a definition of this new architectural term”，定义了现代微服务的概念。
-
-
+* 2014.06, Kubernetes正式发布
+* 2015.07, CNCF成立(22个创始成员)
+* 2015-2016, 容器编排三国争霸
+* 2017.07, 14个项目, 170个成员, Kubernetes成为编排标准
+* 2018.07, 19(+11)个项目,195个成员
 
 
 

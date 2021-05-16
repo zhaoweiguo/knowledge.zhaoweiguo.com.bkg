@@ -90,7 +90,7 @@ IT相关网站
     * Udemy
 
 * HackerEarth(在线编码平台): https://www.hackerearth.com/
-
+* GPU 共享平台: https://vectordash.com/
 
 
 Chrome插件

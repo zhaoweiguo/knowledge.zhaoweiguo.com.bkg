@@ -6,6 +6,9 @@
    :maxdepth: 1
 
    05cloudnatives/collect1
+   05cloudnatives/collect2
+   05cloudnatives/12Factor
+   05cloudnatives/distribute_architecture
 
 * 跨越软件与硬件之间的界限
 

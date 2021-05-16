@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1138px" preserveAspectRatio="none" style="width:379px;height:1138px;" version="1.1" viewBox="0 0 379 1138" width="379px" zoomAndPan="magnify"><defs><filter height="300%" id="f1e4kvfzo2ey7w" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="110" x2="110" y1="38.2969" y2="1098.1406"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="278" x2="278" y1="38.2969" y2="1098.1406"/><rect fill="#FEFECE" filter="url(#f1e4kvfzo2ey7w)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="56" x="80" y="3"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="42" x="87" y="22.9951">客户端</text><rect fill="#FEFECE" filter="url(#f1e4kvfzo2ey7w)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="56" x="80" y="1097.1406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="42" x="87" y="1117.1357">客户端</text><rect fill="#FEFECE" filter="url(#f1e4kvfzo2ey7w)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="56" x="248" y="3"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="42" x="255" y="22.9951">服务端</text><rect fill="#FEFECE" filter="url(#f1e4kvfzo2ey7w)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="56" x="248" y="1097.1406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="42" x="255" y="1117.1357">服务端</text><polygon fill="#A80036" points="266,65.4297,276,69.4297,266,73.4297,270,69.4297" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="110" x2="272" y1="69.4297" y2="69.4297"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="9" x="117" y="64.3638">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="68" x="130" y="64.3638">ClientHello</text><path d="M39,82.4297 L39,182.4297 L177,182.4297 L177,92.4297 L167,82.4297 L39,82.4297 " fill="#FBFB77" filter="url(#f1e4kvfzo2ey7w)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M167,82.4297 L167,92.4297 L177,92.4297 L167,82.4297 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="78" x="45" y="99.4966">可用的版本号</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="52" x="45" y="114.6294">当前时间</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="78" x="45" y="129.7622">客户端随机数</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="41" x="45" y="144.895">会话 id</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="117" x="45" y="160.0278">可用的密码套件清单</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="117" x="45" y="175.1606">可用的压缩方式清单</text><polygon fill="#A80036" points="121,209.3594,111,213.3594,121,217.3594,117,213.3594" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="115" x2="277" y1="213.3594" y2="213.3594"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="9" x="127" y="208.2935">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="74" x="140" y="208.2935">ServerHello</text><path d="M220,226.3594 L220,326.3594 L332,326.3594 L332,236.3594 L322,226.3594 L220,226.3594 " fill="#FBFB77" filter="url(#f1e4kvfzo2ey7w)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M322,226.3594 L322,236.3594 L332,236.3594 L322,226.3594 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="78" x="226" y="243.4263">使用的版本号</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="52" x="226" y="258.5591">当前时间</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="78" x="226" y="273.6919">服务器随机数</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="41" x="226" y="288.8247">会话 id</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="91" x="226" y="303.9575">使用的密码套件</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="91" x="226" y="319.0903">使用的压缩方式</text><polygon fill="#A80036" points="121,353.2891,111,357.2891,121,361.2891,117,357.2891" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="115" x2="277" y1="357.2891" y2="357.2891"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="9" x="127" y="352.2231">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="65" x="140" y="352.2231">Certificate</text><path d="M239,370.2891 L239,395.2891 L312,395.2891 L312,380.2891 L302,370.2891 L239,370.2891 " fill="#FBFB77" filter="url(#f1e4kvfzo2ey7w)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M302,370.2891 L302,380.2891 L312,380.2891 L302,370.2891 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="52" x="245" y="387.356">证书清单</text><polygon fill="#A80036" points="121,421.5547,111,425.5547,121,429.5547,117,425.5547" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="115" x2="277" y1="425.5547" y2="425.5547"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="9" x="127" y="420.4888">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="127" x="140" y="420.4888">ServerKeyExchange</text><path d="M184,438.5547 L184,599.5547 L367,599.5547 L367,448.5547 L357,438.5547 L184,438.5547 " fill="#FBFB77" filter="url(#f1e4kvfzo2ey7w)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M357,438.5547 L357,448.5547 L367,448.5547 L357,438.5547 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="46" x="190" y="455.6216">1. RSA:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="78" x="206" y="470.7544">公钥密码参数</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="73" x="222" y="485.8872">N: modulus</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="76" x="222" y="501.02">E: exponent</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="39" x="206" y="516.1528">散列值</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="162" x="190" y="531.2856">2. Diffie-Hellman 密码交换</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="78" x="206" y="546.4185">密码交换参数</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="112" x="222" y="561.5513">P: prime modulus</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="81" x="222" y="576.6841">G: generator</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="39" x="206" y="591.8169">散列值</text><polygon fill="#A80036" points="121,626.0156,111,630.0156,121,634.0156,117,630.0156" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="115" x2="277" y1="630.0156" y2="630.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="9" x="127" y="624.9497">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="117" x="140" y="624.9497">CertificateRequest</text><path d="M213,643.0156 L213,683.0156 L338,683.0156 L338,653.0156 L328,643.0156 L213,643.0156 " fill="#FBFB77" filter="url(#f1e4kvfzo2ey7w)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M328,643.0156 L328,653.0156 L338,653.0156 L328,643.0156 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="78" x="219" y="660.0825">证书类型清单</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="104" x="219" y="675.2153">认证机构名称清单</text><polygon fill="#A80036" points="121,709.4141,111,713.4141,121,717.4141,117,713.4141" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="115" x2="277" y1="713.4141" y2="713.4141"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="9" x="127" y="708.3481">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="108" x="140" y="708.3481">ServerHelloDone</text><polygon fill="#A80036" points="266,738.5469,276,742.5469,266,746.5469,270,742.5469" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="110" x2="272" y1="742.5469" y2="742.5469"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="9" x="117" y="737.481">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="65" x="130" y="737.481">Certificate</text><path d="M71,755.5469 L71,780.5469 L144,780.5469 L144,765.5469 L134,755.5469 L71,755.5469 " fill="#FBFB77" filter="url(#f1e4kvfzo2ey7w)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M134,755.5469 L134,765.5469 L144,765.5469 L134,755.5469 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="52" x="77" y="772.6138">证书清单</text><polygon fill="#A80036" points="266,806.8125,276,810.8125,266,814.8125,270,810.8125" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="110" x2="272" y1="810.8125" y2="810.8125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="9" x="117" y="805.7466">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="121" x="130" y="805.7466">ClientKeyExchange</text><path d="M8,823.8125 L8,893.8125 L208,893.8125 L208,833.8125 L198,823.8125 L8,823.8125 " fill="#FBFB77" filter="url(#f1e4kvfzo2ey7w)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M198,823.8125 L198,833.8125 L208,833.8125 L198,823.8125 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="46" x="14" y="840.8794">1. RSA:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="130" x="30" y="856.0122">经过加密的预备主密码</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="162" x="14" y="871.145">2. Diffie-Hellman 密钥交换</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="163" x="30" y="886.2778">客户端的 Y(即:G^x mod P)</text><polygon fill="#A80036" points="266,920.4766,276,924.4766,266,928.4766,270,924.4766" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="110" x2="272" y1="924.4766" y2="924.4766"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="9" x="117" y="919.4106">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="101" x="130" y="919.4106">CertificateVerify</text><path d="M71,937.4766 L71,962.4766 L144,962.4766 L144,947.4766 L134,937.4766 L71,937.4766 " fill="#FBFB77" filter="url(#f1e4kvfzo2ey7w)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M134,937.4766 L134,947.4766 L144,947.4766 L134,937.4766 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="52" x="77" y="954.5435">数字签名</text><polygon fill="#A80036" points="266,988.7422,276,992.7422,266,996.7422,270,992.7422" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="110" x2="272" y1="992.7422" y2="992.7422"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="18" x="117" y="987.6763">10</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="122" x="139" y="987.6763">ChangeCipherSpec</text><polygon fill="#A80036" points="266,1017.875,276,1021.875,266,1025.875,270,1021.875" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="110" x2="272" y1="1021.875" y2="1021.875"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="18" x="117" y="1016.8091">11</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="52" x="139" y="1016.8091">Finished</text><polygon fill="#A80036" points="121,1047.0078,111,1051.0078,121,1055.0078,117,1051.0078" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="115" x2="277" y1="1051.0078" y2="1051.0078"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="18" x="127" y="1045.9419">12</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="122" x="149" y="1045.9419">ChangeCipherSpec</text><polygon fill="#A80036" points="121,1076.1406,111,1080.1406,121,1084.1406,117,1080.1406" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="115" x2="277" y1="1080.1406" y2="1080.1406"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="18" x="127" y="1075.0747">13</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="52" x="149" y="1075.0747">Finished</text><!--
+@startuml
+
+autonumber
+participant 客户端 as c
+participant 服务端 as s
+
+c -> s: ClientHello
+note over c
+可用的版本号
+当前时间
+客户端随机数
+会话 id
+可用的密码套件清单
+可用的压缩方式清单
+end note
+
+c <- s: ServerHello
+note over s
+使用的版本号
+当前时间
+服务器随机数
+会话 id
+使用的密码套件
+使用的压缩方式
+end note
+c <- s: Certificate
+note over s
+证书清单
+end note
+
+c <- s: ServerKeyExchange
+note over s
+1. RSA:
+    公钥密码参数
+        N: modulus
+        E: exponent
+    散列值
+2. Diffie-Hellman 密码交换
+    密码交换参数
+        P: prime modulus
+        G: generator
+    散列值
+end note
+
+c <- s: CertificateRequest
+note over s
+证书类型清单
+认证机构名称清单
+end note
+
+c <- s: ServerHelloDone
+
+c -> s: Certificate
+note over c
+证书清单
+end note
+
+c -> s: ClientKeyExchange
+note over c
+1. RSA:
+    经过加密的预备主密码
+2. Diffie-Hellman 密钥交换
+    客户端的 Y(即:G^x mod P)
+end note
+
+c -> s: CertificateVerify
+note over c
+数字签名
+end note
+
+c -> s: ChangeCipherSpec
+
+c -> s: Finished
+
+c <- s: ChangeCipherSpec
+
+c <- s: Finished
+
+@enduml
+
+PlantUML version 1.2019.05(Sat Apr 20 16:45:36 UTC 2019)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.9+11-post-Debian-1deb10u1
+Operating System: Linux
+OS Version: 5.4.0-1047-azure
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

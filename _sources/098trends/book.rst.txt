@@ -10,6 +10,7 @@
    books/how-networks-work
    books/building-microservices
    books/bitcoin-and-cryptocurrency-technologies
+   books/network_equipment
 
 
 

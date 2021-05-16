@@ -11,7 +11,6 @@
 
 .. toctree::
    :maxdepth: 2
-   :numbered: 3
    :name: core
    :titlesonly:
    :caption: 关键知识
@@ -20,10 +19,17 @@
    002blockchain
    010architecture
    011distributed
+   012dataanalysis
    021security
    022performance
+   023CICD
    031protocol
+   041governance
    061question
+   071theory
+   081job
+   082manage
+   083product
    098trend
    099english
 
