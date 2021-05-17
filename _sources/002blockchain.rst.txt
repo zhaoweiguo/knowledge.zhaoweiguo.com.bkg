@@ -10,7 +10,9 @@
    :caption: BlockChain
 
    002blockchains/normal
+   002blockchains/application
    002blockchains/ethereum
+   002blockchains/coin
    002blockchains/other
 
 

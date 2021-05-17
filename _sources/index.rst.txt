@@ -17,6 +17,7 @@
 
    001ai
    002blockchain
+   003iot
    010architecture
    011distributed
    012dataanalysis

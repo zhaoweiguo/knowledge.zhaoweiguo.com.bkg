@@ -24,3 +24,12 @@
      系统是复杂的
      可能多问题并存
 
+
+
+
+.. figure:: /images/cores/availability-999.png
+   :width: 80%
+
+
+
+

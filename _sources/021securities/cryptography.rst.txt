@@ -8,9 +8,9 @@
 
    cryptographys/symmetric-key
    cryptographys/public-key
-   cryptographys/oneway-hash
+   cryptographys/digest-algorithm
    cryptographys/mac
-   cryptographys/sign
+   cryptographys/signature-algorithm
    cryptographys/key
    cryptographys/PRNG
    cryptographys/certification

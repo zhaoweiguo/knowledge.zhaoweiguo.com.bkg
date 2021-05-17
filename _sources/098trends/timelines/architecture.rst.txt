@@ -2,7 +2,7 @@
 ########
 
 
-
+* 1978 年就被 :ref:`东尼・霍尔 <person_Tony-Hoare>` 提出CSP并发模型
 * 1985年，FLP定理的论文由Fischer, Lynch and Patterson三位作者发表,之后该论文毫无疑问得获得了Dijkstra奖
 * 1987年普林斯顿大学的赫克托・加西亚・莫利纳（Hector Garcia Molina）和肯尼斯・麦克米伦（Kenneth Salem）在 ACM 发表的一篇论文《SAGAS》
 * 20世纪 90 年代，IBM Almaden 研究院总结了研发原型数据库系统 “IBM System R” 的经验，发表了 ARIES 理论中最主要的三篇论文

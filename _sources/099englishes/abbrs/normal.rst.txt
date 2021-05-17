@@ -228,8 +228,11 @@ P
 * PGP: Pretty Good Privacy(1991, 加密)
 * PID: Process ID
 * PnP: Plug and Play(即插即用)
+* POC: Proof of Capacity(容量证明, blockchain)
 * POP结点: Point of Presence(入网点，阿里)
+* POS: Proof of Storage(存储量证明, blockchain)
 * POSIX: Portable Operating System Interface
+* POW: Proof of Work(工作量证明, blockchain)
 * PPP: Point-to-Point Protocol(点到点协议, network-protocol)
 * PPPoA: PPP over ATM
 * PPPoE: PPP over Ethernet(一种控制 ADSL、FTTH 等宽带网络的方式, network-protocol)

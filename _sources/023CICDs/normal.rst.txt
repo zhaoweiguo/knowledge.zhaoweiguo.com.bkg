@@ -42,7 +42,7 @@
 
 与持续交付的区别，可以参考下图:
 
-.. image:: /images/cicds/delivery_deployment.png
+.. image:: /images/devops/cicds/delivery_deployment.png
 
 流程
 ====

@@ -9,9 +9,9 @@
 * Drone一插件开发 [4]_
 
 
-.. image:: /images/cicds/drone_server_agent.png
+.. image:: /images/devops/cicds/drone_server_agent.png
 
-.. image:: /images/cicds/drone_workflow.png
+.. image:: /images/devops/cicds/drone_workflow.png
 
 
 Everything is a Docker Container::

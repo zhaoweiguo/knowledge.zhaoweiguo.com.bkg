@@ -16,25 +16,6 @@
 
 
 
-.. figure:: /images/cores/availability-999.png
-   :width: 80%
-
-
-
-safe检测
-============
-
-
-
-* https://myssl.com/
-* https://httpsecurityreport.com/
-* https://www.ssllabs.com/
-  
-
-http2
-=====
-
-* https://tools.keycdn.com/http2-test
 
 域名
 ====

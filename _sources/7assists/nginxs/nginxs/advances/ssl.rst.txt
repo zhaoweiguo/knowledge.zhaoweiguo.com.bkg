@@ -27,7 +27,7 @@ ECC证书说明
 
 并不是所有浏览器都支持 ECDHE 密钥交换，也就是说 ECC 证书的兼容性要差一些。例如在 Windows XP 中，使用 ECC 证书的网站时需要浏览器自行 TLS（例如 Firefox 的 TLS 自己实现，不依赖操作系统）；Android 平台中，也需要 Android 4+ 才支持 ECC 证书。
 
-.. figure:: /images/certs/ecc.png
+.. figure:: /images/encrypts/ecc.png
    :width: 80%
 
 

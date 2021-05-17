@@ -13,6 +13,16 @@ SSL 终止: SSL termination
 * OWASP（Open Web Application Security Project，开放式 Web 应用程序安全项目: https://www.owasp.org/
 
 
+safe检测
+============
+
+
+
+* https://myssl.com/
+* https://httpsecurityreport.com/
+* https://www.ssllabs.com/
+  
+
 
 
 

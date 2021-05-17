@@ -4,7 +4,7 @@
 类之间的关系
 ============
 
-.. image:: /images/plantumls/relation1.png
+.. image:: /images/sphinxdocs/plantumls/relation1.png
 
 实例::
 
@@ -16,7 +16,7 @@
     Class09 -- Class10
     @enduml
 
-.. image:: /images/plantumls/relation2.png
+.. image:: /images/sphinxdocs/plantumls/relation2.png
 
 
 可访问性

@@ -12,7 +12,6 @@
    071theories/economy
    071theories/psychics
    071theories/startup
-   071theories/fame
    071theories/other
 
 

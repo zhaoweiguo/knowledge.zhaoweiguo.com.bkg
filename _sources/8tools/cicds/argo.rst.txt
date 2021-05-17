@@ -23,7 +23,7 @@ argo
 
 架构图:
 
-.. image:: /images/cicds/argo_architecture1.png
+.. image:: /images/devops/cicds/argo_architecture1.png
 
 
 

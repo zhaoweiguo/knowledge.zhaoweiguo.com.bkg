@@ -52,7 +52,7 @@ github [2]_
 .. note:: 1. 如下图, 增加资产后最好点击「测试」「推送」 2. 每次都要在『权限管理-资产授权』重新授权一下
 
 
-.. image:: /images/jumperservers/pic1.png
+.. image:: /images/devops/jumperservers/pic1.png
 
 
 

@@ -16,11 +16,6 @@
    encrypts/encrypt_mbedtls
    encrypts/kerberos
    encrypts/question
-   encrypts/encrypt_tmp
-   encrypts/public-key
-   encrypts/symmetric-key
-   encrypts/digest-algorithm
-   encrypts/signature-algorithm
 
 简称::
 
