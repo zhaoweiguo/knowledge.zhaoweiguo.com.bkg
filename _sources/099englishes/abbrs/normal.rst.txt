@@ -77,6 +77,7 @@ D
 * DCL: Data Cached Layer
 * DDD: Domain-Driver Design, 领域驱动设计
 * DDoS: Distributed DoS(分布式拒绝服务)
+* DeFi: Decentralized Finance(去中心化金融)
 * DFX: Design For X(面向产品生命周期各环节设计)
 * DHCP: Dynamic Host Configuration Protocol(动态主机配置协议)
 * DHT: Distributed Hash Table，分布式哈希表
@@ -209,6 +210,7 @@ O
 * OCC: Optimistic Concurrency Control(乐观并发控制, transaction)
 * OCI: Open Container Initiative-based(开放式容器计划, k8s)
 * OCR: Optical Character Recognition(光学文字识别)
+* OMO: Online Merge Offline
 * OOM: OutOfMemory
 * OOP: Object Oriented Programming, 面向对象程序设计
 * OSI: Open Systems Interconnection
@@ -283,6 +285,7 @@ S
 * SOAP: Simple Object Access Protocol
 * SPA: Single Page web Application(单页面应用):不刷新页面, 动态变更html
 * SRE: Site Reliability Engineering(网站可靠性工程师)
+* SRP: Single Responsibility Principle(单一职责原则, microservice)
 * SSL: Security Socket Layer
 * SSO: Single Sign-On(单点登录)
 * SSR: Server-Side Rendering

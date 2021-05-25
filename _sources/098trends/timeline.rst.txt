@@ -10,6 +10,7 @@
    timelines/protocol
    timelines/IoT
    timelines/AI
+   timelines/blockchain
    timelines/robot
    timelines/other
 

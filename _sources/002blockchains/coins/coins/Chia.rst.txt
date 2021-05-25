@@ -1,6 +1,9 @@
 Chia
 ####
 
+* 官网: https://chia.net/
+* github: https://github.com/Chia-Network/
+
 Chia 是由传奇程序员，BitTorrent 之父 Bram Cohen 创立的，主网已经在北京时间 2021 年 3 月 19 日晚上 10 点上线，这意味着普通用户也可以参与其中进行挖矿了。
 
 P 盘就是 Proof of Capacity 的简称，经常缩写为 POC，中文直译就是容量证明的意思。利用 CPU 或者显卡通过独特的算法将硬盘写满哈希数据。这个过程就叫 P 盘。在 P 盘期间是没有任何挖矿收益的，P 完盘开启挖矿，程序把硬盘上的哈希数据扫盘提交到主网验证。

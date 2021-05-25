@@ -7,6 +7,7 @@
    normals/normal
    normals/technical-debt
    normals/anti-fragile
+   normals/code-review
 
 
 

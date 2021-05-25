@@ -5,7 +5,6 @@ sublime的使用
 
   Ctrl+P
 
-
 打开产品启动::
 
   Ctrl+p
@@ -13,6 +12,24 @@ sublime的使用
   :跳转到第x行
   @列出方法
   Ctrl+f:查询
+
+小技巧
+======
+
+::
+
+    Command + Ctrl + G (选中部分文本时) 按此键选中所有相同文本
+
+分屏::
+
+    Alt+Shift+1 窗口分屏，恢复默认 1 屏（非小键盘的数字）
+    Alt+Shift+2 左右分屏 - 2 列
+    Alt+Shift+3 左右分屏 - 3 列
+    Alt+Shift+4 左右分屏 - 4 列
+    Alt+Shift+5 等分 4 屏
+
+
+
 
 .. _column_select_mode:
 

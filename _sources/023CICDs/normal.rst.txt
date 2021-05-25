@@ -44,6 +44,9 @@
 
 .. image:: /images/devops/cicds/delivery_deployment.png
 
+.. image:: /images/devops/cicds/delivery_deployment2.png
+
+
 流程
 ====
 

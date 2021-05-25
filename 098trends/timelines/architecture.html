@@ -266,12 +266,13 @@ var _hmt = _hmt || [];
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../002blockchains/coin.html">币圈</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../002blockchains/coins/normal.html">常用</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../002blockchains/coins/coin.html">币种</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../002blockchains/coins/coins/Chia.html">Chia</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../002blockchains/coins/coins/Monero.html">门罗币</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../../002blockchains/coins/pool.html">币池</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../002blockchains/coins/pool.html">矿池</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../002blockchains/coins/website.html">网站</a></li>
 </ul>
 </li>
@@ -296,7 +297,6 @@ var _hmt = _hmt || [];
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../010architectures/history.html">架构的历史</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="../../010architectures/historys/normal.html">常用</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../010architectures/historys/normal.html#id2">企业架构演化</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../010architectures/historys/01origin_distributed_sys.html">原始分布式时代</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../010architectures/historys/02monolithic_sys.html">单体系统时代</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../010architectures/historys/03soa_sys.html">SOA架构</a></li>
@@ -320,18 +320,15 @@ var _hmt = _hmt || [];
 </li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../010architectures/transaction.html">事务</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../010architectures/transactions/normal.html">通用</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../010architectures/transactions/local.html">本地事务</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../010architectures/transactions/global.html">全局事务(Global Transactions)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../010architectures/transactions/share.html">共享事务(Share Transactions)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../010architectures/transactions/distribute.html">分布式事务</a></li>
-</ul>
-</li>
 <li class="toctree-l2"><a class="reference internal" href="../../010architectures/graph.html">架构图</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="../../010architectures/graphs/normal.html">常用</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../010architectures/graphs/business.html">业务架构图</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../010architectures/graphs/c4-model.html">软件架构——C4模型</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../010architectures/microservice.html">微服务架构</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../010architectures/microservices/discovery.html">服务注册&amp;发现</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../010architectures/microservices/api_gateway.html">API网关</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../010architectures/other.html">其他架构设计</a><ul>
@@ -339,7 +336,6 @@ var _hmt = _hmt || [];
 <li class="toctree-l3"><a class="reference internal" href="../../010architectures/others/crud.html">CRUD</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../010architectures/others/ddd.html">领域驱动设计</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../010architectures/others/api.html">api设计</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../010architectures/others/discovery.html">服务发现 </a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../010architectures/others/event_driver.html">事件驱动架构</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../010architectures/others/network_agent.html">网络代理</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../010architectures/others/message_bus.html">消息总线</a></li>
@@ -363,6 +359,14 @@ var _hmt = _hmt || [];
 <li class="toctree-l3"><a class="reference internal" href="../../011distributeds/theorys/Paxos.html">一致性-Paxos算法</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../011distributeds/theorys/Gossip.html">Gossip协议</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../011distributeds/theorys/consistent_hash.html">一致性hash</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../011distributeds/transaction.html">事务</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../011distributeds/transactions/normal.html">通用</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../011distributeds/transactions/local.html">本地事务</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../011distributeds/transactions/global.html">全局事务(Global Transactions)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../011distributeds/transactions/share.html">共享事务(Share Transactions)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../011distributeds/transactions/distribute.html">分布式事务</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../011distributeds/consensus.html">分布式共识</a><ul>
@@ -477,6 +481,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l2"><a class="reference internal" href="../../023CICDs/ops.html">OPS</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="../../023CICDs/opses/devops.html">DevOps</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../023CICDs/opses/gitops.html">GitOps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../023CICDs/opses/gitops.html#id4">参考</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../023CICDs/opses/chatops.html">ChatOps</a></li>
 </ul>
 </li>
@@ -607,6 +612,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l3"><a class="reference internal" href="../../041governances/normals/normal.html">常用</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../041governances/normals/technical-debt.html">技术债</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../041governances/normals/anti-fragile.html">反脆弱</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../041governances/normals/code-review.html">Code Review</a></li>
 </ul>
 </li>
 </ul>
@@ -631,6 +637,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l4"><a class="reference internal" href="../../071theories/learnings/source_codes/learn-method.html">如何高效学习</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../071theories/learnings/source_codes/why-read-code.html">为何阅读源码</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../071theories/learnings/source_codes/how-to-read-code.html">如何阅读源码</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../071theories/learnings/source_codes/how-to-read-code2.html">如何阅读源码2</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../071theories/learnings/source_codes/efficient-read-code.html">如何高效阅读源码</a></li>
 </ul>
 </li>
@@ -664,6 +671,13 @@ var _hmt = _hmt || [];
 <li class="toctree-l1"><a class="reference internal" href="../../083product.html">083产品</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../../098trend.html">098趋势学习</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="../keyword.html">关键词</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../roadmap.html">技术路线图</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../roadmaps/normal.html">常用</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../roadmaps/normal.html#technology-roadmap">技术路线图</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../roadmaps/AI.html">AI</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../roadmaps/blockchain.html">区块链</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="../book.html">书</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="../books/cryptography-graph.html">图解密码技术</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../books/deep-learning-with-python.html">Deep learning with Python</a></li>
@@ -679,6 +693,7 @@ var _hmt = _hmt || [];
 <li class="toctree-l3"><a class="reference internal" href="protocol.html">协议相关</a></li>
 <li class="toctree-l3"><a class="reference internal" href="IoT.html">IoT</a></li>
 <li class="toctree-l3"><a class="reference internal" href="AI.html">AI</a></li>
+<li class="toctree-l3"><a class="reference internal" href="blockchain.html">区块链</a></li>
 <li class="toctree-l3"><a class="reference internal" href="robot.html">机器人</a></li>
 <li class="toctree-l3"><a class="reference internal" href="other.html">其他</a></li>
 </ul>
@@ -2137,12 +2152,24 @@ var _hmt = _hmt || [];
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../6commons/testing.html">6.2. 测试</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../6commons/testings/common.html">6.2.1. 通用</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../6commons/testings/eunit.html">6.2.2. 单元测试</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../6commons/testings/smoke_test.html">6.2.3. 冒烟测试</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../6commons/testings/code_coverage.html">6.2.4. 代码覆盖度</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../6commons/testings/auto_testing.html">6.2.5. 自动化测试</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../6commons/testings/auto_testings/httprunner.html">HttpRunner </a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../6commons/testings/normal.html">6.2.1. 常用</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../6commons/testings/normals/terminology.html">Terminology</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../6commons/testings/normals/code_coverage.html">代码覆盖度</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../6commons/testings/testing.html">6.2.2. 各种测试</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../6commons/testings/testings/normal.html">常用</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../6commons/testings/testings/1eunit_testing.html">单元测试</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../6commons/testings/testings/5integration_testing.html">集成测试</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../6commons/testings/testings/7contract_testing.html">契约测试</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../6commons/testings/testings/9end_to_end_testing.html">端到端测试</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../6commons/testings/testings/smoke_test.html">冒烟测试</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../6commons/testings/testings/auto_testing.html">自动化测试</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../6commons/testings/tool.html">6.2.3. 工具测试</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../6commons/testings/tools/httprunner.html">HttpRunner </a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../6commons/testings/tools/other.html">其他</a></li>
 </ul>
 </li>
 </ul>
@@ -2153,14 +2180,9 @@ var _hmt = _hmt || [];
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../6commons/devops.html">6.4. DevOps</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../6commons/methodology.html">6.5. 方法论</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../6commons/methodologys/opensource.html">6.5.1. 开源项目学习</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="../../6commons/injection.html">6.6. 依赖注入</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../6commons/code_review.html">6.7. Code Review</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../6commons/version.html">6.8. 版本</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../6commons/other.html">6.9. 其他</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../6commons/injection.html">6.5. 依赖注入</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../6commons/version.html">6.6. 版本</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../6commons/other.html">6.7. 其他</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../7assist.html">7. 辅助技术文档</a><ul>
@@ -2781,6 +2803,8 @@ var _hmt = _hmt || [];
             
   <div class="section" id="id1">
 <h1>软件架构<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="id2">
+<h2>并发<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p>1978 年就被 <a class="reference internal" href="../fame.html#person-tony-hoare"><span class="std std-ref">东尼・霍尔</span></a> 提出CSP并发模型</p></li>
 <li><p>1985年，FLP定理的论文由Fischer, Lynch and Patterson三位作者发表,之后该论文毫无疑问得获得了Dijkstra奖</p></li>
@@ -2789,19 +2813,31 @@ var _hmt = _hmt || [];
 <li><p>1991 年的时候 X/Open 组织（后来并入了 The Open Group）提出了一套叫做 X/Open XA（XA 是 eXtended Architecture 的缩写）的事务处理框架。</p></li>
 <li><p>2000 年 7 月 加州大学伯克利分校的埃里克・布鲁尔（Eric Brewer）教授在“ACM 分布式计算原理研讨会（PODC）” 上提出的一个猜想—— <a class="reference internal" href="../../011distributeds/theorys/cap.html#cap"><span class="std std-ref">CAP</span></a> 理论又叫 Brewer 理论。</p></li>
 <li><p>2002 年，麻省理工学院的赛斯・吉尔伯特（Seth Gilbert）和南希・林奇（Nancy Lynch）就以严谨的数学推理证明了这个 CAP 猜想。</p></li>
+</ul>
+</div>
+<div class="section" id="id3">
+<h2>架构<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>20 世纪 80 年代初，出现了一些大型软件系统，亟需一种统一的模式(也就是后来的架构)来解决设计这些庞大系统所面临的 一些常见问题。从那时开始，演化出了今天我们所熟知的“软件架构”的概念。</p></li>
+<li><p>2014 年，微服务真正崛起， Martin Fowler 和 James Lewis 合写文章 “Microservices: a definition of this new architectural term”，定义了现代微服务的概念。</p></li>
+</ul>
+</div>
+<div class="section" id="id4">
+<h2>虚拟化&amp;容器化<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
 <li><p>2004-2007, Google大规模使用容器(cgroup)技术</p></li>
 <li><p>2007 年，数据库专家帕特・赫兰德（Pat Helland）在撰写的论文《Life beyond Distributed Transactions: An Apostate’s Opinion》中提出：TCC（Try-Confirm-Cancel）是除可靠消息队列以外的另一种常见的分布式事务机制。</p></li>
 <li><p>2008.01, cgroup合并到Linux主干</p></li>
 <li><p>2008 年，eBay 的系统架构师丹・普利切特（Dan Pritchett）发表于 ACM 的论文 “Base: An Acid Alternative” 中提出『最终一致性』的概念</p></li>
 <li><p>2012 年，在波兰克拉科夫举行的 “33rd Degree Conference” 大会上，Thoughtworks 首席咨询师 James Lewis 做了题为 《Microservices - Java, the Unix Way》 的主题演讲</p></li>
 <li><p>2013.03, Docker正式发布</p></li>
-<li><p>2014 年，微服务真正崛起， Martin Fowler 和 James Lewis 合写文章 “Microservices: a definition of this new architectural term”，定义了现代微服务的概念。</p></li>
 <li><p>2014.06, Kubernetes正式发布</p></li>
 <li><p>2015.07, CNCF成立(22个创始成员)</p></li>
 <li><p>2015-2016, 容器编排三国争霸</p></li>
-<li><p>2017.07, 14个项目, 170个成员, Kubernetes成为编排标准</p></li>
-<li><p>2018.07, 19(+11)个项目,195个成员</p></li>
+<li><p>2017.07, CNCF有14个项目, 170个成员, Kubernetes成为编排标准</p></li>
+<li><p>2018.07, CNCF有19(+11)个项目,195个成员</p></li>
 </ul>
+</div>
 </div>
 
 

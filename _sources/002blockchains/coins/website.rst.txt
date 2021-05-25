@@ -4,7 +4,9 @@
 新闻
 ====
 
-* https://coinmarketcap.com/
+* CMC: https://coinmarketcap.com/ ::
+
+    区块链公链领域知名度最高的行情网站
 
 
 交易所
